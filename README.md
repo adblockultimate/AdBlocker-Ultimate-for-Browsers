@@ -2,7 +2,7 @@
 <sub>
 <img src="https://github.com/adblockultimate/AdBlockUltimate-firefox/blob/master/icons/38.png" height="38" width="38">
 </sub>
-AdBlocker Ultimate for Chrome
+AdBlocker Ultimate for Browsers
 </h1>
 
 AdBlocker Ultimate is a free extension that blocks ads and malicious domains known to spread malware, disables tracking. We have included a few extensive filters that offer decent protection against annoying, flashy ads, YouTube commercials, and more. Unlike other adblockers we do not have a whitelist for websites, advertisers or ad networks to show you unwanted ads. Blocking ads will speed up your website load speed, decrease CPU and memory usage.
