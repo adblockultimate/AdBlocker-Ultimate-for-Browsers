@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title i18n="options_title">AdBlocker Ultimate</title>
+   <link rel="stylesheet" type="text/css" href="css/popup.css">
+
+   <script type="text/javascript" src="../lib/libs/jquery-3.0.0.min.js"></script>
+   <script type="text/javascript" src="../lib/content-script/abu-content.js"></script>
+   <script type="text/javascript" src="../lib/content-script/common-script.js"></script>
+   <script type="text/javascript" src="../lib/content-script/popup-script.js"></script>
+   <script type="text/javascript" src="../lib/content-script/i18n-helper.js"></script>
+   <script type="text/javascript" src="../lib/pages/i18n.js"></script>
+   <script type="text/javascript" src="../lib/pages/script.js"></script>
+   <script type="text/javascript" src="../lib/pages/popup-controller.js"></script>
+   <link rel="shortcut icon" href="icons/favicon.png" />
+</head>
+
+
+<body style="overflow: hidden;">
+   <div class="container" id="container">
+      <div class="logo-panel">
+         <a href data-url="https://adblockultimate.net/" class="open-url">
+            <img class="logo" src="images/logo.png" />
+         </a>
+      </div>
+
+      <div class="overlay-container">
+         <div class="overlay">
+            <div class="overlay-panel overlay-right">
+
+               <div class="content content--desktop d-none" id="desktop_conteiner">
+                  <div class="pull-left">
+                     <h1>
+                        <span i18n="desktop_app_is_running"></span>
+                     </h1>
+                     <div class="btnBlock">
+                        <a href="#modal-one"><img src="images/info.png" class="blackBtn"/></a>
+                     </div>
+                  </div>
+                  <div class="modal" id="modal-one" aria-hidden="true">
+                     <div class="modal-dialog">
+                         <div class="modal-header">
+                             <img src="images/info.png" class="blackBtn1">
+                         </div>
+                         <div class="modal-body">
+                             <p i18n="abu_desktop_info"></p>
+                         </div>
+                         <div class="modal-footer">
+                             <a href="#close" i18n="close"></a>
+                         </div>
+                     </div>
+                  </div>
+                  <span class="triangle"></span>
+              </div>
+
+               <div class="content d-none" id="stats_container">
+                  <img class="br-en" src="images/br-en.png">
+                  
+                  <div class="pull-left">
+                     <h1>
+                        <span i18n="popup_curent_tab_blocked"></span>
+                        <span class="stats-page"></span>
+                     </h1>
+                     <h3>
+                        <span i18n="popup_blocked_total"></span>
+                        <span class="stats-total"></span>
+                     </h3>
+                  </div>
+                  <span class="triangle"></span>
+               </div>
+
+               <div class="bg-img hedgehog enabled">
+                  <img src="images/enable1.png" class="ic ic-enable" >
+                  <svg xmlns=http://www.w3.org/2000/svg viewBox="0 0 150 150">
+                     <circle cx="55" cy="55" r="52" />
+                  </svg>
+               </div>
+
+               <div class="bg-img1 hedgehog disabled d-none">
+                  <img src="images/dis.png" class="ic1">
+              </div>
+               
+               <h2 class="tab-url"></h2>
+
+               <h4 class="page-status" i18n="browser_action_popup_enabled_on_site"></h4>
+
+               <div class="menu">
+                  <ul class="big-menu">
+                     <li class="get-li toggleSwitch">
+                        <img src="images/disable.png" />
+                        <span class="checkbox-label" i18n="popup_enabled_on_site"></span>
+                        <div class="material-toggle">
+                           <input type="checkbox" id="toggle" name="toggle" checked="checked" class="switch" />
+                           <label for="toggle"></label>
+                        </div>
+                     </li>
+
+                     <li class="get-li open-assistent">
+                        <img src="images/element.png" />
+                        <span i18n="browser_action_popup_block_element"></span>
+                     </li>
+                     <li class="get-li open-settings">
+                        <img src="images/settings.png" />
+                        <span i18n="popup_settings"></span>
+                     </li>
+
+                  </ul>
+                  <ul class="small-menu abu-windows-parent">
+                     <li class="get-li1">
+                        <i class="fa fa-windows"></i>
+                        <a href="" class="block open-url" data-url="https://adblockultimate.net/windows" i18n="popup_get_abu_windows"></a>
+                     </li>
+                  </ul>
+                  <div class="social-container">
+                     <a href="#" class="social" data-social="facebook" i18n-title="popup_share_on_fb">
+                        <i class="fa fa-facebook fa-2x"></i>
+                     </a>
+                     <a href="#" class="social" data-social="twitter" i18n-title="popup_share_on_twitter">
+                        <i class="fab fa fa-twitter fa-2x"></i>
+                     </a>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</body>
+
+</html>

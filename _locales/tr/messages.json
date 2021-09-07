@@ -1,0 +1,815 @@
+{
+   "abu_desktop_info": {
+      "message": "Reklam Engelleme, \u003Cstrong>AdBlocker Ultimate for Windows\u003C/strong> tarafından gerçekleştirilir. Ancak, beyaz listenizi yönetmek veya belirli reklamları manuel olarak engellemek için bu menüyü kullanmaya devam edebilirsiniz."
+   },
+   "abu_product_mac": {
+      "message": "Mac için AdBlocker Ultimate"
+   },
+   "abu_product_windows": {
+      "message": "Windows için AdBlocker Ultimate"
+   },
+   "abu_subscribe_confirm_enable": {
+      "message": "AdBlocker Ultimate: $1 aboneliğini etkinleştirmek istiyor musunuz?"
+   },
+   "abu_subscribe_confirm_import": {
+      "message": "AdBlocker Ultimate: Kullanıcı filtrenize kuralları $1 dosyasından içe aktarmak istiyor musunuz?"
+   },
+   "abu_subscribe_confirm_import_finished_text": {
+      "message": "AdBlocker Ultimate kullanıcı filtresine kuralları alma tamamladı. İçe aktarılan kural sayısı: $ 1"
+   },
+   "abu_subscribe_confirm_import_finished_title": {
+      "message": "İçe alma başarıyla tamamlandı"
+   },
+   "alert_popup_filter_enabled_text": {
+      "message": "«$1» otomatik olarak etkinleştirildi"
+   },
+   "alert_popup_filter_enabled_title": {
+      "message": "Filtreleri otomatik etkinleştirme"
+   },
+   "all_ads_out": {
+      "message": "Bütün can sıkıcı reklamlara son!"
+   },
+   "all_rights_reserved": {
+      "message": "Tüm Hakları Saklıdır"
+   },
+   "assistant_another_element": {
+      "message": "Başka bir öğe seçin"
+   },
+   "assistant_apply_rule_to_all_sites": {
+      "message": "Bu kuralı her web sitesine uygula"
+   },
+   "assistant_block": {
+      "message": "Engelle"
+   },
+   "assistant_block_by_reference": {
+      "message": "Url'ye göre öğe engelle"
+   },
+   "assistant_block_element": {
+      "message": "Öğe engelle"
+   },
+   "assistant_block_element_by_url": {
+      "message": "Url'ye göre öğe engelle"
+   },
+   "assistant_block_element_explain": {
+      "message": "Öğe engelleme kuralı kurlumu"
+   },
+   "assistant_block_similar": {
+      "message": "Benzer öğeleri engelle"
+   },
+   "assistant_extended_settings": {
+      "message": "Gelişmiş ayarlar..."
+   },
+   "assistant_preview": {
+      "message": "Önizleme"
+   },
+   "assistant_preview_end": {
+      "message": "Önizlemeyi bitir"
+   },
+   "assistant_preview_start": {
+      "message": "Önizleme"
+   },
+   "assistant_rule_parameters": {
+      "message": "Kural parametreleri"
+   },
+   "assistant_select_element": {
+      "message": "Seçim modu"
+   },
+   "assistant_select_element_cancel": {
+      "message": "seçim modunu iptal et"
+   },
+   "assistant_select_element_ext": {
+      "message": "Sayfadaki herhangi bir öğenin üzerine tıklayın ya da "
+   },
+   "badge_download_now": {
+      "message": "Şimdi İndir"
+   },
+   "badge_learn_more": {
+      "message": "Daha fazlasını öğrenin"
+   },
+   "badge_windows_ifno": {
+      "message": "Tek bir reklam engelleyici tüm Windows uygulamaları karşısında reklamları ve çevrim içi izleyicileri engeller."
+   },
+   "block_even_more_ads": {
+      "message": "Hatta daha fazla reklamı engelleyin."
+   },
+   "browser_action_ads_blocked": {
+      "message": "Reklam engelleyici"
+   },
+   "browser_action_popup_block_element": {
+      "message": "Öğe engelle"
+   },
+   "browser_action_popup_disabled_on_site": {
+      "message": "Bu sitede \u003Cstrong>Devre dışı\u003C/strong>"
+   },
+   "browser_action_popup_donate": {
+      "message": "Bağış yap"
+   },
+   "browser_action_popup_enabled_on_site": {
+      "message": "Bu sitede \u003Cstrong>Etkin\u003C/strong>"
+   },
+   "browser_action_popup_in_total": {
+      "message": "Toplam \u003Cstrong>$1\u003C/strong>"
+   },
+   "browser_action_popup_on_this_page": {
+      "message": "Bu sayfada \u003Cstrong>$1\u003C/strong>"
+   },
+   "browser_action_popup_options": {
+      "message": "Seçenekler"
+   },
+   "browser_action_popup_show_number_in_icon": {
+      "message": "Simgede sayı göster"
+   },
+   "close": {
+      "message": "Kapat"
+   },
+   "contact_us": {
+      "message": "Bize ulaşın"
+   },
+   "context_abuse_site": {
+      "message": "Bu web sitesi hakkında bir şikayet gönderin..."
+   },
+   "context_ads_has_been_removed": {
+      "message": "Reklamlar bu sayfadan kaldırıldı"
+   },
+   "context_ads_has_been_removed_by_abu": {
+      "message": "$1 tarafından korunmaktadır"
+   },
+   "context_block_site_ads": {
+      "message": "Bu Web sitesinde reklam engelle..."
+   },
+   "context_block_site_element": {
+      "message": "Öğe engelle..."
+   },
+   "context_open_settings": {
+      "message": "AdBlocker Ultimate ayarları..."
+   },
+   "context_site_exception": {
+      "message": "Bu web sitesi istisnalar listesinde"
+   },
+   "context_site_filtering_disabled": {
+      "message": "AdBlocker Ultimate bu alan adında çalışamaz"
+   },
+   "context_site_filtering_off": {
+      "message": "Bu Web sitesinde filtrelemeyi devre dışı bırak"
+   },
+   "context_site_filtering_on": {
+      "message": "Bu Web sitesinde filtrelemeyi etkinleştir"
+   },
+   "context_site_protection_disabled": {
+      "message": "AdBlocker Ultimate koruma duraklatıldı"
+   },
+   "context_update_antibanner_filters": {
+      "message": "Filtre güncellemelerini denetle"
+   },
+   "description": {
+      "message": "Ücretsiz ve gelişmiş reklam engelleyicisi. TÜM reklamları tamamen kaldırır. Herhangi bir \"kabul edilebilir\" reklamları, izin verilen reklamverenleri, izlenmeyi ve kötü amaçlı yazılımları engeller!"
+   },
+   "description_blocked": {
+      "message": "Bu sayfada engellenen reklamlar: $1"
+   },
+   "desktop_app_is_running": {
+      "message": "Masaüstü uygulaması çalışıyor."
+   },
+   "filter_description_adblock_persian_list": {
+      "message": "İran web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_adblock_polska": {
+      "message": "Polonya web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_anti_circumvention": {
+      "message": "Filtre listesi, hileli reklamlarla mücadele etmek için tasarlanmıştır."
+   },
+   "filter_description_bulgarian_list": {
+      "message": "Bulgar web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_easylist_china": {
+      "message": "Çin web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_easylist_czech_and_slovak": {
+      "message": "Çek ve Slovak web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_easylist_dutch_easylist": {
+      "message": "Hollanda web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_easylist_germany_easylist": {
+      "message": "Alman internet sitelerinden reklamları kaldırır."
+   },
+   "filter_description_easylist_italy": {
+      "message": "İtalyan web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_estonian_list": {
+      "message": "Estonya web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_fanboys_annoyance_list": {
+      "message": "Tüm rahatsız edici; kendiliğinden açılan sayfaları, çerez bildirimlerini ve üçüncü parti araçlarını engeller. Bu da sayfa yükleme sürelerini önemli ölçüde azaltır, bu filtreyi kullanın sizin için hepsini engellesin. "
+   },
+   "filter_description_fanboys_japanese": {
+      "message": "Japon web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_fanboys_korean": {
+      "message": "Koreli web sitelerinden reklamları kaldırır"
+   },
+   "filter_description_fanboys_social_blocking_list": {
+      "message": "Firmaların bizi Facebook'ta, Twitter'da takip edin gibi sosyal medya entagrasyonlarını kaldırır. "
+   },
+   "filter_description_fanboys_spanish_portuguese": {
+      "message": "İspanyol/Portekiz internet sitelerinden reklamları kaldırır."
+   },
+   "filter_description_fanboys_swedish": {
+      "message": "İsveç web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_fanboys_turkish": {
+      "message": "Türk web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_fanboys_vietnamese": {
+      "message": "Vietnamlı web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_hufilter": {
+      "message": "Macar internet sitelerinden reklamları kaldırır."
+   },
+   "filter_description_latvian_list": {
+      "message": "Letonya web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_liste_fr": {
+      "message": "Fransız internet sitelerinden reklamları kaldırır."
+   },
+   "filter_description_nocoin": {
+      "message": "Tarayıcınızda kripto madenciliği durdurur."
+   },
+   "filter_description_ruadlist_easylist": {
+      "message": "Rus web sitelerinden reklamları kaldırır."
+   },
+   "filter_description_spam404": {
+      "message": "Bu filtre sizi çevrimiçi dolandırıcılıklardan korur. Bu filtre, Spam404.com tarafından toplanan verilerle düzenli olarak güncellenir."
+   },
+   "filter_description_ultimate_ad_filter": {
+      "message": "Bu piyasadaki en iyi performans gösteren hepsi bir arada, , tüm web'deki reklamları engelleyen bir reklam filtresidir. EasyList filtresine dayalıdır ve ekibimiz tarafından daha da geliştirilmiştir."
+   },
+   "filter_description_ultimate_privacy_filter": {
+      "message": "Web analiz araçları, sayaçlar ve çeşitli çevrimiçi izleyicilerden oluşan kapsamlı bir listeyi engeller. EasyList Gizlilik listesine dayalıdır ve ekibimiz tarafından geliştirilmiştir."
+   },
+   "filter_description_ultimate_security_filter": {
+      "message": "Bu filtre, reklam yazılımı tarafından enjekte edilen reklamları engeller. Easylist'in Reklam Yazılım filtrelerine dayanır ve ekibimiz tarafından güncellemeler ve geliştirmeler yapılmıştır."
+   },
+   "filter_download_loading": {
+      "message": "Filtre veritabanı yüklenirken lütfen bekleyin..."
+   },
+   "filter_download_title": {
+      "message": "Filtre veritabanı yükleniyor..."
+   },
+   "filter_group_ad_blocking": {
+      "message": "Reklam Engelleme"
+   },
+   "filter_group_custom_filters": {
+      "message": "Özel Filtreler"
+   },
+   "filter_group_language_specific": {
+      "message": "Dile özel"
+   },
+   "filter_group_privacy": {
+      "message": "Gizlilik"
+   },
+   "filter_group_security": {
+      "message": "Güvenlik"
+   },
+   "filter_name_adblock_persian_list": {
+      "message": "ReklamEngelleme-İran Listesi"
+   },
+   "filter_name_adblock_polska": {
+      "message": "Adblock Polanya"
+   },
+   "filter_name_anti_circumvention": {
+      "message": "Kül yutmaz! "
+   },
+   "filter_name_bulgarian_list": {
+      "message": "Bulgar Listesi"
+   },
+   "filter_name_easylist_china": {
+      "message": "EasyList Çin"
+   },
+   "filter_name_easylist_czech_and_slovak": {
+      "message": "EasyList Çek ve Slovak"
+   },
+   "filter_name_easylist_dutch_easylist": {
+      "message": "EasyList Hollanda + EasyList"
+   },
+   "filter_name_easylist_germany_easylist": {
+      "message": "EasyList Almanya+EasyList"
+   },
+   "filter_name_easylist_italy": {
+      "message": "EasyList İtalya"
+   },
+   "filter_name_estonian_list": {
+      "message": "Estonya Listesi"
+   },
+   "filter_name_fanboys_annoyance_list": {
+      "message": "Fanboy'un Rahatsızlık Listesi"
+   },
+   "filter_name_fanboys_japanese": {
+      "message": "Fanboy'un Japoncası"
+   },
+   "filter_name_fanboys_korean": {
+      "message": "Fanboy Kore"
+   },
+   "filter_name_fanboys_social_blocking_list": {
+      "message": "Fanboy'un Sosyal Engelleme Listesi"
+   },
+   "filter_name_fanboys_spanish_portuguese": {
+      "message": "Fanboy'un İspanyolcası/Portekizcesi"
+   },
+   "filter_name_fanboys_swedish": {
+      "message": "Fanboy'un İsveççesi"
+   },
+   "filter_name_fanboys_turkish": {
+      "message": "Fanboy'un Türkçesi"
+   },
+   "filter_name_fanboys_vietnamese": {
+      "message": "Fanboy Vietnam"
+   },
+   "filter_name_hufilter": {
+      "message": "Hufilter - Macar Adblock Listesi"
+   },
+   "filter_name_latvian_list": {
+      "message": "Letonya Listesi"
+   },
+   "filter_name_liste_fr": {
+      "message": "Liste FR"
+   },
+   "filter_name_nocoin": {
+      "message": "NoCoin"
+   },
+   "filter_name_ruadlist_easylist": {
+      "message": "RuAdList+EasyList"
+   },
+   "filter_name_spam404": {
+      "message": "Spam404"
+   },
+   "filter_name_ultimate_ad_filter": {
+      "message": "Güncel Reklam Filtresi"
+   },
+   "filter_name_ultimate_privacy_filter": {
+      "message": "Üst Düzey Gizlilik Filtresi"
+   },
+   "filter_name_ultimate_security_filter": {
+      "message": "Üst Düzey Güvenlik Filtresi"
+   },
+   "filter_rules_count": {
+      "message": "Sayılan filtre kuralları"
+   },
+   "follow_us": {
+      "message": "Bizi takip edin"
+   },
+   "name": {
+      "message": "AdBlocker Ultimate"
+   },
+   "no": {
+      "message": "Hayır"
+   },
+   "official_website": {
+      "message": "Resmi İnternet Sitesi"
+   },
+   "options_about": {
+      "message": "Hakkında"
+   },
+   "options_abu_is_disabled": {
+      "message": "AdBlocker Ultimate aşağıdaki adresler için devre dışı bırakıldı. Adresleri adres çubuğundaki AdBlocker Ultimate simgesinden ekleyebilir veya alan adını (URL'yi değil) kutucuğa yazıp \"Etki alanı ekle\" butonuna tıklayabilirsin."
+   },
+   "options_add": {
+      "message": "Ekle"
+   },
+   "options_add_custom_filter": {
+      "message": "Özel filtre ekle"
+   },
+   "options_add_domain": {
+      "message": "Etki alanı ekle"
+   },
+   "options_add_filter": {
+      "message": "Filtre ekle"
+   },
+   "options_add_filter_subscription": {
+      "message": "Filtre aboneliği ekle"
+   },
+   "options_add_your_filters": {
+      "message": "Kendi filtrelerinizi ekleyin"
+   },
+   "options_anti_circumvention_desc": {
+      "message": "Bu özellik, bazı web sitelerinin atlatmayı algıladıklarında göstereceği reklam engelleyici önleyici mesajlarına karşı hareket geçecektir."
+   },
+   "options_anti_circumvention_title": {
+      "message": "Atlatma Önleyiciyi Etkinleştir"
+   },
+   "options_antibanner_info": {
+      "message": "Filtre kuralları: $1"
+   },
+   "options_apply_changes": {
+      "message": "Değişiklikleri uygula"
+   },
+   "options_auto_activate_lang_filters_desc": {
+      "message": "Bir dilde birkaç sayfa açıldıktan sonra bu dildeki filtreler kendiliğinden eklenip etkinleştirilecektir."
+   },
+   "options_auto_activate_lang_filters_title": {
+      "message": "Kendiliğinden dile özgü filtreleri etkinleştir"
+   },
+   "options_check_for_updates": {
+      "message": "Filtre güncellemelerini denetle"
+   },
+   "options_clear_filter": {
+      "message": "Filtreyi temizle"
+   },
+   "options_confirm_filter_delete": {
+      "message": "Bu filtreyi silmek istediğinizden emin misiniz?"
+   },
+   "options_custom": {
+      "message": "Özel"
+   },
+   "options_custom_filter_already_add": {
+      "message": "Aynı URL’li filtre zaten var!"
+   },
+   "options_custom_filter_empty_url": {
+      "message": "Lütfen filtre URL’sini girin!"
+   },
+   "options_custom_filter_error": {
+      "message": "Dosyayı indirirken hata oluştu!"
+   },
+   "options_custom_filters": {
+      "message": "Özel Filtreler"
+   },
+   "options_custom_rules": {
+      "message": "Özel Kurallar"
+   },
+   "options_delete": {
+      "message": "Sil"
+   },
+   "options_do_you_like_abu": {
+      "message": "AdBlocker Ultimate’i beğeniyor musunuz?"
+   },
+   "options_editor_desc": {
+      "message": "Bu listede kendi özel kurallarınızı ekleyebilirsiniz. Kendi reklam filtrelerinizi oluşturun ve onları buraya ekleyin."
+   },
+   "options_enable_only": {
+      "message": "Sadece ihtiyacınız olan filtre listelerini etkinleştirin. Çok fazla seçim tarayıcınızı tepkisiz bırakabilir."
+   },
+   "options_enabled": {
+      "message": "Etkin"
+   },
+   "options_enter_url_or_path": {
+      "message": "Geçerli URL ya da dosya yolu girin"
+   },
+   "options_err_import_file": {
+      "message": "Dosyayı içe aktarırken hata oluştu!"
+   },
+   "options_err_no_txt_file": {
+      "message": "Yalnızca .txt dosyaları izin verilmiştir."
+   },
+   "options_export": {
+      "message": "Dışa aktar"
+   },
+   "options_filter_list": {
+      "message": "Filtre listeleri"
+   },
+   "options_filter_list_location": {
+      "message": "Filtre listesi konumu:"
+   },
+   "options_filter_status_all": {
+      "message": "Tümü"
+   },
+   "options_filter_status_disable": {
+      "message": "Devre Dışı"
+   },
+   "options_filter_version": {
+      "message": "Sürüm $1. Güncellendi $2 $3."
+   },
+   "options_filters": {
+      "message": "Filtreler"
+   },
+   "options_filters_enabled": {
+      "message": "Etkinleşen:"
+   },
+   "options_filters_enabled_and_more": {
+      "message": "$1 ve $2 daha"
+   },
+   "options_filters_updated": {
+      "message": "güncellendi"
+   },
+   "options_general": {
+      "message": "Genel"
+   },
+   "options_help_translate": {
+      "message": "Çevirisinde bize yardım edin."
+   },
+   "options_import": {
+      "message": "İçe aktar"
+   },
+   "options_language_specific": {
+      "message": "Dile özel"
+   },
+   "options_last_uodate": {
+      "message": "Son güncelleme"
+   },
+   "options_modal_cancel": {
+      "message": "İptal"
+   },
+   "options_modal_homepage": {
+      "message": "Ana sayfa"
+   },
+   "options_new_filter": {
+      "message": "Yeni filtre"
+   },
+   "options_no_custom_filters": {
+      "message": "Üzgünüz ama şu anda özel filtreye sahip değilsiniz"
+   },
+   "options_no_filters_enabled": {
+      "message": "Etkinleştirilen filtre yok"
+   },
+   "options_number_icon_desc": {
+      "message": "Her sayfada engellenilen reklamların sayısı eklenti simgesinde gösterilecektir."
+   },
+   "options_out_of_date_lists": {
+      "message": "Zamanı geçmiş listeler düzenli olarak güncellenmektedir."
+   },
+   "options_please_choose": {
+      "message": "Lütfen listeden bir filtre aboneliği seçin:"
+   },
+   "options_popup_update_error": {
+      "message": "Güncellemeleri almak başarısız oldu. Lütfen yeniden deneyin."
+   },
+   "options_popup_update_not_found": {
+      "message": "Güncelleme bulunamadı"
+   },
+   "options_popup_update_title": {
+      "message": "Filtreler başarıyla güncelleştirildi"
+   },
+   "options_popup_update_updated": {
+      "message": "\"$1\" $2 sürümüne güncellendi"
+   },
+   "options_rate_us": {
+      "message": "Bizi Değerlendirin"
+   },
+   "options_remove_selected": {
+      "message": "Seçileni kaldır"
+   },
+   "options_search": {
+      "message": "Ara"
+   },
+   "options_settings": {
+      "message": "AdBlocker Ultimate"
+   },
+   "options_show_block_element": {
+      "message": "Sağ tıklama menüsünde 'Öğe Engelle' göster"
+   },
+   "options_show_useful_notifications": {
+      "message": "Yararlı bildirimleri göster"
+   },
+   "options_status_saved": {
+      "message": "Kaydedildi"
+   },
+   "options_submit": {
+      "message": "Gönder"
+   },
+   "options_subscription_title": {
+      "message": "Abonelik başlığı:"
+   },
+   "options_title": {
+      "message": "AdBlocker Ultimate Seçenekleri"
+   },
+   "options_update_now": {
+      "message": "Şimdi güncelle"
+   },
+   "options_userfilter": {
+      "message": "Kullanıcı filtresi"
+   },
+   "options_userfilter_add_rule": {
+      "message": "Yeni kural ekle"
+   },
+   "options_userfilter_clear": {
+      "message": "Temizle"
+   },
+   "options_userfilter_clear_confirm": {
+      "message": "Kullanıcı filtresini temizlemek tüm kuralları kaldırır. Kullanıcı filtresini gerçekten temizlemek istiyor musunuz?"
+   },
+   "options_userfilter_description": {
+      "message": ""
+   },
+   "options_userfilter_export": {
+      "message": "Dışa aktar"
+   },
+   "options_userfilter_import": {
+      "message": "İçe aktar"
+   },
+   "options_want_abu_in_lang": {
+      "message": "Kendi dilinizde Adblocker Ultimate’i istiyor musunuz?"
+   },
+   "options_whitelist": {
+      "message": "Beyaz liste"
+   },
+   "options_whitelist_desc": {
+      "message": "Bu istisnalara eklenilen web sitelerindeki reklamlar engellenmeyecektir."
+   },
+   "options_whitelisted_domains": {
+      "message": "Beyaz listedeki etki alanları"
+   },
+   "options_whitelistfilter_clear_confirm": {
+      "message": "Beyaz listeyi temizlemek tüm kuralları silecektir. Beyaz listeyi temizlemek istediğinizden emin misiniz?"
+   },
+   "popup_ads_has_been_removed": {
+      "message": "Reklamlar bu sayfadan kaldırıldı"
+   },
+   "popup_ads_has_been_removed_by_abu": {
+      "message": "$1 tarafından korunmaktadır"
+   },
+   "popup_block_site_ads": {
+      "message": "Bu Web sitesinde reklamları engelle"
+   },
+   "popup_block_site_ads_android": {
+      "message": "Bir web sitesinde reklamları engelle"
+   },
+   "popup_blocked_total": {
+      "message": "Toplam:"
+   },
+   "popup_curent_tab_blocked": {
+      "message": "Engellenen: "
+   },
+   "popup_disabled_on_site": {
+      "message": "Bu sitede devre dışı"
+   },
+   "popup_enabled_on_site": {
+      "message": "Bu sitede etkin"
+   },
+   "popup_get_abu_windows": {
+      "message": "Windows için AdBlocker Ultimate’i edinin"
+   },
+   "popup_on_this_site": {
+      "message": "Bu sitede:"
+   },
+   "popup_open_log_android": {
+      "message": "Filtre günlüğü"
+   },
+   "popup_open_settings": {
+      "message": "AdBlocker Ultimate ayarları"
+   },
+   "popup_protection_disabled": {
+      "message": "Koruma: Devre Dışı"
+   },
+   "popup_protection_enabled": {
+      "message": "Koruma: Etkin"
+   },
+   "popup_secure_page": {
+      "message": "Güvenli sayfa"
+   },
+   "popup_security_report": {
+      "message": "Web sitesi güvenlik raporu"
+   },
+   "popup_security_report_android": {
+      "message": "Güvenlik raporu"
+   },
+   "popup_settings": {
+      "message": "Ayarlar"
+   },
+   "popup_share_on_fb": {
+      "message": "Facebook’ta Paylaş"
+   },
+   "popup_share_on_twitter": {
+      "message": "Twitter’da Paylaş"
+   },
+   "popup_site_filtering_state": {
+      "message": "Bu Web sitesinde koruma"
+   },
+   "popup_site_protection_disabled": {
+      "message": "AdBlocker Ultimate koruma duraklatıldı"
+   },
+   "popup_site_protection_disabled_android": {
+      "message": "Koruma duraklatıldı"
+   },
+   "popup_status_inactive": {
+      "message": "Olası internet sitesi işlev bozukluğunu önlemek için filtreleme etkin değildir."
+   },
+   "popup_tab_blocked": {
+      "message": "Engellendi: $1"
+   },
+   "popup_tab_blocked_all": {
+      "message": "Toplam: $1"
+   },
+   "popup_total": {
+      "message": "Toplam:"
+   },
+   "privacy_policy": {
+      "message": "Gizlilik Politikası"
+   },
+   "report_bug": {
+      "message": "Hata bildirin"
+   },
+   "security": {
+      "message": "Güvenlik"
+   },
+   "shield_blocked_ads": {
+      "message": "engellenen reklamlar"
+   },
+   "shield_bronze_shield": {
+      "message": "bronz kalkan"
+   },
+   "shield_congrats": {
+      "message": "Tebrikler!"
+   },
+   "shield_congratulations": {
+      "message": "Tebrikler!"
+   },
+   "shield_contribute_to_our_project": {
+      "message": "Projemize katkıda bulun"
+   },
+   "shield_decreased_peak_cpu_usage": {
+      "message": "işlemci kullanımı $1 azaldı"
+   },
+   "shield_decreased_peak_memory_usage": {
+      "message": "bellek kullanımı $1 azaldı"
+   },
+   "shield_decreased_your_page_load_time": {
+      "message": "sayfa yüklenme hızı $1 azaldı"
+   },
+   "shield_do_you_like_abu": {
+      "message": "AdBlocker Ultimate'ten hoşlandınız mı?"
+   },
+   "shield_dont_show_again": {
+      "message": "Bu mesajı bir daha gösterme"
+   },
+   "shield_email": {
+      "message": "Email"
+   },
+   "shield_gold_shield": {
+      "message": "altın kalkan"
+   },
+   "shield_got_no_ads": {
+      "message": "hiçbir reklam olmadığı için teşekkürler"
+   },
+   "shield_message": {
+      "message": "Mesaj"
+   },
+   "shield_no_thanks": {
+      "message": "Hayır teşekkürler"
+   },
+   "shield_rate_txt": {
+      "message": "Reklamları engellemekten hoşlanıyor musunuz? Başkalarının hakkımızda bilgi edinmesine yardımcı olun."
+   },
+   "shield_rate_us": {
+      "message": "bizi değerlendir"
+   },
+   "shield_send_feedback": {
+      "message": "Geri bildirim gönder"
+   },
+   "shield_sending": {
+      "message": "Gönderiliyor"
+   },
+   "shield_share_abu": {
+      "message": "AdBlocker Ultimate'i Paylaş:"
+   },
+   "shield_silver_shield": {
+      "message": "gümüş kalkan"
+   },
+   "shield_tell_how_to_improve": {
+      "message": "Lütfen bize nasıl geliştirebileceğimizi söyleyin."
+   },
+   "shield_thank_you": {
+      "message": "Teşekkür ederim!"
+   },
+   "shield_to_unlock": {
+      "message": "kilidini açmak için"
+   },
+   "shield_we_blocked_more_than": {
+      "message": "sizin için $1 reklam engelledik ve:"
+   },
+   "shield_you_won": {
+      "message": "kazandın"
+   },
+   "short_name": {
+      "message": "AdBlocker Ultimate"
+   },
+   "store_ss_ads": {
+      "message": "reklamlar"
+   },
+   "store_ss_no_more_ads": {
+      "message": "Ücretsiz adblocker ile daha fazla reklam yok"
+   },
+   "store_ss_no_more_banner_ads": {
+      "message": "Daha fazla banner reklamları yok"
+   },
+   "store_ss_no_more_facebook_ads": {
+      "message": "Daha fazla Facebook reklamları yok"
+   },
+   "store_ss_no_more_video_ads": {
+      "message": "Daha fazla video reklamları yok"
+   },
+   "store_ss_surf_and_all_annoying_ads": {
+      "message": "ve tüm rahatsız edici reklamlar dışında!"
+   },
+   "store_ss_surf_faster": {
+      "message": "Rahatsız edici reklamlar olmadan daha hızlı, güvenli ve daha temiz bir şekilde gezinin!"
+   },
+   "store_ss_surf_faster_with_no_ads": {
+      "message": "REKLAMLAR OLMADAN daha hızlı ve güvenli bir şekilde gezinin"
+   },
+   "version": {
+      "message": "Sürüm"
+   },
+   "yes": {
+      "message": "Evet"
+   }
+}

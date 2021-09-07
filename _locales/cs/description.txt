@@ -1,0 +1,36 @@
+AdBlocker Ultimate je navržen s jediným cílem, a tím je odstranit veškerou inzerci a umožnit tak uživateli se plně soustředit na požadovaný obsah.
+
+Základní vlastnosti
+-Odstranění veškeré inzerce
+-Blokování mallwaru a sledování
+-Zlepšení výkonnosti prohlížeče
+-Již žádné "přijatelné" reklamy či povolené stránky/reklamní sítě
+
+AdBlocker Ultimate je doplněk poskytovaný zdarma, který blokuje inzerci a škodlivé domény známé šířením mallwaru, znemožňuje sledování.  Přidali jsme také pár obsáhlejších filtrů nabízejících obstojnou ochranu proti otravné, nevkusné inzerci, reklamám z Youtube a dalším. Na rozdíl od jiných nástrojů k blokování reklam nemáme seznam povolených webových stránek, poskytovatelů inzerce či reklamních sítí pro zobrazení nežádoucích reklam. Blokování reklam zvýší rychlost nahrávání webových stránek, sníží zátěž CPU a využití paměti.
+
+Náš doplněk umožnuje zapnutí reklam na vašich oblíbených webových stránkách, pokud víte, že se na nich nevyskytuje žádná dotěrná a/nebo klamavá inzerce.
+
+*** Typy reklam, které blokujeme ***
+- Textové reklamy
+- Reklamní bannery
+- Vyskakovací okna v popředí
+- Vyskakovací okna na pozadí
+- Překryvné reklamy
+- Reklamy ve formě vsunuté stránky
+- Video reklamy
+- Reklamy webové pošty
+- Facebook reklamy
+
+***Přínosy z blokování reklam ***
+- Zlepšení rychlosti prohlížeče
+- Zlepšení rychlosti načtení stránky
+- Snížení využití paměti navštívených stránek
+- Snížení šířky pásma
+
+*** Open Source ***
+AdBlocker Ultimate je open source projekt:
+https://github.com/adblockultimate/
+
+*** Našli jste chybu? ***
+Použijte formulář pro oznámení chyby: 
+https://adblockultimate.net/report.html

@@ -1,0 +1,815 @@
+{
+   "abu_desktop_info": {
+      "message": "AdBlocking is handled by \u003Cstrong>AdBlocker Ultimate for Windows\u003C/strong>. However, you can still use this menu to manage your whitelist or to manually block certain ads."
+   },
+   "abu_product_mac": {
+      "message": "AdBlocker Ultimate pro Mac"
+   },
+   "abu_product_windows": {
+      "message": "Adblocker Ultimate pro Windows"
+   },
+   "abu_subscribe_confirm_enable": {
+      "message": "AdBlocker Ultimate: chcete aktivovat $1 předplatné?"
+   },
+   "abu_subscribe_confirm_import": {
+      "message": "AdBlocker Ultimate: Chcete importovat pravidla z $1 a použít je?"
+   },
+   "abu_subscribe_confirm_import_finished_text": {
+      "message": "AdBlocker Ultimate dokončil importování pravidel do uživatelského filtru. Importováno číslo pravidel: $1"
+   },
+   "abu_subscribe_confirm_import_finished_title": {
+      "message": "Importování proběhlo v pořádku"
+   },
+   "alert_popup_filter_enabled_text": {
+      "message": "&quot;$1&quot; byl aktivován automaticky"
+   },
+   "alert_popup_filter_enabled_title": {
+      "message": "Auto aktivace filtrů"
+   },
+   "all_ads_out": {
+      "message": "And all annoying ads are out!"
+   },
+   "all_rights_reserved": {
+      "message": "All Rights Reserved"
+   },
+   "assistant_another_element": {
+      "message": "Vyberte jiný prvek"
+   },
+   "assistant_apply_rule_to_all_sites": {
+      "message": "Použít toto pravidlo pro každý web"
+   },
+   "assistant_block": {
+      "message": "Blokujte"
+   },
+   "assistant_block_by_reference": {
+      "message": "Blokuj prvek podle adresy url"
+   },
+   "assistant_block_element": {
+      "message": "Zablokovat prvek"
+   },
+   "assistant_block_element_by_url": {
+      "message": "Blokuj prvek podle adresy url"
+   },
+   "assistant_block_element_explain": {
+      "message": "Nastavení pravidel blokování prvku"
+   },
+   "assistant_block_similar": {
+      "message": "Blokuj podobné prvky"
+   },
+   "assistant_extended_settings": {
+      "message": "Pokročilé nastavení..."
+   },
+   "assistant_preview": {
+      "message": "Náhled"
+   },
+   "assistant_preview_end": {
+      "message": "Dokončit náhled"
+   },
+   "assistant_preview_start": {
+      "message": "Náhled"
+   },
+   "assistant_rule_parameters": {
+      "message": "Parametry pravidla"
+   },
+   "assistant_select_element": {
+      "message": "Režim výběru"
+   },
+   "assistant_select_element_cancel": {
+      "message": "zrušte režim výběru"
+   },
+   "assistant_select_element_ext": {
+      "message": "Klikněte na libovolný prvek na stránce nebo "
+   },
+   "badge_download_now": {
+      "message": "Download Now"
+   },
+   "badge_learn_more": {
+      "message": "Learn more"
+   },
+   "badge_windows_ifno": {
+      "message": "Single ad blocker blocks ads and online trackers across all Windows applications."
+   },
+   "block_even_more_ads": {
+      "message": "Block even more ads"
+   },
+   "browser_action_ads_blocked": {
+      "message": "Reklam blokováno"
+   },
+   "browser_action_popup_block_element": {
+      "message": "Zablokovat prvek"
+   },
+   "browser_action_popup_disabled_on_site": {
+      "message": "\u003Cstrong>Deaktivováno\u003C/strong> na této stránce"
+   },
+   "browser_action_popup_donate": {
+      "message": "Podpořit"
+   },
+   "browser_action_popup_enabled_on_site": {
+      "message": "\u003Cstrong>Aktivováno\u003C/strong> na této stránce"
+   },
+   "browser_action_popup_in_total": {
+      "message": "\u003Cstrong>$1\u003C/strong> celkem"
+   },
+   "browser_action_popup_on_this_page": {
+      "message": "\u003Cstrong>$1\u003C/strong> na této stránce"
+   },
+   "browser_action_popup_options": {
+      "message": "Nastavení"
+   },
+   "browser_action_popup_show_number_in_icon": {
+      "message": "Zobrazit číslo v ikoně"
+   },
+   "close": {
+      "message": "Close"
+   },
+   "contact_us": {
+      "message": "Contact us"
+   },
+   "context_abuse_site": {
+      "message": "Odešli stížnost o této stránce..."
+   },
+   "context_ads_has_been_removed": {
+      "message": "Reklamy byly odstraněny z této stránky"
+   },
+   "context_ads_has_been_removed_by_abu": {
+      "message": "Chráněno $1"
+   },
+   "context_block_site_ads": {
+      "message": "Blokovat reklamy na této stránce..."
+   },
+   "context_block_site_element": {
+      "message": "Blokovat prvek..."
+   },
+   "context_open_settings": {
+      "message": "AdBlocker Ultimate nastavení..."
+   },
+   "context_site_exception": {
+      "message": "Tahle stránka je ve vyjímkách"
+   },
+   "context_site_filtering_disabled": {
+      "message": "AdBlocker Ultimate nemůže být spuštěný na této adrese"
+   },
+   "context_site_filtering_off": {
+      "message": "Vypnout filtrování na této stránce"
+   },
+   "context_site_filtering_on": {
+      "message": "Zapnout filtrování na této stránce"
+   },
+   "context_site_protection_disabled": {
+      "message": "AdBlocker Ultimate ochrana je pozastavena"
+   },
+   "context_update_antibanner_filters": {
+      "message": "Zkontrolovat aktualizace pro filtry"
+   },
+   "description": {
+      "message": "Zdarma a vylepšený blokátor reklam. Zcela odstraní všechny reklamy. Žádné přijatelné reklamy nebo povolené stránky, zablokujte sledování a blokujte Malware!"
+   },
+   "description_blocked": {
+      "message": "Blokovaných reklam na této stránce: $1"
+   },
+   "desktop_app_is_running": {
+      "message": "Desktop app is running"
+   },
+   "filter_description_adblock_persian_list": {
+      "message": "Removes ads from Persian websites."
+   },
+   "filter_description_adblock_polska": {
+      "message": "Removes ads from Polish websites."
+   },
+   "filter_description_anti_circumvention": {
+      "message": "Filter list designed to fight circumvention ads."
+   },
+   "filter_description_bulgarian_list": {
+      "message": "Removes ads from Bulgarian websites."
+   },
+   "filter_description_easylist_china": {
+      "message": "Removes ads from Chinese websites."
+   },
+   "filter_description_easylist_czech_and_slovak": {
+      "message": "Removes ads from Czechs and Slovak websites."
+   },
+   "filter_description_easylist_dutch_easylist": {
+      "message": "Removes ads from Dutch websites."
+   },
+   "filter_description_easylist_germany_easylist": {
+      "message": "Removes ads from German websites."
+   },
+   "filter_description_easylist_italy": {
+      "message": "Removes ads from Italian websites."
+   },
+   "filter_description_estonian_list": {
+      "message": "Removes ads from Estonian websites."
+   },
+   "filter_description_fanboys_annoyance_list": {
+      "message": "Blocks all irritating in-page popups, cookie notices and third-party widgets, which substantially decrease page loading times use this filter and it will block all of them for you."
+   },
+   "filter_description_fanboys_japanese": {
+      "message": "Removes ads from Japanese websites."
+   },
+   "filter_description_fanboys_korean": {
+      "message": "Removes ads from Korean websites."
+   },
+   "filter_description_fanboys_social_blocking_list": {
+      "message": "Removes social media integration"
+   },
+   "filter_description_fanboys_spanish_portuguese": {
+      "message": "Removes ads from Spanish/Portuguese websites."
+   },
+   "filter_description_fanboys_swedish": {
+      "message": "Removes ads from Swedish websites."
+   },
+   "filter_description_fanboys_turkish": {
+      "message": "Removes ads from Turkish websites."
+   },
+   "filter_description_fanboys_vietnamese": {
+      "message": "Removes ads from Vietnamese websites."
+   },
+   "filter_description_hufilter": {
+      "message": "Removes ads from Hungarian websites."
+   },
+   "filter_description_latvian_list": {
+      "message": "Removes ads from Latvian websites."
+   },
+   "filter_description_liste_fr": {
+      "message": "Removes ads from French websites."
+   },
+   "filter_description_nocoin": {
+      "message": "Stops cryptomining in your browser."
+   },
+   "filter_description_ruadlist_easylist": {
+      "message": "Removes ads from Russian websites."
+   },
+   "filter_description_spam404": {
+      "message": "This filter protects you from online scams. This filter is regularly updated with data collected by Spam404.com."
+   },
+   "filter_description_ultimate_ad_filter": {
+      "message": "This is the best performing all-in-one ad filter out there, which blocks ads across the entire web. It's based on the EasyList filter and further enhanced by our team."
+   },
+   "filter_description_ultimate_privacy_filter": {
+      "message": "Blocks an extensive list of various online trackers, counters and web analytics tools. Based on the EasyList Privacy list and upgraded by our team."
+   },
+   "filter_description_ultimate_security_filter": {
+      "message": "This filter blocks ads injected by adware. Based on Easylist's Adware filters and further updated and modified by our team."
+   },
+   "filter_download_loading": {
+      "message": "Prosím počkejte, probíhá načítání filtrové databáze..."
+   },
+   "filter_download_title": {
+      "message": "Databáze filtrů se načítá..."
+   },
+   "filter_group_ad_blocking": {
+      "message": "Ad Blocking"
+   },
+   "filter_group_custom_filters": {
+      "message": "Custom Filters"
+   },
+   "filter_group_language_specific": {
+      "message": "Language-specific"
+   },
+   "filter_group_privacy": {
+      "message": "Privacy"
+   },
+   "filter_group_security": {
+      "message": "Security"
+   },
+   "filter_name_adblock_persian_list": {
+      "message": "Adblock-Persian list"
+   },
+   "filter_name_adblock_polska": {
+      "message": "Adblock Polska"
+   },
+   "filter_name_anti_circumvention": {
+      "message": "Anti-circumvention"
+   },
+   "filter_name_bulgarian_list": {
+      "message": "Bulgarian list"
+   },
+   "filter_name_easylist_china": {
+      "message": "EasyList China"
+   },
+   "filter_name_easylist_czech_and_slovak": {
+      "message": "EasyList Czech and Slovak"
+   },
+   "filter_name_easylist_dutch_easylist": {
+      "message": "EasyList Dutch + EasyList"
+   },
+   "filter_name_easylist_germany_easylist": {
+      "message": "EasyList Germany+EasyList"
+   },
+   "filter_name_easylist_italy": {
+      "message": "EasyList Italy"
+   },
+   "filter_name_estonian_list": {
+      "message": "Estonian List"
+   },
+   "filter_name_fanboys_annoyance_list": {
+      "message": "Fanboy's Annoyance List"
+   },
+   "filter_name_fanboys_japanese": {
+      "message": "Fanboy's Japanese"
+   },
+   "filter_name_fanboys_korean": {
+      "message": "Fanboy's Korean"
+   },
+   "filter_name_fanboys_social_blocking_list": {
+      "message": "Fanboy's Social Blocking List"
+   },
+   "filter_name_fanboys_spanish_portuguese": {
+      "message": "Fanboy's Spanish/Portuguese"
+   },
+   "filter_name_fanboys_swedish": {
+      "message": "Fanboy's Swedish"
+   },
+   "filter_name_fanboys_turkish": {
+      "message": "Fanboy's Turkish"
+   },
+   "filter_name_fanboys_vietnamese": {
+      "message": "Fanboy's Vietnamese"
+   },
+   "filter_name_hufilter": {
+      "message": "Hufilter - The Hungarian Adblock List"
+   },
+   "filter_name_latvian_list": {
+      "message": "Latvian List"
+   },
+   "filter_name_liste_fr": {
+      "message": "Liste FR"
+   },
+   "filter_name_nocoin": {
+      "message": "NoCoin"
+   },
+   "filter_name_ruadlist_easylist": {
+      "message": "RuAdList+EasyList"
+   },
+   "filter_name_spam404": {
+      "message": "Spam404"
+   },
+   "filter_name_ultimate_ad_filter": {
+      "message": "Ultimate Ad Filter"
+   },
+   "filter_name_ultimate_privacy_filter": {
+      "message": "Ultimate Privacy Filter"
+   },
+   "filter_name_ultimate_security_filter": {
+      "message": "Ultimate Security Filter"
+   },
+   "filter_rules_count": {
+      "message": "Filter rules count"
+   },
+   "follow_us": {
+      "message": "Follow us on"
+   },
+   "name": {
+      "message": "AdBlocker Ultimate"
+   },
+   "no": {
+      "message": "No"
+   },
+   "official_website": {
+      "message": "Official Website"
+   },
+   "options_about": {
+      "message": "About"
+   },
+   "options_abu_is_disabled": {
+      "message": "AdBlocker Ultimate je vypnutý pro níže uvedené stránky. Můžete přidat stránku kliknutím na AdBlocker Ultimate ikonu nebo zapsáním stránky (Nikoliv URL) do níže uvedeného boxu a kliknutím na tlačítko \"Přidat stránku\"."
+   },
+   "options_add": {
+      "message": "Přidat"
+   },
+   "options_add_custom_filter": {
+      "message": "Add custom filter"
+   },
+   "options_add_domain": {
+      "message": "Přidat doménu"
+   },
+   "options_add_filter": {
+      "message": "Přidat filtry"
+   },
+   "options_add_filter_subscription": {
+      "message": "Přidat sadu filtrů"
+   },
+   "options_add_your_filters": {
+      "message": "Přidat vlastní filtry"
+   },
+   "options_anti_circumvention_desc": {
+      "message": "This feature is fighting the anti-adblocker messages some websites show when they detect the use of one."
+   },
+   "options_anti_circumvention_title": {
+      "message": "Enable Anti-Circumvention"
+   },
+   "options_antibanner_info": {
+      "message": "Počet pravidel filtru: $1"
+   },
+   "options_apply_changes": {
+      "message": "Uložit změny"
+   },
+   "options_auto_activate_lang_filters_desc": {
+      "message": "After opening a few pages in a language, the filters for this language will be automatically added and activated."
+   },
+   "options_auto_activate_lang_filters_title": {
+      "message": "Automatically activate language-specific filters"
+   },
+   "options_check_for_updates": {
+      "message": "Zkontrolovat aktualizace pro filtry"
+   },
+   "options_clear_filter": {
+      "message": "Clear filter"
+   },
+   "options_confirm_filter_delete": {
+      "message": "Are you sure you want to delete this filter?"
+   },
+   "options_custom": {
+      "message": "Custom"
+   },
+   "options_custom_filter_already_add": {
+      "message": "Filter with same URL already exists!"
+   },
+   "options_custom_filter_empty_url": {
+      "message": "Please, enter filter URL!"
+   },
+   "options_custom_filter_error": {
+      "message": "Error downloading filter!"
+   },
+   "options_custom_filters": {
+      "message": "Custom Filters"
+   },
+   "options_custom_rules": {
+      "message": "Custom Rules"
+   },
+   "options_delete": {
+      "message": "Odstranit"
+   },
+   "options_do_you_like_abu": {
+      "message": "Do you like AdBlocker Ultimate?"
+   },
+   "options_editor_desc": {
+      "message": "In this list you can add your own Custom Rules. Create your own ad filters and add them here."
+   },
+   "options_enable_only": {
+      "message": "Povolte pouze ty seznamy filtrů, které potřebujete. Příliš mnoho jich může způsobovat zpomalení Vašeho prohlížeče."
+   },
+   "options_enabled": {
+      "message": "Aktivovat"
+   },
+   "options_enter_url_or_path": {
+      "message": "Enter valid URL or file path"
+   },
+   "options_err_import_file": {
+      "message": "Error importing file!"
+   },
+   "options_err_no_txt_file": {
+      "message": "Only .txt files allowed!"
+   },
+   "options_export": {
+      "message": "Exportovat"
+   },
+   "options_filter_list": {
+      "message": "Seznamy filtrů"
+   },
+   "options_filter_list_location": {
+      "message": "Umístění seznamu filtrů:"
+   },
+   "options_filter_status_all": {
+      "message": "All"
+   },
+   "options_filter_status_disable": {
+      "message": "Disabled"
+   },
+   "options_filter_version": {
+      "message": "Verze: $1. Aktualizováno: $2 v $3."
+   },
+   "options_filters": {
+      "message": "Filters"
+   },
+   "options_filters_enabled": {
+      "message": "Enabled:"
+   },
+   "options_filters_enabled_and_more": {
+      "message": "$1 and $2 more"
+   },
+   "options_filters_updated": {
+      "message": "updated"
+   },
+   "options_general": {
+      "message": "Obecné"
+   },
+   "options_help_translate": {
+      "message": "Help us with the translation!"
+   },
+   "options_import": {
+      "message": "Importovat"
+   },
+   "options_language_specific": {
+      "message": "Language-specific"
+   },
+   "options_last_uodate": {
+      "message": "Last update"
+   },
+   "options_modal_cancel": {
+      "message": "Zrušit"
+   },
+   "options_modal_homepage": {
+      "message": "Domovská stránka"
+   },
+   "options_new_filter": {
+      "message": "New filter"
+   },
+   "options_no_custom_filters": {
+      "message": "Sorry, but you don't have any custom filters yet"
+   },
+   "options_no_filters_enabled": {
+      "message": "No filters enabled"
+   },
+   "options_number_icon_desc": {
+      "message": "The number of blocked ads on each page will show in the extension icon."
+   },
+   "options_out_of_date_lists": {
+      "message": "Zastaralé seznamy jsou pravidelně aktualizovány."
+   },
+   "options_please_choose": {
+      "message": "Vyberte si prosím předplatné filtru ze seznamu:"
+   },
+   "options_popup_update_error": {
+      "message": "Chyba při načítání aktualizací. Zkuste to za okamžik znovu."
+   },
+   "options_popup_update_not_found": {
+      "message": "Nebyly nalezeny žádné aktualizace"
+   },
+   "options_popup_update_title": {
+      "message": "Filtry byly úspěšně aktualizovány"
+   },
+   "options_popup_update_updated": {
+      "message": "\"$1\" aktualizováno do verze $2"
+   },
+   "options_rate_us": {
+      "message": "Rate Us"
+   },
+   "options_remove_selected": {
+      "message": "Odstranit vybrané"
+   },
+   "options_search": {
+      "message": "Search"
+   },
+   "options_settings": {
+      "message": "AdBlocker Ultimate"
+   },
+   "options_show_block_element": {
+      "message": "Zobrazit \"Zablokovat element\" kliknutím pravým tlačítkem na položku z nabídky"
+   },
+   "options_show_useful_notifications": {
+      "message": "Zobrazit užitečné oznámení"
+   },
+   "options_status_saved": {
+      "message": "Saved"
+   },
+   "options_submit": {
+      "message": "Submit"
+   },
+   "options_subscription_title": {
+      "message": "Název předplatného:"
+   },
+   "options_title": {
+      "message": "AdBlocker Ultimate nastavení"
+   },
+   "options_update_now": {
+      "message": "Aktualizovat"
+   },
+   "options_userfilter": {
+      "message": "Uživatelský filter"
+   },
+   "options_userfilter_add_rule": {
+      "message": "Přidat nové pravidlo"
+   },
+   "options_userfilter_clear": {
+      "message": "Vymazat"
+   },
+   "options_userfilter_clear_confirm": {
+      "message": "Čištěním uživatelských filtrů budou smazány všechny pravidla. Opravdu chcete vyčistit všechny filtry?"
+   },
+   "options_userfilter_description": {
+      "message": ""
+   },
+   "options_userfilter_export": {
+      "message": "Exportovat"
+   },
+   "options_userfilter_import": {
+      "message": "Importovat"
+   },
+   "options_want_abu_in_lang": {
+      "message": "Want AdBlocker Ultimate in your language?"
+   },
+   "options_whitelist": {
+      "message": "Povolené domény"
+   },
+   "options_whitelist_desc": {
+      "message": "The ads on the websites added to this Whitelist will not be blocked."
+   },
+   "options_whitelisted_domains": {
+      "message": "Povolené domény"
+   },
+   "options_whitelistfilter_clear_confirm": {
+      "message": "Čištěním whitelistu budou smazána všechna pravidla. Opravdu chcete vyčistit whitelist?"
+   },
+   "popup_ads_has_been_removed": {
+      "message": "Reklamy byly odstraněny z této stránky"
+   },
+   "popup_ads_has_been_removed_by_abu": {
+      "message": "Chráněno $1"
+   },
+   "popup_block_site_ads": {
+      "message": "Blokuj reklamu na této stránce"
+   },
+   "popup_block_site_ads_android": {
+      "message": "Blokovat reklamy na tomto webu"
+   },
+   "popup_blocked_total": {
+      "message": "Total:"
+   },
+   "popup_curent_tab_blocked": {
+      "message": "Blocked:"
+   },
+   "popup_disabled_on_site": {
+      "message": "Disabled on this site"
+   },
+   "popup_enabled_on_site": {
+      "message": "Enabled on this site"
+   },
+   "popup_get_abu_windows": {
+      "message": "Get AdBlocker Ultimate for Windows"
+   },
+   "popup_on_this_site": {
+      "message": "on this site:"
+   },
+   "popup_open_log_android": {
+      "message": "Filtrační protokol"
+   },
+   "popup_open_settings": {
+      "message": "AdBlocker Ultimate nastavení"
+   },
+   "popup_protection_disabled": {
+      "message": "Protection: Disabled"
+   },
+   "popup_protection_enabled": {
+      "message": "Protection: Enabled"
+   },
+   "popup_secure_page": {
+      "message": "Secure page"
+   },
+   "popup_security_report": {
+      "message": "Zpráva o zabezpečení webových stránek"
+   },
+   "popup_security_report_android": {
+      "message": "Bezpečnostní zpráva"
+   },
+   "popup_settings": {
+      "message": "Settings"
+   },
+   "popup_share_on_fb": {
+      "message": "Share on Facebook"
+   },
+   "popup_share_on_twitter": {
+      "message": "Share on Twitter"
+   },
+   "popup_site_filtering_state": {
+      "message": "Ochrana na tomto webu"
+   },
+   "popup_site_protection_disabled": {
+      "message": "AdBlocker Ultimate ochrana je pozastavena"
+   },
+   "popup_site_protection_disabled_android": {
+      "message": "Ochrana je pozastavena"
+   },
+   "popup_status_inactive": {
+      "message": "Filtering is inactive to avoid possible website dysfunction."
+   },
+   "popup_tab_blocked": {
+      "message": "Blokováno: $1"
+   },
+   "popup_tab_blocked_all": {
+      "message": "Celkem: $1"
+   },
+   "popup_total": {
+      "message": "Total:"
+   },
+   "privacy_policy": {
+      "message": "Privacy Policy"
+   },
+   "report_bug": {
+      "message": "Report a bug"
+   },
+   "security": {
+      "message": "Security"
+   },
+   "shield_blocked_ads": {
+      "message": "zablokovaných reklam"
+   },
+   "shield_bronze_shield": {
+      "message": "bronzový štít"
+   },
+   "shield_congrats": {
+      "message": "Gratulujeme!"
+   },
+   "shield_congratulations": {
+      "message": "Blahopřejeme!"
+   },
+   "shield_contribute_to_our_project": {
+      "message": "Přispějte na náš projekt"
+   },
+   "shield_decreased_peak_cpu_usage": {
+      "message": "snížili jsme využití procesoru o $1"
+   },
+   "shield_decreased_peak_memory_usage": {
+      "message": "snížili jsme využití paměti o $1"
+   },
+   "shield_decreased_your_page_load_time": {
+      "message": "snížili jsme načítaní stránky o $1"
+   },
+   "shield_do_you_like_abu": {
+      "message": "Do you like\u003C/br> AdBlocker Ultimate?"
+   },
+   "shield_dont_show_again": {
+      "message": "Tuto zprávu již příště nezobrazovat"
+   },
+   "shield_email": {
+      "message": "Email"
+   },
+   "shield_gold_shield": {
+      "message": "zlatý štít"
+   },
+   "shield_got_no_ads": {
+      "message": "žádné reklamy díky"
+   },
+   "shield_message": {
+      "message": "Message"
+   },
+   "shield_no_thanks": {
+      "message": "No thanks"
+   },
+   "shield_rate_txt": {
+      "message": "Enjoy blocking ads? Help others find out about us."
+   },
+   "shield_rate_us": {
+      "message": "Ohodnoťte nás"
+   },
+   "shield_send_feedback": {
+      "message": "Send Feedback"
+   },
+   "shield_sending": {
+      "message": "Sending..."
+   },
+   "shield_share_abu": {
+      "message": "Sdílejte AdBlocker Ultimate:"
+   },
+   "shield_silver_shield": {
+      "message": "stříbrný štít"
+   },
+   "shield_tell_how_to_improve": {
+      "message": "Please tell us how we can improve"
+   },
+   "shield_thank_you": {
+      "message": "Thank you!"
+   },
+   "shield_to_unlock": {
+      "message": "pro odemknutí"
+   },
+   "shield_we_blocked_more_than": {
+      "message": "zablokovali jsme pro vás více než $1 reklam a:"
+   },
+   "shield_you_won": {
+      "message": "vyhrál jsi"
+   },
+   "short_name": {
+      "message": "AdBlocker Ultimate"
+   },
+   "store_ss_ads": {
+      "message": "reklamy"
+   },
+   "store_ss_no_more_ads": {
+      "message": "Žádné reklamy s naším AdBlockem zadarmo"
+   },
+   "store_ss_no_more_banner_ads": {
+      "message": "Žádné další reklamní bannery"
+   },
+   "store_ss_no_more_facebook_ads": {
+      "message": "Žádné další reklamy od Facebooku"
+   },
+   "store_ss_no_more_video_ads": {
+      "message": "Žádné další video reklamy"
+   },
+   "store_ss_surf_and_all_annoying_ads": {
+      "message": "a všechny otravné reklamy jsou pryč!"
+   },
+   "store_ss_surf_faster": {
+      "message": "Prohlížejte rychleji, bezpečněji a čistěji bez žádných otravných reklam!"
+   },
+   "store_ss_surf_faster_with_no_ads": {
+      "message": "Prohlížejte rychleji a bezpečněji BEZ REKLAM"
+   },
+   "version": {
+      "message": "Version"
+   },
+   "yes": {
+      "message": "Yes"
+   }
+}

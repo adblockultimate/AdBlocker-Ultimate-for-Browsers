@@ -1,0 +1,36 @@
+AdBlock Ultimate je navrhnutý s jediným zámerom odstrániť všetky reklamy a zamerať svoju pozornosť na obsah, ktorý chcete.
+
+Funkcie
+-Odstrániť všetky reklamy
+-Blokovať malware a sledovanie
+-Zlepšiť výkon prehliadača
+-Žiadne "akceptovateľné" reklamy alebo whitelisted webových stránok/reklamné siete
+
+AdBlocker Ultimate je rozšírenie zadarmo, ktoré blokuje reklamy a škodlivé domény známe pre šírenie malvéru, a taktiež zabraňuje sledovaniu.  Vytvorili sme niekoľko rozsiahlych filtrov, ktoré ponúkajú slušnú ochranu proti otravným, honosným reklamám, napr. YouTube reklamy a ďalšie. Na rozdiel od iných podobných programov webové stránky, inzerenti, ani žiadne reklamné siete nemôžu zaplatiť za zobrazovanie ich reklamy. Blokovanie reklám vám zrýchli načítanie webových stránok, a tiež znižuje využitie CPU a pamäte.
+
+Pokiaľ však viete že na nejakej stránke nie sú rušivé reklamy môžete filtrovanie jednoducho vypnúť.
+
+*** Typy reklám ktoré blokujeme ***
+-Textové reklamy
+- Reklamný panel
+-Pop-up reklamy
+-Pop-under reklamy
+-Overlay reklamy
+-Intersticiálne reklamy
+-Video reklamy
+-Reklamy Webmail
+-Facebook reklamy
+
+*** Výhody blokovania reklám ***
+-Zvýši sa rýchlosť prehliadača
+- Vylepšená rýchlosť načítavania stránok
+-Znižuje sa využitie pamäte
+-Zníženie šírky pásma
+
+*** Open Source ***
+AdBlock Ultimate je open source projekt:
+https://github.com/adblockultimate/
+
+*** Našli ste chybu? ***
+Nahláste nám ju: 
+https://adblockultimate.net/report.html

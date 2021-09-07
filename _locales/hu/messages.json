@@ -1,0 +1,815 @@
+{
+   "abu_desktop_info": {
+      "message": "Reklám blokkolást az \u003Cstrong> AdBlocker Ultimate for Windows \u003C/strong> kezeli. Bár ezt a menüt arra is tudja használni, hogy kezelje az elfogadott weboldal listáját vagy manuálisan blokkoljon bizonyos reklámokat."
+   },
+   "abu_product_mac": {
+      "message": "AdBlocker Ultimate Mac-hez"
+   },
+   "abu_product_windows": {
+      "message": "AdBlocker Ultimate Windows-hoz"
+   },
+   "abu_subscribe_confirm_enable": {
+      "message": "AdBlocker Ultimate: Engedélyezi a/az $1 listát?"
+   },
+   "abu_subscribe_confirm_import": {
+      "message": "AdBlocker Ultimate: kívánja hozzáadni a/az $1 szabályokat a felhasználói szűrőjéhez?"
+   },
+   "abu_subscribe_confirm_import_finished_text": {
+      "message": "Az AdBlocker Ultimate befejezte a szabályok hozzáadását a felhasználói szűrőhöz. Hozzáadott szabályok száma: $1"
+   },
+   "abu_subscribe_confirm_import_finished_title": {
+      "message": "Importálás sikeresen befejeződött"
+   },
+   "alert_popup_filter_enabled_text": {
+      "message": "&quot;$1&quot; aktiválva"
+   },
+   "alert_popup_filter_enabled_title": {
+      "message": "Szűrők automatizáltra aktiválva"
+   },
+   "all_ads_out": {
+      "message": "Összes bosszantó hirdetés eltűnik!"
+   },
+   "all_rights_reserved": {
+      "message": "Minden jog fenntartva"
+   },
+   "assistant_another_element": {
+      "message": "Másik elem kiválasztása"
+   },
+   "assistant_apply_rule_to_all_sites": {
+      "message": "Alkalmazza ezt az összes weboldalon"
+   },
+   "assistant_block": {
+      "message": "Blokk"
+   },
+   "assistant_block_by_reference": {
+      "message": "Elem blokkolása cím alapján"
+   },
+   "assistant_block_element": {
+      "message": "Elem blokkolása"
+   },
+   "assistant_block_element_by_url": {
+      "message": "Elem blokkolása cím alapján"
+   },
+   "assistant_block_element_explain": {
+      "message": "Szabály beállítása elemek blokkolására"
+   },
+   "assistant_block_similar": {
+      "message": "Hasonló elemek blokkolása"
+   },
+   "assistant_extended_settings": {
+      "message": "Haladó beállítások..."
+   },
+   "assistant_preview": {
+      "message": "Előnézet"
+   },
+   "assistant_preview_end": {
+      "message": "Előnézet befejezése"
+   },
+   "assistant_preview_start": {
+      "message": "Előnézet"
+   },
+   "assistant_rule_parameters": {
+      "message": "Szabály paraméterei"
+   },
+   "assistant_select_element": {
+      "message": "Blokkolni kívánt elem kiválasztása"
+   },
+   "assistant_select_element_cancel": {
+      "message": "kiválasztás elvetése"
+   },
+   "assistant_select_element_ext": {
+      "message": "Kattintson bármely elemre az oldalon vagy "
+   },
+   "badge_download_now": {
+      "message": "Letöltés most"
+   },
+   "badge_learn_more": {
+      "message": "További információ"
+   },
+   "badge_windows_ifno": {
+      "message": "Egyetlen reklám blokkoló minden Windows alkalmazásban blokkolja az összes reklámot és online követőt."
+   },
+   "block_even_more_ads": {
+      "message": "Sokkal több reklámot blokkol"
+   },
+   "browser_action_ads_blocked": {
+      "message": "Reklámok blokkolva"
+   },
+   "browser_action_popup_block_element": {
+      "message": "Elem blokkolása"
+   },
+   "browser_action_popup_disabled_on_site": {
+      "message": "\u003Cstrong>Letiltva\u003C/strong> ezen az oldalon"
+   },
+   "browser_action_popup_donate": {
+      "message": "Támogasson"
+   },
+   "browser_action_popup_enabled_on_site": {
+      "message": "\u003Cstrong>Engedélyezett\u003C/strong> ezen az oldalon"
+   },
+   "browser_action_popup_in_total": {
+      "message": "\u003Cstrong>$1\u003C/strong> összesen"
+   },
+   "browser_action_popup_on_this_page": {
+      "message": "\u003Cstrong>$1\u003C/strong> ezen az oldalon"
+   },
+   "browser_action_popup_options": {
+      "message": "Opciók"
+   },
+   "browser_action_popup_show_number_in_icon": {
+      "message": "Szám megjelenítése"
+   },
+   "close": {
+      "message": "Bezár"
+   },
+   "contact_us": {
+      "message": "Kapcsolat"
+   },
+   "context_abuse_site": {
+      "message": "Probléma a blokkolással ezen az oldalon..."
+   },
+   "context_ads_has_been_removed": {
+      "message": "Reklámok eltávolítva erről az oldalról"
+   },
+   "context_ads_has_been_removed_by_abu": {
+      "message": "$1 által védett"
+   },
+   "context_block_site_ads": {
+      "message": "Reklám blokkolása ezen az oldalon..."
+   },
+   "context_block_site_element": {
+      "message": "Elem blokkolása..."
+   },
+   "context_open_settings": {
+      "message": "AdBlocker Ultimate beállítások..."
+   },
+   "context_site_exception": {
+      "message": "Ez a weboldal szerepel a kivételek között"
+   },
+   "context_site_filtering_disabled": {
+      "message": "Az AdBlocker Ultimate nem futtatható ezen a weboldalon"
+   },
+   "context_site_filtering_off": {
+      "message": "Szűrés tiltása ezen a weboldalon"
+   },
+   "context_site_filtering_on": {
+      "message": "Szűrés engedélyezése ezen a weboldalon"
+   },
+   "context_site_protection_disabled": {
+      "message": "AdBlocker Ultimate védelme szüneteltetve"
+   },
+   "context_update_antibanner_filters": {
+      "message": "Frissítések keresése"
+   },
+   "description": {
+      "message": "Ingyenes és fejlett ad blocker. Teljesen eltűntet MINDEN reklámot. Nincs \"elfogadható\" hirdetés vagy engedélyezett hirdetők, blokkolja a követést és a rosszindulatú programokat!"
+   },
+   "description_blocked": {
+      "message": "Az oldalon blokkolt reklámok száma: $1"
+   },
+   "desktop_app_is_running": {
+      "message": "Fut az asztali alkalmazás"
+   },
+   "filter_description_adblock_persian_list": {
+      "message": "Perzsa weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_adblock_polska": {
+      "message": "Lengyel weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_anti_circumvention": {
+      "message": "A szűrő listát úgy terveztük, hogy harcoljunk a kijátszó reklámok ellen is."
+   },
+   "filter_description_bulgarian_list": {
+      "message": "Bolgár weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_easylist_china": {
+      "message": "Kínai weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_easylist_czech_and_slovak": {
+      "message": "Cseh és szlovák weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_easylist_dutch_easylist": {
+      "message": "Holland weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_easylist_germany_easylist": {
+      "message": "Német weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_easylist_italy": {
+      "message": "Olasz weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_estonian_list": {
+      "message": "Észt weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_fanboys_annoyance_list": {
+      "message": "Blokkol minden irritáló weboldalon belül felugró ablakot, süti értesítéseket, és 3. személynek szánt üzeneteket, amelyek jelentősen csökkentik az oldal töltési időket. Használja ezt a szűrőt, és blokkolni fogja az egész listát Önnek."
+   },
+   "filter_description_fanboys_japanese": {
+      "message": "Japán weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_fanboys_korean": {
+      "message": "Koreai weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_fanboys_social_blocking_list": {
+      "message": "Közösségi média gombok eltávolítása"
+   },
+   "filter_description_fanboys_spanish_portuguese": {
+      "message": "Spanyol/Portugál weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_fanboys_swedish": {
+      "message": "Svéd weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_fanboys_turkish": {
+      "message": "Török weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_fanboys_vietnamese": {
+      "message": "Vietnám weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_hufilter": {
+      "message": "Magyar weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_latvian_list": {
+      "message": "Litván weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_liste_fr": {
+      "message": "Francia weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_nocoin": {
+      "message": "Blokkolj a kryptobányászatot a böngészőjében."
+   },
+   "filter_description_ruadlist_easylist": {
+      "message": "Orosz weboldalakról eltávolítja a reklámokat."
+   },
+   "filter_description_spam404": {
+      "message": "Ez a szűrő az online csalók ellen védi Önt. Ez a szűrő rendszeresen frissül a Spam404.com oldal által gyűjtött adatokkal."
+   },
+   "filter_description_ultimate_ad_filter": {
+      "message": "AdBlocker Ulimate a legjobban teljesítő reklám blokkoló program, ami a teljes Interneten blokkolja a reklámokat. Az EasyList szűrőn alapszik, amit a csapatunk mindig tökéletesít."
+   },
+   "filter_description_ultimate_privacy_filter": {
+      "message": "Blokkol különféle online követők kiterjedt listáját, számlálókat és web elemző eszközöket. A rendszer alapja az EasyList adatvédelmi szabályzat listája, amit a csapatunk állandóan frissít."
+   },
+   "filter_description_ultimate_security_filter": {
+      "message": "Ez a szűrő blokkolja a hirdetési programok által generált reklámokat. A rendszer alapja az EasyList hirdetési program szűrői, amit folyamatosan fejleszt és módosít a csapatunk."
+   },
+   "filter_download_loading": {
+      "message": "Kérjük várjon, míg a szűrő adatbázisa betöltődik..."
+   },
+   "filter_download_title": {
+      "message": "Szűrő adatbázisának betöltése folyamatban..."
+   },
+   "filter_group_ad_blocking": {
+      "message": "Hirdetések szűrése"
+   },
+   "filter_group_custom_filters": {
+      "message": "Egyéni szűrők"
+   },
+   "filter_group_language_specific": {
+      "message": "Nyelv specifikus"
+   },
+   "filter_group_privacy": {
+      "message": "Védelem"
+   },
+   "filter_group_security": {
+      "message": "Biztonság"
+   },
+   "filter_name_adblock_persian_list": {
+      "message": "AdBlock - Perzsa lista"
+   },
+   "filter_name_adblock_polska": {
+      "message": "Lengyel AdBlock"
+   },
+   "filter_name_anti_circumvention": {
+      "message": "Kijátszás ellenesség"
+   },
+   "filter_name_bulgarian_list": {
+      "message": "Bolgár lista"
+   },
+   "filter_name_easylist_china": {
+      "message": "Kínai EasyList"
+   },
+   "filter_name_easylist_czech_and_slovak": {
+      "message": "Cseh és szlovák EasyList"
+   },
+   "filter_name_easylist_dutch_easylist": {
+      "message": "Holland EasyList + EasyList"
+   },
+   "filter_name_easylist_germany_easylist": {
+      "message": "Német EasyList + EasyList"
+   },
+   "filter_name_easylist_italy": {
+      "message": "Olasz EasyList"
+   },
+   "filter_name_estonian_list": {
+      "message": "Észt lista"
+   },
+   "filter_name_fanboys_annoyance_list": {
+      "message": "Fanboy bosszúság lista"
+   },
+   "filter_name_fanboys_japanese": {
+      "message": "Japán Fanboy"
+   },
+   "filter_name_fanboys_korean": {
+      "message": "Koreai Fanboy"
+   },
+   "filter_name_fanboys_social_blocking_list": {
+      "message": "Fanboy közösségi oldalak blokkolt listája"
+   },
+   "filter_name_fanboys_spanish_portuguese": {
+      "message": "Spanyol/Portugál Fanboy"
+   },
+   "filter_name_fanboys_swedish": {
+      "message": "Svéd Fanboy"
+   },
+   "filter_name_fanboys_turkish": {
+      "message": "Török Fanboy"
+   },
+   "filter_name_fanboys_vietnamese": {
+      "message": "Vietnám Fanboy"
+   },
+   "filter_name_hufilter": {
+      "message": "Hufilter - A magyar Adblock lista"
+   },
+   "filter_name_latvian_list": {
+      "message": "Litván lista"
+   },
+   "filter_name_liste_fr": {
+      "message": "Liste FR"
+   },
+   "filter_name_nocoin": {
+      "message": "NoCoin"
+   },
+   "filter_name_ruadlist_easylist": {
+      "message": "RuAdList+EasyList"
+   },
+   "filter_name_spam404": {
+      "message": "Spam404"
+   },
+   "filter_name_ultimate_ad_filter": {
+      "message": "Ultimate reklám szűrő"
+   },
+   "filter_name_ultimate_privacy_filter": {
+      "message": "Ultimate védelmi szűrő"
+   },
+   "filter_name_ultimate_security_filter": {
+      "message": "Ultimate védelmi szűrő"
+   },
+   "filter_rules_count": {
+      "message": "Szűrési szabályok száma"
+   },
+   "follow_us": {
+      "message": "Kövessen minket"
+   },
+   "name": {
+      "message": "AdBlocker Ultimate"
+   },
+   "no": {
+      "message": "Nem"
+   },
+   "official_website": {
+      "message": "Hivatalos Weboldal"
+   },
+   "options_about": {
+      "message": "Rólunk"
+   },
+   "options_abu_is_disabled": {
+      "message": "Az AdBlocker Ultimate az alábbi weboldalakra le van tiltva. Weboldal címet (nem az URL-t) hozzáadhat az AdBlocker Ultimate ikonra kattintva a címsorban a \"Weboldal hozzáadása\" opcióval."
+   },
+   "options_add": {
+      "message": "Hozzáadás"
+   },
+   "options_add_custom_filter": {
+      "message": "Egyéni szűrő hozzáadás"
+   },
+   "options_add_domain": {
+      "message": "Weboldal hozzáadása"
+   },
+   "options_add_filter": {
+      "message": "Szűrő hozzáadása"
+   },
+   "options_add_filter_subscription": {
+      "message": "Szűrési lista hozzáadása"
+   },
+   "options_add_your_filters": {
+      "message": "Saját szűrő hozzáadása"
+   },
+   "options_anti_circumvention_desc": {
+      "message": "Ez a funkció az ellen harcol, hogy néhány weboldalon a reklámblokkoló ellenes üzenetek megjelenjenek, amelyek felfedezésre kerülnek."
+   },
+   "options_anti_circumvention_title": {
+      "message": "Reklám-mentesség kijátszás engedélyezése"
+   },
+   "options_antibanner_info": {
+      "message": "Szűrési szabályok száma: $1"
+   },
+   "options_apply_changes": {
+      "message": "Módosítások elfogadása"
+   },
+   "options_auto_activate_lang_filters_desc": {
+      "message": "Egy nyelven néhány weboldal megnyitása után erre a nyelvre a szűrők automatikusan hozzáadásra, és aktiválásra kerülnek."
+   },
+   "options_auto_activate_lang_filters_title": {
+      "message": "Automatikusan aktiválni a nyelv-specifikus szűrőket"
+   },
+   "options_check_for_updates": {
+      "message": "Frissítések keresése"
+   },
+   "options_clear_filter": {
+      "message": "Szűrő törlése"
+   },
+   "options_confirm_filter_delete": {
+      "message": "Biztosan törölni akarja ezt a szűrőt?"
+   },
+   "options_custom": {
+      "message": "Egyedi"
+   },
+   "options_custom_filter_already_add": {
+      "message": "Ilyen URL szűrő már létezik!"
+   },
+   "options_custom_filter_empty_url": {
+      "message": "Kérjük adja meg az URL szűrőt!"
+   },
+   "options_custom_filter_error": {
+      "message": "Hiba szűrő letöltéskor!"
+   },
+   "options_custom_filters": {
+      "message": "Egyéni szűrők"
+   },
+   "options_custom_rules": {
+      "message": "Egyéni szabályok"
+   },
+   "options_delete": {
+      "message": "Törlés"
+   },
+   "options_do_you_like_abu": {
+      "message": "Szereti az AdBlocker Ultimate-t?"
+   },
+   "options_editor_desc": {
+      "message": "Ebben a listában a saját egyedi szabályait tudja bővíteni. Készítse el a saját reklám szűrőit, és itt tud hozzáadni."
+   },
+   "options_enable_only": {
+      "message": "Csak azokat a szűrőlistákat engedélyezze amelyekre feltétlenül szüksége van. Túl sok lista esetén számottevően lelassulhat a böngészés."
+   },
+   "options_enabled": {
+      "message": "Engedélyezve"
+   },
+   "options_enter_url_or_path": {
+      "message": "Érvényes URL vagy file útvonal megadása"
+   },
+   "options_err_import_file": {
+      "message": "Hiba file importáláskor!"
+   },
+   "options_err_no_txt_file": {
+      "message": "Csak .txt file-ok engedélyezettek!"
+   },
+   "options_export": {
+      "message": "Exportálás"
+   },
+   "options_filter_list": {
+      "message": "Szűrőlisták"
+   },
+   "options_filter_list_location": {
+      "message": "Szűrőlista elérési címe:"
+   },
+   "options_filter_status_all": {
+      "message": "Összes"
+   },
+   "options_filter_status_disable": {
+      "message": "Letiltva"
+   },
+   "options_filter_version": {
+      "message": "Verziószám: $1. Frissítve $2 ekkor: $3."
+   },
+   "options_filters": {
+      "message": "Szűrők"
+   },
+   "options_filters_enabled": {
+      "message": "Engedélyezve:"
+   },
+   "options_filters_enabled_and_more": {
+      "message": "$1 and $2 több"
+   },
+   "options_filters_updated": {
+      "message": "frissítve"
+   },
+   "options_general": {
+      "message": "Általános"
+   },
+   "options_help_translate": {
+      "message": "Segítsen a fordításban!"
+   },
+   "options_import": {
+      "message": "Importálás"
+   },
+   "options_language_specific": {
+      "message": "Nyelv specifikus"
+   },
+   "options_last_uodate": {
+      "message": "Utolsó frissítés"
+   },
+   "options_modal_cancel": {
+      "message": "Elvetés"
+   },
+   "options_modal_homepage": {
+      "message": "Kezdőoldal"
+   },
+   "options_new_filter": {
+      "message": "Új szűrő"
+   },
+   "options_no_custom_filters": {
+      "message": "Sajnáljuk, de még nincsenek egyedi szűrői"
+   },
+   "options_no_filters_enabled": {
+      "message": "Szűrők nem engedélyezve"
+   },
+   "options_number_icon_desc": {
+      "message": "Minden weboldalon blokkolt reklámok száma megjelenik a beállítások fő menü ikonjában."
+   },
+   "options_out_of_date_lists": {
+      "message": "Az elavult listák rendszeresen frissülnek."
+   },
+   "options_please_choose": {
+      "message": "Kérem válasszon egy listát az alábbiak közül:"
+   },
+   "options_popup_update_error": {
+      "message": "Frissítés nem lehetséges. Kérjük próbálja meg később."
+   },
+   "options_popup_update_not_found": {
+      "message": "Frissítés nem elérhető"
+   },
+   "options_popup_update_title": {
+      "message": "Sikeres frissítés"
+   },
+   "options_popup_update_updated": {
+      "message": "\"$1\" frissítve a $2 verzióra"
+   },
+   "options_rate_us": {
+      "message": "Értékeljen minket"
+   },
+   "options_remove_selected": {
+      "message": "Kiválasztottak eltávolítása"
+   },
+   "options_search": {
+      "message": "Keresés"
+   },
+   "options_settings": {
+      "message": "AdBlocker Ultimate"
+   },
+   "options_show_block_element": {
+      "message": "'Elem blokkolása' gomb megjelenítése a jobb klikkel elérhető menüben"
+   },
+   "options_show_useful_notifications": {
+      "message": "Hasznos tippek mutatása"
+   },
+   "options_status_saved": {
+      "message": "Mentve"
+   },
+   "options_submit": {
+      "message": "Küldés"
+   },
+   "options_subscription_title": {
+      "message": "Lista neve:"
+   },
+   "options_title": {
+      "message": "AdBlocker Ultimate Opciók"
+   },
+   "options_update_now": {
+      "message": "Frissítés"
+   },
+   "options_userfilter": {
+      "message": "Felhasználói szűrő"
+   },
+   "options_userfilter_add_rule": {
+      "message": "Új szabály hozzáadása"
+   },
+   "options_userfilter_clear": {
+      "message": "Törlés"
+   },
+   "options_userfilter_clear_confirm": {
+      "message": "A felhasználói szűrő törlésével minden szabályt töröl. Tényleg törli felhasználói szűrőt?"
+   },
+   "options_userfilter_description": {
+      "message": ""
+   },
+   "options_userfilter_export": {
+      "message": "Exportálás"
+   },
+   "options_userfilter_import": {
+      "message": "Importálás"
+   },
+   "options_want_abu_in_lang": {
+      "message": "Saját nyelvén akarja látni az AdBlocker Ultimate-t?"
+   },
+   "options_whitelist": {
+      "message": "Engedélyezett oldalak listája"
+   },
+   "options_whitelist_desc": {
+      "message": "Az engedélyezett weboldalakon lévő reklámok nincsenek blokkolva."
+   },
+   "options_whitelisted_domains": {
+      "message": "Engedélyezett weboldalak"
+   },
+   "options_whitelistfilter_clear_confirm": {
+      "message": "Az engedélyezett weboldalak listájának törlésével minden szabályt töröl. Biztos benne hogy törli a listát?"
+   },
+   "popup_ads_has_been_removed": {
+      "message": "Reklámok eltávolítva erről az oldalról"
+   },
+   "popup_ads_has_been_removed_by_abu": {
+      "message": "$1 által védett"
+   },
+   "popup_block_site_ads": {
+      "message": "Reklám blokkolása ezen az oldalon"
+   },
+   "popup_block_site_ads_android": {
+      "message": "Reklámok blokkolása egy weboldalon"
+   },
+   "popup_blocked_total": {
+      "message": "Összesen:"
+   },
+   "popup_curent_tab_blocked": {
+      "message": "Blokkolt:"
+   },
+   "popup_disabled_on_site": {
+      "message": "Kikapcsolva ezen az oldalon"
+   },
+   "popup_enabled_on_site": {
+      "message": "Engedélyezve ezen az oldalon"
+   },
+   "popup_get_abu_windows": {
+      "message": "AdBlocker Ultimate for Windows-hoz vásárlás"
+   },
+   "popup_on_this_site": {
+      "message": "ezen az oldalon:"
+   },
+   "popup_open_log_android": {
+      "message": "Szűrési napló"
+   },
+   "popup_open_settings": {
+      "message": "AdBlocker Ultimate beállítása"
+   },
+   "popup_protection_disabled": {
+      "message": "Védelem: felfüggesztve"
+   },
+   "popup_protection_enabled": {
+      "message": "Védelem: engedélyezve"
+   },
+   "popup_secure_page": {
+      "message": "Biztonságos oldal"
+   },
+   "popup_security_report": {
+      "message": "Weboldal biztonsági jelentés"
+   },
+   "popup_security_report_android": {
+      "message": "Biztonsági jelentés"
+   },
+   "popup_settings": {
+      "message": "Beállítások"
+   },
+   "popup_share_on_fb": {
+      "message": "Megosztás Facebookon"
+   },
+   "popup_share_on_twitter": {
+      "message": "Megosztás Twitteren"
+   },
+   "popup_site_filtering_state": {
+      "message": "Védelem ezen az oldalon"
+   },
+   "popup_site_protection_disabled": {
+      "message": "AdBlocker Ultimate védelme szüneteltetve"
+   },
+   "popup_site_protection_disabled_android": {
+      "message": "Védelem felfüggesztve"
+   },
+   "popup_status_inactive": {
+      "message": "Szűrés inaktív, hogy elkerülésre kerüljenek a weboldal lehetséges működési hibái."
+   },
+   "popup_tab_blocked": {
+      "message": "Blokkolva: $1"
+   },
+   "popup_tab_blocked_all": {
+      "message": "Összesen: $1"
+   },
+   "popup_total": {
+      "message": "Összesen:"
+   },
+   "privacy_policy": {
+      "message": "Adatvédelmi szabályzat"
+   },
+   "report_bug": {
+      "message": "Hiba jelentése"
+   },
+   "security": {
+      "message": "Biztonság"
+   },
+   "shield_blocked_ads": {
+      "message": "blokkolt hirdetések"
+   },
+   "shield_bronze_shield": {
+      "message": "a bronz pajzs"
+   },
+   "shield_congrats": {
+      "message": "Gratulálunk!"
+   },
+   "shield_congratulations": {
+      "message": "Gratulálunk!"
+   },
+   "shield_contribute_to_our_project": {
+      "message": "Támogassa munkánkat"
+   },
+   "shield_decreased_peak_cpu_usage": {
+      "message": "a processzor használat csökkent $1"
+   },
+   "shield_decreased_peak_memory_usage": {
+      "message": "a memória használat csökkent $1"
+   },
+   "shield_decreased_your_page_load_time": {
+      "message": "az oldal betöltésének ideje csökkent $1"
+   },
+   "shield_do_you_like_abu": {
+      "message": "Szereti az \u003C/br> AdBlocker Ultimate-t?"
+   },
+   "shield_dont_show_again": {
+      "message": "Ezt az üzenetet ne mutassa többször"
+   },
+   "shield_email": {
+      "message": "E-mail"
+   },
+   "shield_gold_shield": {
+      "message": "az arany pajzs"
+   },
+   "shield_got_no_ads": {
+      "message": "nem kapott hirdetéseket köszönhetően a/az"
+   },
+   "shield_message": {
+      "message": "Üzenet"
+   },
+   "shield_no_thanks": {
+      "message": "Köszönöm, nem"
+   },
+   "shield_rate_txt": {
+      "message": "Élvezi a reklám blokkolást? Segítsen másoknak, hogy ránk találjanak."
+   },
+   "shield_rate_us": {
+      "message": "Értékelj minket"
+   },
+   "shield_send_feedback": {
+      "message": "Visszajelzés küldése"
+   },
+   "shield_sending": {
+      "message": "Küldés..."
+   },
+   "shield_share_abu": {
+      "message": "Ossza meg az AdBlocker Ultimate:"
+   },
+   "shield_silver_shield": {
+      "message": "az ezüst pajsz"
+   },
+   "shield_tell_how_to_improve": {
+      "message": "Kérjük mondja el, hogy tudnánk javítani a programon"
+   },
+   "shield_thank_you": {
+      "message": "Köszönjük!"
+   },
+   "shield_to_unlock": {
+      "message": "hogy elérhetővé váljon"
+   },
+   "shield_we_blocked_more_than": {
+      "message": "több mint $1 reklámot blokkoltunk és:"
+   },
+   "shield_you_won": {
+      "message": "ön nyert"
+   },
+   "short_name": {
+      "message": "AdBlocker Ultimate"
+   },
+   "store_ss_ads": {
+      "message": "reklám"
+   },
+   "store_ss_no_more_ads": {
+      "message": "Nincs több reklám a mi ingyenes kiegészítőnkkel"
+   },
+   "store_ss_no_more_banner_ads": {
+      "message": "Nincs több banner"
+   },
+   "store_ss_no_more_facebook_ads": {
+      "message": "Nincs több Facebookos reklám"
+   },
+   "store_ss_no_more_video_ads": {
+      "message": "Nincs több videó hirdetés"
+   },
+   "store_ss_surf_and_all_annoying_ads": {
+      "message": "és az összes bosszantó hirdetés eltűnt!"
+   },
+   "store_ss_surf_faster": {
+      "message": "Szörfözz gyorsabban, tisztább oldalakon, bosszantó reklámok nélkül!"
+   },
+   "store_ss_surf_faster_with_no_ads": {
+      "message": "Szörfözz gyorsabban, biztonságosabban REKLÁMOK NÉLKÜL"
+   },
+   "version": {
+      "message": "Verzió"
+   },
+   "yes": {
+      "message": "Igen"
+   }
+}

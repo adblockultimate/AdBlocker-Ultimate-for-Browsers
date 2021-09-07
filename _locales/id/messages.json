@@ -1,0 +1,815 @@
+{
+   "abu_desktop_info": {
+      "message": "AdBlocking ditangani oleh \u003Cstrong>AdBlocker Ultimate for Windows\u003C/strong>. Namun, Anda masih bisa menggunakan menu ini untuk mengatur daftar putih Anda atau memblokir iklan tertentu secara manual."
+   },
+   "abu_product_mac": {
+      "message": "AdBlocker Ultimate untuk Mac"
+   },
+   "abu_product_windows": {
+      "message": "AdBlocker Ultimate untuk Windows"
+   },
+   "abu_subscribe_confirm_enable": {
+      "message": "AdBlocker Ultimate: Apakah Anda ingin Aktifkan berlangganan $1?"
+   },
+   "abu_subscribe_confirm_import": {
+      "message": "AdBlocker Ultimate: Apakah Anda ingin impor aturan dari $1 ke filter pengguna Anda?"
+   },
+   "abu_subscribe_confirm_import_finished_text": {
+      "message": "AdBlocker Ultimate telah selesai mengimpor aturan untuk pengguna filter. Impor peraturan nomor: $1"
+   },
+   "abu_subscribe_confirm_import_finished_title": {
+      "message": "Mengimpor telah selesai"
+   },
+   "alert_popup_filter_enabled_text": {
+      "message": "«$1» telah diaktifkan secara otomatis"
+   },
+   "alert_popup_filter_enabled_title": {
+      "message": "Auto-aktivasi filter"
+   },
+   "all_ads_out": {
+      "message": "Dan semua iklan yang mengganggu menghilang!"
+   },
+   "all_rights_reserved": {
+      "message": "Semua Hak Dilindungi Undang-Undang"
+   },
+   "assistant_another_element": {
+      "message": "Pilih unsur lain"
+   },
+   "assistant_apply_rule_to_all_sites": {
+      "message": "Terapkan aturan ini ke setiap situs"
+   },
+   "assistant_block": {
+      "message": "Blokir"
+   },
+   "assistant_block_by_reference": {
+      "message": "Blokir unsur menurut url"
+   },
+   "assistant_block_element": {
+      "message": "Blok elemen"
+   },
+   "assistant_block_element_by_url": {
+      "message": "Blokir unsur menurut url"
+   },
+   "assistant_block_element_explain": {
+      "message": "Mengatur pemblokiran unsur"
+   },
+   "assistant_block_similar": {
+      "message": "Blokir unsur-unsur yang serupa"
+   },
+   "assistant_extended_settings": {
+      "message": "Setelan lanjutan"
+   },
+   "assistant_preview": {
+      "message": "Tinjauan"
+   },
+   "assistant_preview_end": {
+      "message": "Menyelesaikan Tinjauan"
+   },
+   "assistant_preview_start": {
+      "message": "Tinjauan"
+   },
+   "assistant_rule_parameters": {
+      "message": "Parameter aturan"
+   },
+   "assistant_select_element": {
+      "message": "Mode pilihan"
+   },
+   "assistant_select_element_cancel": {
+      "message": "Batalkan mode pemilihan"
+   },
+   "assistant_select_element_ext": {
+      "message": "Klik pada setiap unsur pada halaman "
+   },
+   "badge_download_now": {
+      "message": "Unduh Sekarang"
+   },
+   "badge_learn_more": {
+      "message": "Pelajari lebih lanjut"
+   },
+   "badge_windows_ifno": {
+      "message": "Satu pemblokir iklan memblokir iklan dan pelacak daring di semua aplikasi Windows."
+   },
+   "block_even_more_ads": {
+      "message": "Blokir lebih banyak iklan"
+   },
+   "browser_action_ads_blocked": {
+      "message": "Iklan yang diblokir"
+   },
+   "browser_action_popup_block_element": {
+      "message": "Blok elemen"
+   },
+   "browser_action_popup_disabled_on_site": {
+      "message": "\u003Cstrong>Dinonaktifkan\u003C/strong> pada situs ini"
+   },
+   "browser_action_popup_donate": {
+      "message": "Donasi"
+   },
+   "browser_action_popup_enabled_on_site": {
+      "message": "\u003Cstrong>Diaktifkan\u003C/strong> pada situs ini"
+   },
+   "browser_action_popup_in_total": {
+      "message": "\u003Cstrong>$1\u003C/strong> Total"
+   },
+   "browser_action_popup_on_this_page": {
+      "message": "\u003Cstrong>$1\u003C/strong> pada Halaman ini"
+   },
+   "browser_action_popup_options": {
+      "message": "Opsi"
+   },
+   "browser_action_popup_show_number_in_icon": {
+      "message": "Tampilkan nomor di ikon"
+   },
+   "close": {
+      "message": "Tutup"
+   },
+   "contact_us": {
+      "message": "Hubungi kami"
+   },
+   "context_abuse_site": {
+      "message": "Kirim keluhan tentang situs web ini..."
+   },
+   "context_ads_has_been_removed": {
+      "message": "Iklan telah dihapus dari Halaman ini"
+   },
+   "context_ads_has_been_removed_by_abu": {
+      "message": "Diproteksi oleh $1"
+   },
+   "context_block_site_ads": {
+      "message": "Blok iklan di situs web ini..."
+   },
+   "context_block_site_element": {
+      "message": "Blok Elemen..."
+   },
+   "context_open_settings": {
+      "message": "Pengaturan Adblocker Ultimate..."
+   },
+   "context_site_exception": {
+      "message": "Situs web ini adalah pengecualian"
+   },
+   "context_site_filtering_disabled": {
+      "message": "AdBlocker Ultimate tidak dapat berjalan pada domain ini"
+   },
+   "context_site_filtering_off": {
+      "message": "Nonaktifkan filtering pada situs web ini"
+   },
+   "context_site_filtering_on": {
+      "message": "Aktifkan filtering pada situs web ini"
+   },
+   "context_site_protection_disabled": {
+      "message": "AdBlocker Ultimate perlindungan dijeda"
+   },
+   "context_update_antibanner_filters": {
+      "message": "Periksa pembaruan filter"
+   },
+   "description": {
+      "message": "Pemblokir iklan gratis dan ditingkatkan. Menghapus semua iklan. Tidak ada \"diterima\" iklan atau iklan masuk whitelist, blok pelacakan, blok malware!"
+   },
+   "description_blocked": {
+      "message": "Iklan yang diblokir di laman ini: $1"
+   },
+   "desktop_app_is_running": {
+      "message": "Aplikasi desktop sedang berjalan"
+   },
+   "filter_description_adblock_persian_list": {
+      "message": "Menghapus iklan dari situs-situs web Persia."
+   },
+   "filter_description_adblock_polska": {
+      "message": "Menghapus iklan dari situs-situs web Polandia."
+   },
+   "filter_description_anti_circumvention": {
+      "message": "Daftar saringan dirancang untuk melawan iklan yang menipu."
+   },
+   "filter_description_bulgarian_list": {
+      "message": "Menghapus iklan dari situs-situs web Bulgaria."
+   },
+   "filter_description_easylist_china": {
+      "message": "Menghapus iklan dari situs-situs web China."
+   },
+   "filter_description_easylist_czech_and_slovak": {
+      "message": "Menghapus iklan dari situs-situs web Republik Cekoa dan Slovakia."
+   },
+   "filter_description_easylist_dutch_easylist": {
+      "message": "Menghapus iklan dari situs-situs web Belanda."
+   },
+   "filter_description_easylist_germany_easylist": {
+      "message": "Menghapus iklan dari situs-situs web Jerman."
+   },
+   "filter_description_easylist_italy": {
+      "message": "Menghapus iklan dari situs-situs web Italia."
+   },
+   "filter_description_estonian_list": {
+      "message": "Menghapus iklan dari situs-situs web Estonia."
+   },
+   "filter_description_fanboys_annoyance_list": {
+      "message": "Memblokir semua popup bawaan halaman yang menjengkelkan, peringatan cookie dan widget pihak ketiga, dimana secara substansial mengurangi waktu memuat halaman. Gunakan saringan ini dan mereka akan memblokir semuanya untuk Anda."
+   },
+   "filter_description_fanboys_japanese": {
+      "message": "Menghapus iklan dari situs-situs web Jepang."
+   },
+   "filter_description_fanboys_korean": {
+      "message": "Menghapus iklan dari situs-situs web Korea."
+   },
+   "filter_description_fanboys_social_blocking_list": {
+      "message": "Menghapus semua integrasi sosial media"
+   },
+   "filter_description_fanboys_spanish_portuguese": {
+      "message": "Menghapus iklan dari situs-situs web Spanyol/Portugal."
+   },
+   "filter_description_fanboys_swedish": {
+      "message": "Menghapus iklan dari situs-situs web Swedia."
+   },
+   "filter_description_fanboys_turkish": {
+      "message": "Menghapus iklan dari situs-situs web Turki."
+   },
+   "filter_description_fanboys_vietnamese": {
+      "message": "Menghapus iklan dari situs-situs web Vietnam."
+   },
+   "filter_description_hufilter": {
+      "message": "Menghapus iklan dari situs-situs web Hongaria."
+   },
+   "filter_description_latvian_list": {
+      "message": "Menghapus iklan dari situs-situs web Latvia."
+   },
+   "filter_description_liste_fr": {
+      "message": "Menghapus iklan dari situs-situs web Perancis."
+   },
+   "filter_description_nocoin": {
+      "message": "Menghentikan cryptomining di penjelajah Anda."
+   },
+   "filter_description_ruadlist_easylist": {
+      "message": "Menghapus iklan dari situs-situs web Rusia."
+   },
+   "filter_description_spam404": {
+      "message": "Saringan ini melindungi Anda dari penipuan daring. Saringan ini diperbarui secara berkala dengan data yang dikumpulkan oleh Spam404.com."
+   },
+   "filter_description_ultimate_ad_filter": {
+      "message": "Ini adalah pemblokir iklan serbaguna berperforma terbaik daripada yang lain, dimana dapat memblokir iklan di seluruh situs web. Pemblokir ini berdasarkan penyaring EasyList dan lebih ditingkatkan oleh tim kami."
+   },
+   "filter_description_ultimate_privacy_filter": {
+      "message": "Memblokir daftar lengkap dari berbagai pelacak daring, penghitung, dan alat analisis web. Berdasarkan dari daftar EasyList Privacy dan diperbarui oleh tim kami."
+   },
+   "filter_description_ultimate_security_filter": {
+      "message": "Saringan ini memblokir iklan yang terinjeksi oleh adware. Berdasarkan dari saringan Easylist Adware dan lebih ditingkatkan dan diubah oleh tim kami."
+   },
+   "filter_download_loading": {
+      "message": "Harap tunggu sebentar filter database sedang dimuat..."
+   },
+   "filter_download_title": {
+      "message": "Filter database sedang dimuat..."
+   },
+   "filter_group_ad_blocking": {
+      "message": "Memblokir Iklan"
+   },
+   "filter_group_custom_filters": {
+      "message": "Saringan Khusus"
+   },
+   "filter_group_language_specific": {
+      "message": "Bahasa-tertentu"
+   },
+   "filter_group_privacy": {
+      "message": "Privasi"
+   },
+   "filter_group_security": {
+      "message": "Keamanan"
+   },
+   "filter_name_adblock_persian_list": {
+      "message": "Daftar Adblock Persia"
+   },
+   "filter_name_adblock_polska": {
+      "message": "Adblock Polska"
+   },
+   "filter_name_anti_circumvention": {
+      "message": "Anti-penipuan"
+   },
+   "filter_name_bulgarian_list": {
+      "message": "Daftar Bulgaria"
+   },
+   "filter_name_easylist_china": {
+      "message": "EasyList China"
+   },
+   "filter_name_easylist_czech_and_slovak": {
+      "message": "EasyList Czech and Slovak"
+   },
+   "filter_name_easylist_dutch_easylist": {
+      "message": "EasyList Dutch + EasyList"
+   },
+   "filter_name_easylist_germany_easylist": {
+      "message": "EasyList Germany+EasyList"
+   },
+   "filter_name_easylist_italy": {
+      "message": "EasyList Italy"
+   },
+   "filter_name_estonian_list": {
+      "message": "Daftar Estonia"
+   },
+   "filter_name_fanboys_annoyance_list": {
+      "message": "Daftar Kejengkelan Fanboy"
+   },
+   "filter_name_fanboys_japanese": {
+      "message": "Fanboy Jepang"
+   },
+   "filter_name_fanboys_korean": {
+      "message": "Fanboy Korea"
+   },
+   "filter_name_fanboys_social_blocking_list": {
+      "message": "Daftar Pemblokiran Sosial Fanboy"
+   },
+   "filter_name_fanboys_spanish_portuguese": {
+      "message": "Fanboy Spanyol/Portugal"
+   },
+   "filter_name_fanboys_swedish": {
+      "message": "Fanboy Swedia"
+   },
+   "filter_name_fanboys_turkish": {
+      "message": "Fanboy Turki"
+   },
+   "filter_name_fanboys_vietnamese": {
+      "message": "Fanboy Vietnam"
+   },
+   "filter_name_hufilter": {
+      "message": "Hufilter - Daftar blokir iklan Hongaria"
+   },
+   "filter_name_latvian_list": {
+      "message": "Daftar Latvia"
+   },
+   "filter_name_liste_fr": {
+      "message": "Liste FR"
+   },
+   "filter_name_nocoin": {
+      "message": "NoCoin"
+   },
+   "filter_name_ruadlist_easylist": {
+      "message": "RuAdList+EasyList"
+   },
+   "filter_name_spam404": {
+      "message": "Spam404"
+   },
+   "filter_name_ultimate_ad_filter": {
+      "message": "Saringan Iklan Terbaik"
+   },
+   "filter_name_ultimate_privacy_filter": {
+      "message": "Saringan Privasi Terbaik"
+   },
+   "filter_name_ultimate_security_filter": {
+      "message": "Saringan Keamanan Terbaik"
+   },
+   "filter_rules_count": {
+      "message": "Aturan jumlah saringan"
+   },
+   "follow_us": {
+      "message": "Ikuti kami di"
+   },
+   "name": {
+      "message": "AdBlocker Ultimate"
+   },
+   "no": {
+      "message": "Tidak"
+   },
+   "official_website": {
+      "message": "Situs Web Resmi"
+   },
+   "options_about": {
+      "message": "Tentang"
+   },
+   "options_abu_is_disabled": {
+      "message": "AdBlocker Ultimate dinonaktifkan untuk domain yang tercantum di bawah ini. Anda dapat menambahkan domain melalui ikon AdBlocker Ultimate atau mengetik domain (yang bukan URL) di kotak dan klik tombol \"Tambahkan domain\"."
+   },
+   "options_add": {
+      "message": "Tambahkan"
+   },
+   "options_add_custom_filter": {
+      "message": "Tambah saringan khusus"
+   },
+   "options_add_domain": {
+      "message": "Tambahkan domain"
+   },
+   "options_add_filter": {
+      "message": "Tambah Filter"
+   },
+   "options_add_filter_subscription": {
+      "message": "Tambahkan filter langganan"
+   },
+   "options_add_your_filters": {
+      "message": "Tambahkan filter sendiri"
+   },
+   "options_anti_circumvention_desc": {
+      "message": "Fitur ini melawan pesan anti-adblocker muncul di suatu situs web saat mereka mendeteksi adanya pemakaian tersebut."
+   },
+   "options_anti_circumvention_title": {
+      "message": "Aktifkan Anti-Penipuan"
+   },
+   "options_antibanner_info": {
+      "message": "Jumlah aturan filter: $1"
+   },
+   "options_apply_changes": {
+      "message": "Terapkan Perubahan"
+   },
+   "options_auto_activate_lang_filters_desc": {
+      "message": "Setelah membuka beberapa halaman dalam suatu bahasa, saringan untuk bahasa ini akan otomatis ditambahkan dan diaktifkan."
+   },
+   "options_auto_activate_lang_filters_title": {
+      "message": "Otomatis mengaktifkan saringan bahasa-tertentu"
+   },
+   "options_check_for_updates": {
+      "message": "Periksa pembaruan filter"
+   },
+   "options_clear_filter": {
+      "message": "Hapus saringan"
+   },
+   "options_confirm_filter_delete": {
+      "message": "Apakah Anda yakin untuk menghapus saringan ini?"
+   },
+   "options_custom": {
+      "message": "Khusus"
+   },
+   "options_custom_filter_already_add": {
+      "message": "Saring dengan URL yang sama dan ada!"
+   },
+   "options_custom_filter_empty_url": {
+      "message": "Mohon, masukkan URL saring!"
+   },
+   "options_custom_filter_error": {
+      "message": "Galat mengunduh saringan!"
+   },
+   "options_custom_filters": {
+      "message": "Saringan Khusus"
+   },
+   "options_custom_rules": {
+      "message": "Aturan Khusus"
+   },
+   "options_delete": {
+      "message": "Hapus"
+   },
+   "options_do_you_like_abu": {
+      "message": "Apakah Anda menyukai AdBlocker Ultimate?"
+   },
+   "options_editor_desc": {
+      "message": "Di daftar ini Anda dapat menambahkan Aturan Khusus sendiri. Buat saringan iklan Anda sendiri dan tambahkan mereka disini."
+   },
+   "options_enable_only": {
+      "message": "Aktifkan hanya daftar filter yang anda diperlukan. Terlalu banyak dapat membuat browser menjadi tidak responsif."
+   },
+   "options_enabled": {
+      "message": "Diaktifkan"
+   },
+   "options_enter_url_or_path": {
+      "message": "Masukkan URL yang sah atau jalur berkas"
+   },
+   "options_err_import_file": {
+      "message": "Galat saat mengimpor berkas!"
+   },
+   "options_err_no_txt_file": {
+      "message": "Hanya berkas .txt yang diperbolehkan!"
+   },
+   "options_export": {
+      "message": "Ekspor"
+   },
+   "options_filter_list": {
+      "message": "Daftar Filter"
+   },
+   "options_filter_list_location": {
+      "message": "Menyaring daftar Lokasi:"
+   },
+   "options_filter_status_all": {
+      "message": "Semua"
+   },
+   "options_filter_status_disable": {
+      "message": "Dinonaktifkan"
+   },
+   "options_filter_version": {
+      "message": "Versi $1. Dibarui $2 pada pukul $3."
+   },
+   "options_filters": {
+      "message": "Saringan"
+   },
+   "options_filters_enabled": {
+      "message": "Diaktfikan"
+   },
+   "options_filters_enabled_and_more": {
+      "message": "$1 dan $2 lagi"
+   },
+   "options_filters_updated": {
+      "message": "terbaru"
+   },
+   "options_general": {
+      "message": "Umum"
+   },
+   "options_help_translate": {
+      "message": "Bantu kami dengan penerjemahan!"
+   },
+   "options_import": {
+      "message": "Impor"
+   },
+   "options_language_specific": {
+      "message": "Bahasa-tertentu"
+   },
+   "options_last_uodate": {
+      "message": "Terakhir diperbarui"
+   },
+   "options_modal_cancel": {
+      "message": "Batal"
+   },
+   "options_modal_homepage": {
+      "message": "Halaman Awal"
+   },
+   "options_new_filter": {
+      "message": "Saringan baru"
+   },
+   "options_no_custom_filters": {
+      "message": "Maaf, namun Anda masih belum mempunyai saringan khusus"
+   },
+   "options_no_filters_enabled": {
+      "message": "Tidak ada filter yang aktif"
+   },
+   "options_number_icon_desc": {
+      "message": "Jumlah iklan yang diblokir pada setiap halaman akan ditampilkan di ikon ekstensi."
+   },
+   "options_out_of_date_lists": {
+      "message": "Daftar lama akan diperbaharui secara berkala."
+   },
+   "options_please_choose": {
+      "message": "Silakan pilih filter berlangganan dari daftar:"
+   },
+   "options_popup_update_error": {
+      "message": "Gagal untuk mendapatkan pembaruan. Silakan coba sesaat lagi."
+   },
+   "options_popup_update_not_found": {
+      "message": "Tidak ada pembaruan yang ditemukan"
+   },
+   "options_popup_update_title": {
+      "message": "Filter berhasil diperbarui"
+   },
+   "options_popup_update_updated": {
+      "message": "\"$1\" diperbarui ke versi $2"
+   },
+   "options_rate_us": {
+      "message": "Nilai kami"
+   },
+   "options_remove_selected": {
+      "message": "Hapus yang dipilih"
+   },
+   "options_search": {
+      "message": "Cari"
+   },
+   "options_settings": {
+      "message": "AdBlocker Ultimate"
+   },
+   "options_show_block_element": {
+      "message": "Tampilkan 'Blok elemen' Klik kanan menu item"
+   },
+   "options_show_useful_notifications": {
+      "message": "Tampilkan pemberitahuan berguna"
+   },
+   "options_status_saved": {
+      "message": "Disimpan"
+   },
+   "options_submit": {
+      "message": "Kirimkan"
+   },
+   "options_subscription_title": {
+      "message": "Judul langganan:"
+   },
+   "options_title": {
+      "message": "Opsi AdBlocker Ultimate"
+   },
+   "options_update_now": {
+      "message": "Perbaharui sekarang"
+   },
+   "options_userfilter": {
+      "message": "Filter pengguna"
+   },
+   "options_userfilter_add_rule": {
+      "message": "Tambah aturan baru"
+   },
+   "options_userfilter_clear": {
+      "message": "Bersihkan"
+   },
+   "options_userfilter_clear_confirm": {
+      "message": "Membersihkan filter pengguna menghapus semua aturan. Apakah Anda benar-benar ingin menghapus filter pengguna?"
+   },
+   "options_userfilter_description": {
+      "message": ""
+   },
+   "options_userfilter_export": {
+      "message": "Ekspor"
+   },
+   "options_userfilter_import": {
+      "message": "Impor"
+   },
+   "options_want_abu_in_lang": {
+      "message": "Ingin AdBlocker Ultimate dalam bahasa Anda?"
+   },
+   "options_whitelist": {
+      "message": "Whitelist"
+   },
+   "options_whitelist_desc": {
+      "message": "Iklan yang ditambahkan di situs web ke Daftar putih tidak akan diblokir."
+   },
+   "options_whitelisted_domains": {
+      "message": "Domain whitelisted"
+   },
+   "options_whitelistfilter_clear_confirm": {
+      "message": "Membersihkan whitelist akan menghapus semua aturan. Apakah anda yakin ingin membersihkan whitelist?"
+   },
+   "popup_ads_has_been_removed": {
+      "message": "Iklan telah dihapus dari Halaman ini"
+   },
+   "popup_ads_has_been_removed_by_abu": {
+      "message": "Diproteksi oleh $1"
+   },
+   "popup_block_site_ads": {
+      "message": "Blok iklan di situs ini"
+   },
+   "popup_block_site_ads_android": {
+      "message": "Blok iklan pada situs web"
+   },
+   "popup_blocked_total": {
+      "message": "Total:"
+   },
+   "popup_curent_tab_blocked": {
+      "message": "Terblokir:"
+   },
+   "popup_disabled_on_site": {
+      "message": "Nonaktifkan pada situs ini"
+   },
+   "popup_enabled_on_site": {
+      "message": "Aktifkan pada situs ini"
+   },
+   "popup_get_abu_windows": {
+      "message": "Dapatkan AdBlocker Ultimate untuk Windows"
+   },
+   "popup_on_this_site": {
+      "message": "di situs ini:"
+   },
+   "popup_open_log_android": {
+      "message": "Memfilter log"
+   },
+   "popup_open_settings": {
+      "message": "Pengaturan Adblocker Ultimate"
+   },
+   "popup_protection_disabled": {
+      "message": "Perlindungan: Nonaktif"
+   },
+   "popup_protection_enabled": {
+      "message": "Perlindungan: Aktif"
+   },
+   "popup_secure_page": {
+      "message": "Halaman Aman"
+   },
+   "popup_security_report": {
+      "message": "Laporan keamanan situs web"
+   },
+   "popup_security_report_android": {
+      "message": "Laporan keamanan"
+   },
+   "popup_settings": {
+      "message": "Pengaturan"
+   },
+   "popup_share_on_fb": {
+      "message": "Bagikan di Facebook"
+   },
+   "popup_share_on_twitter": {
+      "message": "Bagikan di Twitter"
+   },
+   "popup_site_filtering_state": {
+      "message": "Proteksi situs web ini"
+   },
+   "popup_site_protection_disabled": {
+      "message": "Adblocker Ultimate proteksi dijeda"
+   },
+   "popup_site_protection_disabled_android": {
+      "message": "Proteksi dijeda"
+   },
+   "popup_status_inactive": {
+      "message": "Penyaringan tidak aktif untuk menghindari penyelewengan fungsi situs web."
+   },
+   "popup_tab_blocked": {
+      "message": "Diblokir: $1"
+   },
+   "popup_tab_blocked_all": {
+      "message": "Total: $1"
+   },
+   "popup_total": {
+      "message": "Total:"
+   },
+   "privacy_policy": {
+      "message": "Kebijakan Privasi"
+   },
+   "report_bug": {
+      "message": "Laporkan kesalahan"
+   },
+   "security": {
+      "message": "Keamanan"
+   },
+   "shield_blocked_ads": {
+      "message": "iklan terblokir"
+   },
+   "shield_bronze_shield": {
+      "message": "perisai perunggu"
+   },
+   "shield_congrats": {
+      "message": "Selamat!"
+   },
+   "shield_congratulations": {
+      "message": "Selamat!"
+   },
+   "shield_contribute_to_our_project": {
+      "message": "Berkontribusi pada proyek kami"
+   },
+   "shield_decreased_peak_cpu_usage": {
+      "message": "mengurangi penggunaan CPU puncak dengan $1"
+   },
+   "shield_decreased_peak_memory_usage": {
+      "message": "mengurangi penggunaan memori sebesar $1"
+   },
+   "shield_decreased_your_page_load_time": {
+      "message": "penurunan waktu buka halaman Anda sebesar $1"
+   },
+   "shield_do_you_like_abu": {
+      "message": "Apakah Anda menyukai\u003C/br> AdBlocker Ultimate?"
+   },
+   "shield_dont_show_again": {
+      "message": "Jangan tampilkan pesan ini lagi"
+   },
+   "shield_email": {
+      "message": "Surel"
+   },
+   "shield_gold_shield": {
+      "message": "perisai emas"
+   },
+   "shield_got_no_ads": {
+      "message": "tidak ada iklan terima kasih kepada"
+   },
+   "shield_message": {
+      "message": "Pesan"
+   },
+   "shield_no_thanks": {
+      "message": "Tidak terima kasih"
+   },
+   "shield_rate_txt": {
+      "message": "Suka memblokir iklan? Bantu orang lain mengetahui tentang kami."
+   },
+   "shield_rate_us": {
+      "message": "Menilai kami"
+   },
+   "shield_send_feedback": {
+      "message": "Kirim Masukkan"
+   },
+   "shield_sending": {
+      "message": "Mengirimkan..."
+   },
+   "shield_share_abu": {
+      "message": "Bagikan AdBlocker utama:"
+   },
+   "shield_silver_shield": {
+      "message": "perisai perak"
+   },
+   "shield_tell_how_to_improve": {
+      "message": "Beri tahu kami bagaimana kami bisa memperbaiki"
+   },
+   "shield_thank_you": {
+      "message": "Terima kasih!"
+   },
+   "shield_to_unlock": {
+      "message": "untuk membuka"
+   },
+   "shield_we_blocked_more_than": {
+      "message": "kami memblokir lebih dari $1 iklan untuk Anda dan:"
+   },
+   "shield_you_won": {
+      "message": "anda menang"
+   },
+   "short_name": {
+      "message": "AdBlocker Ultimate"
+   },
+   "store_ss_ads": {
+      "message": "iklan"
+   },
+   "store_ss_no_more_ads": {
+      "message": "tidak ada iklan dengan adblocker gratis  kami "
+   },
+   "store_ss_no_more_banner_ads": {
+      "message": "Tidak ada lagi spanduk iklan"
+   },
+   "store_ss_no_more_facebook_ads": {
+      "message": "Tidak ada lagi iklan Facebook"
+   },
+   "store_ss_no_more_video_ads": {
+      "message": "Тidak ada Iklan video"
+   },
+   "store_ss_surf_and_all_annoying_ads": {
+      "message": "dan semua iklan yang mengganggu keluar!"
+   },
+   "store_ss_surf_faster": {
+      "message": "Berselancar lebih cepat, lebih aman, lebih bersih, tanpa iklan yang mengganggu!"
+   },
+   "store_ss_surf_faster_with_no_ads": {
+      "message": "Berselancar, lebih cepat, lebih aman TANPA IKLAN"
+   },
+   "version": {
+      "message": "Versi"
+   },
+   "yes": {
+      "message": "Ya"
+   }
+}

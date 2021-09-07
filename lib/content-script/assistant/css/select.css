@@ -1,0 +1,471 @@
+
+body {
+    background: none no-repeat scroll 0 0 transparent;
+    font-size: 14px;
+    line-height: 18px;
+    font-family: Arial;
+    margin: 0 !important;
+}
+
+.ultimate-container {
+    background: none no-repeat scroll 0 0 #fff;
+    -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.15), 0 3px 10px rgba(0, 0, 0, 0.25);
+    margin-left: 5px;
+    margin-top: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.15), 0 3px 10px rgba(0, 0, 0, 0.25);
+    /*border: 1px solid #ccc;*/
+    padding: 10px;
+    width: 528px;
+    /*margin: 10px;*/
+    font-size: 0;
+    line-height: 0;
+    position: relative;
+}
+
+.ultimate-version {
+    height: 22px;
+    float: right;
+    font-size: 8px;
+    color: #cfcfcf;
+}
+
+.ultimate-adblock {
+    float: left;
+    width: auto;
+}
+#close-button{
+  cursor: pointer;
+  z-index: 99999;
+}
+.ultimate-container .header {
+	background: url(../img/adblockultimate.png) 10px 10px;
+    background-repeat: no-repeat;
+    background-size: 50px 50px;
+    padding: 10px 10px 10px 78px;
+    position: relative;
+    font-size: 14px;
+    line-height: 18px;
+    cursor: move;
+    width: 450px;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.ultimate-close {
+    float: right;
+    margin-right: -10px;
+    margin-top: -10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.ultimate-container .header .header-h {
+    background-color: #fff;
+    color: #333333;
+    font-size: 20px;
+    line-height: 18px;
+    
+    margin-top: 6px;
+    font-weight: bold;
+}
+
+.ultimate-container .header .head .reit {
+    display: inline-block;
+    *display: inline; /* IE7 inline-block hack */
+    *zoom: 1;
+    height: 20px;
+    margin: 5px 0px;
+    padding: 0px;
+}
+
+.ultimate-container .header .head .reit li {
+    list-style: none;
+    display: inline-block;
+    *display: inline; /* IE7 inline-block hack */
+    *zoom: 1;
+    width: 16px;
+    height: 20px;
+}
+
+
+
+.ultimate-container .header .head {
+    color: #888;
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 5px;
+}
+
+.ultimate-container .header .head.txt {
+    margin: 5px 0px 0px 0px;
+}
+
+.ultimate-container .header .head.txt a {
+    margin: 0px;
+}
+
+.ultimate-container .header .head a {
+    display: inline-block;
+    *display: inline; /* IE7 inline-block hack */
+    *zoom: 1;
+    color: #888;
+}
+
+.ultimate-container .header .head a.count {
+    color: green;
+}
+
+.ultimate-container .header .head > a > img {
+    border: 0px;
+}
+
+.ultimate-content {
+    margin: 10px 0 0 0;
+    color: #fff;
+}
+
+.ultimate-content .ultimate-12 {
+    width: 261px;
+    float: left;
+    *zoom: 1;
+    height: 160px;
+    vertical-align: top;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+
+ .ultimate-form-block {
+    display: block;
+    margin: 5px 0px;
+    background: none no-repeat scroll 0 0 #eee;
+    padding: 10px;
+}
+
+.ultimate-more .ultimate-input-block span {
+    color: #888;
+    display: block;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.ultimate-more .ultimate-input-block input, .ultimate-form-block input[type="text"] {
+    display: block;
+    border: 1px solid #CCC;
+    width: 99%;
+    height: 18px;
+    margin: 4px 0px 0px 0px;
+    border-radius: 2px;
+    padding-left: 4px !important;
+    padding-right: 4px !important;
+}
+
+.ultimate-slide-block {
+    margin-bottom: 10px;
+}
+
+.ultimate-slide-block .ultimate-slide-text {
+    color: #333;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.ultimate-slide-block .ultimate-slide {
+    margin: 20px auto 0px;
+    width: 386px;
+    height: 32px;
+    position: relative;
+}
+
+.ultimate-slide-block .ultimate-slide .ultimate-slide-btn-green {
+    position: absolute;
+    top: -12px;
+    left: -10px;
+    display: block;
+    width: 28px;
+    height: 35px;
+    opacity: 0.3;
+}
+
+.ultimate-slide-block .ultimate-slide .ultimate-slide-btn-green:hover, .ultimate-slide-block .ultimate-slide .ultimate-slide-btn-red:hover, .ultimate-slide-block .ultimate-slide .ultimate-slide-btn-green:active, .ultimate-slide-block .ultimate-slide .ultimate-slide-btn-red:active,
+.ultimate-slide-block .ultimate-slide .ultimate-slide-btn-yellow:hover, .ultimate-slide-block .ultimate-slide .ultimate-slide-btn-orange:hover, .ultimate-slide-block .ultimate-slide .ultimate-slide-btn-yellow:active, .ultimate-slide-block .ultimate-slide .ultimate-slide-btn-orange:active {
+    opacity: 1;
+    cursor: pointer;
+}
+
+
+
+#filter-rule {
+    margin: 10px 0 0;
+    width: 99%;
+    padding: 5px;
+    border: solid 1px #B7B7B7;
+    border-radius: 5px;
+    -moz-border-radius: 5ps;
+    -webkit-border-radius: 5px;
+}
+
+.ultimate-input-block {
+    margin: 5px 0 0;
+}
+
+.select-mode {
+    margin: 5px 0 0;
+}
+
+.select-text {
+    margin: 0 10px 0 5px;
+}
+
+
+
+
+div span {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+
+.ultimate-simple-text {
+    font-size: 14px;
+    color: #000;
+    line-height: normal;
+}
+
+.ultimate-more {
+    margin-top: 10px;
+}
+
+.ultimate-form-block {
+    color: #000;
+    line-height: normal;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.ultimate-form-block p {
+    margin-top: 10px;
+    -webkit-margin-after: 0;
+    -webkit-margin-before: 10px;
+}
+
+.ultimate-form-block span {
+    line-height: 1.5;
+    padding-left: 5px;
+}
+
+.ultimate-form-block textarea {
+    width: 98.8%;
+}
+
+.col {
+    margin-left: 20px;
+    float: left;
+}
+
+.row {
+    margin-left: -20px;
+}
+
+.clearfix {
+    overflow: hidden;
+    padding: 2px;
+}
+
+.clearfix2:after, .row:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.f-right {
+    float: right;
+    margin-left: 5px;
+}
+
+.ultimate-foot {
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+    line-height: normal;
+}
+
+
+
+
+
+/* === BUTTONS === */
+.btn {
+    text-decoration: none;
+    cursor: pointer;
+    display: inline-block;
+    color: #fff;
+    min-width: 112px;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.btn:active {
+    -webkit-box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.btn span {
+    line-height: normal;
+    padding: 10px;
+}
+
+.btn-blue {
+    background: #E74C3C;
+}
+
+.btn-blue:hover {
+    background: #E74C3C;
+}
+
+.btn-blue:active {
+    background: #000;
+}
+
+.btn-red {
+    background: #c44122;
+}
+
+.btn-red:hover {
+    background: #c44122;
+}
+
+.btn-red:active {
+    background: #000;
+}
+
+.btn-gray {
+    background: #ebebeb;
+    color: #333;
+}
+
+.btn-gray:hover {
+    background: #f2f2f2;
+    color: #3f6b60;
+}
+
+.btn-gray:active {
+    background: #000;
+    color: #fff;
+}
+
+
+
+.radiobox {
+    background-position: 0 2px;
+}
+
+.checkbox.active {
+    background-position: -20px -14px;
+}
+
+.checkbox.disabled {
+    background-position: -20px -30px;
+    cursor: default;
+}
+
+.radiobox.active {
+    background-position: 0 -14px;
+}
+
+.radiobox.disabled {
+    background-position: 0 -30px;
+    cursor: default;
+}
+
+.checkbox-label, .radiobox-label {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-left: 2px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*animation styles using .active. The reel and arrows will stay hidden by default. On user activity the static output will fade away and the reel and arrows will fade in*/
+.active #reel {opacity: 1;}
+.active #static-output {color: transparent;}
+.active #rangeslider::-webkit-slider-thumb:after {color: white;}
+
+
+
+
+.box {
+    margin-left: 10px;
+    display: block;
+    border: solid 1px #AFAFAF;
+    position: relative;
+    float: left;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    overflow: hidden;
+    cursor: pointer;
+}
+#blockSimilar:checked ~ label[for="blockSimilar"]:before, #oneDomainRadio:checked ~ label[for="oneDomainRadio"]:before, #blockByUrl:checked ~ label[for="blockByUrl"]:before, #box-OR-1:checked ~ label[for="box-OR-1"]:before, #box-OR-2:checked ~ label[for="box-OR-2"]:before, #box-NOT-1:checked ~ label[for="box-NOT-1"]:before, #box-NAND-1:checked ~ label[for="box-NAND-1"]:before, #box-NAND-2:checked ~ label[for="box-NAND-2"]:before, #box-NOR-1:checked ~ label[for="box-NOR-1"]:before, #box-NOR-2:checked ~ label[for="box-NOR-2"]:before, #box-XOR-1:checked ~ label[for="box-XOR-1"]:before, #box-XOR-2:checked ~ label[for="box-XOR-2"]:before, #box-XNOR-1:checked ~ label[for="box-XNOR-1"]:before, #box-XNOR-2:checked ~ label[for="box-XNOR-2"]:before {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #909090;
+    text-align: center;
+    line-height: 20px;
+    font-family: 'FontAwesome';
+    font-size: 1em;
+    color: #fff;
+    content: "\f00c";
+    z-index: 60;
+}
+.box:after {
+    margin: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: #eee;
+    content: '';
+    -webkit-transition: all 0.1s ease;
+    -moz-transition: all 0.1s ease;
+    transition: all 0.1s ease;
+    z-index: 50;
+}
+
+#oneDomainRadio,#blockByUrl,#blockSimilar{display:none}

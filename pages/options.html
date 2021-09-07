@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="icons/favicon.png">
+	<link href="../lib/content-script/css/alert.css" rel="stylesheet">
+	<link type="text/css" href="css/options.css" rel="stylesheet">
+
+	<script type="text/javascript" src="../lib/libs/modernizr.custom.js"></script>
+	<script type="text/javascript" src="../lib/libs/jquery-3.0.0.min.js"></script>
+	<script type="text/javascript" src="../lib/libs/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../lib/libs/cbpFWTabs.js"></script>
+	<script type="text/javascript" src="../lib/libs/ace.js"></script>
+	<script type="text/javascript" src="../lib/content-script/abu-content.js"></script>
+	<script type="text/javascript" src="../lib/libs/moment-with-locales.min.js"></script>
+	<script type="text/javascript" src="../lib/content-script/common-script.js"></script>
+	<script type="text/javascript" src="../lib/content-script/content-script.js"></script>
+	<script type="text/javascript" src="../lib/content-script/content-utils.js"></script>
+	<script type="text/javascript" src="../lib/content-script/i18n-helper.js"></script>
+	<script type="text/javascript" src="../lib/pages/i18n.js"></script>
+	<script type="text/javascript" src="../lib/pages/script.js"></script>
+
+	<script type="text/javascript" src="../lib/pages/options-editor-handler.js"></script>
+	<script type="text/javascript" src="../lib/pages/options-whitelist.js"></script>
+	<script type="text/javascript" src="../lib/pages/options-custom-rules.js"></script>
+	<script type="text/javascript" src="../lib/pages/options-filters.js"></script>
+	<script type="text/javascript" src="../lib/pages/options.js"></script>
+
+	<title i18n="options_title"></title>
+
+</head>
+
+<body>
+	<div class="alert  in alert-dismissible show global-alert"></div>
+
+
+	<div class="container">
+		<div class="modal fade" id="customFilterModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+			<div class="modal-dialog " role="document">
+				<div class="modal-content">
+					<form class="customFilterForm">
+						<div class="modal-header">
+							<h4 class="modal-title w-100" id="myModalLabel" i18n="options_new_filter"></h4>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">×</span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<div class="md-form form-lg">
+								<input type="text" class="form-control form-control-lg filter-url"
+									i18n-plhr="options_enter_url_or_path" value="">
+							</div>
+						</div>
+						<div class="modal-footer">
+							<button type="submit" class="btn light-blue accent-4" i18n="options_submit"></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-4">
+				<a class="navbar-brand js-scroll-trigger" href="https://adblockultimate.net/" title="AdBlocker Ultimate"
+					target="_blank">
+					<img src="images/logo-black.png">
+				</a>
+			</div>
+			<div class="col-8">
+
+				<div class="filter_update_status">
+					<div>
+						<span id="filtersstatus" class="settings-page-title-info"></span>
+						<div class="upd">
+							<span i18n="options_last_uodate"></span>: <span id="f_time"></span>
+						</div>
+					</div>
+					<div class="reload-btn">
+						<a href="#" class="reload" i18n-title="options_check_for_updates" id="updateAbuFIlters"
+							title="Check for filter updates">
+							<svg height="18pt" viewBox="0 -24 495.6011 495" width="18pt"
+								xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="m326.308594 7.046875c-137.425782-34.0625-266.496094 65.3125-277.871094 197.855469l31.871094 2.753906c9.023437-104.898438 104.046875-185.570312 211.296875-174.304688 95.871093 10.0625 171.199219 92.945313 172 189.328126.878906 106.609374-85.585938 193.617187-192 193.617187-4.929688 0-9.875-.195313-14.785157-.5625-8.207031-.621094-15.648437 4.769531-16.878906 12.914063l-.195312 1.277343c-1.34375 8.816407 5.089844 16.976563 13.984375 17.683594 5.9375.445313 11.921875.6875 17.875.6875 134.335937 0 241.421875-118.867187 221.628906-256.945313-12.734375-88.878906-79.773437-162.703124-166.925781-184.304687zm0 0"
+									fill="#66bb6a"></path>
+								<g fill="#43a047">
+									<path
+										d="m93.011719 359.496094c6.878906 9.085937 14.542969 17.757812 22.800781 25.742187l22.289062-22.976562c-7.074218-6.878907-13.664062-14.300781-19.585937-22.09375zm0 0">
+									</path>
+									<path
+										d="m156.757812 416.648438c9.886719 5.886718 20.253907 11.039062 30.796876 15.328124l12.035156-29.664062c-9.042969-3.664062-17.9375-8.097656-26.449219-13.167969zm0 0">
+									</path>
+									<path
+										d="m86.195312 274.3125-30.910156 8.320312c2.992188 11.070313 6.847656 22 11.503906 32.480469l29.246094-13.011719c-3.984375-8.957031-7.296875-18.300781-9.839844-27.789062zm0 0">
+									</path>
+								</g>
+								<path
+									d="m62.164062 246.917969-57.472656-57.453125c-6.253906-6.242188-6.253906-16.386719 0-22.625 6.242188-6.242188 16.367188-6.242188 22.625 0l34.847656 34.832031 34.832032-34.832031c6.238281-6.242188 16.382812-6.242188 22.625 0 6.238281 6.238281 6.238281 16.382812 0 22.625zm0 0"
+									fill="#81c784"></path>
+							</svg>
+						</a>
+					</div>
+				</div>
+			</div>
+
+		</div>
+		<section>
+			<div class="tabs tabs-style-iconbox">
+				<nav>
+					<ul>
+						<li>
+							<a href="#section-underline-1">
+								<span>
+									<svg version="1.1" class="Capa_1" xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 54 54"
+										style="enable-background:new 0 0 54 54;" xml:space="preserve " fill="#000">
+										<g>
+											<path
+												d="M51.22,21h-5.052c-0.812,0-1.481-0.447-1.792-1.197s-0.153-1.54,0.42-2.114l3.572-3.571
+														c0.525-0.525,0.814-1.224,0.814-1.966c0-0.743-0.289-1.441-0.814-1.967l-4.553-4.553c-1.05-1.05-2.881-1.052-3.933,0l-3.571,3.571
+														c-0.574,0.573-1.366,0.733-2.114,0.421C33.447,9.313,33,8.644,33,7.832V2.78C33,1.247,31.753,0,30.22,0H23.78
+														C22.247,0,21,1.247,21,2.78v5.052c0,0.812-0.447,1.481-1.197,1.792c-0.748,0.313-1.54,0.152-2.114-0.421l-3.571-3.571
+														c-1.052-1.052-2.883-1.05-3.933,0l-4.553,4.553c-0.525,0.525-0.814,1.224-0.814,1.967c0,0.742,0.289,1.44,0.814,1.966l3.572,3.571
+														c0.573,0.574,0.73,1.364,0.42,2.114S8.644,21,7.832,21H2.78C1.247,21,0,22.247,0,23.78v6.439C0,31.753,1.247,33,2.78,33h5.052
+														c0.812,0,1.481,0.447,1.792,1.197s0.153,1.54-0.42,2.114l-3.572,3.571c-0.525,0.525-0.814,1.224-0.814,1.966
+														c0,0.743,0.289,1.441,0.814,1.967l4.553,4.553c1.051,1.051,2.881,1.053,3.933,0l3.571-3.572c0.574-0.573,1.363-0.731,2.114-0.42
+														c0.75,0.311,1.197,0.98,1.197,1.792v5.052c0,1.533,1.247,2.78,2.78,2.78h6.439c1.533,0,2.78-1.247,2.78-2.78v-5.052
+														c0-0.812,0.447-1.481,1.197-1.792c0.751-0.312,1.54-0.153,2.114,0.42l3.571,3.572c1.052,1.052,2.883,1.05,3.933,0l4.553-4.553
+														c0.525-0.525,0.814-1.224,0.814-1.967c0-0.742-0.289-1.44-0.814-1.966l-3.572-3.571c-0.573-0.574-0.73-1.364-0.42-2.114
+														S45.356,33,46.168,33h5.052c1.533,0,2.78-1.247,2.78-2.78V23.78C54,22.247,52.753,21,51.22,21z M52,30.22
+														C52,30.65,51.65,31,51.22,31h-5.052c-1.624,0-3.019,0.932-3.64,2.432c-0.622,1.5-0.295,3.146,0.854,4.294l3.572,3.571
+														c0.305,0.305,0.305,0.8,0,1.104l-4.553,4.553c-0.304,0.304-0.799,0.306-1.104,0l-3.571-3.572c-1.149-1.149-2.794-1.474-4.294-0.854
+														c-1.5,0.621-2.432,2.016-2.432,3.64v5.052C31,51.65,30.65,52,30.22,52H23.78C23.35,52,23,51.65,23,51.22v-5.052
+														c0-1.624-0.932-3.019-2.432-3.64c-0.503-0.209-1.021-0.311-1.533-0.311c-1.014,0-1.997,0.4-2.761,1.164l-3.571,3.572
+														c-0.306,0.306-0.801,0.304-1.104,0l-4.553-4.553c-0.305-0.305-0.305-0.8,0-1.104l3.572-3.571c1.148-1.148,1.476-2.794,0.854-4.294
+														C10.851,31.932,9.456,31,7.832,31H2.78C2.35,31,2,30.65,2,30.22V23.78C2,23.35,2.35,23,2.78,23h5.052
+														c1.624,0,3.019-0.932,3.64-2.432c0.622-1.5,0.295-3.146-0.854-4.294l-3.572-3.571c-0.305-0.305-0.305-0.8,0-1.104l4.553-4.553
+														c0.304-0.305,0.799-0.305,1.104,0l3.571,3.571c1.147,1.147,2.792,1.476,4.294,0.854C22.068,10.851,23,9.456,23,7.832V2.78
+														C23,2.35,23.35,2,23.78,2h6.439C30.65,2,31,2.35,31,2.78v5.052c0,1.624,0.932,3.019,2.432,3.64
+														c1.502,0.622,3.146,0.294,4.294-0.854l3.571-3.571c0.306-0.305,0.801-0.305,1.104,0l4.553,4.553c0.305,0.305,0.305,0.8,0,1.104
+														l-3.572,3.571c-1.148,1.148-1.476,2.794-0.854,4.294c0.621,1.5,2.016,2.432,3.64,2.432h5.052C51.65,23,52,23.35,52,23.78V30.22z" />
+											<path d="M27,18c-4.963,0-9,4.037-9,9s4.037,9,9,9s9-4.037,9-9S31.963,18,27,18z M27,34c-3.859,0-7-3.141-7-7s3.141-7,7-7
+														s7,3.141,7,7S30.859,34,27,34z" />
+										</g>
+									</svg>
+									<span i18n="options_general" class="a-txt"></span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#abu-filters">
+								<span>
+									<svg version="1.1" class="Capa_1" xmlns="http://www.w3.org/2000/svg"
+										xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+										viewBox="0 0 52.077 52.077" style="enable-background:new 0 0 52.077 52.077;"
+										xml:space="preserve" fill="#000">
+										<path d="M51.039,7c0-4.596-12.577-7-25-7s-25,2.404-25,7c0,1.042,0.651,1.969,1.796,2.783l17.204,23.54v17.528
+											c0,0.43,0.256,0.813,0.652,0.979l0.686,0.246l10.662-10.663v-8.087L49.224,9.809l-0.001-0.012C50.379,8.98,51.039,8.047,51.039,7z
+											 M26.039,2c14.04,0,23,2.961,23,5c0,0.422-0.404,0.883-1.135,1.349l-0.051-0.006l0.017,0.027C45.033,10.151,37.133,12,26.039,12
+											C14.934,12,7.029,10.148,4.2,8.365l0.017-0.027L3.805,8.093C3.314,7.715,3.039,7.344,3.039,7C3.039,4.961,11.999,2,26.039,2z
+											 M30.039,40.586l-8,8V34h8V40.586z M30.533,32h-8.987L6.615,11.567C11.438,13.174,18.763,14,26.039,14
+											c7.276,0,14.6-0.826,19.424-2.432L30.533,32z" />
+									</svg>
+									<span i18n="options_filters" class="a-txt"></span>
+								</span>
+							</a>
+						</li>
+						<li>
+							<a href="#section-underline-3" class="focus_custom_rules">
+								<svg version="1.1" class="Capa_1" xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+									viewBox="0 0 512.002 512.002" style="enable-background:new 0 0 512.002 512.002;"
+									xml:space="preserve">
+									<g>
+										<g>
+											<path d="M159.601,152.633H15c-8.284,0-15,6.716-15,15s6.716,15,15,15h144.601c8.284,0,15-6.716,15-15
+												S167.885,152.633,159.601,152.633z" />
+										</g>
+									</g>
+									<g>
+										<g>
+											<path d="M159.601,281.167H15c-8.284,0-15,6.716-15,15s6.716,15,15,15h144.601c8.284,0,15-6.716,15-15
+												S167.885,281.167,159.601,281.167z" />
+										</g>
+									</g>
+									<g>
+										<g>
+											<path d="M363.007,381.96c-5.858-5.857-15.356-5.857-21.213,0.001l-53.66,53.66l-21.526-21.527
+												c-5.856-5.858-15.354-5.858-21.213-0.001c-5.858,5.858-5.858,15.355,0,21.213l32.133,32.134c2.813,2.813,6.628,4.394,10.606,4.394
+												c3.979,0,7.794-1.581,10.606-4.394l64.267-64.267C368.865,397.315,368.865,387.818,363.007,381.96z" />
+										</g>
+									</g>
+									<g>
+										<g>
+											<path d="M159.601,409.701H15c-8.284,0-15,6.716-15,15s6.716,15,15,15h144.601c8.284,0,15-6.716,15-15
+												S167.885,409.701,159.601,409.701z" />
+										</g>
+									</g>
+									<g>
+										<g>
+											<path d="M507.607,113.42l-68.858-68.859c-2.813-2.813-6.628-4.394-10.606-4.394c-3.979,0-7.794,1.581-10.607,4.394l-68.854,68.859
+												c-0.002,0.002-0.003,0.004-0.005,0.005l-103.281,103.28c-2.813,2.813-4.393,6.628-4.393,10.606v68.855c0,8.284,6.716,15,15,15
+												h68.857c3.979,0,7.794-1.581,10.606-4.394l103.279-103.28c0.002-0.002,0.003-0.003,0.005-0.005l68.858-68.855
+												c2.814-2.813,4.394-6.628,4.394-10.607C512.001,120.048,510.421,116.233,507.607,113.42z M318.646,281.167h-47.645v-47.642
+												l88.287-88.285l47.642,47.642L318.646,281.167z M428.143,171.669l-9.082-9.082l-38.559-38.561l47.642-47.645l47.645,47.645
+												L428.143,171.669z" />
+										</g>
+									</g>
+
+								</svg>
+								<span i18n="options_custom_rules" class="a-txt"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#section-underline-4" class="focus_whitelist">
+								<svg version="1.1" class="Capa_1" xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+									style="enable-background:new 0 0 512 512;" xml:space="preserve">
+									<g>
+										<g>
+											<path d="M467,0H45C20.187,0,0,20.187,0,45v362c0,24.813,20.187,45,45,45h135v30h-45c-8.284,0-15,6.716-15,15s6.716,15,15,15h242
+													c8.284,0,15-6.716,15-15s-6.716-15-15-15h-45v-30h135c24.813,0,45-20.187,45-45V45C512,20.187,491.813,0,467,0z M302,482h-92v-30
+													h92V482z M482,407c0,8.271-6.729,15-15,15H45c-8.271,0-15-6.729-15-15v-15h452V407z M482,362H30V45c0-8.271,6.729-15,15-15h422
+													c8.271,0,15,6.729,15,15V362z" />
+										</g>
+									</g>
+									<g>
+										<g>
+											<path
+												d="M347,90h-8.667c-36.52,0-57.42-16.419-74.013-27.481c-5.038-3.359-11.603-3.359-16.641,0
+													C231.684,73.183,210.571,90,173.667,90H165c-8.284,0-15,6.716-15,15v93.509c0,58.352,35.874,110.927,101.257,132.721
+													c1.539,0.513,3.141,0.77,4.743,0.77s3.204-0.257,4.744-0.77C325.357,309.692,362,257.72,362,198.509V105
+													C362,96.716,355.284,90,347,90z M241,294.539c-38.563-19.584-61-54.288-61-96.031v-78.655c21.448-0.995,42.61-7.021,61-17.312
+													V294.539z M332,198.509c0,41.742-22.437,76.446-61,96.031V102.541c18.39,10.291,39.552,16.317,61,17.312V198.509z" />
+										</g>
+									</g>
+									<g>
+										<g>
+											<circle cx="377" cy="317" r="15" />
+										</g>
+									</g>
+									<g>
+										<g>
+											<circle cx="437" cy="317" r="15" />
+										</g>
+									</g>
+								</svg>
+								<span i18n="options_whitelist" class="a-txt"></span>
+							</a>
+						</li>
+						<li>
+							<a href="#section-underline-5">
+								<svg version="1.1" class="Capa_1" xmlns="http://www.w3.org/2000/svg"
+									xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 330 330"
+									style="enable-background:new 0 0 330 330;" xml:space="preserve">
+									<g>
+										<path
+											d="M165,0C74.019,0,0,74.02,0,165.001C0,255.982,74.019,330,165,330s165-74.018,165-164.999C330,74.02,255.981,0,165,0z
+											 M165,300c-74.44,0-135-60.56-135-134.999C30,90.562,90.56,30,165,30s135,60.562,135,135.001C300,239.44,239.439,300,165,300z" />
+										<path d="M164.998,70c-11.026,0-19.996,8.976-19.996,20.009c0,11.023,8.97,19.991,19.996,19.991
+											c11.026,0,19.996-8.968,19.996-19.991C184.994,78.976,176.024,70,164.998,70z" />
+										<path
+											d="M165,140c-8.284,0-15,6.716-15,15v90c0,8.284,6.716,15,15,15c8.284,0,15-6.716,15-15v-90C180,146.716,173.284,140,165,140z" />
+									</g>
+
+								</svg>
+								<span i18n="options_about" class="a-txt"></span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="content-wrap">
+					<section id="section-underline-1">
+
+
+                        <div class="b-title">
+                            <span i18n="options_general" class="b-txt"></span>
+                        </div>
+
+						<table>
+							<tbody>
+								<tr>
+									<td class="column2">
+										<span i18n="options_auto_activate_lang_filters_title"></span>
+										<p class="desc" i18n="options_auto_activate_lang_filters_desc"></p>
+									</td>
+									<td class="column3">
+										<!-- Default checked -->
+										<label class="switch">
+											<input type="checkbox" checked id="autodetectFiltersCheckbox">
+											<span class="slider round"></span>
+										</label>
+									</td>
+								</tr>
+								<tr>
+									<td class="column2">
+										<span i18n="options_anti_circumvention_title"></span>
+										<p class="desc" i18n="options_anti_circumvention_desc"></p>
+									</td>
+									<td class="column3">
+										<!-- Default checked -->
+										<label class="switch">
+											<input type="checkbox" checked id="antiCircumvationCheckbox">
+											<span class="slider round"></span>
+										</label>
+									</td>
+								</tr>
+
+								<tr>
+									<td class="column2">
+										<span i18n="browser_action_popup_show_number_in_icon"></span>
+										<p class="desc" i18n="options_number_icon_desc"></p>
+									</td>
+									<td class="column3">
+										<!-- Default checked -->
+										<label class="switch">
+											<input type="checkbox" checked id="showPageStatisticCheckbox">
+											<span class="slider round"></span>
+										</label>
+									</td>
+								</tr>
+							</tbody>
+						</table>
+
+					</section>
+					<section id="abu-filters" class="parent-container">
+
+						<div class="b-title">
+							<span i18n="options_filters" class="b-txt"></span>
+						</div>
+
+						<div class="head-filter">
+							<div class="row">
+								<div class="col-sm-8 col-9">
+									<div class="form-inline">
+										<i class="fa fa-search" aria-hidden="true"></i>
+										<input class="form-control form-control-sm ml-3 w-75 searchInput" type="text"
+											i18n-plhr="options_search">
+									</div>
+								</div>
+								<div class="col-sm-4 col-3">
+									<label>
+										<select
+											class="custom-select custom-select-sm form-control form-control-sm filterStatus">
+											<option value="all" i18n="options_filter_status_all"></option>
+											<option value="1" i18n="options_enabled"></option>
+											<option value="0" i18n="options_filter_status_disable"></option>
+										</select>
+									</label>
+									<button type="button" class="close clearFilter" i18n-title="options_clear_filter">
+										<span aria-hidden="true">×</span>
+									</button>
+								</div>
+							</div>
+						</div>
+						<div id="abu-filters-main">
+
+							<table class="filters-categories-container">
+								<tbody>
+								</tbody>
+							</table>
+						</div>
+					</section>
+
+					<section id="section-underline-3">
+						<div class="b-title">
+                            <span i18n="options_custom_rules" class="b-txt"></span>
+                        </div>
+						
+						<p class="editor_desc" i18n="options_editor_desc"></p>
+						<div class="editable" id="customRulesEditor"></div>
+						<span id="customRulesStatus" class="editor-status"></span>
+
+						<div class="editor-btn">
+							<input type="file" id="importUserFilterInput" style="display: none;"
+								accept=".txt, text/plain">
+							<button type="button" class="btn light-blue accent-4" id="customFiltersImport">
+								<i class="fa fa-upload" aria-hidden="true"></i>
+								<span i18n="options_userfilter_import"></span>
+							</button>
+							<button type="button" class="btn s-new disabled" id="customFiltersExport">
+								<i class="fa fa-download" aria-hidden="true"></i>
+								<span i18n="options_userfilter_export"></span>
+							</button>
+						</div>
+					</section>
+
+					<section id="section-underline-4">
+						
+                        <div class="b-title">
+							<span i18n="options_whitelist" class="b-txt"></span>
+						</div>
+
+						<p class="editor_desc" i18n="options_whitelist_desc"></p>
+						<div class="editable" id="whiteListRules"></div>
+						<span id="whitelistRulesStatus" class="editor-status"></span>
+						<div class="editor-btn">
+							<input type="file" id="importWhiteListInput" style="display: none;"
+								accept=".txt, text/plain">
+							<button type="button" class="btn light-blue accent-4" id="whiteListImportImport">
+								<i class="fa fa-upload" aria-hidden="true"></i>
+								<span i18n="options_import"></span>
+							</button>
+							<button type="button" class="btn s-new disabled" id="exportWhitelistBtn">
+								<i class="fa fa-download" aria-hidden="true"></i>
+								<span i18n="options_export"></span>
+							</button>
+						</div>
+					</section>
+
+					<section id="section-underline-5">
+						<div class="col-md-12 mb-4 mb-md-0">
+							<img src="images/Preview1.png" class="about-logo">
+							<h3 class="font-weight-bold" i18n="all_ads_out"></h3>
+
+							<p class="text-muted"><span i18n="version"></span>: <span
+									class="versionNumberContainer"></span></p>
+							<p class="text-muted">© 2016-<span class="js-current-year">2020</span> AdAvoid Ltd. <span i18n="all_rights_reserved"></span>.</p>
+
+							<hr class="my-5">
+							<p class="links">
+								<a href="http://adblockultimate.net/" target="_blank" i18n="official_website"></a>
+							</p>
+							<p class="links">
+								<a href="https://adblockultimate.net/privacy" target="_blank" i18n="privacy_policy"></a>
+							</p>
+							<p class="links">
+								<a href="https://adblockultimate.net/report" target="_blank" i18n="report_bug"></a>
+							</p>
+							<p class="links">
+								<a href="https://adblockultimate.net/contact" target="_blank" i18n="contact_us"></a>
+							</p>
+							<p class="font-weight-bold" i18n="follow_us">:</p>
+							
+							<a href="https://www.facebook.com/AdBlockUltimate" title="Facebook" class="mx-1"
+								role="button" target="_blank">
+								<i class="fa fa-facebook" aria-hidden="true"></i>
+							</a>
+							<a href="https://twitter.com/AdBlockUltimate" title="Twitter" class="mx-1" role="button"
+								title="Twitter" target="_blank">
+								<i class="fab fa fa-twitter" aria-hidden="true"></i>
+							</a>
+
+							<p class="links translate-link">
+								<span i18n="options_want_abu_in_lang"></span>
+								<a href="https://crowdin.com/profile/adblockultimate" target="_blank" i18n="options_help_translate"></a>
+							</p>
+						</div>
+					</section>
+				</div>
+				<!-- /content -->
+			</div>
+			<!-- /tabs -->
+		</section>
+
+		<!-- Footer -->
+		<footer class="page-footer font-small unique-color-dark1 pt-4">
+
+			<!-- Footer Elements -->
+			<div class="container">
+
+				<!-- Call to action -->
+				<ul class="list-unstyled list-inline text-center py-2">
+					<li class="list-inline-item">
+						<h5 class="mb-1" i18n="options_do_you_like_abu"></h5>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" class="btn btn-outline-white btn-rounded openExtensionStore">
+							<svg version="1.1" id="Capa_2" xmlns="http://www.w3.org/2000/svg"
+								xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+								style="enable-background:new 0 0 512 512;" xml:space="preserve" fill="#fff">
+								<g>
+									<g>
+										<path
+											d="M399.5,31.533c-20.877,0-39.001,9.513-52.5,27.532c-13.499-18.018-31.623-27.532-52.5-27.532
+											c-39.008,0-67.5,32.066-67.5,71.364c0,20.371,7.885,39.044,24.813,58.764c19.404,22.603,49.565,45.525,85.425,76.261
+											c5.618,4.816,13.906,4.814,19.523,0c35.804-30.689,66.01-53.644,85.424-76.26c16.93-19.72,24.815-38.394,24.815-58.765
+											C467,63.609,438.52,31.533,399.5,31.533z M364.632,192.062c-5.719,4.774-11.565,9.655-17.632,14.779
+											c-6.066-5.125-11.914-10.006-17.634-14.781C284.238,154.389,257,131.652,257,102.897c0-23.581,16.121-41.364,37.5-41.364
+											c27.761,0,37.613,32.533,38.071,34.101c1.832,6.448,7.712,10.934,14.419,10.934c6.727,0,12.621-4.444,14.435-10.921
+											c0.405-1.393,10.234-34.113,38.075-34.113c21.379,0,37.5,17.782,37.5,41.364C437,131.653,409.761,154.392,364.632,192.062z" />
+									</g>
+								</g>
+								<g>
+									<g>
+										<path d="M434.068,284.799l-44.087,47.328c-5.698-18.32-22.81-31.66-42.981-31.66h-78.68c-6.902,0-9.951-3.777-16.955-9.939
+											c-22.593-19.882-52.688-29.121-82.572-25.344c-25.923,3.276-48.951,15.665-66.067,35.283H15c-8.284,0-15,6.716-15,15v150
+											c0,8.284,6.716,15,15,15c10.121,0,327.334,0,332,0c32.874,0,64.275-15.701,84-42l72.014-96.017
+											c5.879-7.837,8.986-17.168,8.986-26.983C512,274.61,461.738,255.095,434.068,284.799z M92,450.467H30v-120h62V450.467z
+											 M479.015,324.449L407,420.467c-14.089,18.785-36.519,30-60,30H122V324.275c12.574-16.413,30.358-26.777,50.554-29.329
+											c21.351-2.699,42.854,3.9,58.993,18.103l7.045,6.199c8.22,7.234,18.778,11.218,29.729,11.218H347c8.271,0,15,6.729,15,15
+											s-6.729,15-15,15h-91.279c-8.284,0-15,6.716-15,15s6.716,15,15,15h101.333c12.444,0,24.446-5.222,32.928-14.327l66.038-70.892
+											c2.872-3.083,6.771-4.78,10.98-4.78C479.357,300.467,486.374,314.637,479.015,324.449z" />
+									</g>
+								</g>
+							</svg>
+							<span i18n="options_rate_us" i18n="shield_rate_us"></span>
+						</a>
+					</li>
+				</ul>
+				<!-- Call to action -->
+
+			</div>
+			<!-- Footer Elements -->
+
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-3">© 2016-<span class="js-current-year">2020</span> AdAvoid Ltd.
+				<a href="https://adblockultimate.net/" target="_blank" title="AdBlocker Ultimate">
+					adblockultimate.net</a>
+			</div>
+			<!-- Copyright -->
+
+		</footer>
+
+		<!-- Related demos -->
+
+	</div>
+	<!-- /container -->
+</body>
+
+</html>

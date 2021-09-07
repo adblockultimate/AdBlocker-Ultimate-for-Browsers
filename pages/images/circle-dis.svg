@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="229px" height="229px" viewBox="0 0 229 229" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <linearGradient x1="0.5" y1="0" x2="0.5" y2="1" id="gradient_1">
+      <stop offset="0" stop-color="#1F1F1F" />
+      <stop offset="1" stop-color="#787878" />
+    </linearGradient>
+    <radialGradient gradientUnits="objectBoundingBox" cx="50%" cy="50%" fx="50%" fy="50%" r="50%" gradientTransform="translate(0.5,0.5),scale(1,0.9999999),rotate(90),translate(-0.5,-0.5)" id="gradient_2">
+      <stop offset="0%" stop-color="#1F1F1F" />
+      <stop offset="100%" stop-color="#787878" />
+    </radialGradient>
+    <linearGradient x1="0.8940656" y1="0.174516976" x2="0.815781653" y2="0.2556089" id="gradient_3">
+      <stop offset="0" stop-color="#FFFFFF" />
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0.56078434" />
+    </linearGradient>
+    <path d="M97.0073 194.015C150.583 194.015 194.015 150.583 194.015 97.0073C194.015 43.4317 150.583 0 97.0073 0C43.4317 0 0 43.4317 0 97.0073C0 150.583 43.4317 194.015 97.0073 194.015Z" transform="translate(1.770203 3.894409)" id="path_1" />
+  </defs>
+  <g id="clock" transform="translate(15 15)">
+    <path d="M99.1316 198.263C153.88 198.263 198.263 153.88 198.263 99.1316C198.263 44.3827 153.88 0 99.1316 0C44.3827 0 0 44.3827 0 99.1316C0 153.88 44.3827 198.263 99.1316 198.263Z" id="Oval" fill="url(#gradient_1)" stroke="none" />
+    <path d="M58.4168 116.834C90.6795 116.834 116.834 90.6795 116.834 58.4168C116.834 26.1541 90.6795 0 58.4168 0C26.1541 0 0 26.1541 0 58.4168C0 90.6795 26.1541 116.834 58.4168 116.834Z" transform="translate(40.36069 42.48499)" id="Oval" fill="#686868" stroke="none" />
+    <g id="Oval">
+      <use xlink:href="#path_1" fill="none" stroke="url(#gradient_2)" stroke-width="30" />
+    </g>
+    <path d="M76.4729 152.946C118.708 152.946 152.946 118.708 152.946 76.4729C152.946 34.2381 118.708 0 76.4729 0C34.2381 0 0 34.2381 0 76.4729C0 118.708 34.2381 152.946 76.4729 152.946Z" transform="translate(22.3046 24.42883)" id="Oval" fill="none" stroke="url(#gradient_3)" stroke-width="3" stroke-linecap="round" stroke-dasharray="0 34" />
+  </g>
+</svg>

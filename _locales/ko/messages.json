@@ -1,0 +1,815 @@
+{
+   "abu_desktop_info": {
+      "message": "AdBlocking is handled by \u003Cstrong>AdBlocker Ultimate for Windows\u003C/strong>. However, you can still use this menu to manage your whitelist or to manually block certain ads."
+   },
+   "abu_product_mac": {
+      "message": "맥(Mac)용 AdBlocker Ultimate"
+   },
+   "abu_product_windows": {
+      "message": "윈도우용 AdBlocker Ultimate"
+   },
+   "abu_subscribe_confirm_enable": {
+      "message": "AdBlocker Ultimate: $1 구독을 활성화 하시겠습니까?"
+   },
+   "abu_subscribe_confirm_import": {
+      "message": "AdBlocker Ultimate: $1에서 규칙을 사용자 필터로 가져오시겠습니까?"
+   },
+   "abu_subscribe_confirm_import_finished_text": {
+      "message": "AdBlocker Ultimate가 사용자 필터로 규칙 가져오기를 완료했습니다. 추가된 규칙 개수: $1"
+   },
+   "abu_subscribe_confirm_import_finished_title": {
+      "message": "성공적으로 가져오기를 완료하였습니다"
+   },
+   "alert_popup_filter_enabled_text": {
+      "message": "«$1»가 자동으로 활성화되었습니다"
+   },
+   "alert_popup_filter_enabled_title": {
+      "message": "필터 자동 활성화"
+   },
+   "all_ads_out": {
+      "message": "And all annoying ads are out!"
+   },
+   "all_rights_reserved": {
+      "message": "All Rights Reserved"
+   },
+   "assistant_another_element": {
+      "message": "다른 요소를 선택합니다"
+   },
+   "assistant_apply_rule_to_all_sites": {
+      "message": "모든 웹 사이트에 이 규칙을 적용"
+   },
+   "assistant_block": {
+      "message": "차단"
+   },
+   "assistant_block_by_reference": {
+      "message": "URL에 따른 요소 차단"
+   },
+   "assistant_block_element": {
+      "message": "요소 차단"
+   },
+   "assistant_block_element_by_url": {
+      "message": "URL에 따른 요소 차단"
+   },
+   "assistant_block_element_explain": {
+      "message": "요소 차단 규칙 설정"
+   },
+   "assistant_block_similar": {
+      "message": "유사한 요소 차단"
+   },
+   "assistant_extended_settings": {
+      "message": "고급 설정..."
+   },
+   "assistant_preview": {
+      "message": "미리보기"
+   },
+   "assistant_preview_end": {
+      "message": "미리보기 완료"
+   },
+   "assistant_preview_start": {
+      "message": "미리보기"
+   },
+   "assistant_rule_parameters": {
+      "message": "규칙 매개 변수"
+   },
+   "assistant_select_element": {
+      "message": "선택 모드"
+   },
+   "assistant_select_element_cancel": {
+      "message": "선택 모드를 취소하십시오."
+   },
+   "assistant_select_element_ext": {
+      "message": "페이지에 어떤 요소를 클릭 하거나 "
+   },
+   "badge_download_now": {
+      "message": "Download Now"
+   },
+   "badge_learn_more": {
+      "message": "Learn more"
+   },
+   "badge_windows_ifno": {
+      "message": "Single ad blocker blocks ads and online trackers across all Windows applications."
+   },
+   "block_even_more_ads": {
+      "message": "Block even more ads"
+   },
+   "browser_action_ads_blocked": {
+      "message": "광고 차단됨"
+   },
+   "browser_action_popup_block_element": {
+      "message": "요소 차단"
+   },
+   "browser_action_popup_disabled_on_site": {
+      "message": "이 사이트에서 \u003Cstrong>비활성\u003C/strong>"
+   },
+   "browser_action_popup_donate": {
+      "message": "후원하기"
+   },
+   "browser_action_popup_enabled_on_site": {
+      "message": "이 사이트에서 \u003Cstrong>활성\u003C/strong>"
+   },
+   "browser_action_popup_in_total": {
+      "message": "전체 \u003Cstrong>$1\u003C/strong>"
+   },
+   "browser_action_popup_on_this_page": {
+      "message": "이 사이트에서 \u003Cstrong>$1\u003C/strong>"
+   },
+   "browser_action_popup_options": {
+      "message": "설정"
+   },
+   "browser_action_popup_show_number_in_icon": {
+      "message": "아이콘에 숫자 표시"
+   },
+   "close": {
+      "message": "Close"
+   },
+   "contact_us": {
+      "message": "Contact us"
+   },
+   "context_abuse_site": {
+      "message": "이 웹사이트에 대한 불만 제출..."
+   },
+   "context_ads_has_been_removed": {
+      "message": "이 페이지에서 광고가 제거되었습니다"
+   },
+   "context_ads_has_been_removed_by_abu": {
+      "message": "$1에 의해 보호되었습니다"
+   },
+   "context_block_site_ads": {
+      "message": "이 웹사이트의 광고를 차단"
+   },
+   "context_block_site_element": {
+      "message": "요소 차단..."
+   },
+   "context_open_settings": {
+      "message": "AdBlocker Ultimate 설정..."
+   },
+   "context_site_exception": {
+      "message": "이 웹사이트는 예외 대상입니다"
+   },
+   "context_site_filtering_disabled": {
+      "message": "AdBlocker Ultimate은 이 도메인에서 실행할 수 없습니다"
+   },
+   "context_site_filtering_off": {
+      "message": "이 웹사이트를 필터하지 않습니다"
+   },
+   "context_site_filtering_on": {
+      "message": "이 웹사이트를 필터합니다"
+   },
+   "context_site_protection_disabled": {
+      "message": "AdBlocker Ultimate 보호가 일시 중지되었습니다."
+   },
+   "context_update_antibanner_filters": {
+      "message": "필터 업데이트 확인"
+   },
+   "description": {
+      "message": "향상된 무료 애드블로커. 모든 광고를 완전히 차단합니다. \"용인할 만한\" 광고 또는 허용된 광고주 리스트가 없고 사용자 추적과 악성 코드를 차단합니다."
+   },
+   "description_blocked": {
+      "message": "이 페이지에서 차단된 광고: $1"
+   },
+   "desktop_app_is_running": {
+      "message": "Desktop app is running"
+   },
+   "filter_description_adblock_persian_list": {
+      "message": "Removes ads from Persian websites."
+   },
+   "filter_description_adblock_polska": {
+      "message": "Removes ads from Polish websites."
+   },
+   "filter_description_anti_circumvention": {
+      "message": "Filter list designed to fight circumvention ads."
+   },
+   "filter_description_bulgarian_list": {
+      "message": "Removes ads from Bulgarian websites."
+   },
+   "filter_description_easylist_china": {
+      "message": "Removes ads from Chinese websites."
+   },
+   "filter_description_easylist_czech_and_slovak": {
+      "message": "Removes ads from Czechs and Slovak websites."
+   },
+   "filter_description_easylist_dutch_easylist": {
+      "message": "Removes ads from Dutch websites."
+   },
+   "filter_description_easylist_germany_easylist": {
+      "message": "Removes ads from German websites."
+   },
+   "filter_description_easylist_italy": {
+      "message": "Removes ads from Italian websites."
+   },
+   "filter_description_estonian_list": {
+      "message": "Removes ads from Estonian websites."
+   },
+   "filter_description_fanboys_annoyance_list": {
+      "message": "Blocks all irritating in-page popups, cookie notices and third-party widgets, which substantially decrease page loading times use this filter and it will block all of them for you."
+   },
+   "filter_description_fanboys_japanese": {
+      "message": "Removes ads from Japanese websites."
+   },
+   "filter_description_fanboys_korean": {
+      "message": "Removes ads from Korean websites."
+   },
+   "filter_description_fanboys_social_blocking_list": {
+      "message": "Removes social media integration"
+   },
+   "filter_description_fanboys_spanish_portuguese": {
+      "message": "Removes ads from Spanish/Portuguese websites."
+   },
+   "filter_description_fanboys_swedish": {
+      "message": "Removes ads from Swedish websites."
+   },
+   "filter_description_fanboys_turkish": {
+      "message": "Removes ads from Turkish websites."
+   },
+   "filter_description_fanboys_vietnamese": {
+      "message": "Removes ads from Vietnamese websites."
+   },
+   "filter_description_hufilter": {
+      "message": "Removes ads from Hungarian websites."
+   },
+   "filter_description_latvian_list": {
+      "message": "Removes ads from Latvian websites."
+   },
+   "filter_description_liste_fr": {
+      "message": "Removes ads from French websites."
+   },
+   "filter_description_nocoin": {
+      "message": "Stops cryptomining in your browser."
+   },
+   "filter_description_ruadlist_easylist": {
+      "message": "Removes ads from Russian websites."
+   },
+   "filter_description_spam404": {
+      "message": "This filter protects you from online scams. This filter is regularly updated with data collected by Spam404.com."
+   },
+   "filter_description_ultimate_ad_filter": {
+      "message": "This is the best performing all-in-one ad filter out there, which blocks ads across the entire web. It's based on the EasyList filter and further enhanced by our team."
+   },
+   "filter_description_ultimate_privacy_filter": {
+      "message": "Blocks an extensive list of various online trackers, counters and web analytics tools. Based on the EasyList Privacy list and upgraded by our team."
+   },
+   "filter_description_ultimate_security_filter": {
+      "message": "This filter blocks ads injected by adware. Based on Easylist's Adware filters and further updated and modified by our team."
+   },
+   "filter_download_loading": {
+      "message": "필터 데이터베이스를 로드하는 동안 잠시 기다려주십시오..."
+   },
+   "filter_download_title": {
+      "message": "필터 데이터베이스 로드 중..."
+   },
+   "filter_group_ad_blocking": {
+      "message": "Ad Blocking"
+   },
+   "filter_group_custom_filters": {
+      "message": "Custom Filters"
+   },
+   "filter_group_language_specific": {
+      "message": "Language-specific"
+   },
+   "filter_group_privacy": {
+      "message": "Privacy"
+   },
+   "filter_group_security": {
+      "message": "Security"
+   },
+   "filter_name_adblock_persian_list": {
+      "message": "Adblock-Persian list"
+   },
+   "filter_name_adblock_polska": {
+      "message": "Adblock Polska"
+   },
+   "filter_name_anti_circumvention": {
+      "message": "Anti-circumvention"
+   },
+   "filter_name_bulgarian_list": {
+      "message": "Bulgarian list"
+   },
+   "filter_name_easylist_china": {
+      "message": "EasyList China"
+   },
+   "filter_name_easylist_czech_and_slovak": {
+      "message": "EasyList Czech and Slovak"
+   },
+   "filter_name_easylist_dutch_easylist": {
+      "message": "EasyList Dutch + EasyList"
+   },
+   "filter_name_easylist_germany_easylist": {
+      "message": "EasyList Germany+EasyList"
+   },
+   "filter_name_easylist_italy": {
+      "message": "EasyList Italy"
+   },
+   "filter_name_estonian_list": {
+      "message": "Estonian List"
+   },
+   "filter_name_fanboys_annoyance_list": {
+      "message": "Fanboy's Annoyance List"
+   },
+   "filter_name_fanboys_japanese": {
+      "message": "Fanboy's Japanese"
+   },
+   "filter_name_fanboys_korean": {
+      "message": "Fanboy's Korean"
+   },
+   "filter_name_fanboys_social_blocking_list": {
+      "message": "Fanboy's Social Blocking List"
+   },
+   "filter_name_fanboys_spanish_portuguese": {
+      "message": "Fanboy's Spanish/Portuguese"
+   },
+   "filter_name_fanboys_swedish": {
+      "message": "Fanboy's Swedish"
+   },
+   "filter_name_fanboys_turkish": {
+      "message": "Fanboy's Turkish"
+   },
+   "filter_name_fanboys_vietnamese": {
+      "message": "Fanboy's Vietnamese"
+   },
+   "filter_name_hufilter": {
+      "message": "Hufilter - The Hungarian Adblock List"
+   },
+   "filter_name_latvian_list": {
+      "message": "Latvian List"
+   },
+   "filter_name_liste_fr": {
+      "message": "Liste FR"
+   },
+   "filter_name_nocoin": {
+      "message": "NoCoin"
+   },
+   "filter_name_ruadlist_easylist": {
+      "message": "RuAdList+EasyList"
+   },
+   "filter_name_spam404": {
+      "message": "Spam404"
+   },
+   "filter_name_ultimate_ad_filter": {
+      "message": "Ultimate Ad Filter"
+   },
+   "filter_name_ultimate_privacy_filter": {
+      "message": "Ultimate Privacy Filter"
+   },
+   "filter_name_ultimate_security_filter": {
+      "message": "Ultimate Security Filter"
+   },
+   "filter_rules_count": {
+      "message": "Filter rules count"
+   },
+   "follow_us": {
+      "message": "Follow us on"
+   },
+   "name": {
+      "message": "AdBlocker Ultimate"
+   },
+   "no": {
+      "message": "No"
+   },
+   "official_website": {
+      "message": "Official Website"
+   },
+   "options_about": {
+      "message": "About"
+   },
+   "options_abu_is_disabled": {
+      "message": "Adblocker Ultimate은 아래에 나열된 도메인에 대해 비활성됩니다. Adblocker Ultimate 아이콘을 통해 도메인을 추가하거나 상자 안에 도메인(URL이 아닌)를 입력하고 \"도메인 추가\" 버튼을 클릭하여 도메인을 추가할 수 있습니다."
+   },
+   "options_add": {
+      "message": "추가"
+   },
+   "options_add_custom_filter": {
+      "message": "Add custom filter"
+   },
+   "options_add_domain": {
+      "message": "도메인 추가"
+   },
+   "options_add_filter": {
+      "message": "필터 추가"
+   },
+   "options_add_filter_subscription": {
+      "message": "필터 구독 추가"
+   },
+   "options_add_your_filters": {
+      "message": "사용자 필터 추가"
+   },
+   "options_anti_circumvention_desc": {
+      "message": "This feature is fighting the anti-adblocker messages some websites show when they detect the use of one."
+   },
+   "options_anti_circumvention_title": {
+      "message": "Enable Anti-Circumvention"
+   },
+   "options_antibanner_info": {
+      "message": "필터 규칙 개수: $1"
+   },
+   "options_apply_changes": {
+      "message": "변경 내용 적용"
+   },
+   "options_auto_activate_lang_filters_desc": {
+      "message": "After opening a few pages in a language, the filters for this language will be automatically added and activated."
+   },
+   "options_auto_activate_lang_filters_title": {
+      "message": "Automatically activate language-specific filters"
+   },
+   "options_check_for_updates": {
+      "message": "필터 업데이트 확인"
+   },
+   "options_clear_filter": {
+      "message": "Clear filter"
+   },
+   "options_confirm_filter_delete": {
+      "message": "Are you sure you want to delete this filter?"
+   },
+   "options_custom": {
+      "message": "Custom"
+   },
+   "options_custom_filter_already_add": {
+      "message": "Filter with same URL already exists!"
+   },
+   "options_custom_filter_empty_url": {
+      "message": "Please, enter filter URL!"
+   },
+   "options_custom_filter_error": {
+      "message": "Error downloading filter!"
+   },
+   "options_custom_filters": {
+      "message": "Custom Filters"
+   },
+   "options_custom_rules": {
+      "message": "Custom Rules"
+   },
+   "options_delete": {
+      "message": "제거"
+   },
+   "options_do_you_like_abu": {
+      "message": "Do you like AdBlocker Ultimate?"
+   },
+   "options_editor_desc": {
+      "message": "In this list you can add your own Custom Rules. Create your own ad filters and add them here."
+   },
+   "options_enable_only": {
+      "message": "필요한 구독 필터만 추가하십시오. 구독 필터가 과도하게 많으면 브라우저가 응답하지 않을 수 있습니다."
+   },
+   "options_enabled": {
+      "message": "사용"
+   },
+   "options_enter_url_or_path": {
+      "message": "Enter valid URL or file path"
+   },
+   "options_err_import_file": {
+      "message": "Error importing file!"
+   },
+   "options_err_no_txt_file": {
+      "message": "Only .txt files allowed!"
+   },
+   "options_export": {
+      "message": "내보내기"
+   },
+   "options_filter_list": {
+      "message": "필터 목록"
+   },
+   "options_filter_list_location": {
+      "message": "필터 목록 위치:"
+   },
+   "options_filter_status_all": {
+      "message": "All"
+   },
+   "options_filter_status_disable": {
+      "message": "Disabled"
+   },
+   "options_filter_version": {
+      "message": "버전 $1. 업데이트 일시 $2 $3"
+   },
+   "options_filters": {
+      "message": "Filters"
+   },
+   "options_filters_enabled": {
+      "message": "Enabled:"
+   },
+   "options_filters_enabled_and_more": {
+      "message": "$1 and $2 more"
+   },
+   "options_filters_updated": {
+      "message": "updated"
+   },
+   "options_general": {
+      "message": "일반"
+   },
+   "options_help_translate": {
+      "message": "Help us with the translation!"
+   },
+   "options_import": {
+      "message": "가져오기"
+   },
+   "options_language_specific": {
+      "message": "Language-specific"
+   },
+   "options_last_uodate": {
+      "message": "Last update"
+   },
+   "options_modal_cancel": {
+      "message": "취소"
+   },
+   "options_modal_homepage": {
+      "message": "홈페이지"
+   },
+   "options_new_filter": {
+      "message": "New filter"
+   },
+   "options_no_custom_filters": {
+      "message": "Sorry, but you don't have any custom filters yet"
+   },
+   "options_no_filters_enabled": {
+      "message": "No filters enabled"
+   },
+   "options_number_icon_desc": {
+      "message": "The number of blocked ads on each page will show in the extension icon."
+   },
+   "options_out_of_date_lists": {
+      "message": "오래 된 목록은 주기적으로 업데이트 됩니다."
+   },
+   "options_please_choose": {
+      "message": "목록에서 구독할 필터를 선택하십시오:"
+   },
+   "options_popup_update_error": {
+      "message": "업데이트를 불러오지 못했습니다. 나중에 다시 시도하십시오."
+   },
+   "options_popup_update_not_found": {
+      "message": "업데이트가 없습니다."
+   },
+   "options_popup_update_title": {
+      "message": "성공적으로 필터를 업데이트하였습니다."
+   },
+   "options_popup_update_updated": {
+      "message": "\"$1\"가 $2 버전으로 업데이트 되었습니다."
+   },
+   "options_rate_us": {
+      "message": "Rate Us"
+   },
+   "options_remove_selected": {
+      "message": "선택 항목 제거"
+   },
+   "options_search": {
+      "message": "Search"
+   },
+   "options_settings": {
+      "message": "AdBlocker Ultimate"
+   },
+   "options_show_block_element": {
+      "message": "'요소 차단' 우클릭 메뉴 항목 보이기"
+   },
+   "options_show_useful_notifications": {
+      "message": "유용한 알림 표시"
+   },
+   "options_status_saved": {
+      "message": "Saved"
+   },
+   "options_submit": {
+      "message": "Submit"
+   },
+   "options_subscription_title": {
+      "message": "구독 이름:"
+   },
+   "options_title": {
+      "message": "AdBlocker Ultimate 설정"
+   },
+   "options_update_now": {
+      "message": "지금 업데이트"
+   },
+   "options_userfilter": {
+      "message": "사용자 필터"
+   },
+   "options_userfilter_add_rule": {
+      "message": "새 규칙 추가"
+   },
+   "options_userfilter_clear": {
+      "message": "초기화"
+   },
+   "options_userfilter_clear_confirm": {
+      "message": "사용자 필터를 초기화하면 모든 규칙이 제거됩니다. 사용자 필터를 초기화하겠습니까?"
+   },
+   "options_userfilter_description": {
+      "message": ""
+   },
+   "options_userfilter_export": {
+      "message": "내보내기"
+   },
+   "options_userfilter_import": {
+      "message": "가져오기"
+   },
+   "options_want_abu_in_lang": {
+      "message": "Want AdBlocker Ultimate in your language?"
+   },
+   "options_whitelist": {
+      "message": "화이트리스트"
+   },
+   "options_whitelist_desc": {
+      "message": "The ads on the websites added to this Whitelist will not be blocked."
+   },
+   "options_whitelisted_domains": {
+      "message": "허용된 도메인"
+   },
+   "options_whitelistfilter_clear_confirm": {
+      "message": "화이트리스트를 초기화하면 모든 규칙이 제거됩니다. 화이트리스트를 초기화하겠습니까?"
+   },
+   "popup_ads_has_been_removed": {
+      "message": "이 페이지에서 광고가 제거되었습니다"
+   },
+   "popup_ads_has_been_removed_by_abu": {
+      "message": "$1에 의해 보호되었습니다"
+   },
+   "popup_block_site_ads": {
+      "message": "이 웹사이트의 광고를 차단"
+   },
+   "popup_block_site_ads_android": {
+      "message": "이 웹사이트의 광고를 차단"
+   },
+   "popup_blocked_total": {
+      "message": "Total:"
+   },
+   "popup_curent_tab_blocked": {
+      "message": "Blocked:"
+   },
+   "popup_disabled_on_site": {
+      "message": "Disabled on this site"
+   },
+   "popup_enabled_on_site": {
+      "message": "Enabled on this site"
+   },
+   "popup_get_abu_windows": {
+      "message": "Get AdBlocker Ultimate for Windows"
+   },
+   "popup_on_this_site": {
+      "message": "on this site:"
+   },
+   "popup_open_log_android": {
+      "message": "필터링 로그"
+   },
+   "popup_open_settings": {
+      "message": "AdBlocker Ultimate 설정"
+   },
+   "popup_protection_disabled": {
+      "message": "Protection: Disabled"
+   },
+   "popup_protection_enabled": {
+      "message": "Protection: Enabled"
+   },
+   "popup_secure_page": {
+      "message": "Secure page"
+   },
+   "popup_security_report": {
+      "message": "웹사이트 보안 보고서"
+   },
+   "popup_security_report_android": {
+      "message": "보안 보고서"
+   },
+   "popup_settings": {
+      "message": "Settings"
+   },
+   "popup_share_on_fb": {
+      "message": "Share on Facebook"
+   },
+   "popup_share_on_twitter": {
+      "message": "Share on Twitter"
+   },
+   "popup_site_filtering_state": {
+      "message": "이 웹사이트에 대한 보호"
+   },
+   "popup_site_protection_disabled": {
+      "message": "AdBlocker Ultimate 보호가 일시 중지되었습니다."
+   },
+   "popup_site_protection_disabled_android": {
+      "message": "보호 일시 중지"
+   },
+   "popup_status_inactive": {
+      "message": "Filtering is inactive to avoid possible website dysfunction."
+   },
+   "popup_tab_blocked": {
+      "message": "차된됨: $1"
+   },
+   "popup_tab_blocked_all": {
+      "message": "전체: $1"
+   },
+   "popup_total": {
+      "message": "Total:"
+   },
+   "privacy_policy": {
+      "message": "Privacy Policy"
+   },
+   "report_bug": {
+      "message": "Report a bug"
+   },
+   "security": {
+      "message": "Security"
+   },
+   "shield_blocked_ads": {
+      "message": "광고 차단"
+   },
+   "shield_bronze_shield": {
+      "message": "브론즈 쉴드"
+   },
+   "shield_congrats": {
+      "message": "축 하!"
+   },
+   "shield_congratulations": {
+      "message": "축하합니다!"
+   },
+   "shield_contribute_to_our_project": {
+      "message": "프로젝트에 기여하기"
+   },
+   "shield_decreased_peak_cpu_usage": {
+      "message": "피크 CPU 사용률 $1 감소"
+   },
+   "shield_decreased_peak_memory_usage": {
+      "message": "피크 메모리 사용률 $1 감소"
+   },
+   "shield_decreased_your_page_load_time": {
+      "message": "로드 시간을 $1 감소"
+   },
+   "shield_do_you_like_abu": {
+      "message": "Do you like\u003C/br> AdBlocker Ultimate?"
+   },
+   "shield_dont_show_again": {
+      "message": "이 메시지를 다시 표시하지 않음"
+   },
+   "shield_email": {
+      "message": "Email"
+   },
+   "shield_gold_shield": {
+      "message": "골드 쉴드"
+   },
+   "shield_got_no_ads": {
+      "message": "모든 광고가 차단되었습니다"
+   },
+   "shield_message": {
+      "message": "Message"
+   },
+   "shield_no_thanks": {
+      "message": "No thanks"
+   },
+   "shield_rate_txt": {
+      "message": "Enjoy blocking ads? Help others find out about us."
+   },
+   "shield_rate_us": {
+      "message": "평가하기"
+   },
+   "shield_send_feedback": {
+      "message": "Send Feedback"
+   },
+   "shield_sending": {
+      "message": "Sending..."
+   },
+   "shield_share_abu": {
+      "message": "AdBlocker Ultimate 공유하기"
+   },
+   "shield_silver_shield": {
+      "message": "실버 쉴드"
+   },
+   "shield_tell_how_to_improve": {
+      "message": "Please tell us how we can improve"
+   },
+   "shield_thank_you": {
+      "message": "Thank you!"
+   },
+   "shield_to_unlock": {
+      "message": "잠금 해제"
+   },
+   "shield_we_blocked_more_than": {
+      "message": "$1 이상의 광고를 차단하였습니다, 또한:"
+   },
+   "shield_you_won": {
+      "message": "획득"
+   },
+   "short_name": {
+      "message": "AdBlocker Ultimate"
+   },
+   "store_ss_ads": {
+      "message": "광고"
+   },
+   "store_ss_no_more_ads": {
+      "message": "광고 없는 인터넷"
+   },
+   "store_ss_no_more_banner_ads": {
+      "message": "배너 광고 차단"
+   },
+   "store_ss_no_more_facebook_ads": {
+      "message": "페이스북 광고 차단"
+   },
+   "store_ss_no_more_video_ads": {
+      "message": "동영상 광고 차단"
+   },
+   "store_ss_surf_and_all_annoying_ads": {
+      "message": "그리고 모든 성가신 광고를 차단!"
+   },
+   "store_ss_surf_faster": {
+      "message": "성가신 광고 없이 더 빠르게, 안전하게, 깔끔하게 서프하십시오!"
+   },
+   "store_ss_surf_faster_with_no_ads": {
+      "message": "광고 없이 더 빠르게, 안전하게 서프하십시오"
+   },
+   "version": {
+      "message": "Version"
+   },
+   "yes": {
+      "message": "Yes"
+   }
+}

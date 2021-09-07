@@ -1,0 +1,36 @@
+AdBlocker Ultimate on disainitud ühe eesmärgiga, eemaldada reklaamid ning fokuseerida sind lehekülje sisule.
+
+Omadused
+- Eemaldab kõik reklaamid
+- Ära hoida pahavara ning jälgimine
+- Parandada Browseri töövõimet
+- Mitte ühtegi reklaami, mitte ühelgil lehel
+
+AdBlocker Ultimate on tasuta lisand mis blokib reklaame ning pahavara domeenitelt mis on tuntud seda tegema ning lõpetada sinu tegevuse jälgimise.  Me oleme lisanud filtrid mis kaitsevad sind närviajavate, plinkivate reklaamide, YouTubi reklaamide ja palju muu. Teistest eristab meid see, et me ei lisa ühtegi lehekülge või reklaamijat valgesse nimekirja. Reklaamide blokeerimine kiirendab lehekülje avamis kiirust ning kasutab vähem CPU ja mälu.
+
+Meie lisand lubab sul lisada lehekülgi oma valgesse nimekirja kui tead, et lehel pole ühtegi eksitavat reklaami.
+
+*** Reklaami tüübid mida me blokeerime ***
+- Teksti reklaamid
+- Bänner reklaamid
+- Hüpik reklaamid
+- Taustal tegutsevad reklaamid
+- lehekülje suurused nähtamatud reklaamid
+- interstitsiaalsed lehekülje reklaamid
+- Video reklaamid
+- Email Reklaamid
+- Facebooki reklaamid
+
+*** reklaamide blokeerimise plussid ***
+- Paranda Browseri kiirust
+- Paranda lehekülje laadimis kiirust
+- Kasuta vähem arvuti mälu
+- Vähenda Ribalaiust
+
+*** Vaadatav kood ***
+AdBlocker Ultimate on vaadatava koodiga projekt:
+https://github.com/adblockultimate/
+
+*** Leitsid vea? ***
+Kasuta probleemi raporteerimise vormi: 
+https://adblockultimate.net/report.html

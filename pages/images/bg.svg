@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="375px" height="649px" viewBox="0 0 375 649" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <linearGradient x1="-0.298026025" y1="1.58316493" x2="0.766508" y2="-0.260333449" id="gradient_1">
+      <stop offset="0" stop-color="#2D79E6" />
+      <stop offset="1" stop-color="#093D87" />
+    </linearGradient>
+  </defs>
+  <g id="background" transform="translate(-413 0)">
+    <path d="M0 0L377 0L377 490L0 490L0 0Z" transform="translate(411.9999 216.9999)" id="background-bottom" fill="#0C4492" stroke="none" />
+    <path d="M0 0L377 0L377 217L0 217L0 0Z" transform="translate(412 0)" id="background-top" fill="url(#gradient_1)" stroke="none" />
+  </g>
+</svg>

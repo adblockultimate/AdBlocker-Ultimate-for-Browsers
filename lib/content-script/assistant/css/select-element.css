@@ -1,0 +1,30 @@
+ 
+
+.sg_border {
+    position: absolute !important;
+    z-index: 2147483646 !important;
+    background: white !important;
+    background-color: #E74C3C !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    display: block;
+    float: none !important;
+    border: 0 !important;
+    font-style: normal !important;
+    outline: 0 !important;
+    vertical-align: baseline !important;
+    text-align: left !important;
+    line-height: 12px;
+}
+
+.sg_bottom_border {
+    font-size: 10px !important;
+    font-weight: bold;
+    color: white !important;
+    padding: 2px 0px 2px 5px !important;
+    overflow: hidden !important;
+}
+
+#abu-assistant-dialog{
+    z-index: 99999999999;
+}
