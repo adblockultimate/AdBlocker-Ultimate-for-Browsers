@@ -1,6 +1,6 @@
 <h1 align="center">
 <sub>
-<img src="https://github.com/adblockultimate/AdBlocker-Ultimate-for-Browsers/blob/master/icons/38.png" height="38" width="38">
+<img src="https://raw.githubusercontent.com/adblockultimate/AdBlocker-Ultimate-for-Browsers/main/icons/38.png" height="38" width="38">
 </sub>
 AdBlocker Ultimate for Browsers
 </h1>
