@@ -1,6 +1,6 @@
 #
 #    AdGuard Scriptlets (Redirects Source)
-#    Version 1.2.3
+#    Version 1.4.14
 #
 - title: 1x1-transparent.gif
   description: |-
@@ -117,6 +117,25 @@
   contentType: text/plain
   content: ''
 
+- title: empty
+  description: >-
+    Pretty much the same as `nooptext`. Used for conversion of modifier `empty`
+    so better avoid its using in production filter lists.
+
+
+    **Example**
+
+    ```
+
+    ||example.org/log$redirect=empty
+
+    ```
+  aliases:
+    - empty
+  file: nooptext.js
+  contentType: text/plain
+  content: ''
+
 - title: noopvmap-1.0
   description: |-
     Redirects request to an empty VMAP response.
@@ -125,6 +144,8 @@
     ```
     ||example.org/vmap01.xml$xmlhttprequest,redirect=noopvmap-1.0
     ```
+  aliases:
+    - noop-vmap1.0.xml
   file: noopvmap01.xml
   contentType: text/xml
   content: >-
@@ -133,7 +154,7 @@
 
 - title: noopvast-2.0
   description: |-
-    Redirects request to an empty VAST response.
+    Redirects request to an empty VAST 2.0 response.
 
     **Example**
     ```
@@ -145,7 +166,7 @@
 
 - title: noopvast-3.0
   description: |-
-    Redirects request to an empty VAST response.
+    Redirects request to an empty VAST 3.0 response.
 
     **Example**
     ```
@@ -154,6 +175,18 @@
   file: noopvast03.xml
   contentType: text/xml
   content: <VAST version="3.0"></VAST>
+
+- title: noopvast-4.0
+  description: |-
+    Redirects request to an empty VAST 4.0 response.
+
+    **Example**
+    ```
+    ||example.org/vast04.xml^$xmlhttprequest,redirect=noopvast-4.0
+    ```
+  file: noopvast04.xml
+  contentType: text/xml
+  content: <VAST version="4.0"></VAST>
 
 - title: noopmp3-0.1s
   description: |-
@@ -294,7 +327,8 @@
 
         try {
           var log = console.log.bind(console);
-          var trace = console.trace.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
           var prefix = source.ruleText || '';
 
           if (source.domainName) {
@@ -332,10 +366,10 @@
           }
 
           log("".concat(prefix, " trace end"));
-        } catch (e) {} // try catch for Edge 15
-        // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
-        // console.log throws an error
-        // This is necessary for unit-tests only!
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
 
 
         if (typeof window.__debug === 'function') {
@@ -348,6 +382,104 @@
         
     })({"name":"amazon-apstag","args":[]}, []);
   file: amazon-apstag.js
+
+- title: fingerprintjs
+  comment: Mocks FingerprintJS.
+  aliases:
+    - ubo-fingerprint2.js
+    - fingerprintjs.js
+  contentType: application/javascript
+  content: |-
+    (function(source, args){
+    function Fingerprintjs(source) {
+        var browserId = '';
+
+        for (var i = 0; i < 8; i += 1) {
+          browserId += (Math.random() * 0x10000 + 0x1000).toString(16).slice(-4);
+        }
+
+        var Fingerprint = function Fingerprint() {};
+
+        Fingerprint.get = function (options, callback) {
+          if (!callback) {
+            callback = options;
+          }
+
+          setTimeout(function () {
+            if (callback) {
+              callback(browserId, []);
+            }
+          }, 1);
+        };
+
+        Fingerprint.prototype = {
+          get: Fingerprint.get
+        };
+        window.Fingerprint2 = Fingerprint;
+        hit(source);
+      }
+    function hit(source, message) {
+        if (source.verbose !== true) {
+          return;
+        }
+
+        try {
+          var log = console.log.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
+          var prefix = source.ruleText || '';
+
+          if (source.domainName) {
+            var AG_SCRIPTLET_MARKER = '#%#//';
+            var UBO_SCRIPTLET_MARKER = '##+js';
+            var ruleStartIndex;
+
+            if (source.ruleText.indexOf(AG_SCRIPTLET_MARKER) > -1) {
+              ruleStartIndex = source.ruleText.indexOf(AG_SCRIPTLET_MARKER);
+            } else if (source.ruleText.indexOf(UBO_SCRIPTLET_MARKER) > -1) {
+              ruleStartIndex = source.ruleText.indexOf(UBO_SCRIPTLET_MARKER);
+            } // delete all domains from ruleText and leave just rule part
+
+
+            var rulePart = source.ruleText.slice(ruleStartIndex); // prepare applied scriptlet rule for specific domain
+
+            prefix = "".concat(source.domainName).concat(rulePart);
+          } // Used to check if scriptlet uses 'hit' function for logging
+
+
+          var LOG_MARKER = 'log: ';
+
+          if (message) {
+            if (message.indexOf(LOG_MARKER) === -1) {
+              log("".concat(prefix, " message:\n").concat(message));
+            } else {
+              log(message.slice(LOG_MARKER.length));
+            }
+          }
+
+          log("".concat(prefix, " trace start"));
+
+          if (trace) {
+            trace();
+          }
+
+          log("".concat(prefix, " trace end"));
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
+
+
+        if (typeof window.__debug === 'function') {
+          window.__debug(source);
+        }
+      }
+    function noopFunc() {};
+            const updatedArgs = args ? [].concat(source).concat(args) : [source];
+            Fingerprintjs.apply(this, updatedArgs);
+        
+    })({"name":"fingerprintjs","args":[]}, []);
+  file: fingerprintjs.js
 
 - title: google-analytics-ga
   comment: Mocks old Google Analytics API.
@@ -448,7 +580,8 @@
 
         try {
           var log = console.log.bind(console);
-          var trace = console.trace.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
           var prefix = source.ruleText || '';
 
           if (source.domainName) {
@@ -486,10 +619,10 @@
           }
 
           log("".concat(prefix, " trace end"));
-        } catch (e) {} // try catch for Edge 15
-        // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
-        // console.log throws an error
-        // This is necessary for unit-tests only!
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
 
 
         if (typeof window.__debug === 'function') {
@@ -504,10 +637,13 @@
   file: google-analytics-ga.js
 
 - title: google-analytics
-  comment: Mocks Google Analytics API.
+  comment: Mocks Google's Analytics and Tag Manager APIs.
   aliases:
     - ubo-google-analytics_analytics.js
     - google-analytics_analytics.js
+    - googletagmanager-gtm
+    - ubo-googletagmanager_gtm.js
+    - googletagmanager_gtm.js
   contentType: application/javascript
   content: |-
     (function(source, args){
@@ -520,9 +656,10 @@
         proto.get = noopFunc;
         proto.set = noopFunc;
         proto.send = noopFunc;
-        var googleAnalyticsName = window.GoogleAnalyticsObject || 'ga';
+        var googleAnalyticsName = window.GoogleAnalyticsObject || 'ga'; // a -- fake arg for 'ga.length < 1' antiadblock checking
+        // eslint-disable-next-line no-unused-vars
 
-        function ga() {
+        function ga(a) {
           var len = arguments.length;
 
           if (len === 0) {
@@ -531,230 +668,35 @@
 
 
           var lastArg = arguments[len - 1];
+          var replacer;
 
-          if (typeof lastArg !== 'object' || lastArg === null || typeof lastArg.hitCallback !== 'function') {
-            return;
+          if (lastArg instanceof Object && lastArg !== null && typeof lastArg.hitCallback === 'function') {
+            replacer = lastArg.hitCallback;
+          } else if (typeof lastArg === 'function') {
+            // https://github.com/AdguardTeam/Scriptlets/issues/98
+            replacer = function replacer() {
+              lastArg(ga.create());
+            };
           }
 
           try {
-            lastArg.hitCallback(); // eslint-disable-next-line no-empty
+            setTimeout(replacer, 1); // eslint-disable-next-line no-empty
           } catch (ex) {}
         }
 
         ga.create = function () {
           return new Tracker();
+        }; // https://github.com/AdguardTeam/Scriptlets/issues/134
+
+
+        ga.getByName = function () {
+          return new Tracker();
         };
 
-        ga.getByName = noopNull;
         ga.getAll = noopArray;
         ga.remove = noopFunc;
         ga.loaded = true;
         window[googleAnalyticsName] = ga;
-        var _window = window,
-            dataLayer = _window.dataLayer;
-
-        if (dataLayer instanceof Object && dataLayer.hide instanceof Object && typeof dataLayer.hide.end === 'function') {
-          dataLayer.hide.end();
-        }
-
-        hit(source);
-      }
-    function hit(source, message) {
-        if (source.verbose !== true) {
-          return;
-        }
-
-        try {
-          var log = console.log.bind(console);
-          var trace = console.trace.bind(console);
-          var prefix = source.ruleText || '';
-
-          if (source.domainName) {
-            var AG_SCRIPTLET_MARKER = '#%#//';
-            var UBO_SCRIPTLET_MARKER = '##+js';
-            var ruleStartIndex;
-
-            if (source.ruleText.indexOf(AG_SCRIPTLET_MARKER) > -1) {
-              ruleStartIndex = source.ruleText.indexOf(AG_SCRIPTLET_MARKER);
-            } else if (source.ruleText.indexOf(UBO_SCRIPTLET_MARKER) > -1) {
-              ruleStartIndex = source.ruleText.indexOf(UBO_SCRIPTLET_MARKER);
-            } // delete all domains from ruleText and leave just rule part
-
-
-            var rulePart = source.ruleText.slice(ruleStartIndex); // prepare applied scriptlet rule for specific domain
-
-            prefix = "".concat(source.domainName).concat(rulePart);
-          } // Used to check if scriptlet uses 'hit' function for logging
-
-
-          var LOG_MARKER = 'log: ';
-
-          if (message) {
-            if (message.indexOf(LOG_MARKER) === -1) {
-              log("".concat(prefix, " message:\n").concat(message));
-            } else {
-              log(message.slice(LOG_MARKER.length));
-            }
-          }
-
-          log("".concat(prefix, " trace start"));
-
-          if (trace) {
-            trace();
-          }
-
-          log("".concat(prefix, " trace end"));
-        } catch (e) {} // try catch for Edge 15
-        // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
-        // console.log throws an error
-        // This is necessary for unit-tests only!
-
-
-        if (typeof window.__debug === 'function') {
-          window.__debug(source);
-        }
-      }
-    function noopFunc() {}
-    function noopNull() {
-        return null;
-      }
-    function noopArray() {
-        return [];
-      };
-            const updatedArgs = args ? [].concat(source).concat(args) : [source];
-            GoogleAnalytics.apply(this, updatedArgs);
-        
-    })({"name":"google-analytics","args":[]}, []);
-  file: google-analytics.js
-
-- title: googlesyndication-adsbygoogle
-  comment: Mocks Google AdSense API.
-  aliases:
-    - ubo-googlesyndication_adsbygoogle.js
-    - googlesyndication_adsbygoogle.js
-  contentType: application/javascript
-  content: |-
-    (function(source, args){
-    function GoogleSyndicationAdsByGoogle(source) {
-        window.adsbygoogle = window.adsbygoogle || {
-          length: 0,
-          loaded: true,
-          push: function push() {
-            this.length += 1;
-          }
-        };
-        var adElems = document.querySelectorAll('.adsbygoogle');
-        var css = 'height:1px!important;max-height:1px!important;max-width:1px!important;width:1px!important;';
-        var statusAttrName = 'data-adsbygoogle-status';
-        var ASWIFT_IFRAME_MARKER = 'aswift_';
-        var GOOGLE_ADS_IFRAME_MARKER = 'google_ads_iframe_';
-        var executed = false;
-
-        for (var i = 0; i < adElems.length; i += 1) {
-          var adElemChildNodes = adElems[i].childNodes;
-          var childNodesQuantity = adElemChildNodes.length; // childNodes of .adsbygoogle can be defined if scriptlet was executed before
-          // so we should check are that childNodes exactly defined by us
-          // TODO: remake after scriptlets context developing in 1.3
-
-          var areIframesDefined = false;
-
-          if (childNodesQuantity > 0) {
-            // it should be only 2 child iframes if scriptlet was executed
-            areIframesDefined = childNodesQuantity === 2 // the first of child nodes should be aswift iframe
-            && adElemChildNodes[0].tagName.toLowerCase() === 'iframe' && adElemChildNodes[0].id.indexOf(ASWIFT_IFRAME_MARKER) > -1 // the second of child nodes should be google_ads iframe
-            && adElemChildNodes[1].tagName.toLowerCase() === 'iframe' && adElemChildNodes[1].id.indexOf(GOOGLE_ADS_IFRAME_MARKER) > -1;
-          }
-
-          if (!areIframesDefined) {
-            // here we do the job if scriptlet has not been executed earlier
-            adElems[i].setAttribute(statusAttrName, 'done');
-            var aswiftIframe = document.createElement('iframe');
-            aswiftIframe.id = "".concat(ASWIFT_IFRAME_MARKER).concat(i + 1);
-            aswiftIframe.style = css;
-            adElems[i].appendChild(aswiftIframe);
-            var googleadsIframe = document.createElement('iframe');
-            googleadsIframe.id = "".concat(GOOGLE_ADS_IFRAME_MARKER).concat(i + 1);
-            googleadsIframe.style = css;
-            adElems[i].appendChild(googleadsIframe);
-            executed = true;
-          }
-        }
-
-        if (executed) {
-          hit(source);
-        }
-      }
-    function hit(source, message) {
-        if (source.verbose !== true) {
-          return;
-        }
-
-        try {
-          var log = console.log.bind(console);
-          var trace = console.trace.bind(console);
-          var prefix = source.ruleText || '';
-
-          if (source.domainName) {
-            var AG_SCRIPTLET_MARKER = '#%#//';
-            var UBO_SCRIPTLET_MARKER = '##+js';
-            var ruleStartIndex;
-
-            if (source.ruleText.indexOf(AG_SCRIPTLET_MARKER) > -1) {
-              ruleStartIndex = source.ruleText.indexOf(AG_SCRIPTLET_MARKER);
-            } else if (source.ruleText.indexOf(UBO_SCRIPTLET_MARKER) > -1) {
-              ruleStartIndex = source.ruleText.indexOf(UBO_SCRIPTLET_MARKER);
-            } // delete all domains from ruleText and leave just rule part
-
-
-            var rulePart = source.ruleText.slice(ruleStartIndex); // prepare applied scriptlet rule for specific domain
-
-            prefix = "".concat(source.domainName).concat(rulePart);
-          } // Used to check if scriptlet uses 'hit' function for logging
-
-
-          var LOG_MARKER = 'log: ';
-
-          if (message) {
-            if (message.indexOf(LOG_MARKER) === -1) {
-              log("".concat(prefix, " message:\n").concat(message));
-            } else {
-              log(message.slice(LOG_MARKER.length));
-            }
-          }
-
-          log("".concat(prefix, " trace start"));
-
-          if (trace) {
-            trace();
-          }
-
-          log("".concat(prefix, " trace end"));
-        } catch (e) {} // try catch for Edge 15
-        // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
-        // console.log throws an error
-        // This is necessary for unit-tests only!
-
-
-        if (typeof window.__debug === 'function') {
-          window.__debug(source);
-        }
-      };
-            const updatedArgs = args ? [].concat(source).concat(args) : [source];
-            GoogleSyndicationAdsByGoogle.apply(this, updatedArgs);
-        
-    })({"name":"googlesyndication-adsbygoogle","args":[]}, []);
-  file: googlesyndication-adsbygoogle.js
-
-- title: googletagmanager-gtm
-  comment: Mocks Google Tag Manager API.
-  aliases:
-    - ubo-googletagmanager_gtm.js
-    - googletagmanager_gtm.js
-  contentType: application/javascript
-  content: |-
-    (function(source, args){
-    function GoogleTagManagerGtm(source) {
-        window.ga = window.ga || noopFunc;
         var _window = window,
             dataLayer = _window.dataLayer,
             google_optimize = _window.google_optimize; // eslint-disable-line camelcase
@@ -792,7 +734,8 @@
 
         try {
           var log = console.log.bind(console);
-          var trace = console.trace.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
           var prefix = source.ruleText || '';
 
           if (source.domainName) {
@@ -830,22 +773,155 @@
           }
 
           log("".concat(prefix, " trace end"));
-        } catch (e) {} // try catch for Edge 15
-        // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
-        // console.log throws an error
-        // This is necessary for unit-tests only!
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
 
 
         if (typeof window.__debug === 'function') {
           window.__debug(source);
         }
       }
-    function noopFunc() {};
+    function noopFunc() {}
+    function noopNull() {
+        return null;
+      }
+    function noopArray() {
+        return [];
+      };
             const updatedArgs = args ? [].concat(source).concat(args) : [source];
-            GoogleTagManagerGtm.apply(this, updatedArgs);
+            GoogleAnalytics.apply(this, updatedArgs);
         
-    })({"name":"googletagmanager-gtm","args":[]}, []);
-  file: googletagmanager-gtm.js
+    })({"name":"google-analytics","args":[]}, []);
+  file: google-analytics.js
+
+- title: googlesyndication-adsbygoogle
+  comment: Mocks Google AdSense API.
+  aliases:
+    - ubo-googlesyndication_adsbygoogle.js
+    - googlesyndication_adsbygoogle.js
+  contentType: application/javascript
+  content: |-
+    (function(source, args){
+    function GoogleSyndicationAdsByGoogle(source) {
+        window.adsbygoogle = {
+          // https://github.com/AdguardTeam/Scriptlets/issues/113
+          // length: 0,
+          loaded: true,
+          push: function push() {
+            if (typeof this.length === 'undefined') {
+              this.length = 0;
+              this.length += 1;
+            }
+          }
+        };
+        var adElems = document.querySelectorAll('.adsbygoogle');
+        var css = 'height:1px!important;max-height:1px!important;max-width:1px!important;width:1px!important;';
+        var statusAttrName = 'data-adsbygoogle-status';
+        var ASWIFT_IFRAME_MARKER = 'aswift_';
+        var GOOGLE_ADS_IFRAME_MARKER = 'google_ads_iframe_';
+        var executed = false;
+
+        for (var i = 0; i < adElems.length; i += 1) {
+          var adElemChildNodes = adElems[i].childNodes;
+          var childNodesQuantity = adElemChildNodes.length; // childNodes of .adsbygoogle can be defined if scriptlet was executed before
+          // so we should check that childNodes are exactly defined by us
+          // TODO: remake after scriptlets context developing in 1.3
+
+          var areIframesDefined = false;
+
+          if (childNodesQuantity > 0) {
+            // it should be only 2 child iframes if scriptlet was executed
+            areIframesDefined = childNodesQuantity === 2 // the first of child nodes should be aswift iframe
+            && adElemChildNodes[0].nodeName.toLowerCase() === 'iframe' && adElemChildNodes[0].id.indexOf(ASWIFT_IFRAME_MARKER) > -1 // the second of child nodes should be google_ads iframe
+            && adElemChildNodes[1].nodeName.toLowerCase() === 'iframe' && adElemChildNodes[1].id.indexOf(GOOGLE_ADS_IFRAME_MARKER) > -1;
+          }
+
+          if (!areIframesDefined) {
+            // here we do the job if scriptlet has not been executed earlier
+            adElems[i].setAttribute(statusAttrName, 'done');
+            var aswiftIframe = document.createElement('iframe');
+            aswiftIframe.id = "".concat(ASWIFT_IFRAME_MARKER).concat(i);
+            aswiftIframe.style = css;
+            adElems[i].appendChild(aswiftIframe);
+            var innerAswiftIframe = document.createElement('iframe');
+            aswiftIframe.contentWindow.document.body.appendChild(innerAswiftIframe);
+            var googleadsIframe = document.createElement('iframe');
+            googleadsIframe.id = "".concat(GOOGLE_ADS_IFRAME_MARKER).concat(i);
+            googleadsIframe.style = css;
+            adElems[i].appendChild(googleadsIframe);
+            var innerGoogleadsIframe = document.createElement('iframe');
+            googleadsIframe.contentWindow.document.body.appendChild(innerGoogleadsIframe);
+            executed = true;
+          }
+        }
+
+        if (executed) {
+          hit(source);
+        }
+      }
+    function hit(source, message) {
+        if (source.verbose !== true) {
+          return;
+        }
+
+        try {
+          var log = console.log.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
+          var prefix = source.ruleText || '';
+
+          if (source.domainName) {
+            var AG_SCRIPTLET_MARKER = '#%#//';
+            var UBO_SCRIPTLET_MARKER = '##+js';
+            var ruleStartIndex;
+
+            if (source.ruleText.indexOf(AG_SCRIPTLET_MARKER) > -1) {
+              ruleStartIndex = source.ruleText.indexOf(AG_SCRIPTLET_MARKER);
+            } else if (source.ruleText.indexOf(UBO_SCRIPTLET_MARKER) > -1) {
+              ruleStartIndex = source.ruleText.indexOf(UBO_SCRIPTLET_MARKER);
+            } // delete all domains from ruleText and leave just rule part
+
+
+            var rulePart = source.ruleText.slice(ruleStartIndex); // prepare applied scriptlet rule for specific domain
+
+            prefix = "".concat(source.domainName).concat(rulePart);
+          } // Used to check if scriptlet uses 'hit' function for logging
+
+
+          var LOG_MARKER = 'log: ';
+
+          if (message) {
+            if (message.indexOf(LOG_MARKER) === -1) {
+              log("".concat(prefix, " message:\n").concat(message));
+            } else {
+              log(message.slice(LOG_MARKER.length));
+            }
+          }
+
+          log("".concat(prefix, " trace start"));
+
+          if (trace) {
+            trace();
+          }
+
+          log("".concat(prefix, " trace end"));
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
+
+
+        if (typeof window.__debug === 'function') {
+          window.__debug(source);
+        }
+      };
+            const updatedArgs = args ? [].concat(source).concat(args) : [source];
+            GoogleSyndicationAdsByGoogle.apply(this, updatedArgs);
+        
+    })({"name":"googlesyndication-adsbygoogle","args":[]}, []);
+  file: googlesyndication-adsbygoogle.js
 
 - title: googletagservices-gpt
   comment: Mocks Google Publisher Tag API.
@@ -1007,7 +1083,8 @@
 
         try {
           var log = console.log.bind(console);
-          var trace = console.trace.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
           var prefix = source.ruleText || '';
 
           if (source.domainName) {
@@ -1045,10 +1122,10 @@
           }
 
           log("".concat(prefix, " trace end"));
-        } catch (e) {} // try catch for Edge 15
-        // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
-        // console.log throws an error
-        // This is necessary for unit-tests only!
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
 
 
         if (typeof window.__debug === 'function') {
@@ -1074,36 +1151,33 @@
     })({"name":"googletagservices-gpt","args":[]}, []);
   file: googletagservices-gpt.js
 
-- title: metrika-yandex-tag
-  comment: Mocks Yandex Metrika API.
+- title: matomo
+  comment: Mocks the piwik.js file of Matomo (formerly Piwik).
   aliases: []
-  contentType: application/javascript
-  content: "(function(source, args){\nfunction metrikaYandexTag(source) {\n    var asyncCallbackFromOptions = function asyncCallbackFromOptions(param) {\n      var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};\n      var callback = options.callback;\n      var ctx = options.ctx;\n\n      if (typeof callback === 'function') {\n        callback = ctx !== undefined ? callback.bind(ctx) : callback;\n        setTimeout(function () {\n          return callback();\n        });\n      }\n    };\n\n    var init = noopFunc;\n    /**\r\n     * https://yandex.ru/support/metrica/objects/addfileextension.html\r\n     */\n\n    var addFileExtension = noopFunc;\n    /**\r\n     * https://yandex.ru/support/metrica/objects/extlink.html\r\n     */\n\n    var extLink = asyncCallbackFromOptions;\n    /**\r\n     * https://yandex.ru/support/metrica/objects/file.html\r\n     */\n\n    var file = asyncCallbackFromOptions;\n    /**\r\n     * https://yandex.ru/support/metrica/objects/get-client-id.html\r\n     * @param {Function} cb\r\n     */\n\n    var getClientID = function getClientID(cb) {\n      setTimeout(cb(null));\n    };\n    /**\r\n     * https://yandex.ru/support/metrica/objects/hit.html\r\n     */\n\n\n    var hitFunc = asyncCallbackFromOptions;\n    /**\r\n     * https://yandex.ru/support/metrica/objects/notbounce.html\r\n     */\n\n    var notBounce = asyncCallbackFromOptions;\n    /**\r\n     * https://yandex.ru/support/metrica/objects/params-method.html\r\n     */\n\n    var params = noopFunc;\n    /**\r\n     * https://yandex.ru/support/metrica/objects/reachgoal.html\r\n     * @param {string} target\r\n     * @param {Object} params\r\n     * @param {Function} callback\r\n     * @param {any} ctx\r\n     */\n\n    var reachGoal = function reachGoal(target, params, callback, ctx) {\n      asyncCallbackFromOptions(null, {\n        callback: callback,\n        ctx: ctx\n      });\n    };\n    /**\r\n     * https://yandex.ru/support/metrica/objects/set-user-id.html\r\n     */\n\n\n    var setUserID = noopFunc;\n    /**\r\n     * https://yandex.ru/support/metrica/objects/user-params.html\r\n     */\n\n    var userParams = noopFunc;\n    var api = {\n      init: init,\n      addFileExtension: addFileExtension,\n      extLink: extLink,\n      file: file,\n      getClientID: getClientID,\n      hit: hitFunc,\n      notBounce: notBounce,\n      params: params,\n      reachGoal: reachGoal,\n      setUserID: setUserID,\n      userParams: userParams\n    };\n\n    function ym(id, funcName) {\n      for (var _len = arguments.length, args = new Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++) {\n        args[_key - 2] = arguments[_key];\n      }\n\n      return api[funcName] && api[funcName].apply(api, args);\n    }\n\n    window.ym = ym;\n    hit(source);\n  }\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (source.domainName) {\n        var AG_SCRIPTLET_MARKER = '#%#//';\n        var UBO_SCRIPTLET_MARKER = '##+js';\n        var ruleStartIndex;\n\n        if (source.ruleText.indexOf(AG_SCRIPTLET_MARKER) > -1) {\n          ruleStartIndex = source.ruleText.indexOf(AG_SCRIPTLET_MARKER);\n        } else if (source.ruleText.indexOf(UBO_SCRIPTLET_MARKER) > -1) {\n          ruleStartIndex = source.ruleText.indexOf(UBO_SCRIPTLET_MARKER);\n        } // delete all domains from ruleText and leave just rule part\n\n\n        var rulePart = source.ruleText.slice(ruleStartIndex); // prepare applied scriptlet rule for specific domain\n\n        prefix = \"\".concat(source.domainName).concat(rulePart);\n      } // Used to check if scriptlet uses 'hit' function for logging\n\n\n      var LOG_MARKER = 'log: ';\n\n      if (message) {\n        if (message.indexOf(LOG_MARKER) === -1) {\n          log(\"\".concat(prefix, \" message:\\n\").concat(message));\n        } else {\n          log(message.slice(LOG_MARKER.length));\n        }\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debug === 'function') {\n      window.__debug(source);\n    }\n  }\nfunction noopFunc() {};\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        metrikaYandexTag.apply(this, updatedArgs);\n    \n})({\"name\":\"metrika-yandex-tag\",\"args\":[]}, []);"
-  file: metrika-yandex-tag.js
-
-- title: metrika-yandex-watch
-  comment: Mocks the old Yandex Metrika API.
-  aliases: []
-  contentType: application/javascript
-  content: "(function(source, args){\nfunction metrikaYandexWatch(source) {\n    var cbName = 'yandex_metrika_callbacks';\n    /**\r\n     * Gets callback and its context from options and call it in async way\r\n     * @param {Object} options Yandex Metrika API options\r\n     */\n\n    var asyncCallbackFromOptions = function asyncCallbackFromOptions() {\n      var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};\n      var callback = options.callback;\n      var ctx = options.ctx;\n\n      if (typeof callback === 'function') {\n        callback = ctx !== undefined ? callback.bind(ctx) : callback;\n        setTimeout(function () {\n          return callback();\n        });\n      }\n    };\n\n    function Metrika() {} // constructor\n    // Methods without options\n\n\n    Metrika.prototype.addFileExtension = noopFunc;\n    Metrika.prototype.getClientID = noopFunc;\n    Metrika.prototype.setUserID = noopFunc;\n    Metrika.prototype.userParams = noopFunc; // Methods with options\n    // The order of arguments should be kept in according to API\n\n    Metrika.prototype.extLink = function (url, options) {\n      asyncCallbackFromOptions(options);\n    };\n\n    Metrika.prototype.file = function (url, options) {\n      asyncCallbackFromOptions(options);\n    };\n\n    Metrika.prototype.hit = function (url, options) {\n      asyncCallbackFromOptions(options);\n    };\n\n    Metrika.prototype.reachGoal = function (target, params, cb, ctx) {\n      asyncCallbackFromOptions({\n        callback: cb,\n        ctx: ctx\n      });\n    };\n\n    Metrika.prototype.notBounce = asyncCallbackFromOptions;\n\n    if (window.Ya) {\n      window.Ya.Metrika = Metrika;\n    } else {\n      window.Ya = {\n        Metrika: Metrika\n      };\n    }\n\n    if (window[cbName] && Array.isArray(window[cbName])) {\n      window[cbName].forEach(function (func) {\n        if (typeof func === 'function') {\n          func();\n        }\n      });\n    }\n\n    hit(source);\n  }\nfunction hit(source, message) {\n    if (source.verbose !== true) {\n      return;\n    }\n\n    try {\n      var log = console.log.bind(console);\n      var trace = console.trace.bind(console);\n      var prefix = source.ruleText || '';\n\n      if (source.domainName) {\n        var AG_SCRIPTLET_MARKER = '#%#//';\n        var UBO_SCRIPTLET_MARKER = '##+js';\n        var ruleStartIndex;\n\n        if (source.ruleText.indexOf(AG_SCRIPTLET_MARKER) > -1) {\n          ruleStartIndex = source.ruleText.indexOf(AG_SCRIPTLET_MARKER);\n        } else if (source.ruleText.indexOf(UBO_SCRIPTLET_MARKER) > -1) {\n          ruleStartIndex = source.ruleText.indexOf(UBO_SCRIPTLET_MARKER);\n        } // delete all domains from ruleText and leave just rule part\n\n\n        var rulePart = source.ruleText.slice(ruleStartIndex); // prepare applied scriptlet rule for specific domain\n\n        prefix = \"\".concat(source.domainName).concat(rulePart);\n      } // Used to check if scriptlet uses 'hit' function for logging\n\n\n      var LOG_MARKER = 'log: ';\n\n      if (message) {\n        if (message.indexOf(LOG_MARKER) === -1) {\n          log(\"\".concat(prefix, \" message:\\n\").concat(message));\n        } else {\n          log(message.slice(LOG_MARKER.length));\n        }\n      }\n\n      log(\"\".concat(prefix, \" trace start\"));\n\n      if (trace) {\n        trace();\n      }\n\n      log(\"\".concat(prefix, \" trace end\"));\n    } catch (e) {} // try catch for Edge 15\n    // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/\n    // console.log throws an error\n    // This is necessary for unit-tests only!\n\n\n    if (typeof window.__debug === 'function') {\n      window.__debug(source);\n    }\n  }\nfunction noopFunc() {};\n        const updatedArgs = args ? [].concat(source).concat(args) : [source];\n        metrikaYandexWatch.apply(this, updatedArgs);\n    \n})({\"name\":\"metrika-yandex-watch\",\"args\":[]}, []);"
-  file: metrika-yandex-watch.js
-
-- title: noeval
-  comment: >-
-    Redirects request to the source which sets static properties to PopAds and
-    popns objects.
-  aliases:
-    - noeval.js
-    - silent-noeval.js
-    - ubo-noeval.js
-    - ubo-silent-noeval.js
   contentType: application/javascript
   content: |-
     (function(source, args){
-    function noeval(source) {
-        window.eval = function evalWrapper(s) {
-          hit(source, "AdGuard has prevented eval:\n".concat(s));
-        }.bind();
+    function Matomo(source) {
+        var Tracker = function Tracker() {};
+
+        Tracker.prototype.setDoNotTrack = noopFunc;
+        Tracker.prototype.setDomains = noopFunc;
+        Tracker.prototype.setCustomDimension = noopFunc;
+        Tracker.prototype.trackPageView = noopFunc;
+
+        var AsyncTracker = function AsyncTracker() {};
+
+        AsyncTracker.prototype.addListener = noopFunc;
+        var matomoWrapper = {
+          getTracker: function getTracker() {
+            return new Tracker();
+          },
+          getAsyncTracker: function getAsyncTracker() {
+            return new AsyncTracker();
+          }
+        };
+        window.Piwik = matomoWrapper;
+        hit(source);
       }
     function hit(source, message) {
         if (source.verbose !== true) {
@@ -1112,7 +1186,8 @@
 
         try {
           var log = console.log.bind(console);
-          var trace = console.trace.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
           var prefix = source.ruleText || '';
 
           if (source.domainName) {
@@ -1150,10 +1225,403 @@
           }
 
           log("".concat(prefix, " trace end"));
-        } catch (e) {} // try catch for Edge 15
-        // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
-        // console.log throws an error
-        // This is necessary for unit-tests only!
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
+
+
+        if (typeof window.__debug === 'function') {
+          window.__debug(source);
+        }
+      }
+    function noopFunc() {};
+            const updatedArgs = args ? [].concat(source).concat(args) : [source];
+            Matomo.apply(this, updatedArgs);
+        
+    })({"name":"matomo","args":[]}, []);
+  file: matomo.js
+
+- title: metrika-yandex-tag
+  comment: Mocks Yandex Metrika API.
+  aliases: []
+  contentType: application/javascript
+  content: |-
+    (function(source, args){
+    function metrikaYandexTag(source) {
+        var asyncCallbackFromOptions = function asyncCallbackFromOptions(param) {
+          var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
+          var callback = options.callback;
+          var ctx = options.ctx;
+
+          if (typeof callback === 'function') {
+            callback = ctx !== undefined ? callback.bind(ctx) : callback;
+            setTimeout(function () {
+              return callback();
+            });
+          }
+        };
+
+        var init = noopFunc;
+        /**
+         * https://yandex.ru/support/metrica/objects/addfileextension.html
+         */
+
+        var addFileExtension = noopFunc;
+        /**
+         * https://yandex.ru/support/metrica/objects/extlink.html
+         */
+
+        var extLink = asyncCallbackFromOptions;
+        /**
+         * https://yandex.ru/support/metrica/objects/file.html
+         */
+
+        var file = asyncCallbackFromOptions;
+        /**
+         * https://yandex.ru/support/metrica/objects/get-client-id.html
+         * @param {Function} cb
+         */
+
+        var getClientID = function getClientID(cb) {
+          setTimeout(cb(null));
+        };
+        /**
+         * https://yandex.ru/support/metrica/objects/hit.html
+         */
+
+
+        var hitFunc = asyncCallbackFromOptions;
+        /**
+         * https://yandex.ru/support/metrica/objects/notbounce.html
+         */
+
+        var notBounce = asyncCallbackFromOptions;
+        /**
+         * https://yandex.ru/support/metrica/objects/params-method.html
+         */
+
+        var params = noopFunc;
+        /**
+         * https://yandex.ru/support/metrica/objects/reachgoal.html
+         * @param {string} target
+         * @param {Object} params
+         * @param {Function} callback
+         * @param {any} ctx
+         */
+
+        var reachGoal = function reachGoal(target, params, callback, ctx) {
+          asyncCallbackFromOptions(null, {
+            callback: callback,
+            ctx: ctx
+          });
+        };
+        /**
+         * https://yandex.ru/support/metrica/objects/set-user-id.html
+         */
+
+
+        var setUserID = noopFunc;
+        /**
+         * https://yandex.ru/support/metrica/objects/user-params.html
+         */
+
+        var userParams = noopFunc;
+        var api = {
+          init: init,
+          addFileExtension: addFileExtension,
+          extLink: extLink,
+          file: file,
+          getClientID: getClientID,
+          hit: hitFunc,
+          notBounce: notBounce,
+          params: params,
+          reachGoal: reachGoal,
+          setUserID: setUserID,
+          userParams: userParams
+        };
+
+        function ym(id, funcName) {
+          for (var _len = arguments.length, args = new Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++) {
+            args[_key - 2] = arguments[_key];
+          }
+
+          return api[funcName] && api[funcName].apply(api, args);
+        }
+
+        window.ym = ym;
+        hit(source);
+      }
+    function hit(source, message) {
+        if (source.verbose !== true) {
+          return;
+        }
+
+        try {
+          var log = console.log.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
+          var prefix = source.ruleText || '';
+
+          if (source.domainName) {
+            var AG_SCRIPTLET_MARKER = '#%#//';
+            var UBO_SCRIPTLET_MARKER = '##+js';
+            var ruleStartIndex;
+
+            if (source.ruleText.indexOf(AG_SCRIPTLET_MARKER) > -1) {
+              ruleStartIndex = source.ruleText.indexOf(AG_SCRIPTLET_MARKER);
+            } else if (source.ruleText.indexOf(UBO_SCRIPTLET_MARKER) > -1) {
+              ruleStartIndex = source.ruleText.indexOf(UBO_SCRIPTLET_MARKER);
+            } // delete all domains from ruleText and leave just rule part
+
+
+            var rulePart = source.ruleText.slice(ruleStartIndex); // prepare applied scriptlet rule for specific domain
+
+            prefix = "".concat(source.domainName).concat(rulePart);
+          } // Used to check if scriptlet uses 'hit' function for logging
+
+
+          var LOG_MARKER = 'log: ';
+
+          if (message) {
+            if (message.indexOf(LOG_MARKER) === -1) {
+              log("".concat(prefix, " message:\n").concat(message));
+            } else {
+              log(message.slice(LOG_MARKER.length));
+            }
+          }
+
+          log("".concat(prefix, " trace start"));
+
+          if (trace) {
+            trace();
+          }
+
+          log("".concat(prefix, " trace end"));
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
+
+
+        if (typeof window.__debug === 'function') {
+          window.__debug(source);
+        }
+      }
+    function noopFunc() {};
+            const updatedArgs = args ? [].concat(source).concat(args) : [source];
+            metrikaYandexTag.apply(this, updatedArgs);
+        
+    })({"name":"metrika-yandex-tag","args":[]}, []);
+  file: metrika-yandex-tag.js
+
+- title: metrika-yandex-watch
+  comment: Mocks the old Yandex Metrika API.
+  aliases: []
+  contentType: application/javascript
+  content: |-
+    (function(source, args){
+    function metrikaYandexWatch(source) {
+        var cbName = 'yandex_metrika_callbacks';
+        /**
+         * Gets callback and its context from options and call it in async way
+         * @param {Object} options Yandex Metrika API options
+         */
+
+        var asyncCallbackFromOptions = function asyncCallbackFromOptions() {
+          var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+          var callback = options.callback;
+          var ctx = options.ctx;
+
+          if (typeof callback === 'function') {
+            callback = ctx !== undefined ? callback.bind(ctx) : callback;
+            setTimeout(function () {
+              return callback();
+            });
+          }
+        };
+
+        function Metrika() {} // constructor
+        // Methods without options
+
+
+        Metrika.prototype.addFileExtension = noopFunc;
+        Metrika.prototype.getClientID = noopFunc;
+        Metrika.prototype.setUserID = noopFunc;
+        Metrika.prototype.userParams = noopFunc; // Methods with options
+        // The order of arguments should be kept in according to API
+
+        Metrika.prototype.extLink = function (url, options) {
+          asyncCallbackFromOptions(options);
+        };
+
+        Metrika.prototype.file = function (url, options) {
+          asyncCallbackFromOptions(options);
+        };
+
+        Metrika.prototype.hit = function (url, options) {
+          asyncCallbackFromOptions(options);
+        };
+
+        Metrika.prototype.reachGoal = function (target, params, cb, ctx) {
+          asyncCallbackFromOptions({
+            callback: cb,
+            ctx: ctx
+          });
+        };
+
+        Metrika.prototype.notBounce = asyncCallbackFromOptions;
+
+        if (window.Ya) {
+          window.Ya.Metrika = Metrika;
+        } else {
+          window.Ya = {
+            Metrika: Metrika
+          };
+        }
+
+        if (window[cbName] && Array.isArray(window[cbName])) {
+          window[cbName].forEach(function (func) {
+            if (typeof func === 'function') {
+              func();
+            }
+          });
+        }
+
+        hit(source);
+      }
+    function hit(source, message) {
+        if (source.verbose !== true) {
+          return;
+        }
+
+        try {
+          var log = console.log.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
+          var prefix = source.ruleText || '';
+
+          if (source.domainName) {
+            var AG_SCRIPTLET_MARKER = '#%#//';
+            var UBO_SCRIPTLET_MARKER = '##+js';
+            var ruleStartIndex;
+
+            if (source.ruleText.indexOf(AG_SCRIPTLET_MARKER) > -1) {
+              ruleStartIndex = source.ruleText.indexOf(AG_SCRIPTLET_MARKER);
+            } else if (source.ruleText.indexOf(UBO_SCRIPTLET_MARKER) > -1) {
+              ruleStartIndex = source.ruleText.indexOf(UBO_SCRIPTLET_MARKER);
+            } // delete all domains from ruleText and leave just rule part
+
+
+            var rulePart = source.ruleText.slice(ruleStartIndex); // prepare applied scriptlet rule for specific domain
+
+            prefix = "".concat(source.domainName).concat(rulePart);
+          } // Used to check if scriptlet uses 'hit' function for logging
+
+
+          var LOG_MARKER = 'log: ';
+
+          if (message) {
+            if (message.indexOf(LOG_MARKER) === -1) {
+              log("".concat(prefix, " message:\n").concat(message));
+            } else {
+              log(message.slice(LOG_MARKER.length));
+            }
+          }
+
+          log("".concat(prefix, " trace start"));
+
+          if (trace) {
+            trace();
+          }
+
+          log("".concat(prefix, " trace end"));
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
+
+
+        if (typeof window.__debug === 'function') {
+          window.__debug(source);
+        }
+      }
+    function noopFunc() {};
+            const updatedArgs = args ? [].concat(source).concat(args) : [source];
+            metrikaYandexWatch.apply(this, updatedArgs);
+        
+    })({"name":"metrika-yandex-watch","args":[]}, []);
+  file: metrika-yandex-watch.js
+
+- title: noeval
+  comment: >-
+    Redirects request to the source which sets static properties to PopAds and
+    popns objects.
+  aliases:
+    - noeval.js
+    - silent-noeval.js
+    - ubo-noeval.js
+    - ubo-silent-noeval.js
+    - ubo-noeval
+    - ubo-silent-noeval
+  contentType: application/javascript
+  content: |-
+    (function(source, args){
+    function noeval(source) {
+        window.eval = function evalWrapper(s) {
+          hit(source, "AdGuard has prevented eval:\n".concat(s));
+        }.bind();
+      }
+    function hit(source, message) {
+        if (source.verbose !== true) {
+          return;
+        }
+
+        try {
+          var log = console.log.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
+          var prefix = source.ruleText || '';
+
+          if (source.domainName) {
+            var AG_SCRIPTLET_MARKER = '#%#//';
+            var UBO_SCRIPTLET_MARKER = '##+js';
+            var ruleStartIndex;
+
+            if (source.ruleText.indexOf(AG_SCRIPTLET_MARKER) > -1) {
+              ruleStartIndex = source.ruleText.indexOf(AG_SCRIPTLET_MARKER);
+            } else if (source.ruleText.indexOf(UBO_SCRIPTLET_MARKER) > -1) {
+              ruleStartIndex = source.ruleText.indexOf(UBO_SCRIPTLET_MARKER);
+            } // delete all domains from ruleText and leave just rule part
+
+
+            var rulePart = source.ruleText.slice(ruleStartIndex); // prepare applied scriptlet rule for specific domain
+
+            prefix = "".concat(source.domainName).concat(rulePart);
+          } // Used to check if scriptlet uses 'hit' function for logging
+
+
+          var LOG_MARKER = 'log: ';
+
+          if (message) {
+            if (message.indexOf(LOG_MARKER) === -1) {
+              log("".concat(prefix, " message:\n").concat(message));
+            } else {
+              log(message.slice(LOG_MARKER.length));
+            }
+          }
+
+          log("".concat(prefix, " trace start"));
+
+          if (trace) {
+            trace();
+          }
+
+          log("".concat(prefix, " trace end"));
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
 
 
         if (typeof window.__debug === 'function') {
@@ -1166,6 +1634,144 @@
     })({"name":"noeval","args":[]}, []);
   file: noeval.js
 
+- title: prevent-bab
+  comment: Prevents BlockAdblock script from detecting an ad blocker.
+  aliases:
+    - nobab.js
+    - ubo-nobab.js
+    - bab-defuser.js
+    - ubo-bab-defuser.js
+    - ubo-nobab
+    - ubo-bab-defuser
+  contentType: application/javascript
+  content: |-
+    (function(source, args){
+    function preventBab(source) {
+        var nativeSetTimeout = window.setTimeout;
+        var babRegex = /\.bab_elementid.$/;
+
+        var timeoutWrapper = function timeoutWrapper(callback) {
+          if (typeof callback !== 'string' || !babRegex.test(callback)) {
+            for (var _len = arguments.length, args = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+              args[_key - 1] = arguments[_key];
+            }
+
+            return nativeSetTimeout.apply(window, [callback].concat(args));
+          }
+
+          hit(source);
+        };
+
+        window.setTimeout = timeoutWrapper;
+        var signatures = [['blockadblock'], ['babasbm'], [/getItem\('babn'\)/], ['getElementById', 'String.fromCharCode', 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789', 'charAt', 'DOMContentLoaded', 'AdBlock', 'addEventListener', 'doScroll', 'fromCharCode', '<<2|r>>4', 'sessionStorage', 'clientWidth', 'localStorage', 'Math', 'random']];
+
+        var check = function check(str) {
+          for (var i = 0; i < signatures.length; i += 1) {
+            var tokens = signatures[i];
+            var match = 0;
+
+            for (var j = 0; j < tokens.length; j += 1) {
+              var token = tokens[j];
+              var found = token instanceof RegExp ? token.test(str) : str.indexOf(token) > -1;
+
+              if (found) {
+                match += 1;
+              }
+            }
+
+            if (match / tokens.length >= 0.8) {
+              return true;
+            }
+          }
+
+          return false;
+        };
+
+        var nativeEval = window.eval;
+
+        var evalWrapper = function evalWrapper(str) {
+          if (!check(str)) {
+            return nativeEval(str);
+          }
+
+          hit(source);
+          var bodyEl = document.body;
+
+          if (bodyEl) {
+            bodyEl.style.removeProperty('visibility');
+          }
+
+          var el = document.getElementById('babasbmsgx');
+
+          if (el) {
+            el.parentNode.removeChild(el);
+          }
+        };
+
+        window.eval = evalWrapper.bind(window);
+      }
+    function hit(source, message) {
+        if (source.verbose !== true) {
+          return;
+        }
+
+        try {
+          var log = console.log.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
+          var prefix = source.ruleText || '';
+
+          if (source.domainName) {
+            var AG_SCRIPTLET_MARKER = '#%#//';
+            var UBO_SCRIPTLET_MARKER = '##+js';
+            var ruleStartIndex;
+
+            if (source.ruleText.indexOf(AG_SCRIPTLET_MARKER) > -1) {
+              ruleStartIndex = source.ruleText.indexOf(AG_SCRIPTLET_MARKER);
+            } else if (source.ruleText.indexOf(UBO_SCRIPTLET_MARKER) > -1) {
+              ruleStartIndex = source.ruleText.indexOf(UBO_SCRIPTLET_MARKER);
+            } // delete all domains from ruleText and leave just rule part
+
+
+            var rulePart = source.ruleText.slice(ruleStartIndex); // prepare applied scriptlet rule for specific domain
+
+            prefix = "".concat(source.domainName).concat(rulePart);
+          } // Used to check if scriptlet uses 'hit' function for logging
+
+
+          var LOG_MARKER = 'log: ';
+
+          if (message) {
+            if (message.indexOf(LOG_MARKER) === -1) {
+              log("".concat(prefix, " message:\n").concat(message));
+            } else {
+              log(message.slice(LOG_MARKER.length));
+            }
+          }
+
+          log("".concat(prefix, " trace start"));
+
+          if (trace) {
+            trace();
+          }
+
+          log("".concat(prefix, " trace end"));
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
+
+
+        if (typeof window.__debug === 'function') {
+          window.__debug(source);
+        }
+      };
+            const updatedArgs = args ? [].concat(source).concat(args) : [source];
+            preventBab.apply(this, updatedArgs);
+        
+    })({"name":"prevent-bab","args":[]}, []);
+  file: prevent-bab.js
+
 - title: prevent-fab-3.2.0
   comment: Redirects fuckadblock script to the source js file.
   aliases:
@@ -1173,6 +1779,7 @@
     - ubo-nofab.js
     - fuckadblock.js-3.2.0
     - ubo-fuckadblock.js-3.2.0
+    - ubo-nofab
   contentType: application/javascript
   content: |-
     (function(source, args){
@@ -1201,6 +1808,10 @@
         };
 
         Fab.prototype.setOption = noopFunc;
+        Fab.prototype.options = {
+          set: noopFunc,
+          get: noopFunc
+        };
         var fab = new Fab();
         var getSetFab = {
           get: function get() {
@@ -1259,7 +1870,8 @@
 
         try {
           var log = console.log.bind(console);
-          var trace = console.trace.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
           var prefix = source.ruleText || '';
 
           if (source.domainName) {
@@ -1297,10 +1909,10 @@
           }
 
           log("".concat(prefix, " trace end"));
-        } catch (e) {} // try catch for Edge 15
-        // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
-        // console.log throws an error
-        // This is necessary for unit-tests only!
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
 
 
         if (typeof window.__debug === 'function') {
@@ -1324,6 +1936,7 @@
   aliases:
     - popads.net.js
     - ubo-popads.net.js
+    - ubo-popads.net
   contentType: application/javascript
   content: |-
     (function(source, args){
@@ -1376,7 +1989,8 @@
 
         try {
           var log = console.log.bind(console);
-          var trace = console.trace.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
           var prefix = source.ruleText || '';
 
           if (source.domainName) {
@@ -1414,10 +2028,10 @@
           }
 
           log("".concat(prefix, " trace end"));
-        } catch (e) {} // try catch for Edge 15
-        // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
-        // console.log throws an error
-        // This is necessary for unit-tests only!
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
 
 
         if (typeof window.__debug === 'function') {
@@ -1455,7 +2069,8 @@
 
         try {
           var log = console.log.bind(console);
-          var trace = console.trace.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
           var prefix = source.ruleText || '';
 
           if (source.domainName) {
@@ -1493,10 +2108,10 @@
           }
 
           log("".concat(prefix, " trace end"));
-        } catch (e) {} // try catch for Edge 15
-        // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
-        // console.log throws an error
-        // This is necessary for unit-tests only!
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
 
 
         if (typeof window.__debug === 'function') {
@@ -1516,6 +2131,7 @@
   aliases:
     - popads-dummy.js
     - ubo-popads-dummy.js
+    - ubo-popads-dummy
   contentType: application/javascript
   content: |-
     (function(source, args){
@@ -1544,7 +2160,8 @@
 
         try {
           var log = console.log.bind(console);
-          var trace = console.trace.bind(console);
+          var trace = console.trace.bind(console); // eslint-disable-line compat/compat
+
           var prefix = source.ruleText || '';
 
           if (source.domainName) {
@@ -1582,10 +2199,10 @@
           }
 
           log("".concat(prefix, " trace end"));
-        } catch (e) {} // try catch for Edge 15
-        // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
-        // console.log throws an error
-        // This is necessary for unit-tests only!
+        } catch (e) {// try catch for Edge 15
+          // In according to this issue https://developer.microsoft.com/en-us/microsoft-edge/platform/issues/14495220/
+          // console.log throws an error
+        } // This is necessary for unit-tests only!
 
 
         if (typeof window.__debug === 'function') {
