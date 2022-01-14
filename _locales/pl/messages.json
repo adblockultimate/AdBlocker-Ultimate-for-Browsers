@@ -111,7 +111,7 @@
     "message": "Blokuj reklamy na tej stronie"
   },
   "popup_security_report": {
-    "message": "Website security report"
+    "message": "Raport bezpieczeństwa witryny"
   },
   "popup_open_settings": {
     "message": "Ustawienia AdBlocker Ultimate"
@@ -120,16 +120,16 @@
     "message": "Ochrona AdBlocker Ultimate wstrzymana"
   },
   "popup_site_filtering_state": {
-    "message": "Protection on this website"
+    "message": "Ochrona na tej stronie"
   },
   "popup_block_site_ads_android": {
-    "message": "Block ads on a website"
+    "message": "Blokuj reklamy na tej stronie"
   },
   "popup_security_report_android": {
     "message": "Raport bezpieczeństwa"
   },
   "popup_site_protection_disabled_android": {
-    "message": "Protection is paused"
+    "message": "Ochrona jest wstrzymana"
   },
   "popup_open_log_android": {
     "message": "Dziennik filtrowania"
@@ -141,10 +141,10 @@
     "message": "Łącznie: $1"
   },
   "popup_ads_has_been_removed": {
-    "message": "Ads have been removed from this page"
+    "message": "Reklamy zostały usunięte z tej strony"
   },
   "popup_ads_has_been_removed_by_abu": {
-    "message": "Protected by $1"
+    "message": "Chroniony przez $1"
   },
   "context_block_site_ads": {
     "message": "Blokuj reklamy na tej stronie..."
@@ -159,7 +159,7 @@
     "message": "Reklamy z tej strony zostały usunięte"
   },
   "context_ads_has_been_removed_by_abu": {
-    "message": "Protected by $1"
+    "message": "Chroniony przez $1"
   },
   "context_site_filtering_disabled": {
     "message": "AdBlocker Ultimate nie może działać na tej domenie"
@@ -171,262 +171,262 @@
     "message": "Ustawienia AdBlocker Ultimate..."
   },
   "context_site_exception": {
-    "message": "This website is in the exceptions"
+    "message": "Ta strona znajduje się w wyjątkach"
   },
   "context_site_filtering_on": {
-    "message": "Enable filtering on this website"
+    "message": "Włącz filtrowanie na tej stronie"
   },
   "context_site_filtering_off": {
-    "message": "Disable filtering on this website"
+    "message": "Wyłącz filtrowanie na tej stronie"
   },
   "context_update_antibanner_filters": {
-    "message": "Check for filter updates"
+    "message": "Sprawdź aktualizacje filtrów"
   },
   "alert_popup_filter_enabled_title": {
-    "message": "Filters auto-activated"
+    "message": "Filtry aktywowane automatycznie"
   },
   "alert_popup_filter_enabled_text": {
-    "message": "&quot;$1&quot; has been activated"
+    "message": "&quot;$1&quot; został aktywowany"
   },
   "filter_download_title": {
-    "message": "Filters database is loading..."
+    "message": "Baza filtrów jest ładowana..."
   },
   "filter_download_loading": {
-    "message": "Please wait while filters database is loading..."
+    "message": "Proszę czekać, aż baza filtrów zostanie załadowana..."
   },
   "abu_product_windows": {
-    "message": "AdBlocker Ultimate for Windows"
+    "message": "AdBlocker Ultimate dla Windows"
   },
   "abu_product_mac": {
-    "message": "AdBlocker Ultimate for Mac"
+    "message": "AdBlocker Ultimate dla Maca"
   },
   "abu_subscribe_confirm_enable": {
-    "message": "AdBlocker Ultimate: do you want to enable the $1 subscription?"
+    "message": "AdBlocker Ultimate: czy chcesz włączyć subskrypcję $1?"
   },
   "abu_subscribe_confirm_import": {
-    "message": "AdBlocker Ultimate: do you want to import rules from $1 to your user filter?"
+    "message": "AdBlocker Ultimate: czy chcesz zaimportować reguły z $1 do filtru użytkownika?"
   },
   "abu_subscribe_confirm_import_finished_title": {
-    "message": "Importing has been successfully finished"
+    "message": "Importowanie zostało pomyślnie zakończone"
   },
   "abu_subscribe_confirm_import_finished_text": {
-    "message": "AdBlocker Ultimate has finished importing rules to the user filter. Imported rules number: $1"
+    "message": "AdBlocker Ultimate zakończył importowanie reguł do filtra użytkownika. Zaimportowano reguły: $1"
   },
   "browser_action_popup_enabled_on_site": {
-    "message": "<strong>Enabled</strong> on this site"
+    "message": "<strong>Blokada włączona</strong> na tej stronie"
   },
   "browser_action_popup_disabled_on_site": {
-    "message": "<strong>Disabled</strong> on this site"
+    "message": "<strong>Blokada wyłączona</strong> na tej stronie"
   },
   "browser_action_popup_on_this_page": {
-    "message": "<strong>$1</strong> on this page"
+    "message": "<strong>$1</strong> na tej stronie"
   },
   "browser_action_popup_in_total": {
-    "message": "<strong>$1</strong> in total"
+    "message": "<strong>$1</strong> łącznie"
   },
   "browser_action_popup_show_number_in_icon": {
-    "message": "Show number in icon"
+    "message": "Pokaż ilość zablokowanych reklam w ikonie"
   },
   "browser_action_popup_options": {
-    "message": "Options"
+    "message": "Ustawienia"
   },
   "browser_action_popup_block_element": {
     "message": "Zablokuj element"
   },
   "browser_action_popup_donate": {
-    "message": "Donate"
+    "message": "Wesprzyj"
   },
   "browser_action_ads_blocked": {
-    "message": "Ads blocked"
+    "message": "Reklamy zablokowane"
   },
   "options_title": {
-    "message": "AdBlocker Ultimate Options"
+    "message": "Ustawienia AdBlocker Ultimate"
   },
   "options_filter_list": {
-    "message": "Filter lists"
+    "message": "Listy filtrów"
   },
   "options_add_your_filters": {
-    "message": "Add your own filters"
+    "message": "Dodaj własne filtry"
   },
   "options_whitelisted_domains": {
-    "message": "Whitelisted domains"
+    "message": "Domeny na białej liście"
   },
   "options_general": {
-    "message": "General"
+    "message": "Ogólne"
   },
   "options_enable_only": {
-    "message": "Enable only the filter lists you need. Too many can make your browser unresponsive."
+    "message": "Włącz tylko te listy filtrów, które potrzebujesz. Zbyt duża liczba filtrów może spowodować powolne działanie przeglądarki."
   },
   "options_out_of_date_lists": {
-    "message": "Out-of-date lists are updated periodically."
+    "message": "Niezaktualizowane listy są okresowo aktualizowane."
   },
   "options_enabled": {
-    "message": "Enabled"
+    "message": "Aktywne"
   },
   "options_please_choose": {
-    "message": "Please choose a filter subscription from the list:"
+    "message": "Wybierz subskrypcję filtrów z listy:"
   },
   "options_add": {
-    "message": "Add"
+    "message": "Dodaj"
   },
   "options_subscription_title": {
-    "message": "Subscription title:"
+    "message": "Tytuł subskrypcji:"
   },
   "options_filter_list_location": {
-    "message": "Filter list location:"
+    "message": "Lokalizacja listy filtrującej:"
   },
   "options_abu_is_disabled": {
-    "message": "AdBlocker Ultimate is disabled for the domains listed below. You can add a domain either via the AdBlocker Ultimate icon in the address bar or by typing the domain (not a URL) in the box and clicking the \"Add domain\" button."
+    "message": "AdBlocker Ultimate jest wyłączony na domenach z poniższej listy. Możesz dodać blokowane witryny klikając ikonę aplikacji na pasku adresowym lub dodając ją (bez adresu URL) ręcznie w polu poniżej i klikając przycisk \"Dodaj domenę\"."
   },
   "options_add_domain": {
-    "message": "Add domain"
+    "message": "Dodaj domenę"
   },
   "options_remove_selected": {
-    "message": "Remove selected"
+    "message": "Usuń zaznaczone"
   },
   "options_apply_changes": {
-    "message": "Apply changes"
+    "message": "Zatwierdź zmiany"
   },
   "options_show_block_element": {
-    "message": "Show 'Block Element' right-click menu item"
+    "message": "Pokaż opcję 'Blokuj element' w menu kontekstowym"
   },
   "options_show_useful_notifications": {
-    "message": "Show useful notifications"
+    "message": "Pokazuj powiadomienia"
   },
   "options_update_now": {
-    "message": "Update now"
+    "message": "Aktualizuj teraz"
   },
   "options_add_filter_subscription": {
-    "message": "Add filter subscription"
+    "message": "Dodaj zestaw filtrów"
   },
   "options_delete": {
-    "message": "Delete"
+    "message": "Usuń"
   },
   "options_add_filter": {
-    "message": "Add filter"
+    "message": "Dodaj filtr"
   },
   "assistant_block_element_by_url": {
     "message": "Zablokuj element przez adres url"
   },
   "description": {
-    "message": "Free and improved AdBlocker. Completely remove ALL ads. No \"acceptable\" ads or whitelisted advertisers, block tracking and malware!"
+    "message": "Darmowy i ulepszony dodatek do przeglądarki AdBlocker, który usuwa wszystkie reklamy. Blokuje nawet te, które znajdują się na ukrytej, białej liście reklamodawców, a także skrypty szpiegujące i strony rozpowszechniające złośliwe oprogramowanie."
   },
   "shield_dont_show_again": {
-    "message": "Don't show this message again"
+    "message": "Nie pokazuj tej wiadomości ponownie"
   },
   "shield_congrats": {
-    "message": "Congrats!"
+    "message": "Gratulacje!"
   },
   "shield_congratulations": {
-    "message": "Congratulations!"
+    "message": "Gratulacje!"
   },
   "shield_got_no_ads": {
-    "message": "got no ads thanks to"
+    "message": "Nie ma reklam za które musisz dziękować."
   },
   "shield_to_unlock": {
-    "message": "to unlock"
+    "message": "aby odblokować"
   },
   "shield_gold_shield": {
-    "message": "gold shield"
+    "message": "złotą tarczę"
   },
   "shield_silver_shield": {
-    "message": "silver shield"
+    "message": "srebrną tarczę"
   },
   "shield_bronze_shield": {
-    "message": "bronze shield"
+    "message": "brązową tarczę"
   },
   "shield_share_abu": {
-    "message": "Share AdBlocker Ultimate:"
+    "message": "Udostępnij AdBlocker Ultimate:"
   },
   "shield_you_won": {
-    "message": "you won"
+    "message": "wygrałeś"
   },
   "shield_blocked_ads": {
-    "message": "blocked ads"
+    "message": "zablokowanych reklam"
   },
   "shield_rate_us": {
-    "message": "Rate us"
+    "message": "Oceń nas"
   },
   "shield_contribute_to_our_project": {
-    "message": "Contribute to our project"
+    "message": "Wesprzyj nasz projekt"
   },
   "shield_we_blocked_more_than": {
-    "message": "we blocked more than $1 ads for you and:"
+    "message": "zablokowaliśmy ponad $1 reklam dla ciebie oraz:"
   },
   "shield_decreased_your_page_load_time": {
-    "message": "decreased your page load time by $1"
+    "message": "zmniejszyliśmy czas ładowania stron o $1"
   },
   "shield_decreased_peak_cpu_usage": {
-    "message": "decrease the peak CPU usage by $1"
+    "message": "zmniejszyliśmy użycie procesora o $1"
   },
   "shield_decreased_peak_memory_usage": {
-    "message": "decreased the peak memory usage by $1"
+    "message": "zmniejszyliśmy zużycie pamięci o $1"
   },
   "store_ss_no_more_ads": {
-    "message": "No more ads with our free adblocker"
+    "message": "Koniec z reklamami dzięki naszemu darmowemu AdBlockerowi"
   },
   "store_ss_surf_faster": {
-    "message": "Surf faster, safer, cleaner, without the annoying ads!"
+    "message": "Przeglądaj Internet szybciej, bezpieczniej i bez denerwujących reklam!"
   },
   "store_ss_no_more_video_ads": {
-    "message": "No more video ads"
+    "message": "Koniec z reklamami wideo"
   },
   "store_ss_no_more_facebook_ads": {
-    "message": "No more Facebook ads"
+    "message": "Koniec z reklamami na Facebooku"
   },
   "store_ss_no_more_banner_ads": {
-    "message": "No more banner ads"
+    "message": "Koniec z banerami na stronach"
   },
   "store_ss_ads": {
-    "message": "ads"
+    "message": "reklamy"
   },
   "store_ss_surf_faster_with_no_ads": {
-    "message": "Surf, faster, safer with NO ADS"
+    "message": "Przeglądaj Internet szybciej i bezpieczniej BEZ REKLAM"
   },
   "store_ss_surf_and_all_annoying_ads": {
-    "message": "and all annoying ads are out!"
+    "message": "i wszystkie reklamy zniknęły!"
   },
   "options_check_for_updates": {
-    "message": "Check for filter updates"
+    "message": "Sprawdź aktualizacje filtrów"
   },
   "filter_rules_count": {
-    "message": "Filter rules count"
+    "message": "Licznik reguł filtrów"
   },
   "security": {
-    "message": "Security"
+    "message": "Bezpieczeństwo"
   },
   "options_language_specific": {
-    "message": "Language-specific"
+    "message": "Zależne od języka"
   },
   "options_custom_filters": {
-    "message": "Custom Filters"
+    "message": "Własne filtry"
   },
   "follow_us": {
-    "message": "Follow us on"
+    "message": "Śledź nas na"
   },
   "contact_us": {
-    "message": "Contact us"
+    "message": "Skontaktuj się z nami"
   },
   "report_bug": {
-    "message": "Report a bug"
+    "message": "Zgłoś błąd"
   },
   "privacy_policy": {
-    "message": "Privacy Policy"
+    "message": "Polityka Prywatności"
   },
   "official_website": {
-    "message": "Official Website"
+    "message": "Oficjalna strona internetowa"
   },
   "all_rights_reserved": {
-    "message": "All Rights Reserved"
+    "message": "Wszystkie prawa zastrzeżone"
   },
   "version": {
-    "message": "Version"
+    "message": "Wersja"
   },
   "all_ads_out": {
-    "message": "And all annoying ads are out!"
+    "message": "I wszystkie wkurzające reklamy zniknęły!"
   },
   "options_whitelist_desc": {
-    "message": "The ads on the websites added to this Whitelist will not be blocked."
+    "message": "Reklamy dodane do białej listy nie będą blokowane."
   },
   "options_export": {
     "message": "Eksportuj"
@@ -435,381 +435,381 @@
     "message": "Importuj"
   },
   "options_err_import_file": {
-    "message": "Error importing file!"
+    "message": "Wystąpił błąd podczas importowania pliku!"
   },
   "options_err_no_txt_file": {
-    "message": "Only .txt files allowed!"
+    "message": "Tylko pliki z rozszerzeniem \".txt\" są dozwolone!"
   },
   "options_status_saved": {
-    "message": "Saved"
+    "message": "Zapisano"
   },
   "options_custom_rules": {
-    "message": "Custom Rules"
+    "message": "Niestandardowe reguły"
   },
   "options_do_you_like_abu": {
-    "message": "Do you like AdBlocker Ultimate?"
+    "message": "Lubisz AdBlocker Ultimate?"
   },
   "options_editor_desc": {
-    "message": "In this list you can add your own Custom Rules. Create your own ad filters and add them here."
+    "message": "Na tej liście możesz dodać własne niestandardowe reguły filtrowania stron. Utwórz własne filtry i dodaj je tutaj."
   },
   "options_number_icon_desc": {
-    "message": "The number of blocked ads on each page will show in the extension icon."
+    "message": "Liczba zablokowanych reklam na każdej stronie pojawi się w ikonie rozszerzenia."
   },
   "options_anti_circumvention_title": {
-    "message": "Enable Anti-Circumvention"
+    "message": "Włącz ochronę przed omijaniem blokady reklam."
   },
   "options_anti_circumvention_desc": {
-    "message": "This feature is fighting the anti-adblocker messages some websites show when they detect the use of one."
+    "message": "Ta funkcja zapobiega wyświetlaniu komunikatów na niektórych stronach internetowych, gdy wykryją używanie programu blokującego reklamy."
   },
   "options_auto_activate_lang_filters_title": {
-    "message": "Automatically activate language-specific filters"
+    "message": "Automatycznie aktywuj filtry specyficzne dla języka"
   },
   "options_auto_activate_lang_filters_desc": {
-    "message": "After opening a few pages in a language, the filters for this language will be automatically added and activated."
+    "message": "Po otwarciu kilku stron, automatycznie zostaną dodane i aktywowane odpowiednie filtry, zgodne z twoim natywnym językiem."
   },
   "options_about": {
-    "message": "About"
+    "message": "O nas"
   },
   "options_filters_updated": {
-    "message": "updated"
+    "message": "zaktualizowano"
   },
   "options_filters": {
-    "message": "Filters"
+    "message": "Filtry"
   },
   "options_filters_enabled": {
-    "message": "Enabled:"
+    "message": "Aktywne:"
   },
   "options_filters_enabled_and_more": {
-    "message": "$1 and $2 more"
+    "message": "$1 i $2 więcej"
   },
   "options_no_filters_enabled": {
-    "message": "No filters enabled"
+    "message": "Brak włączonych filtrów"
   },
   "options_filter_status_all": {
-    "message": "All"
+    "message": "Wszystkie"
   },
   "options_filter_status_disable": {
-    "message": "Disabled"
+    "message": "Wyłączono"
   },
   "options_search": {
-    "message": "Search"
+    "message": "Szukaj"
   },
   "options_clear_filter": {
-    "message": "Clear filter"
+    "message": "Wyszyść filtr"
   },
   "options_confirm_filter_delete": {
-    "message": "Are you sure you want to delete this filter?"
+    "message": "Czy na pewno chcesz usunąć ten filtr?"
   },
   "options_custom": {
-    "message": "Custom"
+    "message": "Niestandardowy"
   },
   "options_no_custom_filters": {
-    "message": "Sorry, but you don't have any custom filters yet"
+    "message": "Przepraszamy, ale nie masz jeszcze żadnych niestandardowych filtrów"
   },
   "options_submit": {
-    "message": "Submit"
+    "message": "Zatwierdź"
   },
   "options_enter_url_or_path": {
-    "message": "Enter valid URL or file path"
+    "message": "Wprowadź poprawny adres URL lub ścieżkę pliku"
   },
   "options_new_filter": {
-    "message": "New filter"
+    "message": "Nowy filtr"
   },
   "options_custom_filter_already_add": {
-    "message": "Filter with same URL already exists!"
+    "message": "Filtr z takim samym adresem URL już istnieje!"
   },
   "options_add_custom_filter": {
-    "message": "Add custom filter"
+    "message": "Dodaj własny filtr"
   },
   "options_custom_filter_empty_url": {
-    "message": "Please, enter filter URL!"
+    "message": "Proszę, wprowadź adres URL filtru!"
   },
   "options_custom_filter_error": {
-    "message": "Error downloading filter!"
+    "message": "Błąd pobierania filtra!"
   },
   "options_last_uodate": {
-    "message": "Last update"
+    "message": "Ostatnia aktualizacja"
   },
   "options_rate_us": {
-    "message": "Rate Us"
+    "message": "Oceń nas"
   },
   "badge_windows_ifno": {
-    "message": "Single ad blocker blocks ads and online trackers across all Windows applications."
+    "message": "Pojedynczy bloker reklam blokuje reklamy i szpiegujące skrypty we wszystkich aplikacjach Windows."
   },
   "badge_download_now": {
-    "message": "Download Now"
+    "message": "Pobierz teraz"
   },
   "badge_learn_more": {
-    "message": "Learn more"
+    "message": "Dowiedz się więcej"
   },
   "popup_on_this_site": {
-    "message": "on this site:"
+    "message": "na tej stronie:"
   },
   "popup_total": {
-    "message": "Total:"
+    "message": "Łącznie:"
   },
   "popup_settings": {
-    "message": "Settings"
+    "message": "Ustawienia"
   },
   "popup_share_on_fb": {
-    "message": "Share on Facebook"
+    "message": "Udostępnij na Facebooku"
   },
   "popup_share_on_twitter": {
-    "message": "Share on Twitter"
+    "message": "Udostępnij na Twitterze"
   },
   "popup_get_abu_windows": {
-    "message": "Get AdBlocker Ultimate for Windows"
+    "message": "Pobierz AdBlocker Ultimate dla Windows"
   },
   "popup_secure_page": {
-    "message": "Secure page"
+    "message": "Bezpieczna strona"
   },
   "popup_protection_enabled": {
-    "message": "Protection: Enabled"
+    "message": "Ochrona włączona"
   },
   "popup_protection_disabled": {
-    "message": "Protection: Disabled"
+    "message": "Ochrona wyłączona"
   },
   "options_want_abu_in_lang": {
-    "message": "Want AdBlocker Ultimate in your language?"
+    "message": "Chcesz AdBlocker Ultimate w twoim języku?"
   },
   "options_help_translate": {
-    "message": "Help us with the translation!"
+    "message": "Pomóż nam z tłumaczeniem!"
   },
   "popup_enabled_on_site": {
-    "message": "Enabled on this site"
+    "message": "Włączone na tej stronie"
   },
   "popup_disabled_on_site": {
-    "message": "Disabled on this site"
+    "message": "Wyłączone na tej stronie"
   },
   "popup_curent_tab_blocked": {
-    "message": "Blocked:"
+    "message": "Zablokowano"
   },
   "popup_blocked_total": {
-    "message": "Total:"
+    "message": "Łącznie:"
   },
   "filter_group_custom_filters": {
-    "message": "Custom Filters"
+    "message": "Własne filtry"
   },
   "filter_group_ad_blocking": {
-    "message": "Ad Blocking"
+    "message": "Blokowanie Reklam"
   },
   "filter_group_privacy": {
-    "message": "Privacy"
+    "message": "Prywatność"
   },
   "filter_group_security": {
-    "message": "Security"
+    "message": "Bezpieczeństwo"
   },
   "filter_group_language_specific": {
-    "message": "Language-specific"
+    "message": "Zależne od języka"
   },
   "filter_name_ultimate_ad_filter": {
     "message": "Ultimate Ad Filter"
   },
   "filter_description_ultimate_ad_filter": {
-    "message": "This is the best performing all-in-one ad filter out there, which blocks ads across the entire web. It's based on the EasyList filter and further enhanced by our team."
+    "message": "Jest to najlepszy filtr, który możesz tutaj znaleźć. Potrafi on blokować wszystkie reklamy w całej sieci. Opiera się on na filtrze EasyList i dalej wspierany przez nasz zespół."
   },
   "filter_name_anti_circumvention": {
-    "message": "Anti-circumvention"
+    "message": "Ochrona przed omijaniem blokady reklam."
   },
   "filter_description_anti_circumvention": {
-    "message": "Filter list designed to fight circumvention ads."
+    "message": "Lista filtrów na której znajdują się wpisy domen, zawierających skrypty omijające program blokujący reklamy."
   },
   "filter_name_fanboys_annoyance_list": {
-    "message": "Fanboy's Annoyance List"
+    "message": "Filtr denerwujących reklam (Fanboy's)"
   },
   "filter_description_fanboys_annoyance_list": {
-    "message": "Blocks all irritating in-page popups, cookie notices and third-party widgets, which substantially decrease page loading times use this filter and it will block all of them for you."
+    "message": "Blokuje wszystkie irytujące wyskakujące okienka, powiadomienia o ciasteczkach i widżety innych firm, które znacznie skrócą czas ładowania stron. Użyj tego filtra, który zablokuje je dla Ciebie."
   },
   "filter_name_ultimate_privacy_filter": {
-    "message": "Ultimate Privacy Filter"
+    "message": "Filtr ochrony prywatności"
   },
   "filter_description_ultimate_privacy_filter": {
-    "message": "Blocks an extensive list of various online trackers, counters and web analytics tools. Based on the EasyList Privacy list and upgraded by our team."
+    "message": "Blokuje obszerną listę różnych narzędzi do śledzenia, analizy internetowej oraz wszelkich liczników. Opierając się na liście prywatności EasyList i uaktualniając ją przez nasz zespół."
   },
   "filter_name_fanboys_social_blocking_list": {
-    "message": "Fanboy's Social Blocking List"
+    "message": "Filtr stron społecznościowych (Fanboy's)"
   },
   "filter_description_fanboys_social_blocking_list": {
-    "message": "Removes social media integration"
+    "message": "Usuwa integrację z mediami społecznościowymi"
   },
   "filter_name_ultimate_security_filter": {
-    "message": "Ultimate Security Filter"
+    "message": "Zaawansowany filtr zabezpieczający"
   },
   "filter_description_ultimate_security_filter": {
-    "message": "This filter blocks ads injected by adware. Based on Easylist's Adware filters and further updated and modified by our team."
+    "message": "Filtr ten blokuje reklamy wstrzyknięte przez oprogramowanie typu adware. W oparciu o filtry Easylist, a następnie aktualizowany i modyfikowany przez nasz zespół."
   },
   "filter_name_spam404": {
     "message": "Spam404"
   },
   "filter_description_spam404": {
-    "message": "This filter protects you from online scams. This filter is regularly updated with data collected by Spam404.com."
+    "message": "Ten filtr chroni przed oszustwami online. Ten filtr jest regularnie aktualizowany za pomocą danych zebranych przez Spam404.com."
   },
   "filter_name_nocoin": {
     "message": "NoCoin"
   },
   "filter_description_nocoin": {
-    "message": "Stops cryptomining in your browser."
+    "message": "Zatrzymuje kopanie krypto-walut w twojej przeglądarce internetowej."
   },
   "filter_name_ruadlist_easylist": {
-    "message": "RuAdList+EasyList"
+    "message": "RuAdList+EasyList [Reguły filtrów dla stron z językiem rosyjskim]"
   },
   "filter_description_ruadlist_easylist": {
-    "message": "Removes ads from Russian websites."
+    "message": "Usuwa reklamy z Rosyjskich witryn internetowych."
   },
   "filter_name_easylist_germany_easylist": {
-    "message": "EasyList Germany+EasyList"
+    "message": "EasyList Germany+EasyList [Reguły filtrów dla stron z językiem niemieckim]"
   },
   "filter_description_easylist_germany_easylist": {
-    "message": "Removes ads from German websites."
+    "message": "Usuwa reklamy z Niemieckich witryn internetowych."
   },
   "filter_name_fanboys_japanese": {
-    "message": "Fanboy's Japanese"
+    "message": "Fanboy's [Reguły filtrów dla stron z językiem japońskim]"
   },
   "filter_description_fanboys_japanese": {
-    "message": "Removes ads from Japanese websites."
+    "message": "Usuwa reklamy z Japońskich witryn internetowych."
   },
   "filter_name_easylist_dutch_easylist": {
-    "message": "EasyList Dutch + EasyList"
+    "message": "EasyList Dutch + EasyList [Reguły filtrów dla stron z językiem holenderskim]"
   },
   "filter_description_easylist_dutch_easylist": {
-    "message": "Removes ads from Dutch websites."
+    "message": "Usuwa reklamy z Holenderskich witryn internetowych."
   },
   "filter_name_fanboys_spanish_portuguese": {
-    "message": "Fanboy's Spanish/Portuguese"
+    "message": "Fanboy's [Reguły filtrów dla stron z językiem portugalskim, hiszpańskim]"
   },
   "filter_description_fanboys_spanish_portuguese": {
-    "message": "Removes ads from Spanish/Portuguese websites."
+    "message": "Usuwa reklamy z Hiszpańskich/Portugalskich witryn internetowych."
   },
   "filter_name_fanboys_turkish": {
-    "message": "Fanboy's Turkish"
+    "message": "Fanboy's [Reguły filtrów dla stron z językiem tureckim]"
   },
   "filter_description_fanboys_turkish": {
-    "message": "Removes ads from Turkish websites."
+    "message": "Usuwa reklamy z Tureckich witryn internetowych."
   },
   "filter_name_bulgarian_list": {
-    "message": "Bulgarian list"
+    "message": "Lista bułgarska"
   },
   "filter_description_bulgarian_list": {
-    "message": "Removes ads from Bulgarian websites."
+    "message": "Usuwa reklamy z Bułgarskich witryn internetowych."
   },
   "filter_name_easylist_china": {
-    "message": "EasyList China"
+    "message": "EasyList Chiny"
   },
   "filter_description_easylist_china": {
-    "message": "Removes ads from Chinese websites."
+    "message": "Usuwa reklamy z Chińskich witryn internetowych."
   },
   "filter_name_easylist_czech_and_slovak": {
-    "message": "EasyList Czech and Slovak"
+    "message": "Fanboy's [Reguły filtrów dla stron z językiem czeskim i słowackim]"
   },
   "filter_description_easylist_czech_and_slovak": {
-    "message": "Removes ads from Czechs and Slovak websites."
+    "message": "Usuwa reklamy z Czeskich i Słowackich witryn internetowych."
   },
   "filter_name_easylist_italy": {
-    "message": "EasyList Italy"
+    "message": "EasyList Włochy"
   },
   "filter_description_easylist_italy": {
-    "message": "Removes ads from Italian websites."
+    "message": "Usuwa reklamy z Włoskich witryn internetowych."
   },
   "filter_name_latvian_list": {
-    "message": "Latvian List"
+    "message": "Lista łotewska"
   },
   "filter_description_latvian_list": {
-    "message": "Removes ads from Latvian websites."
+    "message": "Usuwa reklamy z Łotewskich witryn internetowych."
   },
   "filter_name_adblock_polska": {
     "message": "Adblock Polska"
   },
   "filter_description_adblock_polska": {
-    "message": "Removes ads from Polish websites."
+    "message": "Usuwa reklamy z Polskich witryn internetowych."
   },
   "filter_name_estonian_list": {
-    "message": "Estonian List"
+    "message": "Lista estońska"
   },
   "filter_description_estonian_list": {
-    "message": "Removes ads from Estonian websites."
+    "message": "Usuwa reklamy z Estońskich witryn internetowych."
   },
   "filter_name_adblock_persian_list": {
-    "message": "Adblock-Persian list"
+    "message": "Fanboy's [Reguły filtrów dla stron z językiem perskim]"
   },
   "filter_description_adblock_persian_list": {
-    "message": "Removes ads from Persian websites."
+    "message": "Usuwa reklamy z Perskich witryn internetowych."
   },
   "filter_name_fanboys_swedish": {
-    "message": "Fanboy's Swedish"
+    "message": "Fanboy's [Reguły filtrów dla stron z językiem szweckim]"
   },
   "filter_description_fanboys_swedish": {
-    "message": "Removes ads from Swedish websites."
+    "message": "Usuwa reklamy ze Szwedzkich witryn internetowych."
   },
   "filter_name_fanboys_korean": {
-    "message": "Fanboy's Korean"
+    "message": "Fanboy's [Reguły filtrów dla stron z językiem koreańskim]"
   },
   "filter_description_fanboys_korean": {
-    "message": "Removes ads from Korean websites."
+    "message": "Usuwa reklamy z Koreańskich witryn internetowych."
   },
   "filter_name_fanboys_vietnamese": {
-    "message": "Fanboy's Vietnamese"
+    "message": "Fanboy's [Reguły filtrów dla stron z językiem wietmańskim]"
   },
   "filter_description_fanboys_vietnamese": {
-    "message": "Removes ads from Vietnamese websites."
+    "message": "Usuwa reklamy z Wietnamskich witryn internetowych."
   },
   "filter_name_hufilter": {
-    "message": "Hufilter - The Hungarian Adblock List"
+    "message": "Hufilter [Reguły filtrów dla stron z językiem węgierskim]"
   },
   "filter_description_hufilter": {
-    "message": "Removes ads from Hungarian websites."
+    "message": "Usuwa reklamy z stron internetowych w języku węgierskim"
   },
   "filter_name_liste_fr": {
-    "message": "Liste FR"
+    "message": "Liste FR [Reguły filtrów dla stron z językiem francuskim]"
   },
   "filter_description_liste_fr": {
-    "message": "Removes ads from French websites."
+    "message": "Usuwa reklamy z francuskich stron."
   },
   "block_even_more_ads": {
-    "message": "Block even more ads"
+    "message": "Blokuj jeszcze więcej reklam"
   },
   "desktop_app_is_running": {
-    "message": "Desktop app is running"
+    "message": "Aplikacja komputerowa jest uruchomiona"
   },
   "popup_status_inactive": {
-    "message": "Filtering is inactive to avoid possible website dysfunction."
+    "message": "Filtrowanie jest nieaktywne, aby uniknąć ewentualnych problemów z wyświetlaniem stron internetowych."
   },
   "abu_desktop_info": {
-    "message": "AdBlocking is handled by <strong>AdBlocker Ultimate for Windows</strong>. However, you can still use this menu to manage your whitelist or to manually block certain ads."
+    "message": "Blokowanie reklam jest obsługiwane przez <strong>AdBlocker Ultimate dla Windows'a</strong>. Nadal możesz używać tego menu do zarządzania białą listą reguł filtrowania, albo do ręcznego blokowania niektórych reklam."
   },
   "close": {
-    "message": "Close"
+    "message": "Zamknij"
   },
   "yes": {
-    "message": "Yes"
+    "message": "Tak"
   },
   "no": {
-    "message": "No"
+    "message": "Nie"
   },
   "shield_send_feedback": {
-    "message": "Send Feedback"
+    "message": "Wyślij opinię"
   },
   "shield_email": {
     "message": "Email"
   },
   "shield_tell_how_to_improve": {
-    "message": "Please tell us how we can improve"
+    "message": "Proszę powiedz nam, co możemy ulepszyć?"
   },
   "shield_rate_txt": {
-    "message": "Enjoy blocking ads? Help others find out about us."
+    "message": "Lubisz blokować reklamy? Pomóż innym dowiedzieć się o nas."
   },
   "shield_sending": {
-    "message": "Sending..."
+    "message": "Wysyłanie..."
   },
   "shield_message": {
-    "message": "Message"
+    "message": "Wiadomość"
   },
   "shield_thank_you": {
-    "message": "Thank you!"
+    "message": "Dziękujemy!"
   },
   "shield_no_thanks": {
-    "message": "No thanks"
+    "message": "Nie, dziękuję"
   },
   "shield_do_you_like_abu": {
-    "message": "Do you like</br> AdBlocker Ultimate?"
+    "message": "Czy lubisz</br> AdBlocker Ultimate?"
   }
 }

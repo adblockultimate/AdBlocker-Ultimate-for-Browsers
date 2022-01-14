@@ -423,7 +423,7 @@
     "message": "Phiên bản"
   },
   "all_ads_out": {
-    "message": "And all annoying ads are out!"
+    "message": "và tất cả những quảng cáo phiền phức đã biết mất!"
   },
   "options_whitelist_desc": {
     "message": "Những quảng cáo trên trang web được thêm vào danh sách ngoại lệ này sẽ không bị chặn"
@@ -756,60 +756,60 @@
     "message": "Hufilter - The Hungarian Adblock List"
   },
   "filter_description_hufilter": {
-    "message": "Removes ads from Hungarian websites."
+    "message": "Gỡ bỏ quảng cáo từ trang web tiếng Hungary."
   },
   "filter_name_liste_fr": {
     "message": "Liste FR"
   },
   "filter_description_liste_fr": {
-    "message": "Removes ads from French websites."
+    "message": "Gỡ bỏ quảng cáo từ các trang web tiếng Pháp."
   },
   "block_even_more_ads": {
-    "message": "Block even more ads"
+    "message": "Chặn thêm nhiều quảng cáo"
   },
   "desktop_app_is_running": {
-    "message": "Desktop app is running"
+    "message": "Ứng dụng desktop đang chạy"
   },
   "popup_status_inactive": {
-    "message": "Filtering is inactive to avoid possible website dysfunction."
+    "message": "Tạm dừng lọc để tránh rối loạn  tính năng website."
   },
   "abu_desktop_info": {
-    "message": "AdBlocking is handled by <strong>AdBlocker Ultimate for Windows</strong>. However, you can still use this menu to manage your whitelist or to manually block certain ads."
+    "message": "Việc chặn quảng cáo đang được xử lý bởi <strong>AdBlocker Ultimate for Windows</strong>. Tuy nhiên, bạn vẫn có thể dùng menu này quản lý danh sách cho phép hoặc chặn từng quảng cáo nhất định."
   },
   "close": {
-    "message": "Close"
+    "message": "Đóng"
   },
   "yes": {
-    "message": "Yes"
+    "message": "Có"
   },
   "no": {
-    "message": "No"
+    "message": "Không"
   },
   "shield_send_feedback": {
-    "message": "Send Feedback"
+    "message": "Gửi phản hồi"
   },
   "shield_email": {
     "message": "Email"
   },
   "shield_tell_how_to_improve": {
-    "message": "Please tell us how we can improve"
+    "message": "Hãy cho chúng tôi biết làm thế nào để cải thiện"
   },
   "shield_rate_txt": {
-    "message": "Enjoy blocking ads? Help others find out about us."
+    "message": "Thích sản phẩm này? Hãy cho mọi người biết về chúng tôi."
   },
   "shield_sending": {
-    "message": "Sending..."
+    "message": "Đang gửi..."
   },
   "shield_message": {
-    "message": "Message"
+    "message": "Tin nhắn"
   },
   "shield_thank_you": {
-    "message": "Thank you!"
+    "message": "Cảm ơn bạn!"
   },
   "shield_no_thanks": {
-    "message": "No thanks"
+    "message": "Không, cảm ơn"
   },
   "shield_do_you_like_abu": {
-    "message": "Do you like</br> AdBlocker Ultimate?"
+    "message": "Bạn thích</br>AdBlocker Ultimate chứ?"
   }
 }

@@ -2,8 +2,8 @@
 ! Homepage: http://www.spam404.com/
 ! Title: Spam404
 ! Expires: 2 days
-! Version: 7205
-! Last modified: 21 Nov 2020
+! Version: 7279
+! Last modified: 18 Nov 2021
 ! Description: This filter protects you from online scams. This filter is regularly updated with data collected by Spam404.com.
 !
 ! You can report unblocked content and direct general queries to us
@@ -2495,7 +2495,6 @@ hepimovie.net###login
 ||hackprivate.com^
 ||generator4points.com^
 ||fb-hacks.com^
-||get4games.com^
 ||paysafe.leadrights.com^
 ||ps4jailbreaks.org^
 ||613untetheredjailbreak.com^
@@ -5358,7 +5357,6 @@ hepimovie.net###login
 ||worldjailbreak.com^
 ||ps3portal.net^
 ||jailbroken.co^
-||ps3jailbreakdownloadfree.com^
 ||robbobrothers.com^
 ||agario-bots.com^
 ||royalfolders.com^
@@ -6196,7 +6194,6 @@ hepimovie.net###login
 ||csgohop.com^
 ||skinsamazing.com^
 ||opskins.com.bz^
-||hellboost.com^
 ||cs-money.pro^
 ||csgomix.top^
 ||klaustrade.com^
@@ -7156,7 +7153,6 @@ hepimovie.net###login
 ||fallguysmobile.com^
 ||zadbit.com^
 ||skinsplaid.com^
-||ddos-guard.net^
 ||dvrlists.com^
 ||sideload.net^
 ||stc.tools^
@@ -7200,6 +7196,84 @@ hepimovie.net###login
 ||ixware.co^
 ||joker-dz.com^
 ||sef7at.com^
+||skinszone.net^
+||moondeal.net^
+||steamcashrep.com^
+||steamtradesrep.com^
+||thiscrack.com^
+||ogusers.com^
+||xleet.to^
+||refund.sh^
+||crazyrdp.com^
+||jackabit.com^
+||krebsonsecurity.top^
+||muskgives.net^
+||muskgives.org^
+||elongives.biz^
+||tesla-coins.net^
+||socialcapital.cc^
+||elon-gifts.net^
+||crypto-gifts.net^
+||rollbitgg.net^
+||moneroceo.com^
+||ltcdrop.com^
+||givesbnb.com^
+||btt-ceo.com^
+||luxchecker.pw^
+||wsstore.cc^
+||zunostore.su^
+||cc-shop.su^
+||cardingforum.su^
+||ica.su^
+||ferumshop.su^
+||dumpsbuy.su^
+||fssquad.com^
+||cracked.sx^
+||spammer.ro^
+||fullzinfo.com^
+||thecrimebay.store^
+||cybercarders.su^
+||darkwebmafias.ws^
+||scans365.com^
+||frankdoc.site^
+||cweb.ws^
+||carderprofit.ws^
+||c2bit.mu^
+||crdclub.su^
+||phantomhacker.su^
+||unireceive.com^
+||dotairdrop.com^
+||pancakebonus.com^
+||polkacoinbonus.com^
+||claimunibonus.com^
+||roobbet.com^
+||nslgives.com^
+||snlmusk.com^
+||snl-doge.ceo^
+||doge-snl.org^
+||snlday.top^
+||dogesnl.live^
+||doge-elon.com^
+||dogecoin-snl.com^
+||adabonus2021.com^
+||fundsdoge.org^
+||fund-doge.net^
+||snlgive.org^
+||snlprize.net^
+||doge-event.net^
+||adabonus2021.net^
+||teslaicrypto.com^
+||geminigiveaway.club^
+||moneroholders.com^
+||shibairdrop.com^
+||pooluniswap.com^
+||dwnlds.co^
+||fasterfiles.net^
+||smrturl.co^
+||cpbild.co^
+||mb-1k.org^
+||fire36.com^
+||foryou1k.com^
 !
 !
 !

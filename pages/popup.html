@@ -8,7 +8,7 @@
    <title i18n="options_title">AdBlocker Ultimate</title>
    <link rel="stylesheet" type="text/css" href="css/popup.css">
 
-   <script type="text/javascript" src="../lib/libs/jquery-3.0.0.min.js"></script>
+   <script type="text/javascript" src="../lib/libs/jquery-3.6.0.min.js"></script>
    <script type="text/javascript" src="../lib/content-script/abu-content.js"></script>
    <script type="text/javascript" src="../lib/content-script/common-script.js"></script>
    <script type="text/javascript" src="../lib/content-script/popup-script.js"></script>
@@ -73,20 +73,19 @@
                   <span class="triangle"></span>
                </div>
 
-               <div class="bg-img hedgehog enabled">
-                  <img src="images/enable1.png" class="ic ic-enable" >
-                  <svg xmlns=http://www.w3.org/2000/svg viewBox="0 0 150 150">
-                     <circle cx="55" cy="55" r="52" />
-                  </svg>
+               <div class="hedgehog-wrapper">
+                  <div class="bg-img hedgehog enabled">
+                     <img src="images/enable1.png" class="ic ic-enable" >
+                     <svg xmlns=http://www.w3.org/2000/svg viewBox="0 0 150 150">
+                        <circle cx="55" cy="55" r="52" />
+                     </svg>
+                  </div>
+                  <div class="bg-img1 hedgehog disabled d-none">
+                     <img src="images/dis.png" class="ic1">
+                  </div>
+                  <h2 class="tab-url"></h2>
+                  <h4 class="page-status" i18n="browser_action_popup_enabled_on_site"></h4>
                </div>
-
-               <div class="bg-img1 hedgehog disabled d-none">
-                  <img src="images/dis.png" class="ic1">
-              </div>
-               
-               <h2 class="tab-url"></h2>
-
-               <h4 class="page-status" i18n="browser_action_popup_enabled_on_site"></h4>
 
                <div class="menu">
                   <ul class="big-menu">

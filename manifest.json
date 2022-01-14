@@ -3,7 +3,7 @@
     "name": "__MSG_name__",
     "short_name": "__MSG_short_name__",
     "author": "AdAvoid Ltd",
-    "version": "3.7.12",
+    "version": "3.7.15",
     "default_locale": "en",
     "description": "__MSG_description__",
     "icons": {
@@ -85,7 +85,7 @@
         {
             "all_frames": false,
             "js": [
-                "lib/libs/jquery-3.0.0.min.js",
+                "lib/libs/jquery-3.6.0.min.js",
                 "lib/libs/jquery-ui.min.js",
                 "lib/libs/diff_match_patch.js",
                 "lib/libs/dom.js",

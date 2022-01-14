@@ -183,10 +183,10 @@
     "message": "Etsi suodattimille päivityksiä"
   },
   "alert_popup_filter_enabled_title": {
-    "message": "Filters auto-activated"
+    "message": "Suodattimet automaattisesti aktivoitu"
   },
   "alert_popup_filter_enabled_text": {
-    "message": "&quot;$1&quot; has been activated"
+    "message": "&quot;$1&quot; on otettu käyttöön"
   },
   "filter_download_title": {
     "message": "Suodatintietokanta latautuu..."
@@ -309,7 +309,7 @@
     "message": "Estä osoitteen perusteella"
   },
   "description": {
-    "message": "Free and improved AdBlocker. Completely remove ALL ads. No \"acceptable\" ads or whitelisted advertisers, block tracking and malware!"
+    "message": "Ilmainen ja parannettu AdBlocker. Poista kaikki mainokset. Ei \"hyväksyttyjä\" mainoksia tai sallittuja mainostajia, estä seuranta ja haittaohjelmat!"
   },
   "shield_dont_show_again": {
     "message": "Älä näytä tätä viestiä uudestaan"
@@ -390,43 +390,43 @@
     "message": "Etsi suodattimille päivityksiä"
   },
   "filter_rules_count": {
-    "message": "Filter rules count"
+    "message": "Suodattimen sääntöjen määrä"
   },
   "security": {
-    "message": "Security"
+    "message": "Turvallisuus"
   },
   "options_language_specific": {
-    "message": "Language-specific"
+    "message": "Kielikohtaiset"
   },
   "options_custom_filters": {
-    "message": "Custom Filters"
+    "message": "Mukautetut Suodattimet"
   },
   "follow_us": {
-    "message": "Follow us on"
+    "message": "Seuraa meitä"
   },
   "contact_us": {
-    "message": "Contact us"
+    "message": "ota meihin yhteyttä"
   },
   "report_bug": {
-    "message": "Report a bug"
+    "message": "Ilmoita bugista"
   },
   "privacy_policy": {
-    "message": "Privacy Policy"
+    "message": "Yksityisyyskäytännöt"
   },
   "official_website": {
-    "message": "Official Website"
+    "message": "Virallinen Nettisivu"
   },
   "all_rights_reserved": {
-    "message": "All Rights Reserved"
+    "message": "Kaikki Oikeudet Pidätetään"
   },
   "version": {
-    "message": "Version"
+    "message": "Versio"
   },
   "all_ads_out": {
-    "message": "And all annoying ads are out!"
+    "message": "Ja kaikki ärsyttävät mainokset ovat poissa!"
   },
   "options_whitelist_desc": {
-    "message": "The ads on the websites added to this Whitelist will not be blocked."
+    "message": "Mainoksia ei estetä sallittujen listalle lisättyillä verkkosivustoilla."
   },
   "options_export": {
     "message": "Vie"
@@ -435,381 +435,381 @@
     "message": "Tuo"
   },
   "options_err_import_file": {
-    "message": "Error importing file!"
+    "message": "Virhe tuotaessa tiedostoa!"
   },
   "options_err_no_txt_file": {
-    "message": "Only .txt files allowed!"
+    "message": "Vain .txt-tiedostot sallitaan!"
   },
   "options_status_saved": {
-    "message": "Saved"
+    "message": "Tallennettu"
   },
   "options_custom_rules": {
-    "message": "Custom Rules"
+    "message": "Omat säännöt"
   },
   "options_do_you_like_abu": {
-    "message": "Do you like AdBlocker Ultimate?"
+    "message": "Pidätkö AdBlocker Ultimatesta?"
   },
   "options_editor_desc": {
-    "message": "In this list you can add your own Custom Rules. Create your own ad filters and add them here."
+    "message": "Tässä voit lisätä omia sääntöjäsi. Luo mainoksille omia suodattimia ja lisää ne tähän."
   },
   "options_number_icon_desc": {
-    "message": "The number of blocked ads on each page will show in the extension icon."
+    "message": "Avoimella sivulla estettyjen mainosten määrä näkyy laajennuksen kuvakkeessa."
   },
   "options_anti_circumvention_title": {
-    "message": "Enable Anti-Circumvention"
+    "message": "Käytä kierronvastustusta"
   },
   "options_anti_circumvention_desc": {
-    "message": "This feature is fighting the anti-adblocker messages some websites show when they detect the use of one."
+    "message": "Tämä ominaisuus taistelee mainosestoa vastustavia viestejä vastaan, joita jotkin sivustot näyttävät havaitessaan sellaisen."
   },
   "options_auto_activate_lang_filters_title": {
-    "message": "Automatically activate language-specific filters"
+    "message": "Ota kielikohtaiset suodattimet käyttöön automaattisesti"
   },
   "options_auto_activate_lang_filters_desc": {
-    "message": "After opening a few pages in a language, the filters for this language will be automatically added and activated."
+    "message": "Kun muutamia tietynkielisiä sivuja on avattu, kielikohtainen suodatin lisätään ja otetaan käyttöön automaattisesti."
   },
   "options_about": {
-    "message": "About"
+    "message": "Tietoja"
   },
   "options_filters_updated": {
-    "message": "updated"
+    "message": "päivitetty"
   },
   "options_filters": {
-    "message": "Filters"
+    "message": "Suodattimet"
   },
   "options_filters_enabled": {
-    "message": "Enabled:"
+    "message": "Käytössä:"
   },
   "options_filters_enabled_and_more": {
-    "message": "$1 and $2 more"
+    "message": "$1 ja $2 lisää"
   },
   "options_no_filters_enabled": {
-    "message": "No filters enabled"
+    "message": "Suodattimia ei ole käytössä"
   },
   "options_filter_status_all": {
-    "message": "All"
+    "message": "Kaikki"
   },
   "options_filter_status_disable": {
-    "message": "Disabled"
+    "message": "Ei käytössä"
   },
   "options_search": {
-    "message": "Search"
+    "message": "Etsi"
   },
   "options_clear_filter": {
-    "message": "Clear filter"
+    "message": "Tyhjennä suodatin"
   },
   "options_confirm_filter_delete": {
-    "message": "Are you sure you want to delete this filter?"
+    "message": "Haluatko varmasti poistaa suodattimen?"
   },
   "options_custom": {
-    "message": "Custom"
+    "message": "Oma"
   },
   "options_no_custom_filters": {
-    "message": "Sorry, but you don't have any custom filters yet"
+    "message": "Anteeksi, mutta sinulla ei ole vielä omia suodattimia"
   },
   "options_submit": {
-    "message": "Submit"
+    "message": "Lähetä"
   },
   "options_enter_url_or_path": {
-    "message": "Enter valid URL or file path"
+    "message": "Syötä kelvollinen URL-osoite tai tiedostosijainti"
   },
   "options_new_filter": {
-    "message": "New filter"
+    "message": "Uusi suodatin"
   },
   "options_custom_filter_already_add": {
-    "message": "Filter with same URL already exists!"
+    "message": "Suodatin samalla URL-osoitteella on jo olemassa!"
   },
   "options_add_custom_filter": {
-    "message": "Add custom filter"
+    "message": "Lisää oma suodatin"
   },
   "options_custom_filter_empty_url": {
-    "message": "Please, enter filter URL!"
+    "message": "Syötä suodattimen URL-osoite!"
   },
   "options_custom_filter_error": {
-    "message": "Error downloading filter!"
+    "message": "Virhe ladattaessa suodatinta!"
   },
   "options_last_uodate": {
-    "message": "Last update"
+    "message": "Viimeisin päivitys"
   },
   "options_rate_us": {
-    "message": "Rate Us"
+    "message": "Arvostele Meidät"
   },
   "badge_windows_ifno": {
-    "message": "Single ad blocker blocks ads and online trackers across all Windows applications."
+    "message": "Yksittäinen mainosten estäjä estää mainokset ja verkkojäljittäjät kaikissa Windows-sovelluksissa."
   },
   "badge_download_now": {
-    "message": "Download Now"
+    "message": "Lataa nyt"
   },
   "badge_learn_more": {
-    "message": "Learn more"
+    "message": "Lisätietoja"
   },
   "popup_on_this_site": {
-    "message": "on this site:"
+    "message": "tällä sivustolla:"
   },
   "popup_total": {
-    "message": "Total:"
+    "message": "Yhteensä:"
   },
   "popup_settings": {
-    "message": "Settings"
+    "message": "Asetukset"
   },
   "popup_share_on_fb": {
-    "message": "Share on Facebook"
+    "message": "Jaa Facebookissa"
   },
   "popup_share_on_twitter": {
-    "message": "Share on Twitter"
+    "message": "Jaa Twitterissä"
   },
   "popup_get_abu_windows": {
-    "message": "Get AdBlocker Ultimate for Windows"
+    "message": "Hanki AdBlocker Ultimate Windowsille"
   },
   "popup_secure_page": {
-    "message": "Secure page"
+    "message": "Turvallinen sivu"
   },
   "popup_protection_enabled": {
-    "message": "Protection: Enabled"
+    "message": "Suojaus: Käytössä"
   },
   "popup_protection_disabled": {
-    "message": "Protection: Disabled"
+    "message": "Suojaus: Ei käytössä"
   },
   "options_want_abu_in_lang": {
-    "message": "Want AdBlocker Ultimate in your language?"
+    "message": "Haluatko AdBlocker Ultimaten omalla kielelläsi?"
   },
   "options_help_translate": {
-    "message": "Help us with the translation!"
+    "message": "Auta meitä käännöksissä"
   },
   "popup_enabled_on_site": {
-    "message": "Enabled on this site"
+    "message": "Käytössä tällä sivustolla"
   },
   "popup_disabled_on_site": {
-    "message": "Disabled on this site"
+    "message": "Ei käytössä tällä sivustolla"
   },
   "popup_curent_tab_blocked": {
-    "message": "Blocked:"
+    "message": "Estetty:"
   },
   "popup_blocked_total": {
-    "message": "Total:"
+    "message": "Yhteensä:"
   },
   "filter_group_custom_filters": {
-    "message": "Custom Filters"
+    "message": "Mukautetut Suodattimet"
   },
   "filter_group_ad_blocking": {
-    "message": "Ad Blocking"
+    "message": "Mainosesto"
   },
   "filter_group_privacy": {
-    "message": "Privacy"
+    "message": "Yksityisyys"
   },
   "filter_group_security": {
-    "message": "Security"
+    "message": "Turvallisuus"
   },
   "filter_group_language_specific": {
-    "message": "Language-specific"
+    "message": "Kielikohtaiset"
   },
   "filter_name_ultimate_ad_filter": {
-    "message": "Ultimate Ad Filter"
+    "message": "Lopullinen mainosesto"
   },
   "filter_description_ultimate_ad_filter": {
-    "message": "This is the best performing all-in-one ad filter out there, which blocks ads across the entire web. It's based on the EasyList filter and further enhanced by our team."
+    "message": "Tämä on suorituskykyisin kokonaisvaltainen mainossuodatin, joka estää mainokset kaikkialla verkossa. Se perustuu EasyList-suodatinlistaan, jota me olemme parantaneet entisestään."
   },
   "filter_name_anti_circumvention": {
-    "message": "Anti-circumvention"
+    "message": "Kierronvastustus"
   },
   "filter_description_anti_circumvention": {
-    "message": "Filter list designed to fight circumvention ads."
+    "message": "Suodatinlista, joka on suunniteltu vastustamaan mainosestoa kiertäviä mainoksia."
   },
   "filter_name_fanboys_annoyance_list": {
     "message": "Fanboy's Annoyance List"
   },
   "filter_description_fanboys_annoyance_list": {
-    "message": "Blocks all irritating in-page popups, cookie notices and third-party widgets, which substantially decrease page loading times use this filter and it will block all of them for you."
+    "message": "Estää kaikki ärsyttävät sivunsisäiset ponnahdukset, evästeilmoitukset ja kolmannen osapuolen vimpaimet, jotka vähentävät sivujen latausaikoja merkittävästi."
   },
   "filter_name_ultimate_privacy_filter": {
     "message": "Ultimate Privacy Filter"
   },
   "filter_description_ultimate_privacy_filter": {
-    "message": "Blocks an extensive list of various online trackers, counters and web analytics tools. Based on the EasyList Privacy list and upgraded by our team."
+    "message": "Estää kattavan listan erilaisia verkkoseurantoja, laskureita ja analysointityökaluja. Se perustuu EasyList Privacy -listaan, jota olemme laajentaneet."
   },
   "filter_name_fanboys_social_blocking_list": {
     "message": "Fanboy's Social Blocking List"
   },
   "filter_description_fanboys_social_blocking_list": {
-    "message": "Removes social media integration"
+    "message": "Estää sosiaalisen median integroinnit."
   },
   "filter_name_ultimate_security_filter": {
     "message": "Ultimate Security Filter"
   },
   "filter_description_ultimate_security_filter": {
-    "message": "This filter blocks ads injected by adware. Based on Easylist's Adware filters and further updated and modified by our team."
+    "message": "Tämä suodatin estää adware-sovellusten upottamat mainokset. Se perustuu Easylist's Adware -suodattimiin, joita olemme parannelleet."
   },
   "filter_name_spam404": {
     "message": "Spam404"
   },
   "filter_description_spam404": {
-    "message": "This filter protects you from online scams. This filter is regularly updated with data collected by Spam404.com."
+    "message": "tämä suodatin suojaa sinua verkkohuijauksilta. Se päivitetään säännöllisesti Spam404.com-sivuston keräämillä tiedoilla."
   },
   "filter_name_nocoin": {
     "message": "NoCoin"
   },
   "filter_description_nocoin": {
-    "message": "Stops cryptomining in your browser."
+    "message": "Estää kryptovaluuttojen louhinnan selaimessasi."
   },
   "filter_name_ruadlist_easylist": {
-    "message": "RuAdList+EasyList"
+    "message": "RuAdList + EasyList"
   },
   "filter_description_ruadlist_easylist": {
-    "message": "Removes ads from Russian websites."
+    "message": "Poistaa mainokset venäjänkielisiltä verkkosivustoilta."
   },
   "filter_name_easylist_germany_easylist": {
-    "message": "EasyList Germany+EasyList"
+    "message": "EasyList Germany + EasyList"
   },
   "filter_description_easylist_germany_easylist": {
-    "message": "Removes ads from German websites."
+    "message": "Poistaa mainokset saksankielisiltä verkkosivustoilta."
   },
   "filter_name_fanboys_japanese": {
     "message": "Fanboy's Japanese"
   },
   "filter_description_fanboys_japanese": {
-    "message": "Removes ads from Japanese websites."
+    "message": "Poistaa mainokset japaninkielisiltä verkkosivustoilta."
   },
   "filter_name_easylist_dutch_easylist": {
     "message": "EasyList Dutch + EasyList"
   },
   "filter_description_easylist_dutch_easylist": {
-    "message": "Removes ads from Dutch websites."
+    "message": "Poistaa mainokset hollanninkielisiltä verkkosivustoilta."
   },
   "filter_name_fanboys_spanish_portuguese": {
     "message": "Fanboy's Spanish/Portuguese"
   },
   "filter_description_fanboys_spanish_portuguese": {
-    "message": "Removes ads from Spanish/Portuguese websites."
+    "message": "Poistaa mainokset espanjan-portugalinkielisiltä verkkosivustoilta."
   },
   "filter_name_fanboys_turkish": {
     "message": "Fanboy's Turkish"
   },
   "filter_description_fanboys_turkish": {
-    "message": "Removes ads from Turkish websites."
+    "message": "Poistaa mainokset turkinkielisiltä verkkosivustoilta."
   },
   "filter_name_bulgarian_list": {
     "message": "Bulgarian list"
   },
   "filter_description_bulgarian_list": {
-    "message": "Removes ads from Bulgarian websites."
+    "message": "Poistaa mainokset bulgariankielisiltä verkkosivustoilta."
   },
   "filter_name_easylist_china": {
     "message": "EasyList China"
   },
   "filter_description_easylist_china": {
-    "message": "Removes ads from Chinese websites."
+    "message": "Poistaa mainokset kiinankielisiltä verkkosivustoilta."
   },
   "filter_name_easylist_czech_and_slovak": {
     "message": "EasyList Czech and Slovak"
   },
   "filter_description_easylist_czech_and_slovak": {
-    "message": "Removes ads from Czechs and Slovak websites."
+    "message": "Poistaa mainokset tšekin- ja slovakkinkielisiltä verkkosivustoilta."
   },
   "filter_name_easylist_italy": {
     "message": "EasyList Italy"
   },
   "filter_description_easylist_italy": {
-    "message": "Removes ads from Italian websites."
+    "message": "Poistaa mainokset italiankielisiltä verkkosivustoilta."
   },
   "filter_name_latvian_list": {
-    "message": "Latvian List"
+    "message": "Latvian lista"
   },
   "filter_description_latvian_list": {
-    "message": "Removes ads from Latvian websites."
+    "message": "Poistaa mainokset latviankielisiltä verkkosivustoilta."
   },
   "filter_name_adblock_polska": {
     "message": "Adblock Polska"
   },
   "filter_description_adblock_polska": {
-    "message": "Removes ads from Polish websites."
+    "message": "Poistaa mainokset puolankielisiltä verkkosivustoilta."
   },
   "filter_name_estonian_list": {
-    "message": "Estonian List"
+    "message": "Estonian lista"
   },
   "filter_description_estonian_list": {
-    "message": "Removes ads from Estonian websites."
+    "message": "Poistaa mainokset vironkielisiltä verkkosivustoilta."
   },
   "filter_name_adblock_persian_list": {
-    "message": "Adblock-Persian list"
+    "message": "Adblock-Persian listа"
   },
   "filter_description_adblock_persian_list": {
-    "message": "Removes ads from Persian websites."
+    "message": "Poistaa mainokset persiankielisiltä verkkosivustoilta."
   },
   "filter_name_fanboys_swedish": {
     "message": "Fanboy's Swedish"
   },
   "filter_description_fanboys_swedish": {
-    "message": "Removes ads from Swedish websites."
+    "message": "Poistaa mainokset ruotsinkielisiltä verkkosivustoilta."
   },
   "filter_name_fanboys_korean": {
     "message": "Fanboy's Korean"
   },
   "filter_description_fanboys_korean": {
-    "message": "Removes ads from Korean websites."
+    "message": "Poistaa mainokset koreankielisiltä verkkosivustoilta."
   },
   "filter_name_fanboys_vietnamese": {
     "message": "Fanboy's Vietnamese"
   },
   "filter_description_fanboys_vietnamese": {
-    "message": "Removes ads from Vietnamese websites."
+    "message": "Poistaa mainokset vietnaminkielisiltä verkkosivustoilta."
   },
   "filter_name_hufilter": {
     "message": "Hufilter - The Hungarian Adblock List"
   },
   "filter_description_hufilter": {
-    "message": "Removes ads from Hungarian websites."
+    "message": "Poistaa mainokset unkarinkielisiltä verkkosivustoilta."
   },
   "filter_name_liste_fr": {
     "message": "Liste FR"
   },
   "filter_description_liste_fr": {
-    "message": "Removes ads from French websites."
+    "message": "Poistaa mainokset ranskankielisiltä verkkosivustoilta."
   },
   "block_even_more_ads": {
-    "message": "Block even more ads"
+    "message": "Estä vielä enemmän mainoksia"
   },
   "desktop_app_is_running": {
-    "message": "Desktop app is running"
+    "message": "Työpöytäsovellus on käynnissä"
   },
   "popup_status_inactive": {
-    "message": "Filtering is inactive to avoid possible website dysfunction."
+    "message": "Suodatus ei ole käytössä mahdollisen verkkosivuston toimintahäiriön välttämiseksi."
   },
   "abu_desktop_info": {
-    "message": "AdBlocking is handled by <strong>AdBlocker Ultimate for Windows</strong>. However, you can still use this menu to manage your whitelist or to manually block certain ads."
+    "message": "Mainosestoa hoitaa <strong>AdBlocker Ultimate Windowsille</strong>. Voit kuitenkin edelleen käyttää tätä valikkoa sallittujen listan hallintaan tai yksittäisten mainoksien estoon."
   },
   "close": {
-    "message": "Close"
+    "message": "Sulje"
   },
   "yes": {
-    "message": "Yes"
+    "message": "Kyllä"
   },
   "no": {
-    "message": "No"
+    "message": "Ei"
   },
   "shield_send_feedback": {
-    "message": "Send Feedback"
+    "message": "Lähetä palautetta"
   },
   "shield_email": {
-    "message": "Email"
+    "message": "Sähköposti"
   },
   "shield_tell_how_to_improve": {
-    "message": "Please tell us how we can improve"
+    "message": "Kerro meille, miten voimme parantaa."
   },
   "shield_rate_txt": {
-    "message": "Enjoy blocking ads? Help others find out about us."
+    "message": "Nautitko mainosten estämisestä? Auta muita löytämään meidät."
   },
   "shield_sending": {
-    "message": "Sending..."
+    "message": "Lähetetään..."
   },
   "shield_message": {
-    "message": "Message"
+    "message": "Viesti"
   },
   "shield_thank_you": {
-    "message": "Thank you!"
+    "message": "Kiitos!"
   },
   "shield_no_thanks": {
-    "message": "No thanks"
+    "message": "Ei kiitos"
   },
   "shield_do_you_like_abu": {
-    "message": "Do you like</br> AdBlocker Ultimate?"
+    "message": "Pidätkö</br> AdBlocker Ultimatesta?"
   }
 }

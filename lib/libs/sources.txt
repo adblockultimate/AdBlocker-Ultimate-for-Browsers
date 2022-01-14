@@ -30,8 +30,8 @@ https://raw.githubusercontent.com/cantino/selectorgadget/0.4.2/lib/dom.js
 Patched to create polyfill in content script
 https://github.com/mathiasbynens/CSS.escape/blob/master/css.escape.js
 
-Jquery 3.0.0 minified
-http://code.jquery.com/jquery-3.0.0.min.js
+Jquery 3.6.0 minified
+http://code.jquery.com/jquery-3.6.0.min.js
 d0212568ce69457081dacf84e327fa5c
 
 Jquery UI 1.12.1 minified
