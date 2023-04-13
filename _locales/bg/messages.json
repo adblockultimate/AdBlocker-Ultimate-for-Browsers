@@ -533,8 +533,14 @@
   "options_rate_us": {
     "message": "Оценете ни"
   },
+  "options_enable_context_menu_title": {
+    "message": "Enable context menu"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Enables a menu of actions available when you right-click on a web page."
+  },
   "badge_windows_ifno": {
-    "message": "Един единствен адблокер блокира реклами и онлайн преследвачи във всички програми под Windows."
+    "message": "Single AdBlocker blocks ads and online trackers across all Windows applications."
   },
   "badge_download_now": {
     "message": "Свали сега"
@@ -603,166 +609,166 @@
     "message": "Езикови"
   },
   "filter_name_ultimate_ad_filter": {
-    "message": "Ultimate Ad Filter"
+    "message": "Филтър Ultimate Ad"
   },
   "filter_description_ultimate_ad_filter": {
-    "message": "This is the best performing all-in-one ad filter out there, which blocks ads across the entire web. It's based on the EasyList filter and further enhanced by our team."
+    "message": "Това е най-ефективният рекламен филтър, който блокира реклами из цялата мрежа. Той е базиран на филтъра на EasyList и беше подобрен от нашия екип."
   },
   "filter_name_anti_circumvention": {
-    "message": "Anti-circumvention"
+    "message": "Филтър против заобикаляне на рекламите"
   },
   "filter_description_anti_circumvention": {
-    "message": "Filter list designed to fight circumvention ads."
+    "message": "Списък с филтри създаден да се бори със заобикалянето на реклами."
   },
   "filter_name_fanboys_annoyance_list": {
-    "message": "Fanboy's Annoyance List"
+    "message": "Досадния списък на Fanboy"
   },
   "filter_description_fanboys_annoyance_list": {
-    "message": "Blocks all irritating in-page popups, cookie notices and third-party widgets, which substantially decrease page loading times use this filter and it will block all of them for you."
+    "message": "Блокира всички вътрешни изкачащи прозорци, известия за бисквитки и други добавки, които съществено забавят зареждането на страниците. Използвай този филтър и той ще блокира всички тях вместо теб."
   },
   "filter_name_ultimate_privacy_filter": {
-    "message": "Ultimate Privacy Filter"
+    "message": "Ultimate филтър за поверителност"
   },
   "filter_description_ultimate_privacy_filter": {
-    "message": "Blocks an extensive list of various online trackers, counters and web analytics tools. Based on the EasyList Privacy list and upgraded by our team."
+    "message": "Блокира разширен списък с различни онлайн тракери, броячи и инструменти за уеб анализ. Базиран на EasyList списъка за поверителност и надграден от нашия екип."
   },
   "filter_name_fanboys_social_blocking_list": {
-    "message": "Fanboy's Social Blocking List"
+    "message": "Социалния списък с блокирани на Fanboy"
   },
   "filter_description_fanboys_social_blocking_list": {
-    "message": "Removes social media integration"
+    "message": "Премахва бутоните на социалните медии"
   },
   "filter_name_ultimate_security_filter": {
-    "message": "Ultimate Security Filter"
+    "message": "Ultimate филтър за сигурност"
   },
   "filter_description_ultimate_security_filter": {
-    "message": "This filter blocks ads injected by adware. Based on Easylist's Adware filters and further updated and modified by our team."
+    "message": "Този филтър блокира рекламите, инжектирани от рекламен софтуер. Базирам на филтъра за рекламен софтуер на Easylist и допълнително обновен и модифициран от нашия екип."
   },
   "filter_name_spam404": {
     "message": "Spam404"
   },
   "filter_description_spam404": {
-    "message": "This filter protects you from online scams. This filter is regularly updated with data collected by Spam404.com."
+    "message": "Филтърът ви предпазва от онлайн измами. Филтърът редовно се обновява с данни събрани от Spam404.com."
   },
   "filter_name_nocoin": {
     "message": "NoCoin"
   },
   "filter_description_nocoin": {
-    "message": "Stops cryptomining in your browser."
+    "message": "Спира криптокопаенето във вашия браузър."
   },
   "filter_name_ruadlist_easylist": {
     "message": "RuAdList+EasyList"
   },
   "filter_description_ruadlist_easylist": {
-    "message": "Removes ads from Russian websites."
+    "message": "Премахва реклами от руски сайтове."
   },
   "filter_name_easylist_germany_easylist": {
-    "message": "EasyList Germany+EasyList"
+    "message": "EasyList Германия+EasyList"
   },
   "filter_description_easylist_germany_easylist": {
-    "message": "Removes ads from German websites."
+    "message": "Премахва реклами от немски сайтове."
   },
   "filter_name_fanboys_japanese": {
-    "message": "Fanboy's Japanese"
+    "message": "Японския на Fanboy"
   },
   "filter_description_fanboys_japanese": {
-    "message": "Removes ads from Japanese websites."
+    "message": "Премахва реклами от японски сайтове."
   },
   "filter_name_easylist_dutch_easylist": {
-    "message": "EasyList Dutch + EasyList"
+    "message": "EasyList Нидерландски + EasyList"
   },
   "filter_description_easylist_dutch_easylist": {
-    "message": "Removes ads from Dutch websites."
+    "message": "Премахва реклами от нидерландски сайтове."
   },
   "filter_name_fanboys_spanish_portuguese": {
-    "message": "Fanboy's Spanish/Portuguese"
+    "message": "Испански/Португалски на Fanboy"
   },
   "filter_description_fanboys_spanish_portuguese": {
-    "message": "Removes ads from Spanish/Portuguese websites."
+    "message": "Премахва реклами от испански/португалски сайтове."
   },
   "filter_name_fanboys_turkish": {
-    "message": "Fanboy's Turkish"
+    "message": "Турски на Fanboy"
   },
   "filter_description_fanboys_turkish": {
-    "message": "Removes ads from Turkish websites."
+    "message": "Премахва реклами от турски сайтове."
   },
   "filter_name_bulgarian_list": {
-    "message": "Bulgarian list"
+    "message": "Български списък"
   },
   "filter_description_bulgarian_list": {
-    "message": "Removes ads from Bulgarian websites."
+    "message": "Премахва реклами от български сайтове."
   },
   "filter_name_easylist_china": {
-    "message": "EasyList China"
+    "message": "EasyList Китай"
   },
   "filter_description_easylist_china": {
-    "message": "Removes ads from Chinese websites."
+    "message": "Премахва реклами от китайски сайтове."
   },
   "filter_name_easylist_czech_and_slovak": {
-    "message": "EasyList Czech and Slovak"
+    "message": "EasyList чешки и словашки"
   },
   "filter_description_easylist_czech_and_slovak": {
-    "message": "Removes ads from Czechs and Slovak websites."
+    "message": "Премахва реклами от чешки и словашки сайтове."
   },
   "filter_name_easylist_italy": {
-    "message": "EasyList Italy"
+    "message": "EasyList Италия"
   },
   "filter_description_easylist_italy": {
-    "message": "Removes ads from Italian websites."
+    "message": "Премахва реклами от италиански сайтове."
   },
   "filter_name_latvian_list": {
-    "message": "Latvian List"
+    "message": "Латвийски списък"
   },
   "filter_description_latvian_list": {
-    "message": "Removes ads from Latvian websites."
+    "message": "Премахва реклами от латвийски сайтове."
   },
   "filter_name_adblock_polska": {
-    "message": "Adblock Polska"
+    "message": "Adblock Полша"
   },
   "filter_description_adblock_polska": {
-    "message": "Removes ads from Polish websites."
+    "message": "Премахва реклами от полски сайтове."
   },
   "filter_name_estonian_list": {
-    "message": "Estonian List"
+    "message": "Естонски списък"
   },
   "filter_description_estonian_list": {
-    "message": "Removes ads from Estonian websites."
+    "message": "Премахва реклами от естонски сайтове."
   },
   "filter_name_adblock_persian_list": {
-    "message": "Adblock-Persian list"
+    "message": "Adblock-Персийски списък"
   },
   "filter_description_adblock_persian_list": {
-    "message": "Removes ads from Persian websites."
+    "message": "Премахва реклами от персийски сайтове."
   },
   "filter_name_fanboys_swedish": {
-    "message": "Fanboy's Swedish"
+    "message": "Шведски на Fanboy"
   },
   "filter_description_fanboys_swedish": {
-    "message": "Removes ads from Swedish websites."
+    "message": "Премахва реклами от шведски сайтове."
   },
   "filter_name_fanboys_korean": {
-    "message": "Fanboy's Korean"
+    "message": "Корейски на Fanboy"
   },
   "filter_description_fanboys_korean": {
-    "message": "Removes ads from Korean websites."
+    "message": "Премахва реклами от корейски сайтове."
   },
   "filter_name_fanboys_vietnamese": {
-    "message": "Fanboy's Vietnamese"
+    "message": "Виетнамски на Fanboy"
   },
   "filter_description_fanboys_vietnamese": {
-    "message": "Removes ads from Vietnamese websites."
+    "message": "Премахва реклами от виетнамски сайтове."
   },
   "filter_name_hufilter": {
-    "message": "Hufilter - The Hungarian Adblock List"
+    "message": "Hufilter - Унгарски списък на Adblock"
   },
   "filter_description_hufilter": {
-    "message": "Removes ads from Hungarian websites."
+    "message": "Премахва реклами от унгарски сайтове."
   },
   "filter_name_liste_fr": {
     "message": "Liste FR"
   },
   "filter_description_liste_fr": {
-    "message": "Removes ads from French websites."
+    "message": "Премахва реклами от френски сайтове."
   },
   "block_even_more_ads": {
     "message": "Блокирайте още повече реклами"

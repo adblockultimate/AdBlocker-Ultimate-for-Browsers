@@ -533,6 +533,12 @@
   "options_rate_us": {
     "message": "给我们评分"
   },
+  "options_enable_context_menu_title": {
+    "message": "Enable context menu"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Enables a menu of actions available when you right-click on a web page."
+  },
   "badge_windows_ifno": {
     "message": "一个广告拦截器拦截所有Windows应用程序的广告和在线跟踪。"
   },

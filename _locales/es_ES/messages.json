@@ -533,8 +533,14 @@
   "options_rate_us": {
     "message": "Califícanos"
   },
+  "options_enable_context_menu_title": {
+    "message": "Habilitar menú contextual"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Habilita un menú de acciones disponibles al hacer clic derecho en una página web."
+  },
   "badge_windows_ifno": {
-    "message": "Un solo bloqueador de anuncios que bloquea anuncios y rastreadores en línea en todas las aplicaciones de Windows."
+    "message": "1 simple bloqueador de anuncios y rastreadores para todas las aplicaciones de Windows."
   },
   "badge_download_now": {
     "message": "Descargar ahora"

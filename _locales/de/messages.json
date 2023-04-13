@@ -533,8 +533,14 @@
   "options_rate_us": {
     "message": "Bewerten Sie uns"
   },
+  "options_enable_context_menu_title": {
+    "message": "Enable context menu"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Enables a menu of actions available when you right-click on a web page."
+  },
   "badge_windows_ifno": {
-    "message": "Ein einzelner Werbeblocker blockiert Anzeigen und Online-Tracker in allen Windows-Anwendungen."
+    "message": "Single AdBlocker blocks ads and online trackers across all Windows applications."
   },
   "badge_download_now": {
     "message": "Jetzt downloaden"

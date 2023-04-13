@@ -533,8 +533,14 @@
   "options_rate_us": {
     "message": "為我們評分"
   },
+  "options_enable_context_menu_title": {
+    "message": "Enable context menu"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Enables a menu of actions available when you right-click on a web page."
+  },
   "badge_windows_ifno": {
-    "message": "僅需一款廣告過濾器，即可攔截所有 Windows 應用程式廣告和線上追蹤。"
+    "message": "Single AdBlocker blocks ads and online trackers across all Windows applications."
   },
   "badge_download_now": {
     "message": "立即下載"

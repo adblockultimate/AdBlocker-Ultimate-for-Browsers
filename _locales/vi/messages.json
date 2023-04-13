@@ -533,8 +533,14 @@
   "options_rate_us": {
     "message": "Đánh giá ứng dụng"
   },
+  "options_enable_context_menu_title": {
+    "message": "Enable context menu"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Enables a menu of actions available when you right-click on a web page."
+  },
   "badge_windows_ifno": {
-    "message": "Trình chặn quảng cáo đơn chặn quảng cáo và trình theo dõi trực tuyến trên tất cả các ứng dụng Windows."
+    "message": "Single AdBlocker blocks ads and online trackers across all Windows applications."
   },
   "badge_download_now": {
     "message": "Tải ngay"

@@ -3,7 +3,7 @@
 ! Title: Spam404
 ! Expires: 2 days
 ! Version: 7279
-! Last modified: 18 Nov 2021
+! Last modified: 31 Oct 2022
 ! Description: This filter protects you from online scams. This filter is regularly updated with data collected by Spam404.com.
 !
 ! You can report unblocked content and direct general queries to us
@@ -1711,7 +1711,6 @@ hepimovie.net###login
 ||freexblgold.com^
 ||getfreemicrosoftpoints.com^
 ||xboxlivegoldforfree.com^
-||fileswag.com^
 ||freefbcredit.com^
 ||freeitunescodegenerator.com^
 ||freekarmakoins.com^
@@ -7147,7 +7146,6 @@ hepimovie.net###login
 ||n95-mask.site^
 ||cryptoforhealth.com^
 ||readyrobux.com^
-||sellix.io^
 ||bombalts.com^
 ||atshop.io^
 ||fallguysmobile.com^

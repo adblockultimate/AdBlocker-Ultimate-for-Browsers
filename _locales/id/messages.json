@@ -533,8 +533,14 @@
   "options_rate_us": {
     "message": "Nilai kami"
   },
+  "options_enable_context_menu_title": {
+    "message": "Enable context menu"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Enables a menu of actions available when you right-click on a web page."
+  },
   "badge_windows_ifno": {
-    "message": "Satu pemblokir iklan memblokir iklan dan pelacak daring di semua aplikasi Windows."
+    "message": "Single AdBlocker blocks ads and online trackers across all Windows applications."
   },
   "badge_download_now": {
     "message": "Unduh Sekarang"

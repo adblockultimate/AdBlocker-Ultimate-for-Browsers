@@ -533,8 +533,14 @@
   "options_rate_us": {
     "message": "Valutaci"
   },
+  "options_enable_context_menu_title": {
+    "message": "Abilita menu contestuale"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Abilita un menu di azioni disponibili quando fai clic destro su una pagina web."
+  },
   "badge_windows_ifno": {
-    "message": "Unico bloccannunci che blocca pubblicità e tracciatori di rete su tutte le applicazioni Windows."
+    "message": "Single AdBlocker blocks ads and online trackers across all Windows applications."
   },
   "badge_download_now": {
     "message": "Scarica adesso"

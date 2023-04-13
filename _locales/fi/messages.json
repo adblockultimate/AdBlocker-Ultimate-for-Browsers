@@ -21,7 +21,7 @@
     "message": "Sääntöparametrit"
   },
   "assistant_apply_rule_to_all_sites": {
-    "message": "Aseta voimaan kaikilla sivuilla"
+    "message": "Käytä kaikilla sivustoilla"
   },
   "assistant_block_by_reference": {
     "message": "Estä osoitteen perusteella"
@@ -33,7 +33,7 @@
     "message": "Estä"
   },
   "assistant_another_element": {
-    "message": "Valitse useampi kohde"
+    "message": "Valitse toinen elementti"
   },
   "assistant_preview": {
     "message": "Esikatselu"
@@ -51,7 +51,7 @@
     "message": "AdBlocker Ultimate"
   },
   "description_blocked": {
-    "message": "Estettyjä mainoksia tällä sivulla: $1"
+    "message": "Mainoksia estetty tältä sivulta: $1"
   },
   "options_settings": {
     "message": "AdBlocker Ultimate"
@@ -96,7 +96,7 @@
     "message": "Versio $1. Päivitetty $2 kello $3."
   },
   "options_popup_update_title": {
-    "message": "Suodatin päivitetty onnistuneesti"
+    "message": "Suodattimet päivitettiin onnistuneesti"
   },
   "options_popup_update_not_found": {
     "message": "Päivityksiä ei löytynyt"
@@ -111,7 +111,7 @@
     "message": "Estä mainokset tällä sivustolla"
   },
   "popup_security_report": {
-    "message": "Turvallisuusraportti"
+    "message": "Sivuston turvallisuusraportti"
   },
   "popup_open_settings": {
     "message": "AdBlocker Ultimate asetukset"
@@ -132,7 +132,7 @@
     "message": "Suojaus on pois päältä"
   },
   "popup_open_log_android": {
-    "message": "Suodatinloki"
+    "message": "Suodatusloki"
   },
   "popup_tab_blocked": {
     "message": "Estetty: $1"
@@ -141,7 +141,7 @@
     "message": "Yhteensä: $1"
   },
   "popup_ads_has_been_removed": {
-    "message": "Mainokset on nyt estetty sivulta"
+    "message": "Mainokset on estetty tältä sivulta"
   },
   "popup_ads_has_been_removed_by_abu": {
     "message": "Suojaus $1"
@@ -150,7 +150,7 @@
     "message": "Estä mainokset tällä sivustolla..."
   },
   "context_block_site_element": {
-    "message": "Estä kohde..."
+    "message": "Estä elementti..."
   },
   "context_abuse_site": {
     "message": "Lähetä valitus tästä sivustosta..."
@@ -180,10 +180,10 @@
     "message": "Poista suodatus käytöstä tällä sivustolla"
   },
   "context_update_antibanner_filters": {
-    "message": "Etsi suodattimille päivityksiä"
+    "message": "Tarkista suodatinpäivitykset"
   },
   "alert_popup_filter_enabled_title": {
-    "message": "Suodattimet automaattisesti aktivoitu"
+    "message": "Suodattimia aktivoitiin automaattisesti"
   },
   "alert_popup_filter_enabled_text": {
     "message": "&quot;$1&quot; on otettu käyttöön"
@@ -201,16 +201,16 @@
     "message": "AdBlocker Ultimate Macille"
   },
   "abu_subscribe_confirm_enable": {
-    "message": "AdBlocker Ultimate: tahdotko sallia $1 tilauksen?"
+    "message": "AdBlocker Ultimate: tahdotko käyttää tilausta $1?"
   },
   "abu_subscribe_confirm_import": {
-    "message": "AdBlocker Ultimate: tahdotko tuoda asetukset $1sta omaan suodattimeen?"
+    "message": "AdBlocker Ultimate: tahdotko tuoda suodattimen $1 säännöt omaan suodattimeesi?"
   },
   "abu_subscribe_confirm_import_finished_title": {
     "message": "Tuonti on suoritettu onnistuneesti"
   },
   "abu_subscribe_confirm_import_finished_text": {
-    "message": "AdBlocker Ultimate on tuonut asetukset omaan suodattimeen. Uusien sääntöjen määrä: $1"
+    "message": "AdBlocker Ultimate on tuonut säännöt omaan suodattimeen. Uusien sääntöjen määrä: $1"
   },
   "browser_action_popup_enabled_on_site": {
     "message": "<strong>Otettu käyttöön</strong> tällä sivustolla"
@@ -219,13 +219,13 @@
     "message": "<strong>Poistettu käytöstä</strong> tällä sivustolla"
   },
   "browser_action_popup_on_this_page": {
-    "message": "<strong>$1</strong> tällä sivustolla"
+    "message": "<strong>$1</strong> tällä sivulla"
   },
   "browser_action_popup_in_total": {
     "message": "<strong>$1</strong> yhteensä"
   },
   "browser_action_popup_show_number_in_icon": {
-    "message": "Näytä numero yläpalkissa"
+    "message": "Näytä luku kuvakkeessa"
   },
   "browser_action_popup_options": {
     "message": "Asetukset"
@@ -240,13 +240,13 @@
     "message": "Mainoksia estetty"
   },
   "options_title": {
-    "message": "AdBlocker Ultimate asetukset"
+    "message": "AdBlocker Ultimate -asetukset"
   },
   "options_filter_list": {
-    "message": "Suodattimet"
+    "message": "Suodatinlistat"
   },
   "options_add_your_filters": {
-    "message": "Lisää oma suodatin"
+    "message": "Lisää omia suodattimia"
   },
   "options_whitelisted_domains": {
     "message": "Sallitut sivustot"
@@ -261,7 +261,7 @@
     "message": "Vanhentuneet suodattimet päivitetään säännöllisesti."
   },
   "options_enabled": {
-    "message": "Päällä"
+    "message": "Käytössä"
   },
   "options_please_choose": {
     "message": "Valitse suodatin listalta:"
@@ -273,7 +273,7 @@
     "message": "Tilauksen nimi:"
   },
   "options_filter_list_location": {
-    "message": "Suodattimen listauksen sijainti:"
+    "message": "Suodatinlistan sijainti:"
   },
   "options_abu_is_disabled": {
     "message": "AdBlocker Ultimate on poistettu käytöstä alla olevilla sivustoilla. Voit lisätä sivustoja listalle joko klikkaamalla AdBlocker Ultimate -kuvaketta osoitepalkissa tai kirjoittamalla sivuston nimen (ei url) ylempään kenttään ja valitsemalla \"Lisää sivusto\"."
@@ -285,7 +285,7 @@
     "message": "Poista valitut"
   },
   "options_apply_changes": {
-    "message": "Lisää muutokset"
+    "message": "Käytä muutoksia"
   },
   "options_show_block_element": {
     "message": "Näytä 'Estä kohde' hiiren valikossa"
@@ -309,7 +309,7 @@
     "message": "Estä osoitteen perusteella"
   },
   "description": {
-    "message": "Ilmainen ja parannettu AdBlocker. Poista kaikki mainokset. Ei \"hyväksyttyjä\" mainoksia tai sallittuja mainostajia, estä seuranta ja haittaohjelmat!"
+    "message": "Ilmainen ja parannettu AdBlocker. Poista kaikki mainokset. Ei \"hyväksyttäviä\" mainoksia tai sallittuja mainostajia, estä seuranta ja haittaohjelmat!"
   },
   "shield_dont_show_again": {
     "message": "Älä näytä tätä viestiä uudestaan"
@@ -327,13 +327,13 @@
     "message": "jäljellä"
   },
   "shield_gold_shield": {
-    "message": "kultaiseen kilpeen"
+    "message": "kultaisen kilven"
   },
   "shield_silver_shield": {
-    "message": "hopeiseen kilpeen"
+    "message": "hopeisen kilven"
   },
   "shield_bronze_shield": {
-    "message": "pronssiseen kilpeen"
+    "message": "pronssisen kilven"
   },
   "shield_share_abu": {
     "message": "Jaa AdBlocker Ultimate:"
@@ -354,7 +354,7 @@
     "message": "olemme estäneet enemmän kuin $1 mainosta puolestasi ja:"
   },
   "shield_decreased_your_page_load_time": {
-    "message": "vähentäneet sivujen lataamiseen käytettyä aikaa $1"
+    "message": "lyhentäneet sivulatauksiin kulunutta aikaa $1"
   },
   "shield_decreased_peak_cpu_usage": {
     "message": "pienentäneet suorittimen käyttöä $1"
@@ -387,7 +387,7 @@
     "message": "ja kaikki rasittavat mainokset ovat poissa!"
   },
   "options_check_for_updates": {
-    "message": "Etsi suodattimille päivityksiä"
+    "message": "Tarkista suodatinpäivitykset"
   },
   "filter_rules_count": {
     "message": "Suodattimen sääntöjen määrä"
@@ -405,7 +405,7 @@
     "message": "Seuraa meitä"
   },
   "contact_us": {
-    "message": "ota meihin yhteyttä"
+    "message": "Ota yhteyttä"
   },
   "report_bug": {
     "message": "Ilmoita bugista"
@@ -533,8 +533,14 @@
   "options_rate_us": {
     "message": "Arvostele Meidät"
   },
+  "options_enable_context_menu_title": {
+    "message": "Käytä kontekstivalikkoa"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Näyttää toimintovalikon, kun sivua klikataan hiiren kakkospainikkeella."
+  },
   "badge_windows_ifno": {
-    "message": "Yksittäinen mainosten estäjä estää mainokset ja verkkojäljittäjät kaikissa Windows-sovelluksissa."
+    "message": "Yksittäinen mainosesto estää mainokset ja verkkoseurannat kaikissa Windows-sovelluksissa."
   },
   "badge_download_now": {
     "message": "Lataa nyt"
@@ -711,7 +717,7 @@
     "message": "Poistaa mainokset italiankielisiltä verkkosivustoilta."
   },
   "filter_name_latvian_list": {
-    "message": "Latvian lista"
+    "message": "Latviankielen lista"
   },
   "filter_description_latvian_list": {
     "message": "Poistaa mainokset latviankielisiltä verkkosivustoilta."
@@ -759,7 +765,7 @@
     "message": "Poistaa mainokset unkarinkielisiltä verkkosivustoilta."
   },
   "filter_name_liste_fr": {
-    "message": "Liste FR"
+    "message": "Liste FR (ranska)"
   },
   "filter_description_liste_fr": {
     "message": "Poistaa mainokset ranskankielisiltä verkkosivustoilta."

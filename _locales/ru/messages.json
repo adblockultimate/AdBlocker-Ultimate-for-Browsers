@@ -533,8 +533,14 @@
   "options_rate_us": {
     "message": "Оценить нас"
   },
+  "options_enable_context_menu_title": {
+    "message": "Включить контекстное меню"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Включает меню действий, доступных при щелчке правой кнопкой мыши на веб-странице."
+  },
   "badge_windows_ifno": {
-    "message": "Блокировщик рекламы блокирует рекламу и отслеживание онлайн по всем приложениям Windows."
+    "message": "Единый AdBlocker блокирует рекламу и онлайн-трекеры во всех приложениях Windows."
   },
   "badge_download_now": {
     "message": "Скачать сейчас"
@@ -753,63 +759,63 @@
     "message": "Удаляет рекламу с Вьетнамских веб-сайтов."
   },
   "filter_name_hufilter": {
-    "message": "Hufilter - The Hungarian Adblock List"
+    "message": "Hufilter - Венгерский список блокировщиков рекламы"
   },
   "filter_description_hufilter": {
-    "message": "Removes ads from Hungarian websites."
+    "message": "Удаляет рекламу с венгерских веб-сайтов."
   },
   "filter_name_liste_fr": {
     "message": "Liste FR"
   },
   "filter_description_liste_fr": {
-    "message": "Removes ads from French websites."
+    "message": "Удаляет рекламу с французских сайтов."
   },
   "block_even_more_ads": {
-    "message": "Block even more ads"
+    "message": "Блокировать ещё больше рекламы"
   },
   "desktop_app_is_running": {
-    "message": "Desktop app is running"
+    "message": "Приложение для рабочего стола запущено"
   },
   "popup_status_inactive": {
-    "message": "Filtering is inactive to avoid possible website dysfunction."
+    "message": "Фильтрация неактивна, чтобы избежать возможной дисфункции веб-сайта."
   },
   "abu_desktop_info": {
-    "message": "AdBlocking is handled by <strong>AdBlocker Ultimate for Windows</strong>. However, you can still use this menu to manage your whitelist or to manually block certain ads."
+    "message": "За блокировку рекламы отвечает <strong>AdBlocker Ultimate for Windows</strong>. Однако вы все еще можете использовать это меню для управления белым списком или для ручной блокировки определенной рекламы."
   },
   "close": {
-    "message": "Close"
+    "message": "Закрыть"
   },
   "yes": {
-    "message": "Yes"
+    "message": "Да"
   },
   "no": {
-    "message": "No"
+    "message": "Нет"
   },
   "shield_send_feedback": {
-    "message": "Send Feedback"
+    "message": "Отправить отзыв"
   },
   "shield_email": {
-    "message": "Email"
+    "message": "Адрес электронной почты"
   },
   "shield_tell_how_to_improve": {
-    "message": "Please tell us how we can improve"
+    "message": "Расскажите нам, как мы можем стать лучше"
   },
   "shield_rate_txt": {
-    "message": "Enjoy blocking ads? Help others find out about us."
+    "message": "Наслаждайтесь блокировкой рекламы? Помогите другим узнать о нас."
   },
   "shield_sending": {
-    "message": "Sending..."
+    "message": "Отправка..."
   },
   "shield_message": {
-    "message": "Message"
+    "message": "Сообщение"
   },
   "shield_thank_you": {
-    "message": "Thank you!"
+    "message": "Благодарим вас!"
   },
   "shield_no_thanks": {
-    "message": "No thanks"
+    "message": "Нет, спасибо"
   },
   "shield_do_you_like_abu": {
-    "message": "Do you like</br> AdBlocker Ultimate?"
+    "message": "Вам нравится</br> AdBlocker Ultimate?"
   }
 }

@@ -533,8 +533,14 @@
   "options_rate_us": {
     "message": "Bizi Değerlendirin"
   },
+  "options_enable_context_menu_title": {
+    "message": "Sağ tık menüsünü etkinleştir"
+  },
+  "options_enable_context_menu_desc": {
+    "message": "Bir web sayfasına sağ tıkladığınızda kullanılabilen işlemler menüsünü etkinleştirir."
+  },
   "badge_windows_ifno": {
-    "message": "Tek bir reklam engelleyici tüm Windows uygulamaları karşısında reklamları ve çevrim içi izleyicileri engeller."
+    "message": "Tek bir reklam engelleyici, tüm Windows uygulamalarında reklamları ve çevrimiçi izleyicileri engeller."
   },
   "badge_download_now": {
     "message": "Şimdi İndir"
