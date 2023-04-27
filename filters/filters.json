@@ -43,12 +43,12 @@
       "displayNumber": 1,
       "groupId": 1,
       "subscriptionUrl": "https://filters.adavoid.org/ultimate-ad-filter.txt",
-      "version": "2.0.90.991",
-      "timeUpdated": "2023-01-23T00:30:01+00:00",
+      "version": "2.0.90.1086",
+      "timeUpdated": "2023-04-26T23:30:01+00:00",
       "languages": [
         "en"
       ],
-      "checksum": "a202599f5ea296d87119cbd3b19934c8"
+      "checksum": "b59012afae535c9ad635eb7f582852d7"
     },
     {
       "filterId": 2,
@@ -61,10 +61,10 @@
       "displayNumber": 2,
       "groupId": 1,
       "subscriptionUrl": "https://filters.adavoid.org/filters/Anticircumvention.txt",
-      "version": "2.0.55.1107",
-      "timeUpdated": "2023-01-23T00:30:01+00:00",
+      "version": "2.0.55.1201",
+      "timeUpdated": "2023-04-26T23:30:02+00:00",
       "languages": [],
-      "checksum": "901dc5eecc27906b91b325dc41c4f598"
+      "checksum": "a404d1ac0e52a99578be48ea7b41a894"
     },
     {
       "filterId": 3,
@@ -77,10 +77,10 @@
       "displayNumber": 3,
       "groupId": 1,
       "subscriptionUrl": "https://easylist.to/easylist/fanboy-annoyance.txt",
-      "version": "2.0.43.1054",
-      "timeUpdated": "2023-01-23T00:30:03+00:00",
+      "version": "2.0.43.1149",
+      "timeUpdated": "2023-04-26T23:30:02+00:00",
       "languages": [],
-      "checksum": "c7304e7c6bdc0dd3d9ef0fa066ee8680"
+      "checksum": "d459d8d2d52558401707bd3c96e5739d"
     },
     {
       "filterId": 4,
@@ -93,10 +93,10 @@
       "displayNumber": 4,
       "groupId": 2,
       "subscriptionUrl": "https://filters.adavoid.org/ultimate-privacy-filter.txt",
-      "version": "2.0.11.1034",
-      "timeUpdated": "2023-01-23T00:30:03+00:00",
+      "version": "2.0.11.1129",
+      "timeUpdated": "2023-04-26T23:30:02+00:00",
       "languages": [],
-      "checksum": "c9ecc43f4803a0b7fb93d328f485dfaa"
+      "checksum": "07b73e7945b3b7ea2bf07ee63c8778e7"
     },
     {
       "filterId": 5,
@@ -109,10 +109,10 @@
       "displayNumber": 5,
       "groupId": 2,
       "subscriptionUrl": "https://filters.adavoid.org/filters/FanboysSocialBlockingList.txt",
-      "version": "2.0.11.1024",
-      "timeUpdated": "2023-01-23T00:30:03+00:00",
+      "version": "2.0.11.1118",
+      "timeUpdated": "2023-04-26T23:30:02+00:00",
       "languages": [],
-      "checksum": "7cb39a63c7dc724e53969384ac579a95"
+      "checksum": "eda2676fa14b66c16addb398ec420216"
     },
     {
       "filterId": 6,
@@ -131,22 +131,6 @@
       "checksum": "5bf44b1afddc011e30805730d66a052a"
     },
     {
-      "filterId": 7,
-      "filterUid": "spam404",
-      "name": "Spam404",
-      "description": "This filter protects you from online scams. This filter is regularly updated with data collected by Spam404.com.",
-      "timeAdded": "2020-03-04T00:01:28+00:00",
-      "homepage": "https://www.spam404.com",
-      "expires": 172800,
-      "displayNumber": 7,
-      "groupId": 3,
-      "subscriptionUrl": "https://filters.adavoid.org/filters/Spam404.txt",
-      "version": "2.0.1.134",
-      "timeUpdated": "2022-11-02T00:30:03+00:00",
-      "languages": [],
-      "checksum": "76e781c0d6523c2e99569dd69b62dcea"
-    },
-    {
       "filterId": 8,
       "filterUid": "nocoin",
       "name": "NoCoin",
@@ -157,15 +141,15 @@
       "displayNumber": 8,
       "groupId": 3,
       "subscriptionUrl": "https://filters.adavoid.org/filters/NoCoin.txt",
-      "version": "1.0.1.131",
-      "timeUpdated": "2022-09-05T23:30:03+00:00",
+      "version": "1.0.1.137",
+      "timeUpdated": "2023-04-14T23:30:02+00:00",
       "languages": [],
-      "checksum": "9e3e97f33137b8b88627020614c8fa82"
+      "checksum": "d0da18d56605897519db597d6690ce3d"
     },
     {
       "filterId": 9,
       "filterUid": "ruadlist_easylist",
-      "name": "RuAdList+EasyList",
+      "name": "RuAdList",
       "description": "Removes ads from Russian websites.",
       "timeAdded": "2020-03-04T00:01:28+00:00",
       "homepage": "https://easylist.to",
@@ -173,17 +157,17 @@
       "displayNumber": 9,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/Russianfilter.txt",
-      "version": "1.0.1.1087",
-      "timeUpdated": "2023-01-23T00:30:03+00:00",
+      "version": "1.0.1.1181",
+      "timeUpdated": "2023-04-26T23:30:02+00:00",
       "languages": [
         "ru"
       ],
-      "checksum": "69ac7d9d5fd52f6012d5eaaaa0f66fbb"
+      "checksum": "4b5c11caa1ec3a48690a916dee637c1b"
     },
     {
       "filterId": 10,
       "filterUid": "easylist_germany_easylist",
-      "name": "EasyList Germany+EasyList",
+      "name": "EasyList Germany",
       "description": "Removes ads from German websites.",
       "timeAdded": "2020-03-04T00:01:28+00:00",
       "homepage": "https://easylist.to",
@@ -191,12 +175,12 @@
       "displayNumber": 10,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/Germanfilter.txt",
-      "version": "1.0.1.1087",
-      "timeUpdated": "2023-01-23T00:30:03+00:00",
+      "version": "1.0.1.1181",
+      "timeUpdated": "2023-04-26T23:30:02+00:00",
       "languages": [
         "de"
       ],
-      "checksum": "9f61fca99743a12704de46961d608791"
+      "checksum": "44b6122f2e83cc4c0af01a2a125272ab"
     },
     {
       "filterId": 11,
@@ -219,7 +203,7 @@
     {
       "filterId": 12,
       "filterUid": "easylist_dutch_easylist",
-      "name": "EasyList Dutch + EasyList",
+      "name": "EasyList Dutch",
       "description": "Removes ads from Dutch websites.",
       "timeAdded": "2020-03-04T00:01:28+00:00",
       "homepage": "https://easylist.to",
@@ -227,30 +211,30 @@
       "displayNumber": 12,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/Dutchfilter.txt",
-      "version": "1.0.1.1087",
-      "timeUpdated": "2023-01-23T00:30:03+00:00",
+      "version": "1.0.1.1181",
+      "timeUpdated": "2023-04-26T23:30:03+00:00",
       "languages": [
         "nl"
       ],
-      "checksum": "940485790df49eaaf9f43dc4af7cecbb"
+      "checksum": "cd43dcfcc0227da051113ca825884dd0"
     },
     {
       "filterId": 13,
-      "filterUid": "fanboys_spanish_portuguese",
-      "name": "Fanboy's Spanish/Portuguese",
+      "filterUid": "easylist_spanish",
+      "name": "EasyList Spanish",
       "description": "Removes ads from Spanish/Portuguese websites.",
-      "timeAdded": "2020-03-04T00:01:28+00:00",
-      "homepage": "https://fanboy.co.nz",
+      "timeAdded": "2023-04-24T00:00:00+00:00",
+      "homepage": "https://easylist.to",
       "expires": 172800,
       "displayNumber": 13,
       "groupId": 4,
-      "subscriptionUrl": "https://filters.adavoid.org/filters/SpanishPortuguesefilter.txt",
+      "subscriptionUrl": "https://filters.adavoid.org/filters/EasyListSpanish.txt",
       "version": "1.0.1.95",
-      "timeUpdated": "2020-07-01T23:30:04+00:00",
+      "timeUpdated": "2023-04-26T23:30:05+00:00",
       "languages": [
         "es"
       ],
-      "checksum": "47627479abe1e9e69e8de75b8e365705"
+      "checksum": "2e471e9c99e43b4bb8582cf9d10b41df"
     },
     {
       "filterId": 14,
@@ -299,12 +283,12 @@
       "displayNumber": 16,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/EasyListChina.txt",
-      "version": "1.0.1.1087",
-      "timeUpdated": "2023-01-23T00:30:04+00:00",
+      "version": "1.0.1.1181",
+      "timeUpdated": "2023-04-26T23:30:03+00:00",
       "languages": [
         "zh"
       ],
-      "checksum": "c02755b41587ad691cecceb95256af09"
+      "checksum": "624b487e75b75eb7cd93b00b4c84b73d"
     },
     {
       "filterId": 17,
@@ -317,12 +301,12 @@
       "displayNumber": 17,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/EasyListCzechandSlovak.txt",
-      "version": "1.0.1.146",
-      "timeUpdated": "2022-12-22T00:30:04+00:00",
+      "version": "1.0.1.150",
+      "timeUpdated": "2023-03-25T00:30:03+00:00",
       "languages": [
         "sk"
       ],
-      "checksum": "ad98b1d58ef6392d7e07e1e1456d7023"
+      "checksum": "0520cf3d45cc38b03a92c55fabb59097"
     },
     {
       "filterId": 18,
@@ -335,12 +319,12 @@
       "displayNumber": 18,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/EasyListItaly.txt",
-      "version": "1.0.1.1087",
-      "timeUpdated": "2023-01-23T00:30:04+00:00",
+      "version": "1.0.1.1181",
+      "timeUpdated": "2023-04-26T23:30:03+00:00",
       "languages": [
         "it"
       ],
-      "checksum": "96c1662ff6b63197b907501c0ae7ef23"
+      "checksum": "e484379cfd9afea21e828adff5b59012"
     },
     {
       "filterId": 19,
@@ -353,30 +337,30 @@
       "displayNumber": 19,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/LatvianList.txt",
-      "version": "1.0.1.107",
-      "timeUpdated": "2022-12-02T00:30:04+00:00",
+      "version": "1.0.1.110",
+      "timeUpdated": "2023-04-26T23:30:03+00:00",
       "languages": [
         "lv"
       ],
-      "checksum": "7a9d710076736046a7848c4ff53471cc"
+      "checksum": "0fdd39280eb7edec16f81e3c0f4eeb71"
     },
     {
       "filterId": 20,
-      "filterUid": "adblock_polska",
-      "name": "Adblock Polska",
+      "filterUid": "easylist_polish",
+      "name": "Easylist Polish",
       "description": "Removes ads from Polish websites.",
-      "timeAdded": "2020-03-04T00:01:28+00:00",
-      "homepage": "https://www.facebook.com/adblockpl",
+      "timeAdded": "2023-04-24T00:00:00+00:00",
+      "homepage": "https://easylist.to",
       "expires": 172800,
       "displayNumber": 20,
       "groupId": 4,
-      "subscriptionUrl": "https://filters.adavoid.org/filters/AdblockPolska.txt",
+      "subscriptionUrl": "https://filters.adavoid.org/filters/EasylistPolish.txt",
       "version": "1.0.1.95",
-      "timeUpdated": "2020-07-01T23:30:05+00:00",
+      "timeUpdated": "2023-04-26T23:30:06+00:00",
       "languages": [
         "pl"
       ],
-      "checksum": "15e2d6e92359b10d1a276b2ba281850f"
+      "checksum": "ffa906e387261889cccbe39594195b2a"
     },
     {
       "filterId": 21,
@@ -389,12 +373,12 @@
       "displayNumber": 21,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/EstonianList.txt",
-      "version": "1.0.1.95",
-      "timeUpdated": "2020-07-01T23:30:05+00:00",
+      "version": "1.0.1.96",
+      "timeUpdated": "2023-04-26T23:30:04+00:00",
       "languages": [
         "et"
       ],
-      "checksum": "9d4568c009d203ab10e33ea9953a0264"
+      "checksum": "8bd7e43f9695f4b0efbb77efeb68304a"
     },
     {
       "filterId": 22,
@@ -407,30 +391,30 @@
       "displayNumber": 22,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/AdblockPersianlist.txt",
-      "version": "1.0.1.104",
-      "timeUpdated": "2022-12-25T00:30:04+00:00",
+      "version": "1.0.1.105",
+      "timeUpdated": "2023-01-29T00:30:04+00:00",
       "languages": [
         "fa"
       ],
-      "checksum": "5a662e417646b5317c705d9a3de63218"
+      "checksum": "0e498347d3950663709e9da91dd0137f"
     },
     {
       "filterId": 23,
-      "filterUid": "fanboys_swedish",
-      "name": "Fanboy's Swedish",
+      "filterUid": "frellwits_swedish_filter",
+      "name": "Frellwit's Swedish Filter",
       "description": "Removes ads from Swedish websites.",
-      "timeAdded": "2020-03-04T00:01:28+00:00",
-      "homepage": "https://www.fanboy.co.nz",
+      "timeAdded": "2023-04-24T00:00:00+00:00",
+      "homepage": "https://github.com/lassekongo83/FrellwitsSwedishFilter.txt",
       "expires": 172800,
       "displayNumber": 23,
       "groupId": 4,
-      "subscriptionUrl": "https://filters.adavoid.org/filters/FanboysSwedish.txt",
+      "subscriptionUrl": "https://filters.adavoid.org/filters/FrellwitsSwedishFilter.txt",
       "version": "1.0.1.95",
-      "timeUpdated": "2020-07-01T23:30:06+00:00",
+      "timeUpdated": "2023-04-26T23:30:06+00:00",
       "languages": [
         "sv"
       ],
-      "checksum": "9067d4a107e74bd1df3eac9377716309"
+      "checksum": false
     },
     {
       "filterId": 24,
@@ -452,21 +436,21 @@
     },
     {
       "filterId": 25,
-      "filterUid": "fanboys_vietnamese",
-      "name": "Fanboy's Vietnamese",
+      "filterUid": "abpvn_list",
+      "name": "ABPVN List",
       "description": "Removes ads from Vietnamese websites.",
-      "timeAdded": "2020-03-04T00:01:28+00:00",
+      "timeAdded": "2023-04-24T00:00:00+00:00",
       "homepage": "https://www.fanboy.co.nz",
       "expires": 172800,
       "displayNumber": 25,
       "groupId": 4,
-      "subscriptionUrl": "https://filters.adavoid.org/filters/FanboysVietnamese.txt",
-      "version": "1.0.1.95",
-      "timeUpdated": "2020-07-01T23:30:07+00:00",
+      "subscriptionUrl": "https://filters.adavoid.org/filters/ABPVNList.txt",
+      "version": "1.0.1.2",
+      "timeUpdated": "2023-04-26T23:30:06+00:00",
       "languages": [
         "vi"
       ],
-      "checksum": "c33cdfb97eb05a244f9bffc08e8762bf"
+      "checksum": "6ef2bb6a6c14fde9b84cb37b0d9f3c54"
     },
     {
       "filterId": 26,
@@ -479,12 +463,12 @@
       "displayNumber": 26,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/HungarianList.txt",
-      "version": "2.0.1.106",
-      "timeUpdated": "2023-01-12T00:30:05+00:00",
+      "version": "2.0.1.112",
+      "timeUpdated": "2023-04-03T23:30:05+00:00",
       "languages": [
         "hu"
       ],
-      "checksum": "3cb582566f6ed2364f2a3201b7a6c211"
+      "checksum": "5ff04fd463645a7ae5d3ab9e15c6a4ce"
     },
     {
       "filterId": 27,
@@ -497,12 +481,48 @@
       "displayNumber": 27,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/FrenchList.txt",
-      "version": "2.0.24.577",
-      "timeUpdated": "2023-01-21T00:30:04+00:00",
+      "version": "2.0.24.641",
+      "timeUpdated": "2023-04-26T23:30:04+00:00",
       "languages": [
         "fr"
       ],
-      "checksum": "77591a904608731f9d906e358737a95b"
+      "checksum": "ff2614f09138ea00322b3ec403db9d1a"
+    },
+    {
+      "filterId": 28,
+      "filterUid": "finnish_list",
+      "name": "Finnish List",
+      "description": "Removes ads from Finnish websites.",
+      "timeAdded": "2023-04-24T00:00:00+00:00",
+      "homepage": "https://github.com/finnish-easylist-addition/finnish-easylist-addition",
+      "expires": 172800,
+      "displayNumber": 28,
+      "groupId": 4,
+      "subscriptionUrl": "https://filters.adavoid.org/filters/FinnishList.txt",
+      "version": "1.0.1.95",
+      "timeUpdated": "2023-04-24T23:30:07+00:00",
+      "languages": [
+        "fi"
+      ],
+      "checksum": "bbe40f0ea9c93c7d43f1b69137ff3e35"
+    },
+    {
+      "filterId": 29,
+      "filterUid": "adblockid_list",
+      "name": "AdBlockID",
+      "description": "An effective filter for removing most ads on Indonesian and Malaysian websites.",
+      "timeAdded": "2023-04-24T00:00:00+00:00",
+      "homepage": "https://github.com/realodix/AdBlockID",
+      "expires": 172800,
+      "displayNumber": 29,
+      "groupId": 4,
+      "subscriptionUrl": "https://filters.adavoid.org/filters/AdBlockID.txt",
+      "version": "1.0.1.3",
+      "timeUpdated": "2023-04-26T23:30:07+00:00",
+      "languages": [
+        "id"
+      ],
+      "checksum": "d32a606d0d9505d663a35d0ed21d2098"
     }
   ]
 }
