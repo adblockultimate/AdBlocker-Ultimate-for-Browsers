@@ -644,12 +644,6 @@
   "filter_description_ultimate_security_filter": {
     "message": "Saringan ini memblokir iklan yang terinjeksi oleh adware. Berdasarkan dari saringan Easylist Adware dan lebih ditingkatkan dan diubah oleh tim kami."
   },
-  "filter_name_spam404": {
-    "message": "Spam404"
-  },
-  "filter_description_spam404": {
-    "message": "Saringan ini melindungi Anda dari penipuan daring. Saringan ini diperbarui secara berkala dengan data yang dikumpulkan oleh Spam404.com."
-  },
   "filter_name_nocoin": {
     "message": "NoCoin"
   },
@@ -679,12 +673,6 @@
   },
   "filter_description_easylist_dutch_easylist": {
     "message": "Menghapus iklan dari situs-situs web Belanda."
-  },
-  "filter_name_fanboys_spanish_portuguese": {
-    "message": "Fanboy Spanyol/Portugal"
-  },
-  "filter_description_fanboys_spanish_portuguese": {
-    "message": "Menghapus iklan dari situs-situs web Spanyol/Portugal."
   },
   "filter_name_fanboys_turkish": {
     "message": "Fanboy Turki"
@@ -722,12 +710,6 @@
   "filter_description_latvian_list": {
     "message": "Menghapus iklan dari situs-situs web Latvia."
   },
-  "filter_name_adblock_polska": {
-    "message": "Adblock Polska"
-  },
-  "filter_description_adblock_polska": {
-    "message": "Menghapus iklan dari situs-situs web Polandia."
-  },
   "filter_name_estonian_list": {
     "message": "Daftar Estonia"
   },
@@ -740,23 +722,11 @@
   "filter_description_adblock_persian_list": {
     "message": "Menghapus iklan dari situs-situs web Persia."
   },
-  "filter_name_fanboys_swedish": {
-    "message": "Fanboy Swedia"
-  },
-  "filter_description_fanboys_swedish": {
-    "message": "Menghapus iklan dari situs-situs web Swedia."
-  },
   "filter_name_fanboys_korean": {
     "message": "Fanboy Korea"
   },
   "filter_description_fanboys_korean": {
     "message": "Menghapus iklan dari situs-situs web Korea."
-  },
-  "filter_name_fanboys_vietnamese": {
-    "message": "Fanboy Vietnam"
-  },
-  "filter_description_fanboys_vietnamese": {
-    "message": "Menghapus iklan dari situs-situs web Vietnam."
   },
   "filter_name_hufilter": {
     "message": "Hufilter - Daftar blokir iklan Hongaria"
@@ -817,5 +787,41 @@
   },
   "shield_do_you_like_abu": {
     "message": "Apakah Anda menyukai</br> AdBlocker Ultimate?"
+  },
+  "filter_name_easylist_spanish": {
+    "message": "EasyList Spanish"
+  },
+  "filter_description_easylist_spanish": {
+    "message": "Removes ads from Spanish/Portuguese websites."
+  },
+  "filter_name_easylist_polish": {
+    "message": "Easylist Polish"
+  },
+  "filter_description_easylist_polish": {
+    "message": "Removes ads from Polish websites."
+  },
+  "filter_name_frellwits_swedish_filter": {
+    "message": "Frellwit's Swedish Filter"
+  },
+  "filter_description_frellwits_swedish_filter": {
+    "message": "Removes ads from Swedish websites."
+  },
+  "filter_name_finnish_list": {
+    "message": "Finnish List"
+  },
+  "filter_description_finnish_list": {
+    "message": "Removes ads from Finnish websites."
+  },
+  "filter_name_abpvn_list": {
+    "message": "ABPVN List"
+  },
+  "filter_description_abpvn_list": {
+    "message": "Removes ads from Vietnamese websites."
+  },
+  "filter_name_adblockid_list": {
+    "message": "AdBlockID"
+  },
+  "filter_description_adblockid_list": {
+    "message": "Removes ads from Indonesian and Malaysian websites."
   }
 }

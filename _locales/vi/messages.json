@@ -644,12 +644,6 @@
   "filter_description_ultimate_security_filter": {
     "message": "Bộ lọc này chặn quảng cáo được thêm vào bởi phần mềm quảng cáo. Dựa trên bộ lọc quảng cáo Easylist's Adware và các cập nhật/sửa đổi bởi đội ngũ của chúng tôi."
   },
-  "filter_name_spam404": {
-    "message": "Spam404"
-  },
-  "filter_description_spam404": {
-    "message": "Bộ lọc này bảo vệ bạn khỏi lừa đảo trực tuyến. Bộ lọc được cập nhập thường xuyên với dữ liệu thu thập được bởi Spam404.com."
-  },
   "filter_name_nocoin": {
     "message": "NoCoin"
   },
@@ -679,12 +673,6 @@
   },
   "filter_description_easylist_dutch_easylist": {
     "message": "Gỡ bỏ quảng cáo từ các trang web Hà Lan."
-  },
-  "filter_name_fanboys_spanish_portuguese": {
-    "message": "Fanboy's Spanish/Portuguese"
-  },
-  "filter_description_fanboys_spanish_portuguese": {
-    "message": "Gỡ bỏ quảng cáo từ các trang web Tây Ban Nha/Bồ Đào Nha."
   },
   "filter_name_fanboys_turkish": {
     "message": "Fanboy's Turkish"
@@ -722,12 +710,6 @@
   "filter_description_latvian_list": {
     "message": "Gỡ bỏ quảng cáo từ các trang web Latvian."
   },
-  "filter_name_adblock_polska": {
-    "message": "Adblock Polska"
-  },
-  "filter_description_adblock_polska": {
-    "message": "Gỡ bỏ quảng cáo từ các trang web Polish."
-  },
   "filter_name_estonian_list": {
     "message": "Adblock-Persian list"
   },
@@ -740,23 +722,11 @@
   "filter_description_adblock_persian_list": {
     "message": "Gỡ bỏ quảng cáo từ các trang web Persian."
   },
-  "filter_name_fanboys_swedish": {
-    "message": "Fanboy's Swedish"
-  },
-  "filter_description_fanboys_swedish": {
-    "message": "Gỡ bỏ quảng cáo từ các trang web Thụy Điển."
-  },
   "filter_name_fanboys_korean": {
     "message": "Fanboy's Korean"
   },
   "filter_description_fanboys_korean": {
     "message": "Gỡ bỏ quảng cáo từ các trang web Hàn Quốc."
-  },
-  "filter_name_fanboys_vietnamese": {
-    "message": "Fanboy's Vietnamese"
-  },
-  "filter_description_fanboys_vietnamese": {
-    "message": "Gỡ bỏ quảng cáo từ các website Việt Nam."
   },
   "filter_name_hufilter": {
     "message": "Hufilter - The Hungarian Adblock List"
@@ -817,5 +787,41 @@
   },
   "shield_do_you_like_abu": {
     "message": "Bạn thích</br>AdBlocker Ultimate chứ?"
+  },
+  "filter_name_easylist_spanish": {
+    "message": "EasyList Spanish"
+  },
+  "filter_description_easylist_spanish": {
+    "message": "Removes ads from Spanish/Portuguese websites."
+  },
+  "filter_name_easylist_polish": {
+    "message": "Easylist Polish"
+  },
+  "filter_description_easylist_polish": {
+    "message": "Removes ads from Polish websites."
+  },
+  "filter_name_frellwits_swedish_filter": {
+    "message": "Frellwit's Swedish Filter"
+  },
+  "filter_description_frellwits_swedish_filter": {
+    "message": "Removes ads from Swedish websites."
+  },
+  "filter_name_finnish_list": {
+    "message": "Finnish List"
+  },
+  "filter_description_finnish_list": {
+    "message": "Removes ads from Finnish websites."
+  },
+  "filter_name_abpvn_list": {
+    "message": "ABPVN List"
+  },
+  "filter_description_abpvn_list": {
+    "message": "Removes ads from Vietnamese websites."
+  },
+  "filter_name_adblockid_list": {
+    "message": "AdBlockID"
+  },
+  "filter_description_adblockid_list": {
+    "message": "Removes ads from Indonesian and Malaysian websites."
   }
 }

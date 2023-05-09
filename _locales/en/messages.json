@@ -642,7 +642,7 @@
     "message" : "Ultimate Security Filter"
   },
   "filter_description_ultimate_security_filter": {
-    "message" : "This filter blocks ads injected by adware. Based on Easylist's Adware filters and further updated and modified by our team."
+    "message" : "This filter blocks malicious domains. Based on Online Malicious URL Blocklist filter and further updated and modified by our team."
   },
   "filter_name_nocoin": {
     "message" : "NoCoin"
