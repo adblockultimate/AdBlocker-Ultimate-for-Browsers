@@ -534,13 +534,13 @@
     "message": "Bewerten Sie uns"
   },
   "options_enable_context_menu_title": {
-    "message": "Enable context menu"
+    "message": "Kontextmenü aktivieren"
   },
   "options_enable_context_menu_desc": {
-    "message": "Enables a menu of actions available when you right-click on a web page."
+    "message": "Aktiviert ein Menü von Aktionen, die verfügbar sind, wenn Sie mit der rechten Maustaste auf eine Webseite klicken."
   },
   "badge_windows_ifno": {
-    "message": "Single AdBlocker blocks ads and online trackers across all Windows applications."
+    "message": "Single AdBlocker blockiert Werbung und Online-Tracker in allen Windows-Anwendungen."
   },
   "badge_download_now": {
     "message": "Jetzt downloaden"
@@ -642,7 +642,7 @@
     "message": "Ultimativer Sicherheitsfilter"
   },
   "filter_description_ultimate_security_filter": {
-    "message": "Dieser Filter blockiert Werbung, die von Adware eingefügt wird. Der Filter basiert auf den Adware Filtern von Easylist, sowie weitere aktualisierte und modifizierte Filter von unserem Team."
+    "message": "Dieser Filter blockiert bösartige Domains. Er basiert auf dem Online-Filter Malicious URL Blocklist und wird von unserem Team weiter aktualisiert und modifiziert."
   },
   "filter_name_nocoin": {
     "message": "NoCoin"
@@ -651,13 +651,13 @@
     "message": "Stoppt Kryptomining in Ihrem Browser."
   },
   "filter_name_ruadlist_easylist": {
-    "message": "RuAdList+EasyList"
+    "message": "RuAdListe"
   },
   "filter_description_ruadlist_easylist": {
     "message": "Entfernt Werbung von russischen Webseiten."
   },
   "filter_name_easylist_germany_easylist": {
-    "message": "EasyList Deutschland + EasyList"
+    "message": "EasyList Deutschland"
   },
   "filter_description_easylist_germany_easylist": {
     "message": "Entfernt Werbung von deutschen Webseiten."
@@ -669,10 +669,16 @@
     "message": "Entfernt Werbung von japanischen Webseiten."
   },
   "filter_name_easylist_dutch_easylist": {
-    "message": "EasyList Niederländisch + EasyList"
+    "message": "EasyList Niederländisch"
   },
   "filter_description_easylist_dutch_easylist": {
     "message": "Entfernt Werbung von niederländischen Webseiten."
+  },
+  "filter_name_easylist_spanish": {
+    "message": "EasyList Spanisch"
+  },
+  "filter_description_easylist_spanish": {
+    "message": "Entfernt Werbung von spanischen/portugiesischen Webseiten."
   },
   "filter_name_fanboys_turkish": {
     "message": "Fanboy's Türkisch"
@@ -710,6 +716,12 @@
   "filter_description_latvian_list": {
     "message": "Entfernt Werbung von lettischen Webseiten."
   },
+  "filter_name_easylist_polish": {
+    "message": "Easylist Polnisch"
+  },
+  "filter_description_easylist_polish": {
+    "message": "Entfernt Werbung von polnischen Webseiten."
+  },
   "filter_name_estonian_list": {
     "message": "Estnische Liste"
   },
@@ -722,11 +734,35 @@
   "filter_description_adblock_persian_list": {
     "message": "Entfernt Werbung von persischen Webseiten."
   },
+  "filter_name_frellwits_swedish_filter": {
+    "message": "Frellwit's Schwedischer Filter"
+  },
+  "filter_description_frellwits_swedish_filter": {
+    "message": "Entfernt Werbung von schwedischen Webseiten."
+  },
+  "filter_name_finnish_list": {
+    "message": "Finnische Liste"
+  },
+  "filter_description_finnish_list": {
+    "message": "Entfernt Werbung von finnischen Webseiten."
+  },
   "filter_name_fanboys_korean": {
     "message": "Fanboy's Koreanisch"
   },
   "filter_description_fanboys_korean": {
     "message": "Entfernt Werbung von koreanischen Webseiten."
+  },
+  "filter_name_abpvn_list": {
+    "message": "ABPVN Liste"
+  },
+  "filter_description_abpvn_list": {
+    "message": "Entfernt Werbung von vietnamesischen Webseiten."
+  },
+  "filter_name_adblockid_list": {
+    "message": "AdBlockID"
+  },
+  "filter_description_adblockid_list": {
+    "message": "Entfernt Anzeigen von indonesischen und malaysischen Webseiten."
   },
   "filter_name_hufilter": {
     "message": "Hufilter - Die ungarische Adblock-Liste"
@@ -787,41 +823,5 @@
   },
   "shield_do_you_like_abu": {
     "message": "Gefällt dir</br> AdBlocker Ultimate?"
-  },
-  "filter_name_easylist_spanish": {
-    "message": "EasyList Spanish"
-  },
-  "filter_description_easylist_spanish": {
-    "message": "Removes ads from Spanish/Portuguese websites."
-  },
-  "filter_name_easylist_polish": {
-    "message": "Easylist Polish"
-  },
-  "filter_description_easylist_polish": {
-    "message": "Removes ads from Polish websites."
-  },
-  "filter_name_frellwits_swedish_filter": {
-    "message": "Frellwit's Swedish Filter"
-  },
-  "filter_description_frellwits_swedish_filter": {
-    "message": "Removes ads from Swedish websites."
-  },
-  "filter_name_finnish_list": {
-    "message": "Finnish List"
-  },
-  "filter_description_finnish_list": {
-    "message": "Removes ads from Finnish websites."
-  },
-  "filter_name_abpvn_list": {
-    "message": "ABPVN List"
-  },
-  "filter_description_abpvn_list": {
-    "message": "Removes ads from Vietnamese websites."
-  },
-  "filter_name_adblockid_list": {
-    "message": "AdBlockID"
-  },
-  "filter_description_adblockid_list": {
-    "message": "Removes ads from Indonesian and Malaysian websites."
   }
 }

@@ -642,7 +642,7 @@
     "message": "Zaawansowany filtr zabezpieczający"
   },
   "filter_description_ultimate_security_filter": {
-    "message": "Filtr ten blokuje reklamy wstrzyknięte przez oprogramowanie typu adware. W oparciu o filtry Easylist, a następnie aktualizowany i modyfikowany przez nasz zespół."
+    "message": "This filter blocks malicious domains. Based on Online Malicious URL Blocklist filter and further updated and modified by our team."
   },
   "filter_name_nocoin": {
     "message": "NoCoin"
@@ -651,13 +651,13 @@
     "message": "Zatrzymuje kopanie krypto-walut w twojej przeglądarce internetowej."
   },
   "filter_name_ruadlist_easylist": {
-    "message": "RuAdList+EasyList [Reguły filtrów dla stron z językiem rosyjskim]"
+    "message": "RuAdList"
   },
   "filter_description_ruadlist_easylist": {
     "message": "Usuwa reklamy z Rosyjskich witryn internetowych."
   },
   "filter_name_easylist_germany_easylist": {
-    "message": "EasyList Germany+EasyList [Reguły filtrów dla stron z językiem niemieckim]"
+    "message": "EasyList Germany"
   },
   "filter_description_easylist_germany_easylist": {
     "message": "Usuwa reklamy z Niemieckich witryn internetowych."
@@ -669,10 +669,16 @@
     "message": "Usuwa reklamy z Japońskich witryn internetowych."
   },
   "filter_name_easylist_dutch_easylist": {
-    "message": "EasyList Dutch + EasyList [Reguły filtrów dla stron z językiem holenderskim]"
+    "message": "EasyList Dutch"
   },
   "filter_description_easylist_dutch_easylist": {
     "message": "Usuwa reklamy z Holenderskich witryn internetowych."
+  },
+  "filter_name_easylist_spanish": {
+    "message": "EasyList Spanish"
+  },
+  "filter_description_easylist_spanish": {
+    "message": "Usuwa reklamy z Hiszpańskich/Portugalskich witryn internetowych."
   },
   "filter_name_fanboys_turkish": {
     "message": "Fanboy's [Reguły filtrów dla stron z językiem tureckim]"
@@ -710,6 +716,12 @@
   "filter_description_latvian_list": {
     "message": "Usuwa reklamy z Łotewskich witryn internetowych."
   },
+  "filter_name_easylist_polish": {
+    "message": "Easylist Polish"
+  },
+  "filter_description_easylist_polish": {
+    "message": "Usuwa reklamy z Polskich witryn internetowych."
+  },
   "filter_name_estonian_list": {
     "message": "Lista estońska"
   },
@@ -722,11 +734,35 @@
   "filter_description_adblock_persian_list": {
     "message": "Usuwa reklamy z Perskich witryn internetowych."
   },
+  "filter_name_frellwits_swedish_filter": {
+    "message": "Frellwit's Swedish Filter"
+  },
+  "filter_description_frellwits_swedish_filter": {
+    "message": "Usuwa reklamy ze Szwedzkich witryn internetowych."
+  },
+  "filter_name_finnish_list": {
+    "message": "Finnish List"
+  },
+  "filter_description_finnish_list": {
+    "message": "Removes ads from Finnish websites."
+  },
   "filter_name_fanboys_korean": {
     "message": "Fanboy's [Reguły filtrów dla stron z językiem koreańskim]"
   },
   "filter_description_fanboys_korean": {
     "message": "Usuwa reklamy z Koreańskich witryn internetowych."
+  },
+  "filter_name_abpvn_list": {
+    "message": "ABPVN List"
+  },
+  "filter_description_abpvn_list": {
+    "message": "Usuwa reklamy z Wietnamskich witryn internetowych."
+  },
+  "filter_name_adblockid_list": {
+    "message": "AdBlockID"
+  },
+  "filter_description_adblockid_list": {
+    "message": "Removes ads from Indonesian and Malaysian websites."
   },
   "filter_name_hufilter": {
     "message": "Hufilter [Reguły filtrów dla stron z językiem węgierskim]"
@@ -787,41 +823,5 @@
   },
   "shield_do_you_like_abu": {
     "message": "Czy lubisz</br> AdBlocker Ultimate?"
-  },
-  "filter_name_easylist_spanish": {
-    "message": "EasyList Spanish"
-  },
-  "filter_description_easylist_spanish": {
-    "message": "Removes ads from Spanish/Portuguese websites."
-  },
-  "filter_name_easylist_polish": {
-    "message": "Easylist Polish"
-  },
-  "filter_description_easylist_polish": {
-    "message": "Removes ads from Polish websites."
-  },
-  "filter_name_frellwits_swedish_filter": {
-    "message": "Frellwit's Swedish Filter"
-  },
-  "filter_description_frellwits_swedish_filter": {
-    "message": "Removes ads from Swedish websites."
-  },
-  "filter_name_finnish_list": {
-    "message": "Finnish List"
-  },
-  "filter_description_finnish_list": {
-    "message": "Removes ads from Finnish websites."
-  },
-  "filter_name_abpvn_list": {
-    "message": "ABPVN List"
-  },
-  "filter_description_abpvn_list": {
-    "message": "Removes ads from Vietnamese websites."
-  },
-  "filter_name_adblockid_list": {
-    "message": "AdBlockID"
-  },
-  "filter_description_adblockid_list": {
-    "message": "Removes ads from Indonesian and Malaysian websites."
   }
 }

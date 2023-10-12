@@ -642,7 +642,7 @@
     "message": "終極安全過濾器"
   },
   "filter_description_ultimate_security_filter": {
-    "message": "此過濾規則已攔截從廣告軟體引入的廣告。這是以 Easylist's Adware 為基礎的過濾規則，並由我們的團隊加以更新並修正。"
+    "message": "This filter blocks malicious domains. Based on Online Malicious URL Blocklist filter and further updated and modified by our team."
   },
   "filter_name_nocoin": {
     "message": "NoCoin"
@@ -651,13 +651,13 @@
     "message": "阻絕瀏覽器中的挖礦行為。"
   },
   "filter_name_ruadlist_easylist": {
-    "message": "RuAdList+EasyList"
+    "message": "RuAdList"
   },
   "filter_description_ruadlist_easylist": {
     "message": "從俄羅斯文網站上移除廣告。"
   },
   "filter_name_easylist_germany_easylist": {
-    "message": "EasyList Germany+EasyList (德文)"
+    "message": "EasyList Germany"
   },
   "filter_description_easylist_germany_easylist": {
     "message": "從德文網站上移除廣告。"
@@ -669,10 +669,16 @@
     "message": "從日文網站上移除廣告。"
   },
   "filter_name_easylist_dutch_easylist": {
-    "message": "EasyList Dutch + EasyList (荷蘭文)"
+    "message": "EasyList Dutch"
   },
   "filter_description_easylist_dutch_easylist": {
     "message": "從荷蘭文網站上移除廣告。"
+  },
+  "filter_name_easylist_spanish": {
+    "message": "EasyList Spanish"
+  },
+  "filter_description_easylist_spanish": {
+    "message": "從西班牙文/葡萄牙文網站上移除廣告。"
   },
   "filter_name_fanboys_turkish": {
     "message": "Fanboy's 土耳其文"
@@ -710,6 +716,12 @@
   "filter_description_latvian_list": {
     "message": "從拉脫維亞文網站上移除廣告。"
   },
+  "filter_name_easylist_polish": {
+    "message": "Easylist Polish"
+  },
+  "filter_description_easylist_polish": {
+    "message": "從波蘭文網站上移除廣告。"
+  },
   "filter_name_estonian_list": {
     "message": "愛沙尼亞文列表"
   },
@@ -722,11 +734,35 @@
   "filter_description_adblock_persian_list": {
     "message": "從波斯文網站上移除廣告。"
   },
+  "filter_name_frellwits_swedish_filter": {
+    "message": "Frellwit's Swedish Filter"
+  },
+  "filter_description_frellwits_swedish_filter": {
+    "message": "瑞典文網站上移除廣告。"
+  },
+  "filter_name_finnish_list": {
+    "message": "Finnish List"
+  },
+  "filter_description_finnish_list": {
+    "message": "Removes ads from Finnish websites."
+  },
   "filter_name_fanboys_korean": {
     "message": "Fanboy's Korean (韓文)"
   },
   "filter_description_fanboys_korean": {
     "message": "從韓文網站上移除廣告。"
+  },
+  "filter_name_abpvn_list": {
+    "message": "ABPVN List"
+  },
+  "filter_description_abpvn_list": {
+    "message": "從越南文網站上移除廣告。"
+  },
+  "filter_name_adblockid_list": {
+    "message": "AdBlockID"
+  },
+  "filter_description_adblockid_list": {
+    "message": "Removes ads from Indonesian and Malaysian websites."
   },
   "filter_name_hufilter": {
     "message": "Hufilter - 匈牙利文廣告過濾器列表"
@@ -787,41 +823,5 @@
   },
   "shield_do_you_like_abu": {
     "message": "你喜歡</br>AdBlocker Ultimate 嗎?"
-  },
-  "filter_name_easylist_spanish": {
-    "message": "EasyList Spanish"
-  },
-  "filter_description_easylist_spanish": {
-    "message": "Removes ads from Spanish/Portuguese websites."
-  },
-  "filter_name_easylist_polish": {
-    "message": "Easylist Polish"
-  },
-  "filter_description_easylist_polish": {
-    "message": "Removes ads from Polish websites."
-  },
-  "filter_name_frellwits_swedish_filter": {
-    "message": "Frellwit's Swedish Filter"
-  },
-  "filter_description_frellwits_swedish_filter": {
-    "message": "Removes ads from Swedish websites."
-  },
-  "filter_name_finnish_list": {
-    "message": "Finnish List"
-  },
-  "filter_description_finnish_list": {
-    "message": "Removes ads from Finnish websites."
-  },
-  "filter_name_abpvn_list": {
-    "message": "ABPVN List"
-  },
-  "filter_description_abpvn_list": {
-    "message": "Removes ads from Vietnamese websites."
-  },
-  "filter_name_adblockid_list": {
-    "message": "AdBlockID"
-  },
-  "filter_description_adblockid_list": {
-    "message": "Removes ads from Indonesian and Malaysian websites."
   }
 }

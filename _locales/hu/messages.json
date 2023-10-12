@@ -534,13 +534,13 @@
     "message": "Értékeljen minket"
   },
   "options_enable_context_menu_title": {
-    "message": "Enable context menu"
+    "message": "Helyi menü megjelenítése"
   },
   "options_enable_context_menu_desc": {
-    "message": "Enables a menu of actions available when you right-click on a web page."
+    "message": "Elérhetővé teszi a műveletek menüjét, amely akkor érhető el, ha jobb gombbal kattint egy weboldalra."
   },
   "badge_windows_ifno": {
-    "message": "Single AdBlocker blocks ads and online trackers across all Windows applications."
+    "message": "Egyetlen reklám blokkoló minden Windows alkalmazásban blokkolja az összes reklámot és az online követőket."
   },
   "badge_download_now": {
     "message": "Letöltés most"
@@ -642,7 +642,7 @@
     "message": "Ultimate védelmi szűrő"
   },
   "filter_description_ultimate_security_filter": {
-    "message": "Ez a szűrő blokkolja a hirdetési programok által generált reklámokat. A rendszer alapja az EasyList hirdetési program szűrői, amit folyamatosan fejleszt és módosít a csapatunk."
+    "message": "Ez a szűrés blokkolja a gyanús domaineket. Az online gyanús URL fekete lista szűrő alapján szűrjük, frissítjük, módosítjuk a listát."
   },
   "filter_name_nocoin": {
     "message": "NoCoin"
@@ -651,13 +651,13 @@
     "message": "Blokkolj a kryptobányászatot a böngészőjében."
   },
   "filter_name_ruadlist_easylist": {
-    "message": "RuAdList+EasyList"
+    "message": "RuAdList"
   },
   "filter_description_ruadlist_easylist": {
     "message": "Orosz weboldalakról eltávolítja a reklámokat."
   },
   "filter_name_easylist_germany_easylist": {
-    "message": "Német EasyList + EasyList"
+    "message": "EasyList német"
   },
   "filter_description_easylist_germany_easylist": {
     "message": "Német weboldalakról eltávolítja a reklámokat."
@@ -669,10 +669,16 @@
     "message": "Japán weboldalakról eltávolítja a reklámokat."
   },
   "filter_name_easylist_dutch_easylist": {
-    "message": "Holland EasyList + EasyList"
+    "message": "EasyList holland"
   },
   "filter_description_easylist_dutch_easylist": {
     "message": "Holland weboldalakról eltávolítja a reklámokat."
+  },
+  "filter_name_easylist_spanish": {
+    "message": "EasyList spanyol"
+  },
+  "filter_description_easylist_spanish": {
+    "message": "Spanyol/Portugál weboldalakról eltávolítja a reklámokat."
   },
   "filter_name_fanboys_turkish": {
     "message": "Török Fanboy"
@@ -710,6 +716,12 @@
   "filter_description_latvian_list": {
     "message": "Litván weboldalakról eltávolítja a reklámokat."
   },
+  "filter_name_easylist_polish": {
+    "message": "EasyList lengyel"
+  },
+  "filter_description_easylist_polish": {
+    "message": "Lengyel weboldalakról eltávolítja a reklámokat."
+  },
   "filter_name_estonian_list": {
     "message": "Észt lista"
   },
@@ -722,11 +734,35 @@
   "filter_description_adblock_persian_list": {
     "message": "Perzsa weboldalakról eltávolítja a reklámokat."
   },
+  "filter_name_frellwits_swedish_filter": {
+    "message": "Frellwit svéd szűrő"
+  },
+  "filter_description_frellwits_swedish_filter": {
+    "message": "Svéd weboldalakról eltávolítja a reklámokat."
+  },
+  "filter_name_finnish_list": {
+    "message": "Finn lista"
+  },
+  "filter_description_finnish_list": {
+    "message": "Finn weboldalakról eltávolítja a reklámokat."
+  },
   "filter_name_fanboys_korean": {
     "message": "Koreai Fanboy"
   },
   "filter_description_fanboys_korean": {
     "message": "Koreai weboldalakról eltávolítja a reklámokat."
+  },
+  "filter_name_abpvn_list": {
+    "message": "ABPVN lista"
+  },
+  "filter_description_abpvn_list": {
+    "message": "Vietnám weboldalakról eltávolítja a reklámokat."
+  },
+  "filter_name_adblockid_list": {
+    "message": "AdBlockID"
+  },
+  "filter_description_adblockid_list": {
+    "message": "Indonéz, és malajziai weboldalakról eltávolítja a reklámokat."
   },
   "filter_name_hufilter": {
     "message": "Hufilter - A magyar Adblock lista"
@@ -787,41 +823,5 @@
   },
   "shield_do_you_like_abu": {
     "message": "Szereti az </br> AdBlocker Ultimate-t?"
-  },
-  "filter_name_easylist_spanish": {
-    "message": "EasyList Spanish"
-  },
-  "filter_description_easylist_spanish": {
-    "message": "Removes ads from Spanish/Portuguese websites."
-  },
-  "filter_name_easylist_polish": {
-    "message": "Easylist Polish"
-  },
-  "filter_description_easylist_polish": {
-    "message": "Removes ads from Polish websites."
-  },
-  "filter_name_frellwits_swedish_filter": {
-    "message": "Frellwit's Swedish Filter"
-  },
-  "filter_description_frellwits_swedish_filter": {
-    "message": "Removes ads from Swedish websites."
-  },
-  "filter_name_finnish_list": {
-    "message": "Finnish List"
-  },
-  "filter_description_finnish_list": {
-    "message": "Removes ads from Finnish websites."
-  },
-  "filter_name_abpvn_list": {
-    "message": "ABPVN List"
-  },
-  "filter_description_abpvn_list": {
-    "message": "Removes ads from Vietnamese websites."
-  },
-  "filter_name_adblockid_list": {
-    "message": "AdBlockID"
-  },
-  "filter_description_adblockid_list": {
-    "message": "Removes ads from Indonesian and Malaysian websites."
   }
 }

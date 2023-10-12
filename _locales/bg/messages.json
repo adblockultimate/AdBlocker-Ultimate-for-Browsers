@@ -534,13 +534,13 @@
     "message": "Оценете ни"
   },
   "options_enable_context_menu_title": {
-    "message": "Enable context menu"
+    "message": "Включване на контекстното меню"
   },
   "options_enable_context_menu_desc": {
-    "message": "Enables a menu of actions available when you right-click on a web page."
+    "message": "Включване на меню с действия, които са налични при дясно щракване върху уебстраница."
   },
   "badge_windows_ifno": {
-    "message": "Single AdBlocker blocks ads and online trackers across all Windows applications."
+    "message": "Един блокировач на реклами блокира реклами и онлайн преследвачи през всички приложения на Windows."
   },
   "badge_download_now": {
     "message": "Свали сега"
@@ -642,7 +642,7 @@
     "message": "Ultimate филтър за сигурност"
   },
   "filter_description_ultimate_security_filter": {
-    "message": "Този филтър блокира рекламите, инжектирани от рекламен софтуер. Базирам на филтъра за рекламен софтуер на Easylist и допълнително обновен и модифициран от нашия екип."
+    "message": "This filter blocks malicious domains. Based on Online Malicious URL Blocklist filter and further updated and modified by our team."
   },
   "filter_name_nocoin": {
     "message": "NoCoin"
@@ -651,13 +651,13 @@
     "message": "Спира криптокопаенето във вашия браузър."
   },
   "filter_name_ruadlist_easylist": {
-    "message": "RuAdList+EasyList"
+    "message": "RuAdList"
   },
   "filter_description_ruadlist_easylist": {
     "message": "Премахва реклами от руски сайтове."
   },
   "filter_name_easylist_germany_easylist": {
-    "message": "EasyList Германия+EasyList"
+    "message": "EasyList Germany"
   },
   "filter_description_easylist_germany_easylist": {
     "message": "Премахва реклами от немски сайтове."
@@ -669,10 +669,16 @@
     "message": "Премахва реклами от японски сайтове."
   },
   "filter_name_easylist_dutch_easylist": {
-    "message": "EasyList Нидерландски + EasyList"
+    "message": "EasyList Dutch"
   },
   "filter_description_easylist_dutch_easylist": {
     "message": "Премахва реклами от нидерландски сайтове."
+  },
+  "filter_name_easylist_spanish": {
+    "message": "EasyList Spanish"
+  },
+  "filter_description_easylist_spanish": {
+    "message": "Премахва реклами от испански/португалски сайтове."
   },
   "filter_name_fanboys_turkish": {
     "message": "Турски на Fanboy"
@@ -710,6 +716,12 @@
   "filter_description_latvian_list": {
     "message": "Премахва реклами от латвийски сайтове."
   },
+  "filter_name_easylist_polish": {
+    "message": "Easylist Polish"
+  },
+  "filter_description_easylist_polish": {
+    "message": "Премахва реклами от полски сайтове."
+  },
   "filter_name_estonian_list": {
     "message": "Естонски списък"
   },
@@ -722,11 +734,35 @@
   "filter_description_adblock_persian_list": {
     "message": "Премахва реклами от персийски сайтове."
   },
+  "filter_name_frellwits_swedish_filter": {
+    "message": "Frellwit's Swedish Filter"
+  },
+  "filter_description_frellwits_swedish_filter": {
+    "message": "Премахва реклами от шведски сайтове."
+  },
+  "filter_name_finnish_list": {
+    "message": "Finnish List"
+  },
+  "filter_description_finnish_list": {
+    "message": "Removes ads from Finnish websites."
+  },
   "filter_name_fanboys_korean": {
     "message": "Корейски на Fanboy"
   },
   "filter_description_fanboys_korean": {
     "message": "Премахва реклами от корейски сайтове."
+  },
+  "filter_name_abpvn_list": {
+    "message": "ABPVN List"
+  },
+  "filter_description_abpvn_list": {
+    "message": "Премахва реклами от виетнамски сайтове."
+  },
+  "filter_name_adblockid_list": {
+    "message": "AdBlockID"
+  },
+  "filter_description_adblockid_list": {
+    "message": "Removes ads from Indonesian and Malaysian websites."
   },
   "filter_name_hufilter": {
     "message": "Hufilter - Унгарски списък на Adblock"
@@ -787,41 +823,5 @@
   },
   "shield_do_you_like_abu": {
     "message": "Харесвате ли</br> AdBlocker Ultimate?"
-  },
-  "filter_name_easylist_spanish": {
-    "message": "EasyList Spanish"
-  },
-  "filter_description_easylist_spanish": {
-    "message": "Removes ads from Spanish/Portuguese websites."
-  },
-  "filter_name_easylist_polish": {
-    "message": "Easylist Polish"
-  },
-  "filter_description_easylist_polish": {
-    "message": "Removes ads from Polish websites."
-  },
-  "filter_name_frellwits_swedish_filter": {
-    "message": "Frellwit's Swedish Filter"
-  },
-  "filter_description_frellwits_swedish_filter": {
-    "message": "Removes ads from Swedish websites."
-  },
-  "filter_name_finnish_list": {
-    "message": "Finnish List"
-  },
-  "filter_description_finnish_list": {
-    "message": "Removes ads from Finnish websites."
-  },
-  "filter_name_abpvn_list": {
-    "message": "ABPVN List"
-  },
-  "filter_description_abpvn_list": {
-    "message": "Removes ads from Vietnamese websites."
-  },
-  "filter_name_adblockid_list": {
-    "message": "AdBlockID"
-  },
-  "filter_description_adblockid_list": {
-    "message": "Removes ads from Indonesian and Malaysian websites."
   }
 }

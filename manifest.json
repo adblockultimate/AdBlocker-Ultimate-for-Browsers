@@ -3,12 +3,13 @@
     "name": "__MSG_name__",
     "short_name": "__MSG_short_name__",
     "author": "AdAvoid Ltd",
-    "version": "3.7.28",
+    "version": "3.8.6",
     "browser_specific_settings": {
         "gecko": {
             "id": "adblockultimate@adblockultimate.net",
-            "strict_min_version": "57.0"
-        }
+            "strict_min_version": "78.0"
+        },
+        "gecko_android": {}
     },
     "default_locale": "en",
     "description": "__MSG_description__",

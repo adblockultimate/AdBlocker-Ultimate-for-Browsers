@@ -3,16 +3,16 @@
     "message": "Seçim modu"
   },
   "assistant_select_element_ext": {
-    "message": "Sayfadaki herhangi bir öğenin üzerine tıklayın ya da "
+    "message": "Sayfadaki herhangi bir öğenin üzerine tıklayın veya"
   },
   "assistant_select_element_cancel": {
-    "message": "seçim modunu iptal et"
+    "message": "seçim modunu iptal edin"
   },
   "assistant_block_element": {
     "message": "Öğe engelle"
   },
   "assistant_block_element_explain": {
-    "message": "Öğe engelleme kuralı kurlumu"
+    "message": "Öğe engelleme kuralını ayarla"
   },
   "assistant_extended_settings": {
     "message": "Gelişmiş ayarlar..."
@@ -21,28 +21,28 @@
     "message": "Kural parametreleri"
   },
   "assistant_apply_rule_to_all_sites": {
-    "message": "Bu kuralı her web sitesine uygula"
+    "message": "Bu kuralı her siteye uygula"
   },
   "assistant_block_by_reference": {
-    "message": "Url'ye göre öğe engelle"
+    "message": "Referans bağlantı ile engelle"
   },
   "assistant_block_similar": {
-    "message": "Benzer öğeleri engelle"
+    "message": "Benzerleri engelle"
   },
   "assistant_block": {
     "message": "Engelle"
   },
   "assistant_another_element": {
-    "message": "Başka bir öğe seçin"
+    "message": "Farklı bir öğe seç"
   },
   "assistant_preview": {
-    "message": "Önizleme"
+    "message": "Ön izle"
   },
   "assistant_preview_start": {
-    "message": "Önizleme"
+    "message": "Ön izle"
   },
   "assistant_preview_end": {
-    "message": "Önizlemeyi bitir"
+    "message": "Ön izlemeden çık"
   },
   "name": {
     "message": "AdBlocker Ultimate"
@@ -87,28 +87,28 @@
     "message": "Temizle"
   },
   "options_userfilter_clear_confirm": {
-    "message": "Kullanıcı filtresini temizlemek tüm kuralları kaldırır. Kullanıcı filtresini gerçekten temizlemek istiyor musunuz?"
+    "message": "Kullanıcı filtresi temizlendiğinde tüm kurallar kaldırılır. Kullanıcı filtresini gerçekten temizlemek istiyor musunuz?"
   },
   "options_whitelistfilter_clear_confirm": {
-    "message": "Beyaz listeyi temizlemek tüm kuralları silecektir. Beyaz listeyi temizlemek istediğinizden emin misiniz?"
+    "message": "İstisna listesi temizlendiğinde tüm kurallar kaldırılır. İstisna listesini gerçekten temizlemek istiyor musunuz?"
   },
   "options_filter_version": {
-    "message": "Sürüm $1. Güncellendi $2 $3."
+    "message": "Sürüm: $1. Güncelleme: $2 $3."
   },
   "options_popup_update_title": {
-    "message": "Filtreler başarıyla güncelleştirildi"
+    "message": "Filtreler başarıyla güncellendi"
   },
   "options_popup_update_not_found": {
     "message": "Güncelleme bulunamadı"
   },
   "options_popup_update_error": {
-    "message": "Güncellemeleri almak başarısız oldu. Lütfen yeniden deneyin."
+    "message": "Güncellemeler alınamadı. Lütfen daha sonra tekrar deneyin."
   },
   "options_popup_update_updated": {
     "message": "\"$1\" $2 sürümüne güncellendi"
   },
   "popup_block_site_ads": {
-    "message": "Bu Web sitesinde reklamları engelle"
+    "message": "Bu sitedeki reklamları engelle"
   },
   "popup_security_report": {
     "message": "Web sitesi güvenlik raporu"
@@ -117,13 +117,13 @@
     "message": "AdBlocker Ultimate ayarları"
   },
   "popup_site_protection_disabled": {
-    "message": "AdBlocker Ultimate koruma duraklatıldı"
+    "message": "AdBlocker Ultimate koruması duraklatıldı"
   },
   "popup_site_filtering_state": {
-    "message": "Bu Web sitesinde koruma"
+    "message": "Bu sitedeki koruma"
   },
   "popup_block_site_ads_android": {
-    "message": "Bir web sitesinde reklamları engelle"
+    "message": "Bir sitede reklamları engelle"
   },
   "popup_security_report_android": {
     "message": "Güvenlik raporu"
@@ -135,7 +135,7 @@
     "message": "Filtre günlüğü"
   },
   "popup_tab_blocked": {
-    "message": "Engellendi: $1"
+    "message": "Engellenen: $1"
   },
   "popup_tab_blocked_all": {
     "message": "Toplam: $1"
@@ -144,16 +144,16 @@
     "message": "Reklamlar bu sayfadan kaldırıldı"
   },
   "popup_ads_has_been_removed_by_abu": {
-    "message": "$1 tarafından korunmaktadır"
+    "message": "$1 tarafından korunuyor"
   },
   "context_block_site_ads": {
-    "message": "Bu Web sitesinde reklam engelle..."
+    "message": "Bu sitede reklam engelle..."
   },
   "context_block_site_element": {
     "message": "Öğe engelle..."
   },
   "context_abuse_site": {
-    "message": "Bu web sitesi hakkında bir şikayet gönderin..."
+    "message": "Bu site hakkında bir sorun bildirin..."
   },
   "context_ads_has_been_removed": {
     "message": "Reklamlar bu sayfadan kaldırıldı"
@@ -165,25 +165,25 @@
     "message": "AdBlocker Ultimate bu alan adında çalışamaz"
   },
   "context_site_protection_disabled": {
-    "message": "AdBlocker Ultimate koruma duraklatıldı"
+    "message": "AdBlocker Ultimate koruması duraklatıldı"
   },
   "context_open_settings": {
     "message": "AdBlocker Ultimate ayarları..."
   },
   "context_site_exception": {
-    "message": "Bu web sitesi istisnalar listesinde"
+    "message": "Bu site istisnalar listesinde"
   },
   "context_site_filtering_on": {
-    "message": "Bu Web sitesinde filtrelemeyi etkinleştir"
+    "message": "Bu sitede filtrelemeyi etkinleştir"
   },
   "context_site_filtering_off": {
-    "message": "Bu Web sitesinde filtrelemeyi devre dışı bırak"
+    "message": "Bu sitede filtrelemeyi devre dışı bırak"
   },
   "context_update_antibanner_filters": {
     "message": "Filtre güncellemelerini denetle"
   },
   "alert_popup_filter_enabled_title": {
-    "message": "Filtreleri otomatik etkinleştirme"
+    "message": "Filtreleri otomatik etkinleştir"
   },
   "alert_popup_filter_enabled_text": {
     "message": "«$1» otomatik olarak etkinleştirildi"
@@ -204,19 +204,19 @@
     "message": "AdBlocker Ultimate: $1 aboneliğini etkinleştirmek istiyor musunuz?"
   },
   "abu_subscribe_confirm_import": {
-    "message": "AdBlocker Ultimate: Kullanıcı filtrenize kuralları $1 dosyasından içe aktarmak istiyor musunuz?"
+    "message": "AdBlocker Ultimate: 1$ dosyasından, kullanıcı filtrenize kural aktarmak istiyor musunuz?"
   },
   "abu_subscribe_confirm_import_finished_title": {
-    "message": "İçe alma başarıyla tamamlandı"
+    "message": "İçe aktarma başarıyla tamamlandı"
   },
   "abu_subscribe_confirm_import_finished_text": {
-    "message": "AdBlocker Ultimate kullanıcı filtresine kuralları alma tamamladı. İçe aktarılan kural sayısı: $ 1"
+    "message": "AdBlocker Ultimate, kuralları kullanıcı filtresine aktarmayı tamamladı. İçe aktarılan kural sayısı: $1"
   },
   "browser_action_popup_enabled_on_site": {
-    "message": "Bu sitede <strong>Etkin</strong>"
+    "message": "Bu sitede <strong>etkin</strong>"
   },
   "browser_action_popup_disabled_on_site": {
-    "message": "Bu sitede <strong>Devre dışı</strong>"
+    "message": "Bu sitede <strong>devre dışı</strong>"
   },
   "browser_action_popup_on_this_page": {
     "message": "Bu sayfada <strong>$1</strong>"
@@ -237,7 +237,7 @@
     "message": "Bağış yap"
   },
   "browser_action_ads_blocked": {
-    "message": "Reklam engelleyici"
+    "message": "Engellenen reklamlar"
   },
   "options_title": {
     "message": "AdBlocker Ultimate Seçenekleri"
@@ -249,16 +249,16 @@
     "message": "Kendi filtrelerinizi ekleyin"
   },
   "options_whitelisted_domains": {
-    "message": "Beyaz listedeki etki alanları"
+    "message": "İstisna listesindeki alan adları"
   },
   "options_general": {
     "message": "Genel"
   },
   "options_enable_only": {
-    "message": "Sadece ihtiyacınız olan filtre listelerini etkinleştirin. Çok fazla seçim tarayıcınızı tepkisiz bırakabilir."
+    "message": "Sadece ihtiyacınız olan filtre listelerini etkinleştirin. Çok fazla filtre eklemek tarayıcınızı tepkisiz bırakabilir."
   },
   "options_out_of_date_lists": {
-    "message": "Zamanı geçmiş listeler düzenli olarak güncellenmektedir."
+    "message": "Eski listeler düzenli olarak güncellenmektedir."
   },
   "options_enabled": {
     "message": "Etkin"
@@ -276,10 +276,10 @@
     "message": "Filtre listesi konumu:"
   },
   "options_abu_is_disabled": {
-    "message": "AdBlocker Ultimate aşağıdaki adresler için devre dışı bırakıldı. Adresleri adres çubuğundaki AdBlocker Ultimate simgesinden ekleyebilir veya alan adını (URL'yi değil) kutucuğa yazıp \"Etki alanı ekle\" butonuna tıklayabilirsin."
+    "message": "AdBlocker Ultimate aşağıda listelenen alan adları için devre dışı bırakılmıştır. Bir alan adını adres çubuğundaki AdBlocker Ultimate simgesiyle veya alan adını (URL değil) kutuya yazıp \"Alan adı ekle\" düğmesine tıklayarak ekleyebilirsiniz."
   },
   "options_add_domain": {
-    "message": "Etki alanı ekle"
+    "message": "Alan adı ekle"
   },
   "options_remove_selected": {
     "message": "Seçileni kaldır"
@@ -288,7 +288,7 @@
     "message": "Değişiklikleri uygula"
   },
   "options_show_block_element": {
-    "message": "Sağ tıklama menüsünde 'Öğe Engelle' göster"
+    "message": "Sağ tıklama menüsünde 'Öğe Engelle' özelliğini göster"
   },
   "options_show_useful_notifications": {
     "message": "Yararlı bildirimleri göster"
@@ -642,7 +642,7 @@
     "message": "Üst Düzey Güvenlik Filtresi"
   },
   "filter_description_ultimate_security_filter": {
-    "message": "Bu filtre, reklam yazılımı tarafından enjekte edilen reklamları engeller. Easylist'in Reklam Yazılım filtrelerine dayanır ve ekibimiz tarafından güncellemeler ve geliştirmeler yapılmıştır."
+    "message": "Bu filtre zararlı siteleri engeller. Çevrimiçi Zararlı URL Engelleme Listesi filtresine dayanır ve ekibimiz tarafından daha da güncellenir ve değiştirilir."
   },
   "filter_name_nocoin": {
     "message": "NoCoin"
@@ -651,13 +651,13 @@
     "message": "Tarayıcınızda kripto madenciliği durdurur."
   },
   "filter_name_ruadlist_easylist": {
-    "message": "RuAdList+EasyList"
+    "message": "RuAdList"
   },
   "filter_description_ruadlist_easylist": {
     "message": "Rus web sitelerinden reklamları kaldırır."
   },
   "filter_name_easylist_germany_easylist": {
-    "message": "EasyList Almanya+EasyList"
+    "message": "EasyList Germany"
   },
   "filter_description_easylist_germany_easylist": {
     "message": "Alman internet sitelerinden reklamları kaldırır."
@@ -669,10 +669,16 @@
     "message": "Japon web sitelerinden reklamları kaldırır."
   },
   "filter_name_easylist_dutch_easylist": {
-    "message": "EasyList Hollanda + EasyList"
+    "message": "EasyList Dutch"
   },
   "filter_description_easylist_dutch_easylist": {
     "message": "Hollanda web sitelerinden reklamları kaldırır."
+  },
+  "filter_name_easylist_spanish": {
+    "message": "EasyList Spanish"
+  },
+  "filter_description_easylist_spanish": {
+    "message": "İspanyol/Portekiz internet sitelerinden reklamları kaldırır."
   },
   "filter_name_fanboys_turkish": {
     "message": "Fanboy'un Türkçesi"
@@ -710,6 +716,12 @@
   "filter_description_latvian_list": {
     "message": "Letonya web sitelerinden reklamları kaldırır."
   },
+  "filter_name_easylist_polish": {
+    "message": "Easylist Polish"
+  },
+  "filter_description_easylist_polish": {
+    "message": "Polonya web sitelerinden reklamları kaldırır."
+  },
   "filter_name_estonian_list": {
     "message": "Estonya Listesi"
   },
@@ -722,11 +734,35 @@
   "filter_description_adblock_persian_list": {
     "message": "İran web sitelerinden reklamları kaldırır."
   },
+  "filter_name_frellwits_swedish_filter": {
+    "message": "Frellwit's Swedish Filter"
+  },
+  "filter_description_frellwits_swedish_filter": {
+    "message": "İsveç web sitelerinden reklamları kaldırır."
+  },
+  "filter_name_finnish_list": {
+    "message": "Finnish List"
+  },
+  "filter_description_finnish_list": {
+    "message": "Finlandiya sitelerindeki reklamları kaldırır."
+  },
   "filter_name_fanboys_korean": {
     "message": "Fanboy Kore"
   },
   "filter_description_fanboys_korean": {
     "message": "Koreli web sitelerinden reklamları kaldırır"
+  },
+  "filter_name_abpvn_list": {
+    "message": "ABPVN List"
+  },
+  "filter_description_abpvn_list": {
+    "message": "Vietnamlı web sitelerinden reklamları kaldırır."
+  },
+  "filter_name_adblockid_list": {
+    "message": "AdBlockID"
+  },
+  "filter_description_adblockid_list": {
+    "message": "Endonezya ve Malezya sitelerindeki reklamları kaldırır."
   },
   "filter_name_hufilter": {
     "message": "Hufilter - Macar Adblock Listesi"
@@ -787,41 +823,5 @@
   },
   "shield_do_you_like_abu": {
     "message": "AdBlocker Ultimate'ten hoşlandınız mı?"
-  },
-  "filter_name_easylist_spanish": {
-    "message": "EasyList Spanish"
-  },
-  "filter_description_easylist_spanish": {
-    "message": "Removes ads from Spanish/Portuguese websites."
-  },
-  "filter_name_easylist_polish": {
-    "message": "Easylist Polish"
-  },
-  "filter_description_easylist_polish": {
-    "message": "Removes ads from Polish websites."
-  },
-  "filter_name_frellwits_swedish_filter": {
-    "message": "Frellwit's Swedish Filter"
-  },
-  "filter_description_frellwits_swedish_filter": {
-    "message": "Removes ads from Swedish websites."
-  },
-  "filter_name_finnish_list": {
-    "message": "Finnish List"
-  },
-  "filter_description_finnish_list": {
-    "message": "Removes ads from Finnish websites."
-  },
-  "filter_name_abpvn_list": {
-    "message": "ABPVN List"
-  },
-  "filter_description_abpvn_list": {
-    "message": "Removes ads from Vietnamese websites."
-  },
-  "filter_name_adblockid_list": {
-    "message": "AdBlockID"
-  },
-  "filter_description_adblockid_list": {
-    "message": "Removes ads from Indonesian and Malaysian websites."
   }
 }

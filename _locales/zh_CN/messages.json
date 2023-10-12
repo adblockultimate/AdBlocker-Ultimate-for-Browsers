@@ -534,10 +534,10 @@
     "message": "给我们评分"
   },
   "options_enable_context_menu_title": {
-    "message": "Enable context menu"
+    "message": "启用右键菜单"
   },
   "options_enable_context_menu_desc": {
-    "message": "Enables a menu of actions available when you right-click on a web page."
+    "message": "启用当你在网页上右键点击时可用的操作菜单。"
   },
   "badge_windows_ifno": {
     "message": "一个广告拦截器拦截所有Windows应用程序的广告和在线跟踪。"
@@ -642,7 +642,7 @@
     "message": "终极安全过滤器"
   },
   "filter_description_ultimate_security_filter": {
-    "message": "此过滤规则屏蔽广告软件注入的广告。基于 Easylist's Adware 过滤规则，并由我们的团队进一步更新和修改。"
+    "message": "This filter blocks malicious domains. Based on Online Malicious URL Blocklist filter and further updated and modified by our team."
   },
   "filter_name_nocoin": {
     "message": "NoCoin"
@@ -651,13 +651,13 @@
     "message": "阻止浏览器中的挖矿行为。"
   },
   "filter_name_ruadlist_easylist": {
-    "message": "RuAdList+EasyList"
+    "message": "RuAdList"
   },
   "filter_description_ruadlist_easylist": {
     "message": "从俄语网站上移除广告。"
   },
   "filter_name_easylist_germany_easylist": {
-    "message": "德语 EasyList+EasyList"
+    "message": "EasyList Germany"
   },
   "filter_description_easylist_germany_easylist": {
     "message": "从德语网站上移除广告。"
@@ -669,10 +669,16 @@
     "message": "从日本语网站上移除广告。"
   },
   "filter_name_easylist_dutch_easylist": {
-    "message": "EasyList 荷兰语 + EasyList"
+    "message": "EasyList Dutch"
   },
   "filter_description_easylist_dutch_easylist": {
     "message": "从荷兰语网站上移除广告。"
+  },
+  "filter_name_easylist_spanish": {
+    "message": "EasyList Spanish"
+  },
+  "filter_description_easylist_spanish": {
+    "message": "从西班牙语/葡萄牙语网站去除广告。"
   },
   "filter_name_fanboys_turkish": {
     "message": "Fanboy 的土耳其语"
@@ -710,6 +716,12 @@
   "filter_description_latvian_list": {
     "message": "从拉脱维亚语网站上移除广告。"
   },
+  "filter_name_easylist_polish": {
+    "message": "Easylist Polish"
+  },
+  "filter_description_easylist_polish": {
+    "message": "从波兰语网站上移除广告。"
+  },
   "filter_name_estonian_list": {
     "message": "爱沙尼亚语列表"
   },
@@ -722,11 +734,35 @@
   "filter_description_adblock_persian_list": {
     "message": "从波斯语网站上移除广告。"
   },
+  "filter_name_frellwits_swedish_filter": {
+    "message": "Frellwit's Swedish Filter"
+  },
+  "filter_description_frellwits_swedish_filter": {
+    "message": "从瑞典语网站上移除广告。"
+  },
+  "filter_name_finnish_list": {
+    "message": "Finnish List"
+  },
+  "filter_description_finnish_list": {
+    "message": "Removes ads from Finnish websites."
+  },
   "filter_name_fanboys_korean": {
     "message": "Fanboy 的韩语"
   },
   "filter_description_fanboys_korean": {
     "message": "从韩语网站上移除广告。"
+  },
+  "filter_name_abpvn_list": {
+    "message": "ABPVN List"
+  },
+  "filter_description_abpvn_list": {
+    "message": "从越南语网站上移除广告。"
+  },
+  "filter_name_adblockid_list": {
+    "message": "AdBlockID"
+  },
+  "filter_description_adblockid_list": {
+    "message": "Removes ads from Indonesian and Malaysian websites."
   },
   "filter_name_hufilter": {
     "message": "Hufilter - 匈牙利语 Adblock 列表"
@@ -787,41 +823,5 @@
   },
   "shield_do_you_like_abu": {
     "message": "你喜欢 </br> AdBlocker Ultimate?"
-  },
-  "filter_name_easylist_spanish": {
-    "message": "EasyList Spanish"
-  },
-  "filter_description_easylist_spanish": {
-    "message": "Removes ads from Spanish/Portuguese websites."
-  },
-  "filter_name_easylist_polish": {
-    "message": "Easylist Polish"
-  },
-  "filter_description_easylist_polish": {
-    "message": "Removes ads from Polish websites."
-  },
-  "filter_name_frellwits_swedish_filter": {
-    "message": "Frellwit's Swedish Filter"
-  },
-  "filter_description_frellwits_swedish_filter": {
-    "message": "Removes ads from Swedish websites."
-  },
-  "filter_name_finnish_list": {
-    "message": "Finnish List"
-  },
-  "filter_description_finnish_list": {
-    "message": "Removes ads from Finnish websites."
-  },
-  "filter_name_abpvn_list": {
-    "message": "ABPVN List"
-  },
-  "filter_description_abpvn_list": {
-    "message": "Removes ads from Vietnamese websites."
-  },
-  "filter_name_adblockid_list": {
-    "message": "AdBlockID"
-  },
-  "filter_description_adblockid_list": {
-    "message": "Removes ads from Indonesian and Malaysian websites."
   }
 }
