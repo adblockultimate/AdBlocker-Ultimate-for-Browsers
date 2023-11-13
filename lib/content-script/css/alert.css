@@ -4,6 +4,7 @@
     right: 0px !important;
     z-index: 9999999999 !important;
     width: 420px !important;
+    max-width: 100%;
     padding: 16px 30px 16px 36px !important;
     -webkit-border-radius: 9px 0 0 9px !important;
     border-radius: 9px 0 0 9px !important;
