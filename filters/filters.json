@@ -43,12 +43,12 @@
       "displayNumber": 1,
       "groupId": 1,
       "subscriptionUrl": "https://filters.adavoid.org/ultimate-ad-filter.txt",
-      "version": "2.0.90.1293",
-      "timeUpdated": "2023-10-19T11:53:04+00:00",
+      "version": "2.0.90.1553",
+      "timeUpdated": "2023-11-23T13:45:43+00:00",
       "languages": [
         "en"
       ],
-      "checksum": "ed86d71073a9571aa1f0f3cebb1ca7f7"
+      "checksum": "5f50832c050d09210fdacb191588d06f"
     },
     {
       "filterId": 2,
@@ -61,10 +61,10 @@
       "displayNumber": 2,
       "groupId": 1,
       "subscriptionUrl": "https://filters.adavoid.org/filters/Anticircumvention.txt",
-      "version": "2.0.55.1405",
-      "timeUpdated": "2023-10-19T11:53:04+00:00",
+      "version": "2.0.55.1456",
+      "timeUpdated": "2023-10-27T15:10:06+00:00",
       "languages": [],
-      "checksum": "8851dff0728dd72f7d9fcaff4c1a982b"
+      "checksum": "1d278612a9aeee3e9072b76f95235a42"
     },
     {
       "filterId": 3,
@@ -77,10 +77,10 @@
       "displayNumber": 3,
       "groupId": 1,
       "subscriptionUrl": "https://easylist.to/easylist/fanboy-annoyance.txt",
-      "version": "2.0.43.1349",
-      "timeUpdated": "2023-10-19T10:22:56+00:00",
+      "version": "2.0.43.1464",
+      "timeUpdated": "2023-11-23T13:43:19+00:00",
       "languages": [],
-      "checksum": "6c4c0e2c618565b419b7e109129ef8f3"
+      "checksum": "54f677d4f718eddfe774296a65e8b641"
     },
     {
       "filterId": 4,
@@ -93,10 +93,10 @@
       "displayNumber": 4,
       "groupId": 2,
       "subscriptionUrl": "https://filters.adavoid.org/ultimate-privacy-filter.txt",
-      "version": "2.0.11.1336",
-      "timeUpdated": "2023-10-19T11:53:04+00:00",
+      "version": "2.0.11.1596",
+      "timeUpdated": "2023-11-23T13:45:44+00:00",
       "languages": [],
-      "checksum": "0e387be4c7671d240b217f9378872932"
+      "checksum": "53e040be8144f56693153f0bea14a4e1"
     },
     {
       "filterId": 5,
@@ -109,10 +109,10 @@
       "displayNumber": 5,
       "groupId": 2,
       "subscriptionUrl": "https://filters.adavoid.org/filters/FanboysSocialBlockingList.txt",
-      "version": "2.0.11.1314",
-      "timeUpdated": "2023-10-19T11:13:51+00:00",
+      "version": "2.0.11.1540",
+      "timeUpdated": "2023-11-23T13:45:44+00:00",
       "languages": [],
-      "checksum": "07bc4238e5f8eb51211ed41f138717e3"
+      "checksum": "9410df63eef1bb01091f7ba88bb8586b"
     },
     {
       "filterId": 6,
@@ -125,10 +125,10 @@
       "displayNumber": 6,
       "groupId": 3,
       "subscriptionUrl": "https://filters.adavoid.org/ultimate-security-filter.txt",
-      "version": "2.0.1.826",
-      "timeUpdated": "2023-10-19T11:53:05+00:00",
+      "version": "2.0.1.1086",
+      "timeUpdated": "2023-11-23T13:45:44+00:00",
       "languages": [],
-      "checksum": "26daeb9f18d3f444b164ed2cc4d83ed2"
+      "checksum": "1b0cc531810b1a5e85a0e0b1e52c6887"
     },
     {
       "filterId": 8,
@@ -141,8 +141,8 @@
       "displayNumber": 8,
       "groupId": 3,
       "subscriptionUrl": "https://filters.adavoid.org/filters/NoCoin.txt",
-      "version": "1.0.1.146",
-      "timeUpdated": "2023-09-27T23:30:02+00:00",
+      "version": "1.0.1.354",
+      "timeUpdated": "2023-11-23T13:45:44+00:00",
       "languages": [],
       "checksum": "fd1a15d13288f6fbb3e227d2d965f297"
     },
@@ -157,12 +157,12 @@
       "displayNumber": 9,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/Russianfilter.txt",
-      "version": "1.0.1.1386",
-      "timeUpdated": "2023-10-19T11:53:05+00:00",
+      "version": "1.0.1.1626",
+      "timeUpdated": "2023-11-23T13:45:44+00:00",
       "languages": [
         "ru"
       ],
-      "checksum": "64c5a642651adca916c62fd6400bb952"
+      "checksum": "e618e3d13e397e32157030cf182dad3d"
     },
     {
       "filterId": 10,
@@ -175,12 +175,12 @@
       "displayNumber": 10,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/Germanfilter.txt",
-      "version": "1.0.1.1385",
-      "timeUpdated": "2023-10-19T11:53:05+00:00",
+      "version": "1.0.1.1626",
+      "timeUpdated": "2023-11-23T13:45:44+00:00",
       "languages": [
         "de"
       ],
-      "checksum": "ab5cc571932222e263ced9fd35f2b2e1"
+      "checksum": "97230a077a7c450a361e9b029e75bbed"
     },
     {
       "filterId": 11,
@@ -193,8 +193,8 @@
       "displayNumber": 11,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/Japanesefilter.txt",
-      "version": "1.0.1.101",
-      "timeUpdated": "2023-09-27T23:30:03+00:00",
+      "version": "1.0.1.307",
+      "timeUpdated": "2023-11-23T13:45:45+00:00",
       "languages": [
         "ja"
       ],
@@ -211,12 +211,12 @@
       "displayNumber": 12,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/Dutchfilter.txt",
-      "version": "1.0.1.1385",
-      "timeUpdated": "2023-10-19T11:53:05+00:00",
+      "version": "1.0.1.1625",
+      "timeUpdated": "2023-11-23T13:45:45+00:00",
       "languages": [
         "nl"
       ],
-      "checksum": "cebb933bf2789d108197f8dd47f19467"
+      "checksum": "e9b3c633a6ca53eea0ddcd1d53013874"
     },
     {
       "filterId": 13,
@@ -229,12 +229,12 @@
       "displayNumber": 13,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/EasyListSpanish.txt",
-      "version": "1.0.1.299",
-      "timeUpdated": "2023-10-19T11:53:05+00:00",
+      "version": "1.0.1.539",
+      "timeUpdated": "2023-11-23T13:45:45+00:00",
       "languages": [
         "es"
       ],
-      "checksum": "c20d394d67e71646393eaab8451e5adb"
+      "checksum": "af1b38c28136263bdedc985822e286e4"
     },
     {
       "filterId": 14,
@@ -247,12 +247,12 @@
       "displayNumber": 14,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/Turkishfilter.txt",
-      "version": "1.0.1.305",
-      "timeUpdated": "2023-10-19T11:53:05+00:00",
+      "version": "1.0.1.546",
+      "timeUpdated": "2023-11-23T13:45:45+00:00",
       "languages": [
         "tr"
       ],
-      "checksum": "4cf1c1bb31382bcfb73c2493ebcd5b69"
+      "checksum": "0e97eaec2c16d6f7befab057ae02da09"
     },
     {
       "filterId": 15,
@@ -265,12 +265,12 @@
       "displayNumber": 15,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/Bulgarianlist.txt",
-      "version": "1.0.1.121",
-      "timeUpdated": "2023-09-27T23:30:03+00:00",
+      "version": "1.0.1.328",
+      "timeUpdated": "2023-11-23T13:45:45+00:00",
       "languages": [
         "bg"
       ],
-      "checksum": "3cef2065b1a3c6c4f2697f7888638fbe"
+      "checksum": "8d92ee28b839d6224ae42bb5cb0b5e13"
     },
     {
       "filterId": 16,
@@ -283,12 +283,12 @@
       "displayNumber": 16,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/EasyListChina.txt",
-      "version": "1.0.1.1385",
-      "timeUpdated": "2023-10-19T11:53:06+00:00",
+      "version": "1.0.1.1626",
+      "timeUpdated": "2023-11-23T13:45:45+00:00",
       "languages": [
         "zh"
       ],
-      "checksum": "599c79d2b534c5e100f169cfb8702ad1"
+      "checksum": "fdbc73ee565e52ebae241b3046692c38"
     },
     {
       "filterId": 17,
@@ -301,12 +301,12 @@
       "displayNumber": 17,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/EasyListCzechandSlovak.txt",
-      "version": "1.0.1.165",
-      "timeUpdated": "2023-10-13T06:39:37+00:00",
+      "version": "1.0.1.373",
+      "timeUpdated": "2023-11-23T13:45:45+00:00",
       "languages": [
         "sk"
       ],
-      "checksum": "ce6502d4b6180d02171171c38ac52d93"
+      "checksum": "b31a0be570ad83c183ccf3b2ada3df75"
     },
     {
       "filterId": 18,
@@ -319,12 +319,12 @@
       "displayNumber": 18,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/EasyListItaly.txt",
-      "version": "1.0.1.1385",
-      "timeUpdated": "2023-10-19T11:53:06+00:00",
+      "version": "1.0.1.1624",
+      "timeUpdated": "2023-11-23T13:45:45+00:00",
       "languages": [
         "it"
       ],
-      "checksum": "760a115526cf68eac01991a17ae9d933"
+      "checksum": "e884f895ae4aa1c0453c77c8e63946c1"
     },
     {
       "filterId": 19,
@@ -337,8 +337,8 @@
       "displayNumber": 19,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/LatvianList.txt",
-      "version": "1.0.1.116",
-      "timeUpdated": "2023-09-27T23:30:03+00:00",
+      "version": "1.0.1.322",
+      "timeUpdated": "2023-11-23T13:45:45+00:00",
       "languages": [
         "lv"
       ],
@@ -355,12 +355,12 @@
       "displayNumber": 20,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/EasylistPolish.txt",
-      "version": "1.0.1.299",
-      "timeUpdated": "2023-10-19T11:53:07+00:00",
+      "version": "1.0.1.538",
+      "timeUpdated": "2023-11-23T13:45:45+00:00",
       "languages": [
         "pl"
       ],
-      "checksum": "dc6604ea1a36dafdc5e4ecd895317c86"
+      "checksum": "5e8721d32dafb984b07901fe5a54a51d"
     },
     {
       "filterId": 21,
@@ -373,8 +373,8 @@
       "displayNumber": 21,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/EstonianList.txt",
-      "version": "1.0.1.110",
-      "timeUpdated": "2023-10-18T21:29:05+00:00",
+      "version": "1.0.1.318",
+      "timeUpdated": "2023-11-23T13:45:45+00:00",
       "languages": [
         "et"
       ],
@@ -409,12 +409,12 @@
       "displayNumber": 23,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/FrellwitsSwedishFilter.txt",
-      "version": "1.0.1.196",
-      "timeUpdated": "2023-10-19T11:13:53+00:00",
+      "version": "1.0.1.406",
+      "timeUpdated": "2023-11-23T13:45:45+00:00",
       "languages": [
         "sv"
       ],
-      "checksum": "56a4e323c7955e933335e42da45d4ed7"
+      "checksum": "ac8e61d3d395a700d79925a91154bd50"
     },
     {
       "filterId": 24,
@@ -427,12 +427,12 @@
       "displayNumber": 24,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/FanboysKorean.txt",
-      "version": "1.0.1.228",
-      "timeUpdated": "2023-10-19T11:53:07+00:00",
+      "version": "1.0.1.468",
+      "timeUpdated": "2023-11-23T13:45:46+00:00",
       "languages": [
         "ko"
       ],
-      "checksum": "440e2adbe5f4240efe65bbbdf3b67a20"
+      "checksum": "a942d808003d7a0e2526217aecd586ea"
     },
     {
       "filterId": 25,
@@ -445,12 +445,12 @@
       "displayNumber": 25,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/ABPVNList.txt",
-      "version": "1.0.1.150",
-      "timeUpdated": "2023-10-19T11:53:07+00:00",
+      "version": "1.0.1.367",
+      "timeUpdated": "2023-11-23T13:45:46+00:00",
       "languages": [
         "vi"
       ],
-      "checksum": "fc6cffa75bd6828b5cdb7c4f0427964d"
+      "checksum": "e85a25ceb50808f7dc3b10ec9acad6b7"
     },
     {
       "filterId": 26,
@@ -463,12 +463,12 @@
       "displayNumber": 26,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/HungarianList.txt",
-      "version": "2.0.1.150",
-      "timeUpdated": "2023-10-18T21:00:08+00:00",
+      "version": "2.0.1.358",
+      "timeUpdated": "2023-11-23T13:45:46+00:00",
       "languages": [
         "hu"
       ],
-      "checksum": "a15be584125a182d9656afed591763b9"
+      "checksum": "b96ba65ea5a11552b4b4d85a755ee46a"
     },
     {
       "filterId": 27,
@@ -481,12 +481,12 @@
       "displayNumber": 27,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/FrenchList.txt",
-      "version": "2.0.24.756",
-      "timeUpdated": "2023-10-18T09:00:50+00:00",
+      "version": "2.0.24.967",
+      "timeUpdated": "2023-11-23T13:45:46+00:00",
       "languages": [
         "fr"
       ],
-      "checksum": "7d6a5f331397113f92f0ddf38c82a96a"
+      "checksum": "dfd1a7b0826ae07c2b44b53ef1ab46d9"
     },
     {
       "filterId": 28,
@@ -499,12 +499,12 @@
       "displayNumber": 28,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/FinnishList.txt",
-      "version": "1.0.1.150",
-      "timeUpdated": "2023-10-14T21:13:58+00:00",
+      "version": "1.0.1.358",
+      "timeUpdated": "2023-11-23T13:45:46+00:00",
       "languages": [
         "fi"
       ],
-      "checksum": "0d02c961673959b08e3882eeb2938827"
+      "checksum": "17e283c5c51bfef60f4129d62f2c5e8b"
     },
     {
       "filterId": 29,
@@ -517,12 +517,12 @@
       "displayNumber": 29,
       "groupId": 4,
       "subscriptionUrl": "https://filters.adavoid.org/filters/AdBlockID.txt",
-      "version": "1.0.1.152",
-      "timeUpdated": "2023-10-18T21:01:50+00:00",
+      "version": "1.0.1.361",
+      "timeUpdated": "2023-11-23T13:45:46+00:00",
       "languages": [
         "id"
       ],
-      "checksum": "f0d42ac2f82c85c7285b527a676fa0c0"
+      "checksum": "b743b982a4a1008593c22793ee3649ec"
     }
   ]
 }
