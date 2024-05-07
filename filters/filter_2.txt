@@ -6,5 +6,3 @@
 ! Homepage: https://adblockultimate.net/
 ! About: https://adblockultimate.net/filters
 ! License: https://adblockultimate.net/filters
-mail.yahoo.com##div[labelledby="adblock-unblock-cue"]
-@@||bordeaux.futurecdn.net/bordeaux.js

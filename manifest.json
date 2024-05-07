@@ -3,13 +3,15 @@
     "name": "__MSG_name__",
     "short_name": "__MSG_short_name__",
     "author": "AdAvoid Ltd",
-    "version": "3.8.14",
+    "version": "3.8.25",
     "browser_specific_settings": {
         "gecko": {
             "id": "adblockultimate@adblockultimate.net",
             "strict_min_version": "78.0"
         },
-        "gecko_android": {}
+        "gecko_android": {
+            "strict_min_version": "113.0"
+        }
     },
     "default_locale": "en",
     "description": "__MSG_description__",
@@ -43,9 +45,7 @@
                 "lib/libs/extended-css.js",
                 "lib/content-script/abu-content.js",
                 "lib/content-script/common-script.js",
-                "lib/content-script/content-script.js",
-                "lib/content-script/wrappers.js",
-                "lib/content-script/preload.js"
+                "lib/content-script/content-script.js"
             ],
             "matches": [
                 "http://*/*",
